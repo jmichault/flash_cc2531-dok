@@ -1,6 +1,6 @@
 ja:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "ArduinoまたはCCDebuggerを使用せずに、RaspberryからCC2531USBキーをフラッシュします。"
   elektuLingvon: "言語を選んでください"
   cxiujAfisxoj: "すべての投稿"
   rilatajAfisxoj: "関連記事"

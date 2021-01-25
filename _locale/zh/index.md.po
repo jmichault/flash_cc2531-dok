@@ -1,0 +1,566 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-01-25 18:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: lang
+#: index.md:1
+#, no-wrap
+msgid "eo"
+msgstr "zh"
+
+#. type: YAML Front Matter: lang-niv
+#: index.md:1
+#, no-wrap
+msgid "homa"
+msgstr "auto"
+
+#. type: YAML Front Matter: lang-ref
+#: index.md:1
+#, no-wrap
+msgid "001-ĉefa-afero"
+msgstr "001-ĉefa-afero"
+
+#. type: YAML Front Matter: layout
+#: index.md:1
+#, no-wrap
+msgid "page"
+msgstr "page"
+
+#. type: YAML Front Matter: slug
+#: index.md:1
+#, no-wrap
+#, fuzzy
+msgid "La esenca!"
+msgstr "重要的！"
+
+#. type: YAML Front Matter: title
+#: index.md:1
+#, no-wrap
+#, fuzzy
+msgid "La ĉefa afero"
+msgstr "最主要的"
+
+#. type: Title #
+#: index.md:10
+#, no-wrap
+#, fuzzy
+msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
+msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
+
+#. type: Plain text
+#: index.md:12
+#, no-wrap
+#, fuzzy
+msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"
+msgstr " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) 允许您从 _Raspberry_对CC2531 USB钥匙进行编程，而无需 _Arduino_ 或 _CC Debugger_。\n"
+
+#. type: Title ##
+#: index.md:13
+#, no-wrap
+#, fuzzy
+msgid "Antaŭkondiĉo"
+msgstr "先决条件"
+
+#. type: Plain text
+#: index.md:14
+#, no-wrap
+#, fuzzy
+msgid "Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  \n"
+msgstr "您需要 _Raspberry_ 或 _Odroid-c2_。  \n"
+
+#. type: Plain text
+#: index.md:16
+#, no-wrap
+#, fuzzy
+msgid ""
+"Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
+"[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
+msgstr "您需要将钥匙的调试端口连接到 _Raspberry_的端口 _GPIO_ 的工具，例如一根电缆 _CC_ 和四根线 _Dupont_ ()。如果未预先安装   \n[ _WiringPi_ ](http://wiringpi.com/)  \\(，通常可以将其安装为 `sudo apt install wiringpi`)，否则请参见 [的位置 _Gordon_ ](http://wiringpi.com/) 或 [这个替代位置](https://github.com/WiringPi/WiringPi) \\)。  \n"
+
+#. type: Plain text
+#: index.md:18
+#, no-wrap
+#, fuzzy
+msgid "Fine vi bezonas la programon:\n"
+msgstr "最后，您需要程序：\n"
+
+#. type: Bullet: '* '
+#: index.md:20
+#, no-wrap
+#, fuzzy
+msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "通常是Zigbee协调器： [ 1.2版 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [3.0版](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+
+#. type: Bullet: '* '
+#: index.md:22
+#, no-wrap
+#, fuzzy
+msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "或Zigbee路由器： [Zigbee路由器1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+
+#. type: Plain text
+#: index.md:25
+#, no-wrap
+#, fuzzy
+msgid "Mi projektis _flash\\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:\n"
+msgstr "我将 _Raspberry Pi 3_ 与 _raspbian_投影在 _flash\\_cc2531_ 上，但在其他型号上报告了成功的编程：\n"
+
+#. type: Bullet: ' * '
+#: index.md:27
+#, no-wrap
+#, fuzzy
+msgid "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.52 de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)retejo\n"
+msgstr "在pi 4上，您将需要2.52版 _wiringpi_ ：  [安装 _wiringPi_ 2.52版 _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)网站\n"
+
+#. type: Bullet: ' * '
+#: index.md:29
+#, no-wrap
+#, fuzzy
+msgid "sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).\n"
+msgstr "在pi 1和pi 2上，您需要 [使用其他引脚](#uzi_aliajn_pinglojn)。\n"
+
+#. type: Bullet: ' * '
+#: index.md:31
+#, no-wrap
+#, fuzzy
+msgid "ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _\"-m\"_ ).\n"
+msgstr "但是，您可能需要设置时基选项 ( _\"-m\"_ )。\n"
+
+#. type: Title ##
+#: index.md:33
+#, no-wrap
+#, fuzzy
+msgid "Preparado"
+msgstr "准备好的"
+
+#. type: Plain text
+#: index.md:36
+#, no-wrap
+#, fuzzy
+msgid "Elŝutu _flash\\_cc2531_ al via _raspberry_ :\n"
+msgstr "将 _flash\\_cc2531_ 下载到您的 _raspberry_ ：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:36
+#, no-wrap
+msgid "git clone https://github.com/jmichault/flash_cc2531.git\n"
+msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
+
+#. type: Plain text
+#: index.md:41
+#, no-wrap
+#, fuzzy
+msgid "Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:\n"
+msgstr "将以下引脚从调试端口连接到GPIO端口：\n"
+
+#. type: Bullet: ' 1. '
+#: index.md:43
+#, no-wrap
+#, fuzzy
+msgid "pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )\n"
+msgstr "针1 ( _GND_ ) -> 针39 ( _GND_ )\n"
+
+#. type: Bullet: ' 2. '
+#: index.md:45
+#, no-wrap
+#, fuzzy
+msgid "pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )\n"
+msgstr "引脚7 ( _reset_ ) -> 引脚35 ( _wPi 24, BCM19_ )\n"
+
+#. type: Bullet: ' 3. '
+#: index.md:47
+#, no-wrap
+#, fuzzy
+msgid "pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )\n"
+msgstr "引脚3 ( _DC_ ) -> 引脚36 ( _wPi 27, BCM16_ )\n"
+
+#. type: Bullet: ' 4. '
+#: index.md:49
+#, no-wrap
+#, fuzzy
+msgid "pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )\n"
+msgstr "针脚4 ( _DD_ ) -> 针脚38 ( _wPi 28, BCM20_ )\n"
+
+#. type: Plain text
+#: index.md:52
+#, no-wrap
+#, fuzzy
+msgid "La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>\n"
+msgstr "此处提供 _raspberry_ 引脚布局： <https://pinout.xyz/>\n"
+
+#. type: Plain text
+#: index.md:54
+#, no-wrap
+#, fuzzy
+msgid "kaj enmetu la USB-ŝlosilon en havenon.\n"
+msgstr "并将USB密钥插入端口。\n"
+
+#. type: Plain text
+#: index.md:58
+#, no-wrap
+#, fuzzy
+msgid ""
+"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+"Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+msgstr "下载电缆 _CC_ 和4条线 _Dupont_ 母对母非常适合此目的：\n![按键照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）\n这是我最喜欢的选项，但是如果没有电缆 _CC_ ，也可以直接在键上焊接电缆 _Dupont_ ：例如，参见网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#. type: Plain text
+#: index.md:61
+#, no-wrap
+#, fuzzy
+msgid "provu per ĉi tio:\n"
+msgstr "试试这个：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:61
+#, no-wrap
+msgid ""
+"cd flash_cc2531\n"
+"./cc_chipid\n"
+msgstr ""
+"cd flash_cc2531\n"
+"./cc_chipid\n"
+
+#. type: Plain text
+#: index.md:66
+#, no-wrap
+#, fuzzy
+msgid "Ĝi devas reveni:\n"
+msgstr "它必须返回：\n"
+
+#. type: Fenced code block
+#: index.md:66
+#, no-wrap
+msgid "  ID = b524.\n"
+msgstr "  ID = b524.\n"
+
+#. type: Plain text
+#: index.md:69
+#, no-wrap
+#, fuzzy
+msgid "(la valoro povas esti malsama se la aparatara versio de via ŝlosilo ne samas kun la mia).  \n"
+msgstr "如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不同。  \n"
+
+#. type: Plain text
+#: index.md:71
+#, no-wrap
+#, fuzzy
+msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+msgstr "如果看到0000或ffff，则表示发生故障：\n"
+
+#. type: Bullet: ' * '
+#: index.md:73
+#, no-wrap
+#, fuzzy
+msgid "unue kontrolu vian kabligon.\n"
+msgstr "首先检查您的接线。\n"
+
+#. type: Bullet: ' * '
+#: index.md:75
+#, no-wrap
+#, fuzzy
+msgid "tiam provu pli altan bazan tempon, ekzemple kun `./cc_chipid -m 100`, aŭ `./cc_chipid -m 160` aŭ `./cc_chipid -m 300`.\n"
+msgstr "然后尝试更高的基准时间，例如 `./cc_chipid -m 100`或 `./cc_chipid -m 160` 或 `./cc_chipid -m 300`。\n"
+
+#. type: Bullet: ' * '
+#: index.md:77
+#, no-wrap
+#, fuzzy
+msgid "se neniu el tio funkcias, provu rekompili kun `make`.\n"
+msgstr "如果这些都不起作用，请尝试使用 `make`重新编译。\n"
+
+#. type: Title ##
+#: index.md:79
+#, no-wrap
+#, fuzzy
+msgid "uzado"
+msgstr "用法"
+
+#. type: Plain text
+#: index.md:81
+#, no-wrap
+#, fuzzy
+msgid "Por konservi la enhavon de la fulmmemoro en la dosiero save.hex:\n"
+msgstr "要将闪存的内容保存到save.hex文件：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:81
+#, no-wrap
+msgid "./cc_read save.hex\n"
+msgstr "./cc_read save.hex\n"
+
+#. type: Plain text
+#: index.md:85
+#, no-wrap
+#, fuzzy
+msgid "(daŭras ĉirkaŭ 1 minuton).\n"
+msgstr "(持续约1分钟)。\n"
+
+#. type: Plain text
+#: index.md:87
+#, no-wrap
+#, fuzzy
+msgid "Por viŝi fulmmemoron:\n"
+msgstr "清除闪存：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:87
+#, no-wrap
+msgid "./cc_erase\n"
+msgstr "./cc_erase\n"
+
+#. type: Plain text
+#: index.md:91
+#, no-wrap
+#, fuzzy
+msgid "**Noto:** Vi **devas** forviŝi antaŭ skribado (krom se vi vere scias, kion vi faros).\n"
+msgstr "**注：** 除非 (，否则 **必须** 删除，除非您真的知道要做什么)。\n"
+
+#. type: Plain text
+#: index.md:93
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+msgstr "要在键 _CC2531_上对文件 _CC2531ZNP-Prod.hex_ 进行编程：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:93
+#, no-wrap
+msgid "./cc_write CC2531ZNP-Prod.hex\n"
+msgstr "./cc_write CC2531ZNP-Prod.hex\n"
+
+#. type: Plain text
+#: index.md:97
+#, no-wrap
+#, fuzzy
+msgid "(daŭras ĉirkaŭ 3 minutojn).\n"
+msgstr "(持续约3分钟)。\n"
+
+#. type: Plain text
+#: index.md:99
+#, no-wrap
+#, fuzzy
+msgid "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
+msgstr "<a id=\"uzi_aliajn_pinglojn\"></a>\n\n"
+
+#. type: Title ##
+#: index.md:99
+#, no-wrap
+#, fuzzy
+msgid "Uzi aliajn pinglojn"
+msgstr "使用其他别针"
+
+#. type: Plain text
+#: index.md:102
+#, no-wrap
+#, fuzzy
+msgid "ĉiuj ordonoj akceptas la jenajn argumentojn:\n"
+msgstr "所有命令均接受以下参数：\n"
+
+#. type: Bullet: ' * '
+#: index.md:104
+#, no-wrap
+#, fuzzy
+msgid "_-c_ pinglo: ŝanĝu la pinglon _DC_ (defaŭlte 27)\n"
+msgstr "_-c_ 插针：默认情况下更改插针 _DC_ (27)\n"
+
+#. type: Bullet: ' * '
+#: index.md:106
+#, no-wrap
+#, fuzzy
+msgid "_-d_ pinglo: ŝanĝu la pinglon _DD_ (defaŭlte 28)\n"
+msgstr "_-d_ 插针：默认情况下更改插针 _DD_ (28)\n"
+
+#. type: Bullet: ' * '
+#: index.md:108
+#, no-wrap
+#, fuzzy
+msgid "_-r_ pinglo: ŝanĝu la pinglon _reset_ (defaŭlte 24)\n"
+msgstr "_-r_ 插针：默认情况下更改插针 _reset_ (24)\n"
+
+#. type: Bullet: ' * '
+#: index.md:110
+#, no-wrap
+#, fuzzy
+msgid "_-m_ : ŝanĝu la prokrastan multiplikaton, kaj do la bazan tempon (defaŭlte: aŭtomata ĝustigo)\n"
+msgstr "_-m_ ：更改延迟倍数，因此默认更改基准时间 (：自动调整)\n"
+
+#. type: Plain text
+#: index.md:113
+#, no-wrap
+#, fuzzy
+msgid "la pinglonumerado uzata estas tiu de _wiringPi_. Uzu `gpio readall` por havi la aranĝon en via _Raspberry_ (kolumno _wPi_ ).\n"
+msgstr "使用的针脚编号是 _wiringPi_。使用 `gpio readall` 将布局放在 _Raspberry_ (列 _wPi_ )中。\n"
+
+#. type: Plain text
+#: index.md:114
+#, no-wrap
+#, fuzzy
+msgid "Ekzemple, se vi volas uzi pinglojn 3, 11 kaj 13:  \n"
+msgstr "例如，如果要使用引脚3、11和13：  \n"
+
+#. type: Plain text
+#: index.md:116
+#, no-wrap
+#, fuzzy
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+msgstr "将以下引脚从调试端口连接到门 _GPIO_：\n"
+
+#. type: Bullet: ' 1. '
+#: index.md:118
+#, no-wrap
+#, fuzzy
+msgid "pinglo 1 ( _GND_ ) -> pinglo 14 ( _GND_ )\n"
+msgstr "针1 ( _GND_ ) -> 针14 ( _GND_ )\n"
+
+#. type: Bullet: ' 2. '
+#: index.md:120
+#, no-wrap
+#, fuzzy
+msgid "pinglo 7 ( _reset_ ) -> pinglo 3 ( _wPi 8, BCM2_ )\n"
+msgstr "引脚7 ( _reset_ ) -> 引脚3 ( _wPi 8, BCM2_ )\n"
+
+#. type: Bullet: ' 3. '
+#: index.md:122
+#, no-wrap
+#, fuzzy
+msgid "pinglo 3 ( _DC_ ) -> pinglo 11 ( _wPi 0, BCM17_ )\n"
+msgstr "引脚3 ( _DC_ ) -> 引脚11 ( _wPi 0, BCM17_ )\n"
+
+#. type: Bullet: ' 4. '
+#: index.md:124
+#, no-wrap
+#, fuzzy
+msgid "pinglo 4 ( _DD_ ) -> pinglo 13 ( _wPi 2, BCM27_ )\n"
+msgstr "针脚4 ( _DD_ ) -> 针脚13 ( _wPi 2, BCM27_ )\n"
+
+#. type: Plain text
+#: index.md:127
+#, no-wrap
+#, fuzzy
+msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "现在您可以使用以下命令读取ID，保存，删除和写入闪存：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:127
+#, no-wrap
+msgid ""
+"./cc_chipid -r 8 -c 0 -d 2\n"
+"./cc_read -r 8 -c 0 -d 2 save.hex\n"
+"./cc_erase -r 8 -c 0 -d 2\n"
+"./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
+msgstr ""
+"./cc_chipid -r 8 -c 0 -d 2\n"
+"./cc_read -r 8 -c 0 -d 2 save.hex\n"
+"./cc_erase -r 8 -c 0 -d 2\n"
+"./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
+
+#. type: Plain text
+#: index.md:135
+#, no-wrap
+#, fuzzy
+msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
+msgstr "您还可以将默认值更改为 _CCDebugger.h_ ，并使用 `make`编译程序。\n"
+
+#. type: Title ##
+#: index.md:136
+#, no-wrap
+#, fuzzy
+msgid "kio se ĝi ne funkcias?"
+msgstr "如果不起作用怎么办？"
+
+#. type: Bullet: '1. '
+#: index.md:139
+#, no-wrap
+#, fuzzy
+msgid "ĉesu ĉiujn aliajn programojn.\n"
+msgstr "停止所有其他程序。\n"
+
+#. type: Bullet: '2. '
+#: index.md:141
+#, no-wrap
+#, fuzzy
+msgid "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
+msgstr "在编程之前设置处理器速度。示例：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:143
+#, no-wrap
+msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
+msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
+
+#. type: Bullet: '3. '
+#: index.md:147
+#, no-wrap
+#, fuzzy
+msgid "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
+msgstr "使用-m选项可以增加使用的时间限制。示例：\n"
+
+#. type: Fenced code block (bash)
+#: index.md:149
+#, no-wrap
+msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
+msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
+
+#. type: Bullet: '4. '
+#: index.md:153
+#, no-wrap
+#, fuzzy
+msgid "rekompili la programon per `make`.\n"
+msgstr "用 `make`重新编译程序。\n"
+
+#. type: Bullet: '5. '
+#: index.md:156
+#, no-wrap
+#, fuzzy
+msgid "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
+msgstr "在github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)已经提出的问题中寻找解决方案 [\n"
+
+#. type: Bullet: '6. '
+#: index.md:159
+#, no-wrap
+#, fuzzy
+msgid "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
+msgstr "询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)的问题。\n"
+
+#. type: Title ##
+#: index.md:161
+#, no-wrap
+#, fuzzy
+msgid "Permesilo"
+msgstr "执照"
+
+#. type: Plain text
+#: index.md:163
+#, no-wrap
+#, fuzzy
+msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
+msgstr "此项目已获得GPL v3许可 ( ，请参见 _COPYING_ )。\n"
+
+#~ msgid "fonto"
+#~ msgstr "auto"
+
+#~ msgid "indekso"
+#~ msgstr "indekso"
+
+#~ msgid "index"
+#~ msgstr "index"
+
+#, fuzzy
+#~ msgid "Plej novaj afiŝoj"
+#~ msgstr "最新的帖子"

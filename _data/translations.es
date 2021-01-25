@@ -1,6 +1,6 @@
 es:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "flashee su llave USB CC2531 desde su Raspberry, sin Arduino o CC Debugger."
   elektuLingvon: "Elige tu idioma"
   cxiujAfisxoj: "Todos los mensajes"
   rilatajAfisxoj: "Artículos Relacionados"

@@ -7,89 +7,85 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 21:25+0100\n"
+"POT-Creation-Date: 2021-01-25 17:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: hi\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Hash Value - Key: Funkciigita
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Funkciigita de"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Propulsé par"
 msgstr "द्वारा संचालित"
 
 #. type: Hash Value - Key: cxiujAfisxoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Ĉiuj Afiŝoj"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Tous les messages"
 msgstr "सभी पद"
 
 #. type: Hash Value - Key: elektuLingvon
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Elektu vian lingvon"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Choisissez votre langue"
 msgstr "अपनी भाषा चुनिए"
 
 #. type: Hash Value - Key: malsamaLingvo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Lisez cette page dans une autre langue"
 msgstr "इस पृष्ठ को एक अलग भाषा में पढ़ें"
 
 #. type: Hash Value - Key: priskribo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Preskribo"
-msgstr "पर्चे"
+#: >fr
+#, fuzzy, no-wrap
+msgid ""
+"flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC "
+"Debugger."
+msgstr ""
+"Arduino या CC Debugger के बिना, अपने रास्पबेरी से अपने CC2531 USB कुंजी को "
+"फ्लैश करें।"
 
 #. type: Hash Value - Key: rajtoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "permesilo"
+#: >fr
+#, fuzzy, no-wrap
+msgid "licence"
 msgstr "लाइसेंस"
 
 #. type: Hash Value - Key: rigardiEn
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Rigardi en"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Regarder dans"
 msgstr "यहां देखो"
 
 #. type: Hash Value - Key: rilatajAfisxoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Rilataj Afiŝoj"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Articles Similaires"
 msgstr "संबंधित पोस्ट"
 
 #. type: Hash Value - Key: serĉi
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "SerÄu per Google"
-msgstr "Google के लिए खोजें"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Recherche Google."
+msgstr "Google à¤ªà¤° à¤à¥à¤à¥à¤à¥¤"
 
 #. type: Hash Value - Key: titolo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Titolo"
-msgstr "शीर्षक"
+#: >fr
+#, fuzzy, no-wrap
+msgid "flash_cc2531"
+msgstr "Flash_cc2531"
 
 #. type: Hash Value - Key: tradukoAverto
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-msgstr "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
-
+#: >fr
+#, fuzzy, no-wrap
+msgid ""
+"Attention : cette page a été traduite automatiquement. Si vous le pouvez, "
+"vous devriez la lire dans l'une de ces langues :"
+msgstr ""
+"कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर "
+"सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"

@@ -1,6 +1,6 @@
 fr:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC Debugger."
   elektuLingvon: "Choisissez votre langue"
   cxiujAfisxoj: "Tous les messages"
   rilatajAfisxoj: "Articles Similaires"

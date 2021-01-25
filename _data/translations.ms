@@ -1,6 +1,6 @@
 ms:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "nyalakan kekunci USB CC2531 anda dari Raspberry anda, tanpa Arduino atau CC Debugger."
   elektuLingvon: "pilih Bahasa anda"
   cxiujAfisxoj: "Semua Catatan"
   rilatajAfisxoj: "Catatan Berkaitan"

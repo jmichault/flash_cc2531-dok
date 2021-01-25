@@ -1,6 +1,54 @@
+ar:
+  titolo: "flash_cc2531"
+  priskribo: "فلاش مفتاح CC2531 USB الخاص بك من Raspberry الخاص بك ، بدون Arduino أو CC Debugger."
+  elektuLingvon: "اختر لغتك"
+  cxiujAfisxoj: "جميع المشاركات"
+  rilatajAfisxoj: "المنشورات ذات الصلة"
+  malsamaLingvo: "اقرأ هذه الصفحة بلغة مختلفة"
+  tradukoAverto: "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
+  rigardiEn: "ينظر في"
+  rajtoj: "رخصة"
+  serĉi: "ابحث في جوجل."
+  Funkciigita: "ﻢﺸﻐﻟ ﺏﻭﺎﺴﻃﺓ"
+bn:
+  titolo: "ফ্ল্যাশ_সিসি 2531"
+  priskribo: "আরডুইনো বা সিসি ডিবাগার ছাড়াই আপনার রাস্পবেরি থেকে আপনার সিসি 2531 ইউএসবি কী ফ্ল্যাশ করুন।"
+  elektuLingvon: "আপনার ভাষা নির্বাচন করুন"
+  cxiujAfisxoj: "সমস্ত পোস্ট"
+  rilatajAfisxoj: "সম্পর্কিত পোস্ট"
+  malsamaLingvo: "এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন"
+  tradukoAverto: "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
+  rigardiEn: "ভিতরে তাকান"
+  rajtoj: "লাইসেন্স "
+  serĉi: "গুগল অনুসন্ধান করুন।"
+  Funkciigita: "দ্বারা চালিত"
+de:
+  titolo: "flash_cc2531"
+  priskribo: "Flashen Sie Ihren CC2531 USB-Stick von Ihrer Himbeere ohne Arduino oder CC Debugger."
+  elektuLingvon: "Wähle deine Sprache"
+  cxiujAfisxoj: "Alle Beiträge"
+  rilatajAfisxoj: "zusammenhängende Posts"
+  malsamaLingvo: "Lesen Sie diese Seite in einer anderen Sprache"
+  tradukoAverto: "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+  rigardiEn: "Nachsehen in"
+  rajtoj: "Lizenz"
+  serĉi: "Google suchen."
+  Funkciigita: "Unterstützt von"
+en:
+  titolo: "flash_cc2531"
+  priskribo: "flash your CC2531 USB key from your Raspberry, without Arduino or CC Debugger."
+  elektuLingvon: "Choose your language"
+  cxiujAfisxoj: "All Posts"
+  rilatajAfisxoj: "Related Posts"
+  malsamaLingvo: "Read this page in a different language"
+  tradukoAverto: "Please note: this page has been translated automatically. If you can, you should read it in one of these languages:"
+  rigardiEn: "View in"
+  rajtoj: "licence"
+  serĉi: "Search with Google."
+  Funkciigita: "Powered by"
 eo:
-  titolo:  "Titolo"
-  priskribo:  "Preskribo"
+  titolo: "flash_cc2531"
+  priskribo: "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
   elektuLingvon:  "Elektu vian lingvon"
   cxiujAfisxoj:  "Ĉiuj Afiŝoj"
   rilatajAfisxoj:  "Rilataj Afiŝoj"
@@ -10,185 +58,123 @@ eo:
   rajtoj:  "permesilo"
   serĉi: "Serĉu per Google"
   Funkciigita:  "Funkciigita de"
----
-ar:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
-bn:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
-de:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
-en:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
 es:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "flashee su llave USB CC2531 desde su Raspberry, sin Arduino o CC Debugger."
+  elektuLingvon: "Elige tu idioma"
+  cxiujAfisxoj: "Todos los mensajes"
+  rilatajAfisxoj: "Artículos Relacionados"
+  malsamaLingvo: "Lea esta página en otro idioma"
+  tradukoAverto: "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
+  rigardiEn: "Ver en"
+  rajtoj: "licencia"
+  serĉi: "Busca en Google."
+  Funkciigita: "Desarrollado por"
 fr:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC Debugger."
+  elektuLingvon: "Choisissez votre langue"
+  cxiujAfisxoj: "Tous les messages"
+  rilatajAfisxoj: "Articles Similaires"
+  malsamaLingvo: "Lisez cette page dans une autre langue"
+  tradukoAverto: "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
+  rigardiEn: "Regarder dans"
+  rajtoj: "licence"
+  serĉi: "Recherche Google."
+  Funkciigita: "Propulsé par"
 hi:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
-it:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "Flash_cc2531"
+  priskribo: "Arduino या CC Debugger के बिना, अपने रास्पबेरी से अपने CC2531 USB कुंजी को फ्लैश करें।"
+  elektuLingvon: "अपनी भाषा चुनिए"
+  cxiujAfisxoj: "सभी पद"
+  rilatajAfisxoj: "संबंधित पोस्ट"
+  malsamaLingvo: "इस पृष्ठ को एक अलग भाषा में पढ़ें"
+  tradukoAverto: "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
+  rigardiEn: "यहां देखो"
+  rajtoj: "लाइसेंस"
+  serĉi: "Google पर खोजें।"
+  Funkciigita: "द्वारा संचालित"
+et:
+  titolo: "flash_cc2531"
+  priskribo: "flash la tua chiave USB CC2531 dal tuo Raspberry, senza Arduino o CC Debugger."
+  elektuLingvon: "scegli la tua LINGUA"
+  cxiujAfisxoj: "Tutti i post"
+  rilatajAfisxoj: "Post correlati"
+  malsamaLingvo: "Leggi questa pagina in una lingua diversa"
+  tradukoAverto: "Nota: questa pagina è stata tradotta automaticamente. Se puoi, dovresti leggerlo in una di queste lingue:"
+  rigardiEn: "Guarda in"
+  rajtoj: "licenza"
+  serĉi: "Cerca su Google."
+  Funkciigita: "Alimentato da"
 ja:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "ArduinoまたはCCDebuggerを使用せずに、RaspberryからCC2531USBキーをフラッシュします。"
+  elektuLingvon: "言語を選んでください"
+  cxiujAfisxoj: "すべての投稿"
+  rilatajAfisxoj: "関連記事"
+  malsamaLingvo: "このページを別の言語で読む"
+  tradukoAverto: "注意：このページは自動的に翻訳されています。可能であれば、次のいずれかの言語で読む必要があります。"
+  rigardiEn: "覗く"
+  rajtoj: "ライセンス"
+  serĉi: "Googleを検索します。"
+  Funkciigita: "搭載"
 ms:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "nyalakan kekunci USB CC2531 anda dari Raspberry anda, tanpa Arduino atau CC Debugger."
+  elektuLingvon: "pilih Bahasa anda"
+  cxiujAfisxoj: "Semua Catatan"
+  rilatajAfisxoj: "Catatan Berkaitan"
+  malsamaLingvo: "Baca halaman ini dalam bahasa yang berbeza"
+  tradukoAverto: "Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:"
+  rigardiEn: "Lihatlah"
+  rajtoj: "lesen"
+  serĉi: "Cari di Google."
+  Funkciigita: "Dikuasakan oleh"
 pa:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "ਫਲੈਸ਼_ਸੀ"
+  priskribo: "ਆਪਣੀ ਰਸੋਬੇਰੀ ਤੋਂ ਆਪਣੀ ਸੀਸੀ 2531 ਯੂਐਸਬੀ ਕੁੰਜੀ ਫਲੈਸ਼ ਕਰੋ, ਬਿਨਾਂ ਅਰਦਿਨੋ ਜਾਂ ਸੀਸੀ ਡੀਬੱਗਰ."
+  elektuLingvon: "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ"
+  cxiujAfisxoj: "ਸਾਰੇ ਪੋਸਟ"
+  rilatajAfisxoj: "ਸੰਬੰਧਿਤ ਪੋਸਟ"
+  malsamaLingvo: "ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
+  tradukoAverto: "ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:"
+  rigardiEn: "ਵਿੱਚ ਵੇਖੋ"
+  rajtoj: "ਲਾਇਸੰਸ"
+  serĉi: "ਗੂਗਲ ਖੋਜੋ."
+  Funkciigita: "ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
 pt:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "flash sua chave USB CC2531 do seu Raspberry, sem Arduino ou CC Debugger."
+  elektuLingvon: "Escolha seu idioma"
+  cxiujAfisxoj: "Todas as publicações"
+  rilatajAfisxoj: "Postagens Relacionadas"
+  malsamaLingvo: "Leia esta página em um idioma diferente"
+  tradukoAverto: "Atenção: esta página foi traduzida automaticamente. Se puder, você deve lê-lo em um destes idiomas:"
+  rigardiEn: "Olha em"
+  rajtoj: "licença"
+  serĉi: "Pesquisar no Google."
+  Funkciigita: "Distribuído por"
 ru:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
----
+  titolo: "flash_cc2531"
+  priskribo: "прошейте USB-ключ CC2531 с Raspberry без Arduino или CC Debugger."
+  elektuLingvon: "Выберите ваш язык"
+  cxiujAfisxoj: "Все сообщения"
+  rilatajAfisxoj: "Похожие сообщения"
+  malsamaLingvo: "Прочтите эту страницу на другом языке"
+  tradukoAverto: "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
+  rigardiEn: "Смотреть в"
+  rajtoj: "лицензия"
+  serĉi: "Искать в Google."
+  Funkciigita: "Питаться от"
 zh:
-  Funkciigita: 'Funkciigita de'
-  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
-  elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
-  priskribo: Preskribo
-  rajtoj: permesilo
-  rigardiEn: 'Rigardi en'
-  rilatajAfisxoj: 'Rilataj Afiŝoj'
-  serĉi: 'Serĉu per Google'
-  titolo: Titolo
-  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
+  titolo: "flash_cc2531"
+  priskribo: "在没有Arduino或CC调试器的情况下从Raspberry刷新CC2531 USB密钥。"
+  elektuLingvon: "选择你的语言"
+  cxiujAfisxoj: "所有帖子"
+  rilatajAfisxoj: "相关文章"
+  malsamaLingvo: "阅读其他语言的页面"
+  tradukoAverto: "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
+  rigardiEn: "在看"
+  rajtoj: "执照"
+  serĉi: "搜索谷歌。"
+  Funkciigita: "供电"

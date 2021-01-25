@@ -7,89 +7,85 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-01-24 21:25+0100\n"
+"POT-Creation-Date: 2021-01-25 17:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: de\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Hash Value - Key: Funkciigita
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Funkciigita de"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Propulsé par"
 msgstr "Unterstützt von"
 
 #. type: Hash Value - Key: cxiujAfisxoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Ĉiuj Afiŝoj"
-msgstr "Alle Artikel"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Tous les messages"
+msgstr "Alle Beiträge"
 
 #. type: Hash Value - Key: elektuLingvon
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Elektu vian lingvon"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Choisissez votre langue"
 msgstr "Wähle deine Sprache"
 
 #. type: Hash Value - Key: malsamaLingvo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Lisez cette page dans une autre langue"
 msgstr "Lesen Sie diese Seite in einer anderen Sprache"
 
 #. type: Hash Value - Key: priskribo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Preskribo"
-msgstr "Rezept"
+#: >fr
+#, fuzzy, no-wrap
+msgid ""
+"flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC "
+"Debugger."
+msgstr ""
+"Flashen Sie Ihren CC2531 USB-Stick von Ihrer Himbeere ohne Arduino oder CC "
+"Debugger."
 
 #. type: Hash Value - Key: rajtoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "permesilo"
+#: >fr
+#, fuzzy, no-wrap
+msgid "licence"
 msgstr "Lizenz"
 
 #. type: Hash Value - Key: rigardiEn
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Rigardi en"
-msgstr "Hinein sehen"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Regarder dans"
+msgstr "Nachsehen in"
 
 #. type: Hash Value - Key: rilatajAfisxoj
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Rilataj Afiŝoj"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Articles Similaires"
 msgstr "zusammenhängende Posts"
 
 #. type: Hash Value - Key: serĉi
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "SerÄu per Google"
-msgstr "Suche nach Google"
+#: >fr
+#, fuzzy, no-wrap
+msgid "Recherche Google."
+msgstr "Google suchen."
 
 #. type: Hash Value - Key: titolo
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Titolo"
-msgstr "Titel"
+#: >fr
+#, fuzzy, no-wrap
+msgid "flash_cc2531"
+msgstr "flash_cc2531"
 
 #. type: Hash Value - Key: tradukoAverto
-#: >eo
-#, no-wrap
-#, fuzzy
-msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
-
+#: >fr
+#, fuzzy, no-wrap
+msgid ""
+"Attention : cette page a été traduite automatiquement. Si vous le pouvez, "
+"vous devriez la lire dans l'une de ces langues :"
+msgstr ""
+"Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie "
+"können, sollten Sie es in einer dieser Sprachen lesen:"

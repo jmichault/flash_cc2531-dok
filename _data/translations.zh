@@ -1,6 +1,6 @@
 zh:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "在没有Arduino或CC调试器的情况下从Raspberry刷新CC2531 USB密钥。"
   elektuLingvon: "选择你的语言"
   cxiujAfisxoj: "所有帖子"
   rilatajAfisxoj: "相关文章"

@@ -1,6 +1,6 @@
 ru:
-  titolo:  ""
-  priskribo:  ""
+  titolo: "flash_cc2531"
+  priskribo: "прошейте USB-ключ CC2531 с Raspberry без Arduino или CC Debugger."
   elektuLingvon: "Выберите ваш язык"
   cxiujAfisxoj: "Все сообщения"
   rilatajAfisxoj: "Похожие сообщения"

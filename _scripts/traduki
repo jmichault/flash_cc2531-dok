@@ -12,7 +12,6 @@ then
  _scripts/lib/al_eo $LABORLINGVO
 fi
 
-
 cd eo
 
 #for FIC in pri.md
