@@ -1,3 +1,7 @@
+flash_cc2531  allows you to flash CC2531 USB-key from your raspberry.
+
+
+This documentation is propulsed by jekyll-plurlingva.
 
  _Jekyll-plurlingva_ is a skeleton for the creation of multilingual static websites, based on jekyll.
 Its purpose is to keep it light and simple.
@@ -20,5 +24,8 @@ Its most striking features:
    * it is a very precise language, generating less ambiguity than English.
    * it is very easy to learn, whatever the language of the learner.
 
-Consult the [documentation](https://jmichault.github.io/jekyll-plurlingva-dok/) for more information.
+**[Consult the documentation for more information.](https://jmichault.github.io/jekyll-plurlingva-dok/)**
+
+Software licensed under GNU GPL version 3 or any later version.
+Documentation licensed under CC BY-SA 4.0.
 
