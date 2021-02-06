@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:21+0100\n"
+"POT-Creation-Date: 2021-02-06 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,20 @@ msgstr "言語を選択してください"
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgid "Legu ĉi tiun paĝon en malsama lingvo"
 msgstr "このページを別の言語で読む"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Priskribo."
-msgstr "説明。"
+#, fuzzy, no-wrap
+msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
+msgstr "ArduinoまたはCCデバッガーを使用せずに、RaspberryからCC2531USBキーを起動します。"
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "ライセンス <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
+msgstr "ライセンス <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -67,16 +66,16 @@ msgstr "関連記事"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "Googleを検索します。"
+#, no-wrap
+#, fuzzy
+msgid "Serĉu per Google"
+msgstr "Googleを検索"
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Titolo."
-msgstr "題名。"
+#, fuzzy, no-wrap
+msgid "flash_cc2531"
+msgstr "フラッシュ_cc2531"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +83,42 @@ msgstr "題名。"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "注意：このページは自動的に翻訳されています。可能であれば、次のいずれかの言語で読む必要があります。"
 
+#, fuzzy
+#~ msgid "SerÄu per Google"
+#~ msgstr "Googleを検索する"
+
+#, fuzzy
+#~ msgid "permesilo"
+#~ msgstr "ライセンス"
+
+#, fuzzy
+#~ msgid "SerÃÂu per Google"
+#~ msgstr "グーグル用になります"
+
+#, fuzzy
+#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
+#~ msgstr "このページを別の言語で読む"
+
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "説明。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
+#~ msgstr ""
+#~ "ライセンス <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"クリエイティブコモンズライセンス\" style="
+#~ "\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/"
+#~ "by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "Googleを検索します。"
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "題名。"

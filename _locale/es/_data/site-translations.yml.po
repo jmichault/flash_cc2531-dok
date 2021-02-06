@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:20+0100\n"
+"POT-Creation-Date: 2021-02-06 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,20 @@ msgstr "Elige tu idioma"
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en alia lingvo"
-msgstr "Leer esta página en otro idioma"
+msgid "Legu ĉi tiun paĝon en malsama lingvo"
+msgstr "Lea esta página en otro idioma"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Priskribo."
-msgstr "Descripción."
+#, fuzzy, no-wrap
+msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
+msgstr "inicie su llave USB CC2531 desde su Raspberry, sin un depurador Arduino o CC."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "Licencia <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licencia Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
+msgstr "Licencia <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licencia Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -67,16 +66,16 @@ msgstr "Artículos Relacionados"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "Busca en Google."
+#, no-wrap
+#, fuzzy
+msgid "Serĉu per Google"
+msgstr "Busca en Google"
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Titolo."
-msgstr "Título."
+#, fuzzy, no-wrap
+msgid "flash_cc2531"
+msgstr "flash_cc2531"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +83,42 @@ msgstr "Título."
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
 
+#, fuzzy
+#~ msgid "SerÄu per Google"
+#~ msgstr "Buscar Google"
+
+#, fuzzy
+#~ msgid "permesilo"
+#~ msgstr "licencia"
+
+#, fuzzy
+#~ msgid "SerÃÂu per Google"
+#~ msgstr "Será para Google"
+
+#, fuzzy
+#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
+#~ msgstr "Leer esta página en otro idioma"
+
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "Descripción."
+
+#, fuzzy
+#~ msgid ""
+#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
+#~ msgstr ""
+#~ "Licencia <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt =\"Licencia Creative Commons\" style=\"display:"
+#~ "inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-"
+#~ "sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "Busca en Google."
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "Título."

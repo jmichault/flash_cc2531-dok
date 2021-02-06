@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 10:20+0100\n"
+"POT-Creation-Date: 2021-02-06 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,20 @@ msgstr "আপনার ভাষা নির্বাচন করুন"
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en alia lingvo"
-msgstr "এই পৃষ্ঠাটি অন্য ভাষায় পড়ুন"
+msgid "Legu ĉi tiun paĝon en malsama lingvo"
+msgstr "এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Priskribo."
-msgstr "বর্ণনা।"
+#, fuzzy, no-wrap
+msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
+msgstr "আরডিনো বা সিসি ডিবাগার ছাড়াই আপনার রাস্পবেরি থেকে আপনার সিসি 2531 ইউএসবি কীটি বুট করুন।"
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
-msgstr "লাইসেন্স <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img Alt =\"ক্রিয়েটিভ কমন্স লাইসেন্স\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ এ>"
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
+msgstr "লাইসেন্স <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img Alt =\"ক্রিয়েটিভ কমন্স লাইসেন্স\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"সিসি-বিওয়াই- এসএ 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -67,16 +66,16 @@ msgstr "সম্পর্কিত পোস্ট"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google."
-msgstr "গুগল অনুসন্ধান করুন।"
+#, no-wrap
+#, fuzzy
+msgid "Serĉu per Google"
+msgstr "গুগল অনুসন্ধান করুন"
 
 #. type: Hash Value - Key: titolo
 #: >lang
-#, no-wrap
-#, fuzzy
-msgid "Titolo."
-msgstr "শিরোনাম."
+#, fuzzy, no-wrap
+msgid "flash_cc2531"
+msgstr "ফ্ল্যাশ_cc2531"
 
 #. type: Hash Value - Key: tradukoAverto
 #: >lang
@@ -84,3 +83,42 @@ msgstr "শিরোনাম."
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
 
+#, fuzzy
+#~ msgid "SerÄu per Google"
+#~ msgstr "গুগল অনুসন্ধান করুন"
+
+#, fuzzy
+#~ msgid "permesilo"
+#~ msgstr "লাইসেন্স"
+
+#, fuzzy
+#~ msgid "SerÃÂu per Google"
+#~ msgstr "এটি গুগলের জন্য হবে"
+
+#, fuzzy
+#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
+#~ msgstr "এই পৃষ্ঠাটি অন্য ভাষায় পড়ুন"
+
+#, fuzzy
+#~ msgid "Priskribo."
+#~ msgstr "বর্ণনা।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
+#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
+#~ msgstr ""
+#~ "লাইসেন্স <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\"><img Alt =\"ক্রিয়েটিভ কমন্স লাইসেন্স\" style=\"display:inline;"
+#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+#~ "\" title=\"CC-BY-SA 4.0\"/></ এ>"
+
+#, fuzzy
+#~ msgid "Serĉu per Google."
+#~ msgstr "গুগল অনুসন্ধান করুন।"
+
+#, fuzzy
+#~ msgid "Titolo."
+#~ msgstr "শিরোনাম."

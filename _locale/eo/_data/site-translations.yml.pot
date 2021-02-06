@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-05 18:52+0100\n"
+"POT-Creation-Date: 2021-02-06 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,19 +37,19 @@ msgstr ""
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, no-wrap
-msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgid "Legu ĉi tiun paĝon en malsama lingvo"
 msgstr ""
 
 #. type: Hash Value - Key: priskribo
 #: >lang
 #, no-wrap
-msgid "Mia Priskribo."
+msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
 msgstr ""
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, no-wrap
-msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></a>"
+msgid "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
 msgstr ""
 
 #. type: Hash Value - Key: rigardiEn
@@ -67,13 +67,13 @@ msgstr ""
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, no-wrap
-msgid "Serĉu per Google."
+msgid "Serĉu per Google"
 msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >lang
 #, no-wrap
-msgid "Mia Titolo."
+msgid "flash_cc2531"
 msgstr ""
 
 #. type: Hash Value - Key: tradukoAverto

@@ -1,75 +1,75 @@
 ar:
-  titolo: "flash_cc2531"
-  priskribo: "فلاش مفتاح CC2531 USB الخاص بك من Raspberry الخاص بك ، بدون Arduino أو CC Debugger."
-  elektuLingvon: "اختر لغتك"
-  cxiujAfisxoj: "جميع المشاركات"
-  rilatajAfisxoj: "المنشورات ذات الصلة"
-  malsamaLingvo: "اقرأ هذه الصفحة بلغة مختلفة"
-  tradukoAverto: "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
-  rigardiEn: "ينظر في"
-  rajtoj: "رخصة"
-  serĉi: "ابحث في جوجل."
-  Funkciigita: "ﻢﺸﻐﻟ ﺏﻭﺎﺴﻃﺓ"
+  Funkciigita: 'مشغل بواسطة'
+  cxiujAfisxoj: 'جميع المشاركات'
+  elektuLingvon: 'اختر لغتك'
+  malsamaLingvo: 'اقرأ هذه الصفحة بلغة مختلفة'
+  priskribo: 'قم بتشغيل مفتاح CC2531 USB الخاص بك من Raspberry ، بدون Arduino أو CC Debugger.'
+  rajtoj: 'الترخيص <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="رخصة المشاع الإبداعي" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0 (درجة 9 درجة) (درجة 10 درجة) (درجة 11 درجة)'
+  rigardiEn: 'إنظر في'
+  rilatajAfisxoj: 'المنشورات ذات الصلة'
+  sercxi: 'ابحث في جوجل'
+  titolo: فلاش_cc2531
+  tradukoAverto: 'يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:'
 bn:
-  titolo: "ফ্ল্যাশ_সিসি 2531"
-  priskribo: "আরডুইনো বা সিসি ডিবাগার ছাড়াই আপনার রাস্পবেরি থেকে আপনার সিসি 2531 ইউএসবি কী ফ্ল্যাশ করুন।"
-  elektuLingvon: "আপনার ভাষা নির্বাচন করুন"
-  cxiujAfisxoj: "সমস্ত পোস্ট"
-  rilatajAfisxoj: "সম্পর্কিত পোস্ট"
-  malsamaLingvo: "এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন"
-  tradukoAverto: "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
-  rigardiEn: "ভিতরে তাকান"
-  rajtoj: "লাইসেন্স "
-  serĉi: "গুগল অনুসন্ধান করুন।"
-  Funkciigita: "দ্বারা চালিত"
+  Funkciigita: 'দ্বারা চালিত'
+  cxiujAfisxoj: 'সমস্ত পোস্ট'
+  elektuLingvon: 'আপনার ভাষা নির্বাচন করুন'
+  malsamaLingvo: 'এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন'
+  priskribo: 'আরডিনো বা সিসি ডিবাগার ছাড়াই আপনার রাস্পবেরি থেকে আপনার সিসি 2531 ইউএসবি কীটি বুট করুন।'
+  rajtoj: 'লাইসেন্স <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img Alt ="ক্রিয়েটিভ কমন্স লাইসেন্স" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="সিসি-বিওয়াই- এসএ 4.0"/></ a>'
+  rigardiEn: 'ভিতরে তাকান'
+  rilatajAfisxoj: 'সম্পর্কিত পোস্ট'
+  sercxi: 'গুগল অনুসন্ধান করুন'
+  titolo: ফ্ল্যাশ_cc2531
+  tradukoAverto: 'দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:'
 de:
-  titolo: "flash_cc2531"
-  priskribo: "Flashen Sie Ihren CC2531 USB-Stick von Ihrer Himbeere ohne Arduino oder CC Debugger."
-  elektuLingvon: "Wähle deine Sprache"
-  cxiujAfisxoj: "Alle Beiträge"
-  rilatajAfisxoj: "zusammenhängende Posts"
-  malsamaLingvo: "Lesen Sie diese Seite in einer anderen Sprache"
-  tradukoAverto: "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
-  rigardiEn: "Nachsehen in"
-  rajtoj: "Lizenz"
-  serĉi: "Google suchen."
-  Funkciigita: "Unterstützt von"
+  Funkciigita: 'Unterstützt von'
+  cxiujAfisxoj: 'Alle Beiträge'
+  elektuLingvon: 'Wähle deine Sprache'
+  malsamaLingvo: 'Lesen Sie diese Seite in einer anderen Sprache'
+  priskribo: 'Starten Sie Ihren CC2531-USB-Stick von Ihrer Himbeere ohne Arduino- oder CC-Debugger.'
+  rajtoj: 'Lizenz <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Creative Commons Lizenz" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4,0"/></ a>'
+  rigardiEn: 'Blick in'
+  rilatajAfisxoj: 'zusammenhängende Posts'
+  sercxi: 'Google suchen'
+  titolo: Blitz_cc2531
+  tradukoAverto: 'Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:'
 en:
-  titolo: "flash_cc2531"
-  priskribo: "flash your CC2531 USB key from your Raspberry, without Arduino or CC Debugger."
-  elektuLingvon: "Choose your language"
-  cxiujAfisxoj: "All Posts"
-  rilatajAfisxoj: "Related Posts"
-  malsamaLingvo: "Read this page in a different language"
-  tradukoAverto: "Please note: this page has been translated automatically. If you can, you should read it in one of these languages:"
-  rigardiEn: "View in"
-  rajtoj: "licence"
-  serĉi: "Search with Google."
-  Funkciigita: "Powered by"
+  Funkciigita: 'Powered by'
+  cxiujAfisxoj: 'All Posts'
+  elektuLingvon: 'Choose your language'
+  malsamaLingvo: 'Read this page in a different language'
+  priskribo: 'boot your CC2531 USB key from your Raspberry, without an Arduino or CC Debugger.'
+  rajtoj: 'License <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Creative Commons License" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Look in'
+  rilatajAfisxoj: 'Related Posts'
+  sercxi: 'Search Google'
+  titolo: flash_cc2531
+  tradukoAverto: 'Please note: this page has been translated automatically. If you can, you should read it in one of these languages:'
 eo:
-  titolo: "flash_cc2531"
-  priskribo: "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
-  elektuLingvon:  "Elektu vian lingvon"
-  cxiujAfisxoj:  "Ĉiuj Afiŝoj"
-  rilatajAfisxoj:  "Rilataj Afiŝoj"
-  malsamaLingvo:  "Legu ĉi tiun paĝon en malsama lingvo"
-  tradukoAverto:  "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
-  rigardiEn:  "Rigardi en"
-  rajtoj:  "permesilo"
-  serĉi: "Serĉu per Google"
-  Funkciigita:  "Funkciigita de"
+  Funkciigita: 'Funkciigita de'
+  cxiujAfisxoj: 'Ĉiuj Afiŝoj'
+  elektuLingvon: 'Elektu vian lingvon'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
+  priskribo: 'ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo.'
+  rajtoj: 'Permesilo <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Permesilo Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Rigardi en'
+  rilatajAfisxoj: 'Rilataj Afiŝoj'
+  sercxi: 'Serĉu per Google'
+  titolo: flash_cc2531
+  tradukoAverto: 'Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:'
 es:
-  titolo: "flash_cc2531"
-  priskribo: "flashee su llave USB CC2531 desde su Raspberry, sin Arduino o CC Debugger."
-  elektuLingvon: "Elige tu idioma"
-  cxiujAfisxoj: "Todos los mensajes"
-  rilatajAfisxoj: "Artículos Relacionados"
-  malsamaLingvo: "Lea esta página en otro idioma"
-  tradukoAverto: "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
-  rigardiEn: "Ver en"
-  rajtoj: "licencia"
-  serĉi: "Busca en Google."
-  Funkciigita: "Desarrollado por"
+  Funkciigita: 'Energizado por'
+  cxiujAfisxoj: 'Todos los mensajes'
+  elektuLingvon: 'Elige tu idioma'
+  malsamaLingvo: 'Lea esta página en otro idioma'
+  priskribo: 'inicie su llave USB CC2531 desde su Raspberry, sin un depurador Arduino o CC.'
+  rajtoj: 'Licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licencia Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Pase a ver'
+  rilatajAfisxoj: 'Artículos Relacionados'
+  sercxi: 'Busca en Google'
+  titolo: flash_cc2531
+  tradukoAverto: 'Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:'
 fr:
   titolo: "flash_cc2531"
   priskribo: "flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC Debugger."
@@ -79,102 +79,102 @@ fr:
   malsamaLingvo: "Lisez cette page dans une autre langue"
   tradukoAverto: "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
   rigardiEn: "Regarder dans"
-  rajtoj: "licence"
-  serĉi: "Recherche Google."
+  rajtoj: "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+  sercxi: "Recherche Google."
   Funkciigita: "Propulsé par"
 hi:
-  titolo: "Flash_cc2531"
-  priskribo: "Arduino या CC Debugger के बिना, अपने रास्पबेरी से अपने CC2531 USB कुंजी को फ्लैश करें।"
-  elektuLingvon: "अपनी भाषा चुनिए"
-  cxiujAfisxoj: "सभी पद"
-  rilatajAfisxoj: "संबंधित पोस्ट"
-  malsamaLingvo: "इस पृष्ठ को एक अलग भाषा में पढ़ें"
-  tradukoAverto: "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
-  rigardiEn: "यहां देखो"
-  rajtoj: "लाइसेंस"
-  serĉi: "Google पर खोजें।"
-  Funkciigita: "द्वारा संचालित"
-et:
-  titolo: "flash_cc2531"
-  priskribo: "flash la tua chiave USB CC2531 dal tuo Raspberry, senza Arduino o CC Debugger."
-  elektuLingvon: "scegli la tua LINGUA"
-  cxiujAfisxoj: "Tutti i post"
-  rilatajAfisxoj: "Post correlati"
-  malsamaLingvo: "Leggi questa pagina in una lingua diversa"
-  tradukoAverto: "Nota: questa pagina è stata tradotta automaticamente. Se puoi, dovresti leggerlo in una di queste lingue:"
-  rigardiEn: "Guarda in"
-  rajtoj: "licenza"
-  serĉi: "Cerca su Google."
-  Funkciigita: "Alimentato da"
+  Funkciigita: 'द्वारा संचालित'
+  cxiujAfisxoj: 'सभी पद'
+  elektuLingvon: 'अपनी भाषा चुनें'
+  malsamaLingvo: 'इस पृष्ठ को एक अलग भाषा में पढ़ें'
+  priskribo: 'एक Arduino या CC डीबगर के बिना, अपने रास्पबेरी से अपने CC2531 USB कुंजी को बूट करें।'
+  rajtoj: 'लाइसेंस <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img ऊंचाई ="क्रिएटिव कॉमन्स लाइसेंस" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'यहां देखो'
+  rilatajAfisxoj: 'संबंधित पोस्ट'
+  sercxi: 'Google पर खोजें'
+  titolo: फ्लैश_cc2531
+  tradukoAverto: 'कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:'
+it:
+  Funkciigita: 'Offerto da'
+  cxiujAfisxoj: 'Tutti i post'
+  elektuLingvon: 'scegli la tua LINGUA'
+  malsamaLingvo: 'Leggi questa pagina in una lingua diversa'
+  priskribo: 'avvia la tua chiave USB CC2531 dal tuo Raspberry, senza un debugger Arduino o CC.'
+  rajtoj: 'Licenza <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licenza Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Guarda dentro'
+  rilatajAfisxoj: 'Post correlati'
+  sercxi: 'Cerca su Google'
+  titolo: flash_cc2531
+  tradukoAverto: 'Nota: questa pagina è stata tradotta automaticamente. Se puoi, dovresti leggerlo in una di queste lingue:'
 ja:
-  titolo: "flash_cc2531"
-  priskribo: "ArduinoまたはCCDebuggerを使用せずに、RaspberryからCC2531USBキーをフラッシュします。"
-  elektuLingvon: "言語を選んでください"
-  cxiujAfisxoj: "すべての投稿"
-  rilatajAfisxoj: "関連記事"
-  malsamaLingvo: "このページを別の言語で読む"
-  tradukoAverto: "注意：このページは自動的に翻訳されています。可能であれば、次のいずれかの言語で読む必要があります。"
-  rigardiEn: "覗く"
-  rajtoj: "ライセンス"
-  serĉi: "Googleを検索します。"
-  Funkciigita: "搭載"
+  Funkciigita: 搭載
+  cxiujAfisxoj: すべての投稿
+  elektuLingvon: 言語を選択してください
+  malsamaLingvo: このページを別の言語で読む
+  priskribo: ArduinoまたはCCデバッガーを使用せずに、RaspberryからCC2531USBキーを起動します。
+  rajtoj: 'ライセンス <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="クリエイティブコモンズライセンス" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 覗く
+  rilatajAfisxoj: 関連記事
+  sercxi: Googleを検索
+  titolo: フラッシュ_cc2531
+  tradukoAverto: 注意：このページは自動的に翻訳されています。可能であれば、次のいずれかの言語で読む必要があります。
 ms:
-  titolo: "flash_cc2531"
-  priskribo: "nyalakan kekunci USB CC2531 anda dari Raspberry anda, tanpa Arduino atau CC Debugger."
-  elektuLingvon: "pilih Bahasa anda"
-  cxiujAfisxoj: "Semua Catatan"
-  rilatajAfisxoj: "Catatan Berkaitan"
-  malsamaLingvo: "Baca halaman ini dalam bahasa yang berbeza"
-  tradukoAverto: "Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:"
-  rigardiEn: "Lihatlah"
-  rajtoj: "lesen"
-  serĉi: "Cari di Google."
-  Funkciigita: "Dikuasakan oleh"
+  Funkciigita: 'Dikuasai oleh'
+  cxiujAfisxoj: 'Semua Catatan'
+  elektuLingvon: 'pilih Bahasa anda'
+  malsamaLingvo: 'Baca halaman ini dalam bahasa yang berbeza'
+  priskribo: 'but kunci CC2531 USB anda dari Raspberry anda, tanpa Arduino atau CC Debugger.'
+  rajtoj: 'Lesen <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Lesen Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: Lihatlah
+  rilatajAfisxoj: 'Catatan Berkaitan'
+  sercxi: 'Cari di Google'
+  titolo: kilat_cc2531
+  tradukoAverto: 'Harap maklum: halaman ini telah diterjemahkan secara automatik. Sekiranya boleh, anda mesti membacanya dalam salah satu bahasa berikut:'
 pa:
-  titolo: "ਫਲੈਸ਼_ਸੀ"
-  priskribo: "ਆਪਣੀ ਰਸੋਬੇਰੀ ਤੋਂ ਆਪਣੀ ਸੀਸੀ 2531 ਯੂਐਸਬੀ ਕੁੰਜੀ ਫਲੈਸ਼ ਕਰੋ, ਬਿਨਾਂ ਅਰਦਿਨੋ ਜਾਂ ਸੀਸੀ ਡੀਬੱਗਰ."
-  elektuLingvon: "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ"
-  cxiujAfisxoj: "ਸਾਰੇ ਪੋਸਟ"
-  rilatajAfisxoj: "ਸੰਬੰਧਿਤ ਪੋਸਟ"
-  malsamaLingvo: "ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
-  tradukoAverto: "ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:"
-  rigardiEn: "ਵਿੱਚ ਵੇਖੋ"
-  rajtoj: "ਲਾਇਸੰਸ"
-  serĉi: "ਗੂਗਲ ਖੋਜੋ."
-  Funkciigita: "ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
+  Funkciigita: 'ਦੁਆਰਾ ਸੰਚਾਲਿਤ'
+  cxiujAfisxoj: 'ਸਾਰੇ ਪੋਸਟ'
+  elektuLingvon: 'ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ'
+  malsamaLingvo: 'ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ'
+  priskribo: 'ਬਿਨਾਂ ਕਿਸੇ ਅਰਦਿਨੋ ਜਾਂ ਸੀਸੀ ਡੀਬੱਗਰ ਦੇ, ਆਪਣੀ ਰਸਬੇਰੀ ਤੋਂ ਆਪਣੀ ਸੀਸੀ 2531 USB ਕੁੰਜੀ ਨੂੰ ਬੂਟ ਕਰੋ.'
+  rajtoj: 'ਲਾਇਸੈਂਸ <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img Alt ="ਕਰੀਏਟਿਵ ਕਾਮਨਜ਼ ਲਾਇਸੈਂਸ" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="ਸੀਸੀ-ਬੀਵਾਈ- SA 4.0"/></ a>'
+  rigardiEn: 'ਵਿੱਚ ਵੇਖੋ'
+  rilatajAfisxoj: 'ਸੰਬੰਧਿਤ ਪੋਸਟ'
+  sercxi: 'ਗੂਗਲ ਖੋਜੋ'
+  titolo: ਫਲੈਸ਼_cc2531
+  tradukoAverto: 'ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:'
 pt:
-  titolo: "flash_cc2531"
-  priskribo: "flash sua chave USB CC2531 do seu Raspberry, sem Arduino ou CC Debugger."
-  elektuLingvon: "Escolha seu idioma"
-  cxiujAfisxoj: "Todas as publicações"
-  rilatajAfisxoj: "Postagens Relacionadas"
-  malsamaLingvo: "Leia esta página em um idioma diferente"
-  tradukoAverto: "Atenção: esta página foi traduzida automaticamente. Se puder, você deve lê-lo em um destes idiomas:"
-  rigardiEn: "Olha em"
-  rajtoj: "licença"
-  serĉi: "Pesquisar no Google."
-  Funkciigita: "Distribuído por"
+  Funkciigita: 'Distribuído por'
+  cxiujAfisxoj: 'Todas as publicações'
+  elektuLingvon: 'Escolha seu idioma'
+  malsamaLingvo: 'Leia esta página em um idioma diferente'
+  priskribo: 'inicialize sua chave USB CC2531 do seu Raspberry, sem um Arduino ou CC Debugger.'
+  rajtoj: 'Licença <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licença Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Olhar dentro'
+  rilatajAfisxoj: 'Postagens Relacionadas'
+  sercxi: 'Pesquisar no Google'
+  titolo: flash_cc2531
+  tradukoAverto: 'Atenção: esta página foi traduzida automaticamente. Se puder, você deve lê-lo em um destes idiomas:'
 ru:
-  titolo: "flash_cc2531"
-  priskribo: "прошейте USB-ключ CC2531 с Raspberry без Arduino или CC Debugger."
-  elektuLingvon: "Выберите ваш язык"
-  cxiujAfisxoj: "Все сообщения"
-  rilatajAfisxoj: "Похожие сообщения"
-  malsamaLingvo: "Прочтите эту страницу на другом языке"
-  tradukoAverto: "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
-  rigardiEn: "Смотреть в"
-  rajtoj: "лицензия"
-  serĉi: "Искать в Google."
-  Funkciigita: "Питаться от"
+  Funkciigita: 'Питаться от'
+  cxiujAfisxoj: 'Все сообщения'
+  elektuLingvon: 'Выберите свой язык'
+  malsamaLingvo: 'Прочтите эту страницу на другом языке'
+  priskribo: 'загрузите USB-ключ CC2531 с Raspberry без Arduino или CC Debugger.'
+  rajtoj: 'Лицензия <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Лицензия Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 'Смотреть в'
+  rilatajAfisxoj: 'Похожие сообщения'
+  sercxi: 'Искать в Google'
+  titolo: вспышка_cc2531
+  tradukoAverto: 'Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:'
 zh:
-  titolo: "flash_cc2531"
-  priskribo: "在没有Arduino或CC调试器的情况下从Raspberry刷新CC2531 USB密钥。"
-  elektuLingvon: "选择你的语言"
-  cxiujAfisxoj: "所有帖子"
-  rilatajAfisxoj: "相关文章"
-  malsamaLingvo: "阅读其他语言的页面"
-  tradukoAverto: "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
-  rigardiEn: "在看"
-  rajtoj: "执照"
-  serĉi: "搜索谷歌。"
-  Funkciigita: "供电"
+  Funkciigita: 供电
+  cxiujAfisxoj: 所有帖子
+  elektuLingvon: 选择你的语言
+  malsamaLingvo: 阅读其他语言的页面
+  priskribo: '从Raspberry引导CC2531 USB密钥，而无需Arduino或CC调试器。'
+  rajtoj: '许可证 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="知识共享许可证" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
+  rigardiEn: 在看
+  rilatajAfisxoj: 相关文章
+  sercxi: 搜索谷歌
+  titolo: 闪光灯_cc2531
+  tradukoAverto: 请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它：
