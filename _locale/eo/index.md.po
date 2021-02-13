@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# jean, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-01-25 18:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-02-13 15:41+0200\n"
+"Last-Translator: jean <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. type: YAML Front Matter: lang
 #: ./index.md:1
@@ -30,37 +30,37 @@ msgstr "homa"
 
 #. type: YAML Front Matter: lang-ref
 #: ./index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "001-ĉefa-afero"
 msgstr "001-ĉefa-afero"
 
 #. type: YAML Front Matter: layout
 #: ./index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "page"
 msgstr "page"
 
 #. type: YAML Front Matter: slug
 #: ./index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "L'essentiel!"
-msgstr "La esenca!"
+msgstr "La ĉefa afero!"
 
 #. type: YAML Front Matter: title
 #: ./index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "L'essentiel"
 msgstr "La ĉefa afero"
 
 #. type: Title #
 #: ./index.md:10
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: ./index.md:12
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) vous permet "
 "de programmer votre clé USB CC2531 à partir de votre _Raspberry_, sans avoir "
@@ -72,19 +72,19 @@ msgstr ""
 
 #. type: Title ##
 #: ./index.md:13
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Prérequis"
 msgstr "Antaŭkondiĉo"
 
 #. type: Plain text
 #: ./index.md:14
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Vous avez besoin d'un _Raspberry_ ou d'un _Odroid-c2_.  \n"
 msgstr "Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  \n"
 
 #. type: Plain text
 #: ./index.md:16
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "Vous avez besoin de quoi connecter le port de débogage de la clé aux ports "
 "_GPIO_ du _Raspberry_, par exemple un câble _CC_ et quatre lignes _Dupont_ "
@@ -95,32 +95,32 @@ msgid ""
 "[ce site alternatif](https://github.com/WiringPi/WiringPi) \\).  \n"
 msgstr ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj "
-"_GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ "
-"(vidu plu).   \n"
+"_GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ ("
+"vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas "
-"antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install "
-"wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi "
-"tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
+"antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`)"
+", alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun "
+"alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
 
 #. type: Plain text
 #: ./index.md:18
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "Enfin il vous faut le logiciel :\n"
 msgstr "Fine vi bezonas la programon:\n"
 
 #. type: Bullet: '* '
 #: ./index.md:21
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "en général un coordinateur zigbee : [ version 1.2 "
 "(recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) "
 "ou [version "
 "3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr ""
-"ĝenerale zigbee-kunordiganto: [ versio 1.2 "
-"(rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) "
-"aŭ [versio "
-"3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+"ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/"
+"Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)"
+" aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/"
+"coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: ./index.md:21
@@ -129,8 +129,8 @@ msgid ""
 "ou alors un routeur zigbee : [routeur zigbee "
 "1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr ""
-"aŭ zigbee-enkursigilo: [zigbee-enkursigilo "
-"1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+"aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/"
+"Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: ./index.md:23
