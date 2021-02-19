@@ -3,7 +3,7 @@ lang: it
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: "L'essenziale!"
+slug: 'La stessa cosa!'
 title: 'La stessa cosa'
 ---
 

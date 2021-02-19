@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:01+0100\n"
+"POT-Creation-Date: 2021-02-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,13 +48,20 @@ msgstr "Sobre o autor"
 
 #. type: Plain text
 #: pri.md:10
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
-"Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
-msgstr ""
-"Apaixonado por eletrônica desde os 10 anos e viciado em informática desde os 18.\n"
-"Estou envolvido com o código aberto desde o final do século XX.\n"
+"Mi partoprenas \tmalfermitkodon ekde la fino de la 20a jarcento.\n"
+msgstr "Apaixonado por eletrônica desde os 10 anos e viciado em informática desde os 18.\nParticipo do \tcódigo aberto desde o final do século XX.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
+#~ msgstr ""
+#~ "Apaixonado por eletrônica desde os 10 anos e viciado em informática desde os 18.\n"
+#~ "Estou envolvido com o código aberto desde o final do século XX.\n"
 
 #, fuzzy
 #~ msgid "Metu kelkajn vortojn de prezento ĉi tie.\n"

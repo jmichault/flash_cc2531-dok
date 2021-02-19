@@ -2,7 +2,10 @@ ar:
   Funkciigita: 'مشغل بواسطة'
   cxiujAfisxoj: 'جميع المشاركات'
   elektuLingvon: 'اختر لغتك'
-  malsamaLingvo: 'اقرأ هذه الصفحة بلغة مختلفة'
+  komentis: 'علق:'
+  komentoButono: 'أضف تعليق (على جيثب)'
+  komentoj: 'تعليقات:'
+  malsamaLingvo: 'اقرأ هذه الصفحة بلغة أخرى'
   priskribo: 'قم بتشغيل مفتاح CC2531 USB الخاص بك من Raspberry ، بدون Arduino أو CC Debugger.'
   rajtoj: 'الترخيص <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="رخصة المشاع الإبداعي" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0 (درجة 9 درجة) (درجة 10 درجة) (درجة 11 درجة)'
   rigardiEn: 'إنظر في'
@@ -26,6 +29,9 @@ de:
   Funkciigita: 'Unterstützt von'
   cxiujAfisxoj: 'Alle Beiträge'
   elektuLingvon: 'Wähle deine Sprache'
+  komentis: 'kommentiert:'
+  komentoButono: 'Füge einen Kommentar (zu Github) hinzu'
+  komentoj: 'Bemerkungen:'
   malsamaLingvo: 'Lesen Sie diese Seite in einer anderen Sprache'
   priskribo: 'Starten Sie Ihren CC2531-USB-Stick von Ihrer Himbeere ohne Arduino- oder CC-Debugger.'
   rajtoj: 'Lizenz <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Creative Commons Lizenz" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4,0"/></ a>'
@@ -38,7 +44,10 @@ en:
   Funkciigita: 'Powered by'
   cxiujAfisxoj: 'All Posts'
   elektuLingvon: 'Choose your language'
-  malsamaLingvo: 'Read this page in a different language'
+  komentis: 'commented:'
+  komentoButono: 'Add a comment (on github)'
+  komentoj: 'Comments:'
+  malsamaLingvo: 'Read this page in another language'
   priskribo: 'boot your CC2531 USB key from your Raspberry, without an Arduino or CC Debugger.'
   rajtoj: 'License <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Creative Commons License" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Look in'
@@ -50,7 +59,10 @@ eo:
   Funkciigita: 'Funkciigita de'
   cxiujAfisxoj: 'Ĉiuj Afiŝoj'
   elektuLingvon: 'Elektu vian lingvon'
-  malsamaLingvo: 'Legu ĉi tiun paĝon en malsama lingvo'
+  komentis: 'komentis:'
+  komentoButono: 'Aldoni vian komenton (pri github)'
+  komentoj: 'Komentoj:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo.'
   rajtoj: 'Permesilo <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Permesilo Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Rigardi en'
@@ -62,7 +74,10 @@ es:
   Funkciigita: 'Energizado por'
   cxiujAfisxoj: 'Todos los mensajes'
   elektuLingvon: 'Elige tu idioma'
-  malsamaLingvo: 'Lea esta página en otro idioma'
+  komentis: 'comentó:'
+  komentoButono: 'Agregar un comentario (en github)'
+  komentoj: 'Comentarios:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'inicie su llave USB CC2531 desde su Raspberry, sin un depurador Arduino o CC.'
   rajtoj: 'Licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licencia Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Pase a ver'
@@ -98,7 +113,10 @@ it:
   Funkciigita: 'Offerto da'
   cxiujAfisxoj: 'Tutti i post'
   elektuLingvon: 'scegli la tua LINGUA'
-  malsamaLingvo: 'Leggi questa pagina in una lingua diversa'
+  komentis: 'ha commentato:'
+  komentoButono: 'Aggiungi un commento (su github)'
+  komentoj: 'Commenti:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'avvia la tua chiave USB CC2531 dal tuo Raspberry, senza un debugger Arduino o CC.'
   rajtoj: 'Licenza <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licenza Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Guarda dentro'
@@ -110,7 +128,10 @@ ja:
   Funkciigita: 搭載
   cxiujAfisxoj: すべての投稿
   elektuLingvon: 言語を選択してください
-  malsamaLingvo: このページを別の言語で読む
+  komentis: コメント：
+  komentoButono: 'github)にコメント (を追加する'
+  komentoj: コメント：
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: ArduinoまたはCCデバッガーを使用せずに、RaspberryからCC2531USBキーを起動します。
   rajtoj: 'ライセンス <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="クリエイティブコモンズライセンス" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 覗く
@@ -122,7 +143,10 @@ ms:
   Funkciigita: 'Dikuasai oleh'
   cxiujAfisxoj: 'Semua Catatan'
   elektuLingvon: 'pilih Bahasa anda'
-  malsamaLingvo: 'Baca halaman ini dalam bahasa yang berbeza'
+  komentis: 'mengulas:'
+  komentoButono: 'Tambahkan komen (pada github)'
+  komentoj: 'Komen:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'but kunci CC2531 USB anda dari Raspberry anda, tanpa Arduino atau CC Debugger.'
   rajtoj: 'Lesen <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Lesen Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: Lihatlah
@@ -146,7 +170,10 @@ pt:
   Funkciigita: 'Distribuído por'
   cxiujAfisxoj: 'Todas as publicações'
   elektuLingvon: 'Escolha seu idioma'
-  malsamaLingvo: 'Leia esta página em um idioma diferente'
+  komentis: 'comentou:'
+  komentoButono: 'Adicione um comentário (no gitub)'
+  komentoj: 'Comentários:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'inicialize sua chave USB CC2531 do seu Raspberry, sem um Arduino ou CC Debugger.'
   rajtoj: 'Licença <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Licença Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Olhar dentro'
@@ -158,7 +185,10 @@ ru:
   Funkciigita: 'Питаться от'
   cxiujAfisxoj: 'Все сообщения'
   elektuLingvon: 'Выберите свой язык'
-  malsamaLingvo: 'Прочтите эту страницу на другом языке'
+  komentis: 'прокомментировал:'
+  komentoButono: 'Добавить комментарий (на github)'
+  komentoj: 'Комментарии:'
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'загрузите USB-ключ CC2531 с Raspberry без Arduino или CC Debugger.'
   rajtoj: 'Лицензия <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="Лицензия Creative Commons" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 'Смотреть в'
@@ -170,7 +200,10 @@ zh:
   Funkciigita: 供电
   cxiujAfisxoj: 所有帖子
   elektuLingvon: 选择你的语言
-  malsamaLingvo: 阅读其他语言的页面
+  komentis: 评论：
+  komentoButono: '在github)上添加评论 ('
+  komentoj: 评论：
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: '从Raspberry引导CC2531 USB密钥，而无需Arduino或CC调试器。'
   rajtoj: '许可证 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="知识共享许可证" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 在看

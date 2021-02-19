@@ -3,7 +3,10 @@ lang:
   Funkciigita: 搭載
   cxiujAfisxoj: すべての投稿
   elektuLingvon: 言語を選択してください
-  malsamaLingvo: このページを別の言語で読む
+  komentis: コメント：
+  komentoButono: 'github)にコメント (を追加する'
+  komentoj: コメント：
+  malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: ArduinoまたはCCデバッガーを使用せずに、RaspberryからCC2531USBキーを起動します。
   rajtoj: 'ライセンス <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt ="クリエイティブコモンズライセンス" style="display:inline;border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title="CC-BY- SA 4.0"/></ a>'
   rigardiEn: 覗く

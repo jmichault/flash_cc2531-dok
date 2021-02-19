@@ -1,6 +1,6 @@
 ---
 lang: eo
-lang-niv: auto
+lang-niv: homa
 lang-ref: bonvenon-al-mia-blogo
 layout: post
 slug: Bonvenon!

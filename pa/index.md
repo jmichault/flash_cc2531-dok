@@ -3,7 +3,7 @@ lang: pa
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: ਜ਼ਰੂਰੀ!
+slug: 'ਮੁੱਖ ਗੱਲ!'
 title: 'ਮੁੱਖ ਗੱਲ'
 ---
 

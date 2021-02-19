@@ -3,7 +3,7 @@ lang: zh
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 重要的！
+slug: 最主要的！
 title: 最主要的
 ---
 

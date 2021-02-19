@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:01+0100\n"
+"POT-Creation-Date: 2021-02-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,10 @@ msgstr "page"
 
 #. type: YAML Front Matter: slug
 #: index.md:1
-#, fuzzy, no-wrap
-msgid "La esenca!"
-msgstr "必需品！"
+#, no-wrap
+#, fuzzy
+msgid "La ĉefa afero!"
+msgstr "重要なこと！"
 
 #. type: YAML Front Matter: title
 #: index.md:1
@@ -495,6 +496,10 @@ msgstr "ライセンス"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "このプロジェクトは、GPL v3 ( でライセンスされています _COPYING_ )を参照してください。\n"
+
+#, fuzzy
+#~ msgid "La esenca!"
+#~ msgstr "必需品！"
 
 #~ msgid "fonto"
 #~ msgstr "auto"

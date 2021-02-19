@@ -3,7 +3,7 @@ lang: ru
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: Жизненноважный!
+slug: Главное!
 title: Главное
 ---
 

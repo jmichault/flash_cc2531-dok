@@ -34,6 +34,27 @@ msgstr "সমস্ত পোস্ট"
 msgid "Elektu vian lingvon"
 msgstr "আপনার ভাষা নির্বাচন করুন"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "মন্তব্য করেছেন:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "গিথুব)এ একটি মন্তব্য (যুক্ত করুন"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "মন্তব্যসমূহ:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -45,7 +66,7 @@ msgstr "এই পৃষ্ঠাটি একটি ভিন্ন ভাষ�
 #, fuzzy, no-wrap
 msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
 msgstr "আরডিনো বা সিসি ডিবাগার ছাড়াই আপনার রাস্পবেরি থেকে আপনার সিসি 2531 ইউএসবি কীটি বুট করুন।"
-
+=======
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
@@ -82,43 +103,3 @@ msgstr "ফ্ল্যাশ_cc2531"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
-
-#, fuzzy
-#~ msgid "SerÄu per Google"
-#~ msgstr "গুগল অনুসন্ধান করুন"
-
-#, fuzzy
-#~ msgid "permesilo"
-#~ msgstr "লাইসেন্স"
-
-#, fuzzy
-#~ msgid "SerÃÂu per Google"
-#~ msgstr "এটি গুগলের জন্য হবে"
-
-#, fuzzy
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "এই পৃষ্ঠাটি অন্য ভাষায় পড়ুন"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "বর্ণনা।"
-
-#, fuzzy
-#~ msgid ""
-#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
-#~ msgstr ""
-#~ "লাইসেন্স <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
-#~ "sa/4.0/\"><img Alt =\"ক্রিয়েটিভ কমন্স লাইসেন্স\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></ এ>"
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "গুগল অনুসন্ধান করুন।"
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "শিরোনাম."

@@ -3,7 +3,7 @@ lang: hi
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: आवश्यक!
+slug: 'सबसे ज़रूरी चीज़!'
 title: 'सबसे ज़रूरी चीज़'
 ---
 

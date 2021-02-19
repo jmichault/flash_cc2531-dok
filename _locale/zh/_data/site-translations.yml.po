@@ -34,6 +34,27 @@ msgstr "所有帖子"
 msgid "Elektu vian lingvon"
 msgstr "选择你的语言"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "评论："
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "在github)上添加评论 ("
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "评论："
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -83,38 +104,3 @@ msgstr "闪光灯_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "请注意：此页面已自动翻译。如果可以，您应该使用以下其中一种语言阅读它："
 
-#, fuzzy
-#~ msgid "SerÄu per Google"
-#~ msgstr "搜索谷歌"
-
-#, fuzzy
-#~ msgid "permesilo"
-#~ msgstr "执照"
-
-#, fuzzy
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "阅读另一种语言的页面"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "描述。"
-
-#, fuzzy
-#~ msgid ""
-#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
-#~ msgstr ""
-#~ "许可 <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
-#~ "sa/4.0/\"><img alt =\"知识共享许可\" style=\"display:inline;border-"
-#~ "width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" "
-#~ "title=\"CC-BY-SA 4.0\"/></ a>"
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "搜索谷歌。"
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "标题。"

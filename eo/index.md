@@ -3,7 +3,7 @@ lang: eo
 lang-niv: homa
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 'La esenca!'
+slug: 'La ĉefa afero!'
 title: 'La ĉefa afero'
 ---
 

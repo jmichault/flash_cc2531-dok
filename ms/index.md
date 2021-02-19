@@ -3,7 +3,7 @@ lang: ms
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 'Yang penting!'
+slug: 'Perkara utama!'
 title: 'Perkara utama'
 ---
 

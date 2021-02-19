@@ -3,7 +3,7 @@ lang: en
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 'The essential!'
+slug: 'The main thing!'
 title: 'The main thing'
 ---
 

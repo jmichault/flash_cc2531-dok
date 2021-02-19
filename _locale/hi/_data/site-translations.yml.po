@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:06+0100\n"
+"POT-Creation-Date: 2021-02-19 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,27 @@ msgstr "सभी पद"
 msgid "Elektu vian lingvon"
 msgstr "अपनी भाषा चुनें"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "टिप्पणी की:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "एक टिप्पणी जोड़ें (github पर)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "टिप्पणियाँ:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, fuzzy, no-wrap
@@ -45,7 +66,7 @@ msgstr "इस पृष्ठ को एक अलग भाषा में �
 #, fuzzy, no-wrap
 msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
 msgstr "एक Arduino या CC डीबगर के बिना, अपने रास्पबेरी से अपने CC2531 USB कुंजी को बूट करें।"
-
+=======
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap
@@ -83,42 +104,3 @@ msgstr "फ्लैश_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
 
-#, fuzzy
-#~ msgid "SerÄu per Google"
-#~ msgstr "Google के लिए खोजें"
-
-#, fuzzy
-#~ msgid "permesilo"
-#~ msgstr "लाइसेंस"
-
-#, fuzzy
-#~ msgid "SerÃÂu per Google"
-#~ msgstr "यह Google के लिए होगा"
-
-#, fuzzy
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "इस पृष्ठ को अन्य भाषा में पढ़ें"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "विवरण।"
-
-#, fuzzy
-#~ msgid ""
-#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
-#~ msgstr ""
-#~ "लाइसेंस <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
-#~ "sa/4.0/\"><img alt=\"क्रिएटिव कॉमन्स लाइसेंस\" style=\"display:inline;border-"
-#~ "width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" "
-#~ "title=\"CC-BY-SA 4.0\"/></a>"
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Google पर खोजें।"
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "शीर्षक।"

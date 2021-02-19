@@ -6,5 +6,5 @@ layout: page
 title: 'Mengenai Pengarang'
 ---
 
-Bersemangat mengenai elektronik sejak berusia 10 tahun dan ketagih komputer sejak berusia 18 tahun.
-Saya terlibat dalam sumber terbuka sejak akhir abad ke-20.
+Bersemangat mengenai elektronik sejak berusia 10 tahun dan ketagih dengan komputer sejak berusia 18 tahun.
+Saya telah mengambil bahagian dalam 	sumber terbuka sejak akhir abad ke-20.

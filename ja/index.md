@@ -3,7 +3,7 @@ lang: ja
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 必需品！
+slug: 重要なこと！
 title: 重要なこと
 ---
 

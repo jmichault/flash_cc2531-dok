@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:06+0100\n"
+"POT-Creation-Date: 2021-02-19 22:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,11 +34,30 @@ msgstr "جميع المشاركات"
 msgid "Elektu vian lingvon"
 msgstr "اختر لغتك"
 
-#. type: Hash Value - Key: malsamaLingvo
+#. type: Hash Value - Key: komentis
 #: >lang
 #, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
-msgstr "اقرأ هذه الصفحة بلغة مختلفة"
+msgid "komentis:"
+msgstr "علق:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, fuzzy, no-wrap
+msgid "Aldoni vian komenton (pri github)"
+msgstr "أضف تعليق (على جيثب)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, fuzzy, no-wrap
+msgid "Komentoj:"
+msgstr "تعليقات:"
+
+#. type: Hash Value - Key: malsamaLingvo
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "اقرأ هذه الصفحة بلغة أخرى"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
@@ -66,8 +85,7 @@ msgstr "المنشورات ذات الصلة"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Serĉu per Google"
 msgstr "ابحث في جوجل"
 
@@ -84,41 +102,5 @@ msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi de
 msgstr "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
 
 #, fuzzy
-#~ msgid "SerÄu per Google"
-#~ msgstr "ابحث عن جوجل"
-
-#, fuzzy
-#~ msgid "permesilo"
-#~ msgstr "رخصة"
-
-#, fuzzy
-#~ msgid "SerÃÂu per Google"
-#~ msgstr "سيكون لجوجل"
-
-#, fuzzy
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "اقرأ هذه الصفحة بلغة أخرى"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "وصف."
-
-#, fuzzy
-#~ msgid ""
-#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
-#~ msgstr ""
-#~ "الرخصة <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-"
-#~ "sa/4.0/\"><img alt =\"رخصة المشاع الإبداعي\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></ a>"
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "ابحث في جوجل."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "عنوان."
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "اقرأ هذه الصفحة بلغة مختلفة"

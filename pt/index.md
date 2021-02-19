@@ -3,7 +3,7 @@ lang: pt
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: 'O essencial!'
+slug: 'A coisa principal!'
 title: 'A coisa principal'
 ---
 

@@ -3,7 +3,7 @@ lang: bn
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: অপরিহার্য!
+slug: 'প্রধান বিষয়!'
 title: 'প্রধান বিষয়'
 ---
 

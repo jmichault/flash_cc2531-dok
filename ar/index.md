@@ -3,7 +3,7 @@ lang: ar
 lang-niv: auto
 lang-ref: 001-ĉefa-afero
 layout: page
-slug: الأساسي!
+slug: 'الشيء الرئيسي!'
 title: 'الشيء الرئيسي'
 ---
 

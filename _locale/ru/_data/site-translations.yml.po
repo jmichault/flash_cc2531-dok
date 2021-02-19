@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:06+0100\n"
+"POT-Creation-Date: 2021-02-19 19:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,6 +33,27 @@ msgstr "Все сообщения"
 #, fuzzy, no-wrap
 msgid "Elektu vian lingvon"
 msgstr "Выберите свой язык"
+
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "komentis:"
+msgstr "прокомментировал:"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Aldoni vian komenton (pri github)"
+msgstr "Добавить комментарий (на github)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Komentoj:"
+msgstr "Комментарии:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
@@ -83,38 +104,3 @@ msgstr "вспышка_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
 
-#, fuzzy
-#~ msgid "SerÄu per Google"
-#~ msgstr "Искать в Google"
-
-#, fuzzy
-#~ msgid "permesilo"
-#~ msgstr "лицензия"
-
-#, fuzzy
-#~ msgid "Legu ĉi tiun paĝon en alia lingvo"
-#~ msgstr "Прочтите эту страницу на другом языке"
-
-#, fuzzy
-#~ msgid "Priskribo."
-#~ msgstr "Описание."
-
-#, fuzzy
-#~ msgid ""
-#~ "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt=\"Licence Creative Commons\" style=\"display:inline;"
-#~ "border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
-#~ "\" title=\"CC-BY-SA 4.0\"/></a>"
-#~ msgstr ""
-#~ "Лицензия <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-#~ "by-sa/4.0/\"><img alt =\"Лицензия Creative Commons\" style=\"display:"
-#~ "inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-"
-#~ "sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
-
-#, fuzzy
-#~ msgid "Serĉu per Google."
-#~ msgstr "Искать в Google."
-
-#, fuzzy
-#~ msgid "Titolo."
-#~ msgstr "Заглавие."
