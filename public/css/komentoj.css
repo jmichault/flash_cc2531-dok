@@ -109,7 +109,8 @@ border-color: #f8f9fa;
   text-align: center;
 color: #212529;
 }
-.komentobtntxt a:hover{
+.komentobtntxt a:hover, .komentobtntxt a:focus{
   background-color: #d8d9da;
+  text-decoration: none;
 }
 

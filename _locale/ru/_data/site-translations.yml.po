@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 19:02+0100\n"
+"POT-Creation-Date: 2021-02-20 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,27 +38,27 @@ msgstr "Выберите свой язык"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "прокомментировал:"
+msgid "komentis"
+msgstr "прокомментировал"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "Добавить комментарий (на github)"
+msgid "Aldoni komenton (pri github)"
+msgstr "Добавить комментарий (о github)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "Комментарии:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
 msgstr "Прочтите эту страницу на другом языке"
 
 #. type: Hash Value - Key: priskribo
@@ -87,8 +87,7 @@ msgstr "Похожие сообщения"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Serĉu per Google"
 msgstr "Искать в Google"
 
@@ -104,3 +103,14 @@ msgstr "вспышка_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Обратите внимание: эта страница была переведена автоматически. Если можете, прочтите его на одном из этих языков:"
 
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "прокомментировал:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "Добавить комментарий (на github)"
+
+#, fuzzy
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "Прочтите эту страницу на другом языке"

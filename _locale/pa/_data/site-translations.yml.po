@@ -66,7 +66,7 @@ msgstr "ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ 
 #, fuzzy, no-wrap
 msgid "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
 msgstr "ਬਿਨਾਂ ਕਿਸੇ ਅਰਦਿਨੋ ਜਾਂ ਸੀਸੀ ਡੀਬੱਗਰ ਦੇ, ਆਪਣੀ ਰਸਬੇਰੀ ਤੋਂ ਆਪਣੀ ਸੀਸੀ 2531 USB ਕੁੰਜੀ ਨੂੰ ਬੂਟ ਕਰੋ."
-=======
+
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, fuzzy, no-wrap

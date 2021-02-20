@@ -3,8 +3,8 @@ lang:
   Funkciigita: 'Unterstützt von'
   cxiujAfisxoj: 'Alle Beiträge'
   elektuLingvon: 'Wähle deine Sprache'
-  komentis: 'kommentiert:'
-  komentoButono: 'Füge einen Kommentar (zu Github) hinzu'
+  komentis: kommentiert
+  komentoButono: 'Füge einen Kommentar (zu Github)hinzu'
   komentoj: 'Bemerkungen:'
   malsamaLingvo: 'Lesen Sie diese Seite in einer anderen Sprache'
   priskribo: 'Starten Sie Ihren CC2531-USB-Stick von Ihrer Himbeere ohne Arduino- oder CC-Debugger.'

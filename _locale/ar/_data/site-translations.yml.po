@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 22:21+0100\n"
+"POT-Creation-Date: 2021-02-20 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,15 +36,17 @@ msgstr "اختر لغتك"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, fuzzy, no-wrap
-msgid "komentis:"
-msgstr "علق:"
+#, no-wrap
+#, fuzzy
+msgid "komentis"
+msgstr "علق"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, fuzzy, no-wrap
-msgid "Aldoni vian komenton (pri github)"
-msgstr "أضف تعليق (على جيثب)"
+#, no-wrap
+#, fuzzy
+msgid "Aldoni komenton (pri github)"
+msgstr "أضف تعليق (حول جيثب)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
@@ -54,8 +56,7 @@ msgstr "تعليقات:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Legu ĉi tiun paĝon en alia lingvo"
 msgstr "اقرأ هذه الصفحة بلغة أخرى"
 
@@ -100,6 +101,14 @@ msgstr "فلاش_cc2531"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "يرجى ملاحظة: هذه الصفحة تمت ترجمتها تلقائيًا. إذا استطعت ، يجب أن تقرأها بإحدى اللغات التالية:"
+
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "علق:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "أضف تعليق (على جيثب)"
 
 #, fuzzy
 #~ msgid "Legu ĉi tiun paĝon en malsama lingvo"

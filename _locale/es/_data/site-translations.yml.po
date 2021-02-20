@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 19:02+0100\n"
+"POT-Creation-Date: 2021-02-20 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,28 +38,28 @@ msgstr "Elige tu idioma"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "comentó:"
+msgid "komentis"
+msgstr "comentó"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "Agregar un comentario (en github)"
+msgid "Aldoni komenton (pri github)"
+msgstr "Agregar un comentario (sobre github)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "Comentarios:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
-msgstr "Lea esta página en otro idioma"
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "Leer esta página en otro idioma"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
@@ -87,8 +87,7 @@ msgstr "Artículos Relacionados"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Serĉu per Google"
 msgstr "Busca en Google"
 
@@ -104,3 +103,14 @@ msgstr "flash_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Nota: esta página ha sido traducida automáticamente. Si puede, debe leerlo en uno de estos idiomas:"
 
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "comentó:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "Agregar un comentario (en github)"
+
+#, fuzzy
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "Lea esta página en otro idioma"

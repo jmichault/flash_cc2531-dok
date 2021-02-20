@@ -3,8 +3,8 @@ lang:
   Funkciigita: 'Funkciigita de'
   cxiujAfisxoj: 'Ĉiuj Afiŝoj'
   elektuLingvon: 'Elektu vian lingvon'
-  komentis: 'komentis:'
-  komentoButono: 'Aldoni vian komenton (pri github)'
+  komentis: komentis
+  komentoButono: 'Aldoni komenton (pri github)'
   komentoj: 'Komentoj:'
   malsamaLingvo: 'Legu ĉi tiun paĝon en alia lingvo'
   priskribo: 'ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo.'

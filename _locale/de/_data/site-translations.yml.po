@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 22:21+0100\n"
+"POT-Creation-Date: 2021-02-20 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,15 +36,17 @@ msgstr "Wähle deine Sprache"
 
 #. type: Hash Value - Key: komentis
 #: >lang
-#, fuzzy, no-wrap
-msgid "komentis:"
-msgstr "kommentiert:"
+#, no-wrap
+#, fuzzy
+msgid "komentis"
+msgstr "kommentiert"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, fuzzy, no-wrap
-msgid "Aldoni vian komenton (pri github)"
-msgstr "Füge einen Kommentar (zu Github) hinzu"
+#, no-wrap
+#, fuzzy
+msgid "Aldoni komenton (pri github)"
+msgstr "Füge einen Kommentar (zu Github)hinzu"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
@@ -54,8 +56,7 @@ msgstr "Bemerkungen:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Legu ĉi tiun paĝon en alia lingvo"
 msgstr "Lesen Sie diese Seite in einer anderen Sprache"
 
@@ -100,6 +101,14 @@ msgstr "Blitz_cc2531"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "kommentiert:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "Füge einen Kommentar (zu Github) hinzu"
 
 #, fuzzy
 #~ msgid "Legu ĉi tiun paĝon en malsama lingvo"

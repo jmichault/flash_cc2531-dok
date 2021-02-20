@@ -1,4 +1,5 @@
 ---
+komentoj_id: ঘ
 lang: bn
 lang-niv: auto
 lang-ref: 001-ĉefa-afero

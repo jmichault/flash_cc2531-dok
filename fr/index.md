@@ -5,6 +5,7 @@ lang-ref: 001-ĉefa-afero
 layout: page
 slug: "L'essentiel!"
 title: "L'essentiel"
+komentoj_id: 1
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)

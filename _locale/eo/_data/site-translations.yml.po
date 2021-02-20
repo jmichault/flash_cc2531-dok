@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:03+0100\n"
+"POT-Creation-Date: 2021-02-20 12:13+0100\n"
 "PO-Revision-Date: 2021-02-13 15:43+0200\n"
 "Last-Translator: jean <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,27 @@ msgstr "Ĉiuj Afiŝoj"
 msgid "Choisissez votre langue"
 msgstr "Elektu vian lingvon"
 
+#. type: Hash Value - Key: komentis
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "a commenté le "
+msgstr "komentis"
+
+#. type: Hash Value - Key: komentoButono
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Ajouter un commentaire (sur github)"
+msgstr "Aldoni komenton (pri github)"
+
+#. type: Hash Value - Key: komentoj
+#: >lang
+#, no-wrap
+#, fuzzy
+msgid "Commentaires :"
+msgstr "Komentoj:"
+
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
 #, no-wrap
@@ -44,19 +65,13 @@ msgstr "Legu ĉi tiun paĝon en alia lingvo"
 #: >lang
 #, no-wrap
 msgid "flashez votre clé USB CC2531 depuis votre Raspberry, sans Arduino ni CC Debugger."
-msgstr ""
-"ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-"
-"Elpurigilo."
+msgstr "ekbruligu vian CC2531-USB-ŝlosilon de via Frambo, sen Arduino aŭ CC-Elpurigilo."
 
 #. type: Hash Value - Key: rajtoj
 #: >lang
 #, no-wrap
 msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
-msgstr ""
-"Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/"
-"by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline"
-";border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\""
-" title=\"CC-BY- SA 4.0\"/></ a>"
+msgstr "Permesilo <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Permesilo Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY- SA 4.0\"/></ a>"
 
 #. type: Hash Value - Key: rigardiEn
 #: >lang
@@ -86,6 +101,4 @@ msgstr "flash_cc2531"
 #: >lang
 #, no-wrap
 msgid "Attention : cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues :"
-msgstr ""
-"Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas "
-"legi ĝin en unu el ĉi tiuj lingvoj:"
+msgstr "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
