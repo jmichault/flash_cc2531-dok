@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-20 12:13+0100\n"
+"POT-Creation-Date: 2021-11-06 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,12 @@ msgstr "Wähle deine Sprache"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis"
+msgid "komentis "
 msgstr "kommentiert"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aldoni komenton (pri github)"
 msgstr "Füge einen Kommentar (zu Github)hinzu"
 
@@ -86,9 +85,10 @@ msgstr "zusammenhängende Posts"
 
 #. type: Hash Value - Key: sercxi
 #: >lang
-#, fuzzy, no-wrap
-msgid "Serĉu per Google"
-msgstr "Google suchen"
+#, no-wrap
+#, fuzzy
+msgid "Serĉu per Google."
+msgstr "Suche nach Google."
 
 #. type: Hash Value - Key: titolo
 #: >lang
@@ -101,6 +101,14 @@ msgstr "Blitz_cc2531"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "Bitte beachten Sie: Diese Seite wurde automatisch übersetzt. Wenn Sie können, sollten Sie es in einer dieser Sprachen lesen:"
+
+#, fuzzy
+#~ msgid "komentis"
+#~ msgstr "kommentiert"
+
+#, fuzzy, no-wrap
+#~ msgid "Serĉu per Google"
+#~ msgstr "Google suchen"
 
 #, fuzzy
 #~ msgid "komentis:"

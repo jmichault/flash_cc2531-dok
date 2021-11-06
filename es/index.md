@@ -9,7 +9,7 @@ title: 'Lo esencial'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) le permite programar su llave USB CC2531 desde su _Raspberry_, sin la necesidad de _Arduino_ o _CC Debugger_.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) le permite programar su memoria USB CC2531 de su _Raspberry_, sin la necesidad de _Arduino_ o un _CC Debugger_.  
 
 ## Requisito previo
 Necesita _Raspberry_ o _Odroid-c2_.  
@@ -32,9 +32,6 @@ Proyecté _flash\_cc2531_ en _Raspberry Pi 3_ con _raspbian_, pero se informó u
  * en pi 1 y pi 2 necesitará [para usar otros pines](#uzi_aliajn_pinglojn).
 
 
- * sin embargo, probablemente deba configurar la opción de base de tiempo ( _"-m"_ ).
-
-
 
 ## Preparado
 
@@ -43,24 +40,15 @@ Descarga _flash\_cc2531_ a tu _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Conecte los siguientes pines del puerto de depuración al puerto GPIO:
+Conecte los siguientes amplificadores del puerto púrpura al puerto GPI:
+![![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. pin 1 ( _GND_ ) -> pin 39 ( _GND_ )
-
-
- 2. pin 7 ( _reset_ ) -> pin 35 ( _wPi 24, BCM19_ )
-
-
- 3. pin 3 ( _DC_ ) -> pin 36 ( _wPi 27, BCM16_ )
-
-
- 4. pin 4 ( _DD_ ) -> pin 38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 El diseño de los pines _raspberry_ está disponible aquí: <https://pinout.xyz/>
 
-e inserte la llave USB en un puerto.
+
+Luego ingrese la clave USB en el puerto.  
 
 Cable de descarga _CC_ y 4 líneas _Dupont_ Hembra a Hembra son perfectos para este propósito:
 ![foto de la llave y la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
@@ -94,7 +82,7 @@ Para guardar el contenido de la memoria flash en el archivo save.hex:
 ```bash
 ./cc_read save.hex
 ```
-(dura aproximadamente 1 minuto).
+(toma aproximadamente 2 minutos).  
 
 Para borrar la memoria flash:
 ```bash
@@ -184,6 +172,40 @@ También puede cambiar los valores predeterminados a _CCDebugger.h_ y compilar l
 
 6. Haga su propia pregunta sobre [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
+
+
+7. Compruebe su fuente de alimentación (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Si obtienes muchas líneas, entonces tienes que cambiar de poder.  
+
+## Quiero conectar más de 15 periferias.
+Leemos sobre diferentes ubicaciones que la clave _CC2531_ solo puede manejar 15 dispositivos máximos.  
+
+## Mi llave tiene su guía roja que se ilumina.
+Sucede que el agotamiento de la llave, ya sea debido al entorno cargado por parásitos o debido a una mala dieta.  
+
+1. Compruebe su fuente de alimentación (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Si obtienes muchas líneas, entonces tienes que cambiar de poder.  
+
+2. Baje la llave para los materiales perturbadores: hablantes, enrutadores Wi-Fi, ... (° 1 ° 1
+
+
+
+3. Reprogramar la llave
+
+
+ 
 
 
 ## Licencia

@@ -9,7 +9,7 @@ title: 'The main thing'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) allows you to program your CC2531 USB key from your _Raspberry_, without the need for _Arduino_ or _CC Debugger_.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) enables you to program your CC2531 USB stick of your _Raspberry_, without the need for _Arduino_ or A _CC Debugger_.  
 
 ## Prerequisite
 You need either _Raspberry_ or _Odroid-c2_.  
@@ -32,9 +32,6 @@ I projected _flash\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful 
  * on pi 1 and pi 2 you will need [to use other pins](#uzi_aliajn_pinglojn).
 
 
- * however, you will probably need to set the time base option ( _"-m"_ ).
-
-
 
 ## Prepared
 
@@ -43,24 +40,15 @@ Download _flash\_cc2531_ to your _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Connect the following pins from the debug port to the GPIO port:
+Connect the following breases of the purple port to the GPI port:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. pin 1 ( _GND_ ) -> pin 39 ( _GND_ )
-
-
- 2. pin 7 ( _reset_ ) -> pin 35 ( _wPi 24, BCM19_ )
-
-
- 3. pin 3 ( _DC_ ) -> pin 36 ( _wPi 27, BCM16_ )
-
-
- 4. pin 4 ( _DD_ ) -> pin 38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 The pin layout of _raspberry_ is available here: <https://pinout.xyz/>
 
-and insert the USB key into a port.
+
+Then enter the USB key into port.  
 
 Download cable _CC_ and 4 lines _Dupont_ Female to Female are perfect for this purpose:
 ![photo of the key and the _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
@@ -94,7 +82,7 @@ To save the contents of the flash memory to the save.hex file:
 ```bash
 ./cc_read save.hex
 ```
-(lasts about 1 minute).
+(takes about 2 minutes).  
 
 To clear flash memory:
 ```bash
@@ -184,6 +172,40 @@ You can also change the default values ​​in _CCDebugger.h_ and compile the p
 
 6. Ask your own question about [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
+
+
+7. Check your power supply (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+If you get a lot of lines then you have to change power.  
+
+## I want to connect more than 15 periphery
+We read about different locations that the key _CC2531_ can only handle 15 maximum appliances.  
+
+## My key has its red guide that illuminates.
+It happens that the key depleting, either due to the environment loaded by parasites or due to a bad diet.  
+
+1. Check your power supply (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+If you get a lot of lines then you have to change power.  
+
+2. Get off the key for disturbing materials: speakers, Wi-Fi routers, ... (° 1 ° 1
+
+
+
+3. Reprogram the key
+
+
+ 
 
 
 ## License

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 19:02+0100\n"
+"POT-Creation-Date: 2021-11-06 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,28 +38,28 @@ msgstr "अपनी भाषा चुनें"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "टिप्पणी की:"
+msgid "komentis "
+msgstr "टिप्पणी की"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "एक टिप्पणी जोड़ें (github पर)"
+msgid "Aldoni komenton (pri github)"
+msgstr "GitHub (° ° 0002 डिग्री) के बारे में एक टिप्पणी (0001 डिग्री) जोड़ें"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "टिप्पणियाँ:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
-msgstr "इस पृष्ठ को एक अलग भाषा में पढ़ें"
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "इस पृष्ठ को दूसरी भाषा में पढ़ें"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
@@ -89,8 +89,8 @@ msgstr "संबंधित पोस्ट"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Serĉu per Google"
-msgstr "Google पर खोजें"
+msgid "Serĉu per Google."
+msgstr "Google द्वारा खोजें।"
 
 #. type: Hash Value - Key: titolo
 #: >lang
@@ -104,3 +104,18 @@ msgstr "फ्लैश_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
 
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "टिप्पणी की:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "एक टिप्पणी जोड़ें (github पर)"
+
+#, fuzzy, no-wrap
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "इस पृष्ठ को एक अलग भाषा में पढ़ें"
+
+#, fuzzy
+#~ msgid "Serĉu per Google"
+#~ msgstr "Google पर खोजें"

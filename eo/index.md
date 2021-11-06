@@ -9,7 +9,8 @@ title: 'La ĉefa afero'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. 
+Ĝi ankaŭ povas programi CC2530-ŝlosilon. 
 
 ## Antaŭkondiĉo
 Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  
@@ -28,8 +29,6 @@ Mi projektis _flash\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa pr
 
  * sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).
 
- * ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _"-m"_ ).
-
 
 ## Preparado
 
@@ -38,20 +37,21 @@ Elŝutu _flash\_cc2531_ al via _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:
+Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )
-
- 2. pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )
-
- 3. pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )
-
- 4. pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )
-
+| pinglo de _GPIO_          | pinglo de _CC_  |
+| ---------------------- | ------------ | 
+| 39 ( _GND_ )           | 1 ( _GND_ )  |	
+| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | 
+| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | 
+| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| 
 
 La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>
 
-kaj enmetu la USB-ŝlosilon en havenon.
+
+Tiam enmetu la USB-ŝlosilon en havenon.   
+Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). 
 
 Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:
 ![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
@@ -82,7 +82,7 @@ Por konservi la enhavon de la fulmmemoro en la dosiero save.hex:
 ```bash
 ./cc_read save.hex
 ```
-(daŭras ĉirkaŭ 1 minuton).
+(prenas ĉirkaŭ 2 minutojn). 
 
 Por viŝi fulmmemoron:
 ```bash
@@ -157,6 +157,39 @@ Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la
 
 
 6. Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
+
+
+7. Kontrolu vian elektroprovizon
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. 
+
+## Mi volas konekti pli ol 15 periferiojn
+Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   
+Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   
+Fakte la limo por la _CC2531_ estas multe pli alta.   
+Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. 
+
+## Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas.
+Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. 
+
+1. Kontrolu vian elektroprovizon
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. 
+
+2. Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...
+
+
+3. Reprogramu la ŝlosilon
+
+ 
 
 
 ## Permesilo

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 22:22+0100\n"
+"POT-Creation-Date: 2021-11-06 22:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,19 +48,22 @@ msgstr "Über den Autor"
 
 #. type: Plain text
 #: pri.md:10
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
 "Mi partoprenas \tmalfermitkodon ekde la fino de la 20a jarcento.\n"
-msgstr "Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\nIch nehme seit Ende des 20. Jahrhunderts an \tOpen Source teil.\n"
+msgstr ""
+"Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\n"
+"Ich nehme seit Ende des 20. Jahrhunderts an \tOpen Source teil.\n"
 
 #, fuzzy
 #~ msgid ""
-#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-"
+#~ "jara.\n"
 #~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
 #~ msgstr ""
-#~ "Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit seinem 18. Lebensjahr computerabhängig.\n"
+#~ "Seit seinem zehnten Lebensjahr leidenschaftlich für Elektronik und seit "
+#~ "seinem 18. Lebensjahr computerabhängig.\n"
 #~ "Ich beschäftige mich seit Ende des 20. Jahrhunderts mit Open Source.\n"
 
 #, fuzzy

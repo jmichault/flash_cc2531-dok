@@ -9,7 +9,7 @@ title: 'La stessa cosa'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ti permette di programmare la tua chiavetta USB CC2531 dal tuo _Raspberry_, senza bisogno di _Arduino_ o _CC Debugger_.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) Consente di programmare la tua chiavetta USB CC2531 dei _Raspberry_, senza la necessità di _Arduino_ o A _CC Debugger_.  
 
 ## Prerequisito
 Hai bisogno di _Raspberry_ o _Odroid-c2_.  
@@ -32,9 +32,6 @@ Ho proiettato _flash\_cc2531_ su _Raspberry Pi 3_ con _raspbian_, ma la corretta
  * su pi 1 e pi 2 avrai bisogno di [per usare altri pin](#uzi_aliajn_pinglojn).
 
 
- * tuttavia, probabilmente sarà necessario impostare l'opzione della base dei tempi ( _"-m"_ ).
-
-
 
 ## Preparato
 
@@ -43,24 +40,15 @@ Scarica _flash\_cc2531_ nel tuo _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Collega i seguenti pin dalla porta di debug alla porta GPIO:
+Collegare le seguenti brezzamenti della porta viola alla porta GPI:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. perno 1 ( _GND_ ) -> perno 39 ( _GND_ )
-
-
- 2. perno 7 ( _reset_ ) -> perno 35 ( _wPi 24, BCM19_ )
-
-
- 3. perno 3 ( _DC_ ) -> perno 36 ( _wPi 27, BCM16_ )
-
-
- 4. perno 4 ( _DD_ ) -> perno 38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 La disposizione dei pin _raspberry_ è disponibile qui: <https://pinout.xyz/>
 
-e inserire la chiave USB in una porta.
+
+Quindi inserire la chiave USB in porta.  
 
 Il cavo di download _CC_ e 4 linee _Dupont_ Femmina a Femmina sono perfetti per questo scopo:
 ![foto della chiave e _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
@@ -94,7 +82,7 @@ Per salvare il contenuto della memoria flash nel file save.hex:
 ```bash
 ./cc_read save.hex
 ```
-(dura circa 1 minuto).
+(richiede circa 2 minuti).  
 
 Per cancellare la memoria flash:
 ```bash
@@ -184,6 +172,40 @@ e ora puoi leggere ID, salvare, cancellare e scrivere la memoria flash con i seg
 
 6. Poni la tua domanda su [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
+
+
+7. Controlla il tuo alimentatore (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Se hai un sacco di linee, devi cambiare energia.  
+
+## Voglio connettere più di 15 periferia
+Leggeremo di diverse posizioni che la chiave _CC2531_ può gestire solo 15 apparecchi massimi.  
+
+## La mia chiave ha la sua guida rossa che si illumina.
+Succede che la chiave impoverazione, sia dovuta all'ambiente caricato da parassiti o a causa di una cattiva dieta.  
+
+1. Controlla il tuo alimentatore (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Se hai un sacco di linee, devi cambiare energia.  
+
+2. Scendi dalla chiave per i materiali inquietanti: altoparlanti, router Wi-Fi, ... (° 1 ° 1
+
+
+
+3. Riprogrammare la chiave
+
+
+ 
 
 
 ## Licenza

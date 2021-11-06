@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-20 12:13+0100\n"
+"POT-Creation-Date: 2021-11-06 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 #. type: Hash Value - Key: komentis
 #: >lang
 #, no-wrap
-msgid "komentis"
+msgid "komentis "
 msgstr ""
 
 #. type: Hash Value - Key: komentoButono
@@ -85,7 +85,7 @@ msgstr ""
 #. type: Hash Value - Key: sercxi
 #: >lang
 #, no-wrap
-msgid "Serĉu per Google"
+msgid "Serĉu per Google."
 msgstr ""
 
 #. type: Hash Value - Key: titolo

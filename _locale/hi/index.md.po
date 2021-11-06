@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-20 12:13+0100\n"
+"POT-Creation-Date: 2021-11-06 22:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 
 #. type: YAML Front Matter: komentoj_id
 #: index.md:1
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "1"
 msgstr "1"
 
@@ -66,25 +65,28 @@ msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr "[ (° २ °) (° ५ °)"
 
 #. type: Plain text
-#: index.md:13
-#, fuzzy, no-wrap
-msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"
-msgstr " [ _flash\\_cc2531_ (° ५ °) आपको (° १० °) या (° १२ °) की आवश्यकता के बिना आपके (USB ° °) से अपने CC2531 USB कुंजी को प्रोग्राम करने की अनुमति देता है।\n"
+#: index.md:14
+#, no-wrap
+#, fuzzy
+msgid ""
+" [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
+"Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
+msgstr "(° 0001 डिग्री) (° 0002 डिग्री) (° 0005 डिग्री) आपको (° 00010 डिग्री) या (° 00010 डिग्री) या (° 00012 डिग्री) की आवश्यकता के बिना अपने (° ° 0008 डिग्री) की अपनी सीसी 2531 यूएसबी स्टिक प्रोग्राम करने में सक्षम बनाता है।  \n"
 
 #. type: Title ##
-#: index.md:14
+#: index.md:15
 #, fuzzy, no-wrap
 msgid "Antaŭkondiĉo"
 msgstr "शर्त"
 
 #. type: Plain text
-#: index.md:15
+#: index.md:16
 #, fuzzy, no-wrap
 msgid "Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  \n"
 msgstr "आपको या तो _Raspberry_ या _Odroid-c2_की आवश्यकता है।  \n"
 
 #. type: Plain text
-#: index.md:17
+#: index.md:18
 #, fuzzy, no-wrap
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
@@ -94,106 +96,95 @@ msgstr ""
 "[ (° १३ °) (° १५ °) (° १५ °) अवश्य स्थापित होना चाहिए (° १) °) यदि यह पूर्व-स्थापित नहीं है, तो आप इसे आमतौर पर (° १) °) स्थापित कर सकते हैं, अन्यथा देखें [ _Gordon_ ](http://wiringpi.com/) या [इस वैकल्पिक स्थल](https://github.com/WiringPi/WiringPi) \\)की साइट।  \n"
 
 #. type: Plain text
-#: index.md:19
+#: index.md:20
 #, fuzzy, no-wrap
 msgid "Fine vi bezonas la programon:\n"
 msgstr "अंत में आपको कार्यक्रम की आवश्यकता है:\n"
 
 #. type: Bullet: '* '
-#: index.md:21
+#: index.md:22
 #, fuzzy, no-wrap
 msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "आम तौर पर zigbee समन्वयक: [ संस्करण 1.2 (अनुशंसित)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) या [संस्करण 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
-#: index.md:23
+#: index.md:24
 #, fuzzy, no-wrap
 msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "या zigbee राउटर: [zigbee राउटर 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
-#: index.md:26
+#: index.md:27
 #, fuzzy, no-wrap
 msgid "Mi projektis _flash\\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:\n"
 msgstr "मैंने _flash\\_cc2531_ पर _Raspberry Pi 3_ के साथ _raspbian_का अनुमान लगाया, लेकिन अन्य मॉडलों पर सफल प्रोग्रामिंग की सूचना दी गई:\n"
 
 #. type: Bullet: ' * '
-#: index.md:28
+#: index.md:29
 #, fuzzy, no-wrap
 msgid "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.52 de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)retejo\n"
 msgstr "पीआई 4 पर आपको संस्करण 2.52 _wiringpi_ की आवश्यकता होगी:  [स्थापित _wiringPi_ 2.52 of _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)वेबसाइट\n"
 
 #. type: Bullet: ' * '
-#: index.md:30
+#: index.md:31
 #, fuzzy, no-wrap
 msgid "sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).\n"
 msgstr "पी 1 और पी 2 पर आपको अन्य पिंस](#uzi_aliajn_pinglojn)का उपयोग करने के लिए [की आवश्यकता होगी।\n"
 
-#. type: Bullet: ' * '
-#: index.md:32
-#, fuzzy, no-wrap
-msgid "ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _\"-m\"_ ).\n"
-msgstr "हालाँकि, आपको समय आधार विकल्प ( (° २ °) (° ६ °) निर्धारित करने की आवश्यकता होगी।\n"
-
 #. type: Title ##
-#: index.md:34
+#: index.md:33
 #, fuzzy, no-wrap
 msgid "Preparado"
 msgstr "तैयार"
 
 #. type: Plain text
-#: index.md:37
+#: index.md:36
 #, fuzzy, no-wrap
 msgid "Elŝutu _flash\\_cc2531_ al via _raspberry_ :\n"
 msgstr "डाउनलोड करें _flash\\_cc2531_ आपके _raspberry_ :\n"
 
 #. type: Fenced code block (bash)
-#: index.md:37
+#: index.md:36
 #, no-wrap
 msgid "git clone https://github.com/jmichault/flash_cc2531.git\n"
 msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
 #. type: Plain text
 #: index.md:42
-#, fuzzy, no-wrap
-msgid "Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:\n"
-msgstr "डिबग पोर्ट से GPIO पोर्ट के लिए निम्नलिखित पिन कनेक्ट करें:\n"
-
-#. type: Bullet: ' 1. '
-#: index.md:44
-#, fuzzy, no-wrap
-msgid "pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )\n"
-msgstr "पिन 1 ( _GND_ ) -> pin 39 ( _GND_ )\n"
-
-#. type: Bullet: ' 2. '
-#: index.md:46
-#, fuzzy, no-wrap
-msgid "pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )\n"
-msgstr "पिन 7 ( _reset_ ) -> पिन 35 ( _wPi 24, BCM19_ )\n"
-
-#. type: Bullet: ' 3. '
-#: index.md:48
-#, fuzzy, no-wrap
-msgid "pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )\n"
-msgstr "पिन 3 ( _DC_ ) -> pin 36 ( _wPi 27, BCM16_ )\n"
-
-#. type: Bullet: ' 4. '
-#: index.md:50
-#, fuzzy, no-wrap
-msgid "pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )\n"
-msgstr "पिन 4 ( _DD_ ) -> pin 38 ( _wPi 28, BCM20_ )\n"
+#, no-wrap
+#, fuzzy
+msgid ""
+"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgstr "बैंगनी बंदरगाहों की निम्नलिखित शाखाओं को जीपीआई पोर्ट से कनेक्ट करें: (° 0001 डिग्री) (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) (डिग्री 00011 डिग्री)\n"
 
 #. type: Plain text
-#: index.md:53
+#: index.md:49
+#, no-wrap
+#, fuzzy
+msgid ""
+"| pinglo de _GPIO_          | pinglo de _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr "|  \n"
+
+#. type: Plain text
+#: index.md:51
 #, fuzzy, no-wrap
 msgid "La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>\n"
 msgstr "यहां _raspberry_ पिन लेआउट उपलब्ध है: <https://pinout.xyz/>(° ५ °)\n"
 
 #. type: Plain text
 #: index.md:55
-#, fuzzy, no-wrap
-msgid "kaj enmetu la USB-ŝlosilon en havenon.\n"
-msgstr "और USB कुंजी को एक पोर्ट में डालें।\n"
+#, no-wrap
+#, fuzzy
+msgid ""
+"Tiam enmetu la USB-ŝlosilon en havenon.   \n"
+"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). \n"
+msgstr "फिर पोर्ट में यूएसबी कुंजी दर्ज करें।  \n"
 
 #. type: Plain text
 #: index.md:59
@@ -285,9 +276,10 @@ msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: index.md:86
-#, fuzzy, no-wrap
-msgid "(daŭras ĉirkaŭ 1 minuton).\n"
-msgstr "(लगभग 1 मिनट)तक रहता है।\n"
+#, no-wrap
+#, fuzzy
+msgid "(prenas ĉirkaŭ 2 minutojn). \n"
+msgstr "(° 0001 डिग्री) लगभग 2 मिनट (° ° 0002 डिग्री) लेता है।  \n"
 
 #. type: Plain text
 #: index.md:88
@@ -491,17 +483,119 @@ msgstr "पहले से गिथब](https://github.com/jmichault/flash_cc2
 msgid "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr " [गितुब](https://github.com/jmichault/flash_cc2531/issues/new/choose)के बारे में अपना प्रश्न पूछें।\n"
 
+#. type: Bullet: '1. '
+#: index.md:163 index.md:180
+#, no-wrap
+#, fuzzy
+msgid "Kontrolu vian elektroprovizon\n"
+msgstr "अपनी बिजली की आपूर्ति (° ° 0001 डिग्री) की जाँच करें\n"
+
+#. type: Fenced code block (bash)
+#: index.md:165 index.md:182
+#, no-wrap
+msgid "   grep Under /var/log/kern.log\n"
+msgstr "   grep Under /var/log/kern.log\n"
+
+#. type: Plain text
+#: index.md:169 index.md:186
+#, no-wrap
+#, fuzzy
+msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+msgstr "यदि आपको बहुत सारी लाइनें मिलती हैं तो आपको शक्ति बदलनी होगी।  \n"
+
 #. type: Title ##
-#: index.md:162
+#: index.md:170
+#, no-wrap
+#, fuzzy
+msgid "Mi volas konekti pli ol 15 periferiojn"
+msgstr "मैं 15 से अधिक परिधि को जोड़ना चाहता हूं"
+
+#. type: Plain text
+#: index.md:175
+#, no-wrap
+#, fuzzy
+msgid ""
+"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+"Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgstr "हम विभिन्न स्थानों के बारे में पढ़ते हैं कि कुंजी (° ° ° ° ° 0001 डिग्री) केवल 15 अधिकतम उपकरणों को संभाल सकता है।  \n"
+
+#. type: Title ##
+#: index.md:176
+#, no-wrap
+#, fuzzy
+msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+msgstr "मेरी कुंजी में इसकी लाल गाइड है जो रोशनी है।"
+
+#. type: Plain text
+#: index.md:178
+#, no-wrap
+#, fuzzy
+msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+msgstr "ऐसा होता है कि परजीवी द्वारा लोड किए गए पर्यावरण के कारण या खराब आहार के कारण कुंजी कम हो जाती है।  \n"
+
+#. type: Bullet: '2. '
+#: index.md:188
+#, no-wrap
+#, fuzzy
+msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+msgstr "परेशान करने वाली सामग्री के लिए कुंजी प्राप्त करें: वक्ताओं, वाई-फाई राउटर, ... (° 0001 डिग्री)\n"
+
+#. type: Bullet: '3. '
+#: index.md:191
+#, no-wrap
+#, fuzzy
+msgid "Reprogramu la ŝlosilon\n"
+msgstr "कुंजी को पुन: प्रोग्राम करें (° ° 0001 डिग्री)\n"
+
+#. type: Title ##
+#: index.md:195
 #, fuzzy, no-wrap
 msgid "Permesilo"
 msgstr "लाइसेंस"
 
 #. type: Plain text
-#: index.md:164
+#: index.md:197
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "यह परियोजना GPL v3 ( देखें _COPYING_ )के तहत लाइसेंस प्राप्त है।\n"
+
+#, fuzzy, no-wrap
+#~ msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"
+#~ msgstr " [ _flash\\_cc2531_ (° ५ °) आपको (° १० °) या (° १२ °) की आवश्यकता के बिना आपके (USB ° °) से अपने CC2531 USB कुंजी को प्रोग्राम करने की अनुमति देता है।\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _\"-m\"_ ).\n"
+#~ msgstr "हालाँकि, आपको समय आधार विकल्प ( (° २ °) (° ६ °) निर्धारित करने की आवश्यकता होगी।\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:\n"
+#~ msgstr "डिबग पोर्ट से GPIO पोर्ट के लिए निम्नलिखित पिन कनेक्ट करें:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )\n"
+#~ msgstr "पिन 1 ( _GND_ ) -> pin 39 ( _GND_ )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )\n"
+#~ msgstr "पिन 7 ( _reset_ ) -> पिन 35 ( _wPi 24, BCM19_ )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )\n"
+#~ msgstr "पिन 3 ( _DC_ ) -> pin 36 ( _wPi 27, BCM16_ )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )\n"
+#~ msgstr "पिन 4 ( _DD_ ) -> pin 38 ( _wPi 28, BCM20_ )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj enmetu la USB-ŝlosilon en havenon.\n"
+#~ msgstr "और USB कुंजी को एक पोर्ट में डालें।\n"
+
+#, fuzzy, no-wrap
+#~ msgid "(daŭras ĉirkaŭ 1 minuton).\n"
+#~ msgstr "(लगभग 1 मिनट)तक रहता है।\n"
 
 #, fuzzy
 #~ msgid "La esenca!"

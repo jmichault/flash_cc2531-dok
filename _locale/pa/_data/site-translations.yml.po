@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 19:02+0100\n"
+"POT-Creation-Date: 2021-11-06 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,28 +38,28 @@ msgstr "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "ਟਿੱਪਣੀ ਕੀਤੀ:"
+msgid "komentis "
+msgstr "ਟਿੱਪਣੀ ਕੀਤੀ"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "ਗੀਥਬ)'ਤੇ ਟਿੱਪਣੀ (ਸ਼ਾਮਲ ਕਰੋ"
+msgid "Aldoni komenton (pri github)"
+msgstr "Github)ਬਾਰੇ ਇੱਕ ਟਿੱਪਣੀ ਸ਼ਾਮਲ ਕਰੋ ("
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "ਟਿੱਪਣੀਆਂ:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
-msgstr "ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "ਇਸ ਪੇਜ ਨੂੰ ਇਕ ਹੋਰ ਭਾਸ਼ਾ ਵਿਚ ਪੜ੍ਹੋ"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
@@ -89,8 +89,8 @@ msgstr "ਸੰਬੰਧਿਤ ਪੋਸਟ"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Serĉu per Google"
-msgstr "ਗੂਗਲ ਖੋਜੋ"
+msgid "Serĉu per Google."
+msgstr "ਗੂਗਲ ਦੁਆਰਾ ਖੋਜ ਕਰੋ."
 
 #. type: Hash Value - Key: titolo
 #: >lang
@@ -104,3 +104,18 @@ msgstr "ਫਲੈਸ਼_cc2531"
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਨੋਟ ਕਰੋ: ਇਹ ਪੰਨਾ ਆਪਣੇ ਆਪ ਅਨੁਵਾਦ ਹੋ ਗਿਆ ਹੈ. ਜੇ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹਨਾ ਚਾਹੀਦਾ ਹੈ:"
 
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "ਟਿੱਪਣੀ ਕੀਤੀ:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "ਗੀਥਬ)'ਤੇ ਟਿੱਪਣੀ (ਸ਼ਾਮਲ ਕਰੋ"
+
+#, fuzzy, no-wrap
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "ਇਸ ਪੇਜ ਨੂੰ ਵੱਖਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
+
+#, fuzzy
+#~ msgid "Serĉu per Google"
+#~ msgstr "ਗੂਗਲ ਖੋਜੋ"

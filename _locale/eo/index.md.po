@@ -4,34 +4,33 @@
 # jean, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-20 12:13+0100\n"
-"PO-Revision-Date: 2021-02-13 15:41+0200\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-06 22:36+0100\n"
+"PO-Revision-Date: 2021-11-06 22:47+0100\n"
 "Last-Translator: jean <>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.4.2\n"
+"Language-Team: \n"
 
 #. type: YAML Front Matter: komentoj_id
 #: index.md:1
 #, no-wrap
-#, fuzzy
 msgid "1"
 msgstr "1"
 
 #. type: YAML Front Matter: lang
 #: index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fr"
 msgstr "eo"
 
 #. type: YAML Front Matter: lang-niv
 #: index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fonto"
 msgstr "homa"
 
@@ -66,25 +65,29 @@ msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
-#: index.md:13
+#: index.md:14
 #, no-wrap
-msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) vous permet de programmer votre clé USB CC2531 à partir de votre _Raspberry_, sans avoir besoin d'un _Arduino_ ou d'un _CC Debugger_.\n"
-msgstr " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"
+msgid ""
+" [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) vous permet de programmer votre clé USB CC2531 à partir de votre _Raspberry_, sans avoir besoin d'un _Arduino_ ou d'un _CC Debugger_.\n"
+" Il peut également programmer une clé CC2530.\n"
+msgstr ""
+" [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
+"Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
 
 #. type: Title ##
-#: index.md:14
+#: index.md:15
 #, no-wrap
 msgid "Prérequis"
 msgstr "Antaŭkondiĉo"
 
 #. type: Plain text
-#: index.md:15
+#: index.md:16
 #, no-wrap
 msgid "Vous avez besoin d'un _Raspberry_ ou d'un _Odroid-c2_.  \n"
 msgstr "Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  \n"
 
 #. type: Plain text
-#: index.md:17
+#: index.md:18
 #, no-wrap
 msgid ""
 "Vous avez besoin de quoi connecter le port de débogage de la clé aux ports _GPIO_ du _Raspberry_, par exemple un câble _CC_ et quatre lignes _Dupont_ (voir plus loin).   \n"
@@ -94,25 +97,25 @@ msgstr ""
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
 
 #. type: Plain text
-#: index.md:19
+#: index.md:20
 #, no-wrap
 msgid "Enfin il vous faut le logiciel :\n"
 msgstr "Fine vi bezonas la programon:\n"
 
 #. type: Bullet: '* '
-#: index.md:22
+#: index.md:23
 #, no-wrap
 msgid "en général un coordinateur zigbee : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
-#: index.md:22
-#, fuzzy, no-wrap
+#: index.md:23
+#, no-wrap
 msgid "ou alors un routeur zigbee : [routeur zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
-#: index.md:24
+#: index.md:25
 #, fuzzy, no-wrap
 msgid "J'ai conçu _flash\\_cc2531_ sur un _Raspberry Pi 3_ avec _raspbian_, mais des programmations réussies ont été signalées sur d'autres modèles:\n"
 msgstr "Mi projektis _flash\\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:\n"
@@ -128,12 +131,6 @@ msgstr "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.
 #, fuzzy, no-wrap
 msgid "sur pi 1 et pi 2, vous devrez [utiliser d'autres broches](#uzi_aliajn_pinglojn).\n"
 msgstr "sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).\n"
-
-#. type: Bullet: ' * '
-#: index.md:28
-#, fuzzy, no-wrap
-msgid "dans tous les cas, vous devrez probablement ajuster l'option de base de temps ( _\"-m\"_ ).\n"
-msgstr "ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _\"-m\"_ ).\n"
 
 #. type: Title ##
 #: index.md:29
@@ -154,49 +151,53 @@ msgid "git clone https://github.com/jmichault/flash_cc2531.git\n"
 msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
 #. type: Plain text
-#: index.md:37
-#, fuzzy, no-wrap
-msgid "Connectez les broches suivantes du port de débogage au port GPIO:\n"
-msgstr "Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:\n"
-
-#. type: Bullet: ' 1. '
-#: index.md:42
-#, fuzzy, no-wrap
-msgid "broche 1 ( _GND_ ) -> broche 39 ( _GND_ )\n"
-msgstr "pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )\n"
-
-#. type: Bullet: ' 2. '
-#: index.md:42
-#, fuzzy, no-wrap
-msgid "broche 7 ( _reset_ ) -> broche 35 ( _wPi 24, BCM19_ )\n"
-msgstr "pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )\n"
-
-#. type: Bullet: ' 3. '
-#: index.md:42
-#, fuzzy, no-wrap
-msgid "broche 3 ( _DC_ ) -> broche 36 ( _wPi 27, BCM16_ )\n"
-msgstr "pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )\n"
-
-#. type: Bullet: ' 4. '
-#: index.md:42
-#, fuzzy, no-wrap
-msgid "broche 4 ( _DD_ ) -> broche 38 ( _wPi 28, BCM20_ )\n"
-msgstr "pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )\n"
+#: index.md:38
+#, no-wrap
+msgid ""
+"Connectez les broches suivantes du port de débogage au port GPIO:\n"
+"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgstr ""
+"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
-#: index.md:44
+#: index.md:45
+#, no-wrap
+msgid ""
+"| broche _GPIO_          | broche _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr ""
+"| pinglo de _GPIO_          | pinglo de _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+
+#. type: Plain text
+#: index.md:47
 #, fuzzy, no-wrap
 msgid "La disposition des broches du _raspberry_ est disponible ici : <https://pinout.xyz/>\n"
 msgstr "La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>\n"
 
 #. type: Plain text
-#: index.md:46
+#: index.md:49
 #, fuzzy, no-wrap
-msgid "et insérez la clé USB dans un port.\n"
-msgstr "kaj enmetu la USB-ŝlosilon en havenon.\n"
+msgid "Puis insérez la clé USB dans un port.  \n"
+msgstr "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 
 #. type: Plain text
-#: index.md:50
+#: index.md:51
+#, fuzzy, no-wrap
+msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du raspberry (broche 1 ou 17).\n"
+msgstr "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). \n"
+
+#. type: Plain text
+#: index.md:55
 #, fuzzy, no-wrap
 msgid ""
 "Un câble de téléchargement _CC_ et 4 lignes _Dupont_ Femelle à Femelle sont parfaits à cet effet :\n"
@@ -208,13 +209,13 @@ msgstr ""
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 
 #. type: Plain text
-#: index.md:53
+#: index.md:58
 #, fuzzy, no-wrap
 msgid "testez en exécutant ceci :\n"
 msgstr "provu per ĉi tio:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:53
+#: index.md:58
 #, fuzzy, no-wrap
 msgid ""
 "cd flash_cc2531\n"
@@ -224,199 +225,199 @@ msgstr ""
 "./cc_chipid\n"
 
 #. type: Plain text
-#: index.md:58
+#: index.md:63
 #, fuzzy, no-wrap
 msgid "Ça doit retourner:\n"
 msgstr "Ĝi devas reveni:\n"
 
 #. type: Fenced code block
-#: index.md:58
+#: index.md:63
 #, fuzzy, no-wrap
 msgid "  ID = b524.\n"
 msgstr "  ID = b524.\n"
 
 #. type: Plain text
-#: index.md:61
+#: index.md:66
 #, fuzzy, no-wrap
 msgid "(la valeur peut être différente si la version matèrielle de votre clé n'est pas la même que la mienne).  \n"
 msgstr "(la valoro povas esti malsama se la aparatara versio de via ŝlosilo ne samas kun la mia).  \n"
 
 #. type: Plain text
-#: index.md:63
+#: index.md:68
 #, fuzzy, no-wrap
 msgid "Si vous voyez 0000 ou ffff quelque chose ne va pas:\n"
 msgstr "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, fuzzy, no-wrap
 msgid "vérifiez d'abord votre câblage.\n"
 msgstr "unue kontrolu vian kabligon.\n"
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, fuzzy, no-wrap
 msgid "puis essayez un temps de base plus élevé, par exemple avec `./cc_chipid -m 100`, ou `./cc_chipid -m 160` ou `./cc_chipid -m 300`.\n"
 msgstr "tiam provu pli altan bazan tempon, ekzemple kun `./cc_chipid -m 100`, aŭ `./cc_chipid -m 160` aŭ `./cc_chipid -m 300`.\n"
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, fuzzy, no-wrap
 msgid "si rien de tout cela ne fonctionne, essayez de recompiler avec `make`.\n"
 msgstr "se neniu el tio funkcias, provu rekompili kun `make`.\n"
 
 #. type: Title ##
-#: index.md:68
+#: index.md:73
 #, fuzzy, no-wrap
 msgid "utilisation"
 msgstr "uzado"
 
 #. type: Plain text
-#: index.md:70
+#: index.md:75
 #, fuzzy, no-wrap
 msgid "Pour enregistrer le contenu de la mémoire flash dans le fichier save.hex:\n"
 msgstr "Por konservi la enhavon de la fulmmemoro en la dosiero save.hex:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:70
+#: index.md:75
 #, fuzzy, no-wrap
 msgid "./cc_read save.hex\n"
 msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
-#: index.md:74
+#: index.md:79
 #, fuzzy, no-wrap
-msgid "(dure environ 1 minute).\n"
-msgstr "(daŭras ĉirkaŭ 1 minuton).\n"
+msgid "(dure environ 2 minutes).\n"
+msgstr "(prenas ĉirkaŭ 2 minutojn). \n"
 
 #. type: Plain text
-#: index.md:76
+#: index.md:81
 #, fuzzy, no-wrap
 msgid "Pour effacer la mémoire flash:\n"
 msgstr "Por viŝi fulmmemoron:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:76
+#: index.md:81
 #, fuzzy, no-wrap
 msgid "./cc_erase\n"
 msgstr "./cc_erase\n"
 
 #. type: Plain text
-#: index.md:80
+#: index.md:85
 #, fuzzy, no-wrap
 msgid "**Remarque:** Vous **devez** effacer avant d'écrire (sauf si vous savez vraiment ce que vous allez faire).\n"
 msgstr "**Noto:** Vi **devas** forviŝi antaŭ skribado (krom se vi vere scias, kion vi faros).\n"
 
 #. type: Plain text
-#: index.md:82
+#: index.md:87
 #, fuzzy, no-wrap
 msgid "Pour programmer le fichier _CC2531ZNP-Prod.hex_ sur la clé _CC2531_:\n"
 msgstr "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:82
+#: index.md:87
 #, fuzzy, no-wrap
 msgid "./cc_write CC2531ZNP-Prod.hex\n"
 msgstr "./cc_write CC2531ZNP-Prod.hex\n"
 
 #. type: Plain text
-#: index.md:86
+#: index.md:91
 #, fuzzy, no-wrap
 msgid "(dure environ 3 minutes).\n"
 msgstr "(daŭras ĉirkaŭ 3 minutojn).\n"
 
 #. type: Plain text
-#: index.md:88
+#: index.md:93
 #, fuzzy, no-wrap
 msgid "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
 msgstr "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
 
 #. type: Title ##
-#: index.md:88
+#: index.md:93
 #, fuzzy, no-wrap
 msgid "Utiliser d'autres broches"
 msgstr "Uzi aliajn pinglojn"
 
 #. type: Plain text
-#: index.md:91
+#: index.md:96
 #, fuzzy, no-wrap
 msgid "toutes les commandes acceptent les arguments suivants:\n"
 msgstr "ĉiuj ordonoj akceptas la jenajn argumentojn:\n"
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, fuzzy, no-wrap
 msgid "_-c_ broche : change la broche _DC_ (par défaut 27)\n"
 msgstr "_-c_ pinglo: ŝanĝu la pinglon _DC_ (defaŭlte 27)\n"
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, fuzzy, no-wrap
 msgid "_-d_ broche : change la broche _DD_ (par défaut 28)\n"
 msgstr "_-d_ pinglo: ŝanĝu la pinglon _DD_ (defaŭlte 28)\n"
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, fuzzy, no-wrap
 msgid "_-r_ broche : change la broche _reset_ (par défaut 24)\n"
 msgstr "_-r_ pinglo: ŝanĝu la pinglon _reset_ (defaŭlte 24)\n"
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, fuzzy, no-wrap
 msgid "_-m_ : change le multiplicateur du délai, et donc le temps de base (par défaut : ajustement automatique)\n"
 msgstr "_-m_ : ŝanĝu la prokrastan multiplikaton, kaj do la bazan tempon (defaŭlte: aŭtomata ĝustigo)\n"
 
 #. type: Plain text
-#: index.md:98
+#: index.md:103
 #, fuzzy, no-wrap
 msgid "la numérotation des broches utilisée est celle de _wiringPi_. Utilisez `gpio readall` pour avoir la disposition dans votre _Raspberry_ (colonne _wPi_ ).\n"
 msgstr "la pinglonumerado uzata estas tiu de _wiringPi_. Uzu `gpio readall` por havi la aranĝon en via _Raspberry_ (kolumno _wPi_ ).\n"
 
 #. type: Plain text
-#: index.md:99
+#: index.md:104
 #, fuzzy, no-wrap
 msgid "Par exemple, si vous souhaitez utiliser les broches 3, 11 et 13:  \n"
 msgstr "Ekzemple, se vi volas uzi pinglojn 3, 11 kaj 13:  \n"
 
 #. type: Plain text
-#: index.md:101
+#: index.md:106
 #, fuzzy, no-wrap
 msgid "Connectez les broches suivantes d'un port de débogage à une porte _GPIO_:\n"
 msgstr "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
 
 #. type: Bullet: ' 1. '
-#: index.md:106
+#: index.md:111
 #, fuzzy, no-wrap
 msgid "broche 1 ( _GND_ ) -> broche 14 ( _GND_ )\n"
 msgstr "pinglo 1 ( _GND_ ) -> pinglo 14 ( _GND_ )\n"
 
 #. type: Bullet: ' 2. '
-#: index.md:106
+#: index.md:111
 #, fuzzy, no-wrap
 msgid "broche 7 ( _reset_ ) -> broche 3 ( _wPi 8, BCM2_ )\n"
 msgstr "pinglo 7 ( _reset_ ) -> pinglo 3 ( _wPi 8, BCM2_ )\n"
 
 #. type: Bullet: ' 3. '
-#: index.md:106
+#: index.md:111
 #, fuzzy, no-wrap
 msgid "broche 3 ( _DC_ ) -> broche 11 ( _wPi 0, BCM17_ )\n"
 msgstr "pinglo 3 ( _DC_ ) -> pinglo 11 ( _wPi 0, BCM17_ )\n"
 
 #. type: Bullet: ' 4. '
-#: index.md:106
+#: index.md:111
 #, fuzzy, no-wrap
 msgid "broche 4 ( _DD_ ) -> broche 13 ( _wPi 2, BCM27_ )\n"
 msgstr "pinglo 4 ( _DD_ ) -> pinglo 13 ( _wPi 2, BCM27_ )\n"
 
 #. type: Plain text
-#: index.md:108
+#: index.md:113
 #, fuzzy, no-wrap
 msgid "et maintenant vous pouvez lire l'ID, sauvegarder , effacer et écrire la mémoire flash avec les commandes suivantes:\n"
 msgstr "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:108
+#: index.md:113
 #, fuzzy, no-wrap
 msgid ""
 "./cc_chipid -r 8 -c 0 -d 2\n"
@@ -430,73 +431,166 @@ msgstr ""
 "./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
 
 #. type: Plain text
-#: index.md:116
+#: index.md:121
 #, fuzzy, no-wrap
 msgid "Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.\n"
 msgstr "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
 
 #. type: Title ##
-#: index.md:117
+#: index.md:122
 #, fuzzy, no-wrap
 msgid "et si ça ne marche pas?"
 msgstr "kio se ĝi ne funkcias?"
 
 #. type: Bullet: '1. '
-#: index.md:121
+#: index.md:126
 #, fuzzy, no-wrap
 msgid "arrêtez tous les autres programmes.\n"
 msgstr "ĉesu ĉiujn aliajn programojn.\n"
 
 #. type: Bullet: '2. '
-#: index.md:121
+#: index.md:126
 #, fuzzy, no-wrap
 msgid "fixez la vitesse du processeur avant la programmation. Exemple:\n"
 msgstr "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:122
+#: index.md:127
 #, fuzzy, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 
 #. type: Bullet: '3. '
-#: index.md:126
+#: index.md:131
 #, fuzzy, no-wrap
 msgid "utilisez l'option -m pour augmenter les délais utilisés. Exemple:\n"
 msgstr "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:127
+#: index.md:132
 #, fuzzy, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 
 #. type: Bullet: '4. '
-#: index.md:131
+#: index.md:136
 #, fuzzy, no-wrap
 msgid "recompilez le logiciel avec `make`.\n"
 msgstr "rekompili la programon per `make`.\n"
 
 #. type: Bullet: '5. '
-#: index.md:133
+#: index.md:138
 #, fuzzy, no-wrap
 msgid "cherchez une solution [dans les questions déjà posées sur github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 
 #. type: Bullet: '6. '
-#: index.md:135
+#: index.md:140
 #, fuzzy, no-wrap
 msgid "Posez votre propre question sur [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 
+#. type: Bullet: '1. '
+#: index.md:142 index.md:158
+#, fuzzy, no-wrap
+msgid "Vérifiez votre alimentation\n"
+msgstr "Kontrolu vian elektroprovizon\n"
+
+#. type: Fenced code block (bash)
+#: index.md:143 index.md:159
+#, no-wrap
+msgid "   grep Under /var/log/kern.log\n"
+msgstr "   grep Under /var/log/kern.log\n"
+
+#. type: Plain text
+#: index.md:147 index.md:163
+#, fuzzy, no-wrap
+msgid "Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.\n"
+msgstr "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+
 #. type: Title ##
-#: index.md:136
+#: index.md:148
+#, fuzzy
+msgid "Je veux connecter plus de 15 périphériques"
+msgstr "Mi volas konekti pli ol 15 periferiojn"
+
+#. type: Plain text
+#: index.md:149
+#, fuzzy
+msgid ""
+"On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 "
+"périphériques maximum.  \n"
+msgstr ""
+"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti "
+"15 maksimumajn aparatojn.   \n"
+
+#. type: Plain text
+#: index.md:150
+#, fuzzy
+msgid ""
+"En fait le micrologiciel standard de cette clé a bien une limite de 15 "
+"connexions directes. Mais si l'une de ces connexions est un routeur zigbee "
+"(et la plupart des périphériques font office de routeur, c'est par exemple "
+"le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le "
+"_CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière "
+"les routeurs connectés à ce routeur...  \n"
+msgstr ""
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj "
+"ligoj.   \n"
+
+#. type: Plain text
+#: index.md:151
+#, fuzzy
+msgid ""
+"En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour "
+"vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un "
+"coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
+msgstr "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+
+#. type: Plain text
+#: index.md:153
+#, fuzzy
+msgid ""
+"Notons par ailleurs que le protocole zigbee limite le nombre de connexions "
+"directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se "
+"connecter à plus de 32 périphériques directement.\n"
+msgstr ""
+"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-"
+"a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 "
+"ekstercentraj. \n"
+
+#. type: Title ##
+#: index.md:154
+#, fuzzy, no-wrap
+msgid "Ma clé a sa DEL rouge qui s'allume."
+msgstr "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+
+#. type: Plain text
+#: index.md:156
+#, fuzzy, no-wrap
+msgid "Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.\n"
+msgstr "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+
+#. type: Bullet: '2. '
+#: index.md:165
+#, fuzzy, no-wrap
+msgid "Éloignez la clé des matériels suceptibles de la perturber : haut-parleurs, routeurs wi-fi, ...\n"
+msgstr "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+
+#. type: Bullet: '3. '
+#: index.md:167
+#, fuzzy, no-wrap
+msgid "Reprogrammez la clé\n"
+msgstr "Reprogramu la ŝlosilon\n"
+
+#. type: Title ##
+#: index.md:170
 #, fuzzy, no-wrap
 msgid "Licence"
 msgstr "Permesilo"
 
 #. type: Plain text
-#: index.md:138
+#: index.md:172
 #, fuzzy, no-wrap
 msgid "Ce projet est sous licence GPL v3 ( voir _COPYING_ ).\n"
 msgstr "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"

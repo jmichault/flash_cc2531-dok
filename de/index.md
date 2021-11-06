@@ -9,7 +9,7 @@ title: 'Die Hauptsache'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
-Mit [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) können Sie Ihren CC2531-USB-Stick von Ihrem _Raspberry_aus programmieren, ohne dass Sie _Arduino_ oder _CC Debugger_benötigen.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ermöglicht es Ihnen, Ihren CC2531 USB-Stick Ihrer _Raspberry_, ohne dass _Arduino_ oder a _CC Debugger_programmieren können.  
 
 ## Voraussetzung
 Sie benötigen entweder _Raspberry_ oder _Odroid-c2_.  
@@ -32,9 +32,6 @@ Ich habe _flash\_cc2531_ auf _Raspberry Pi 3_ mit _raspbian_projiziert, aber bei
  * auf pi 1 und pi 2 benötigen Sie [, um andere Stifte](#uzi_aliajn_pinglojn)zu verwenden.
 
 
- * Wahrscheinlich müssen Sie jedoch die Zeitbasisoption ( _"-m"_ )einstellen.
-
-
 
 ## Bereit
 
@@ -43,24 +40,15 @@ Laden Sie _flash\_cc2531_ auf Ihre _raspberry_ herunter:
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Verbinden Sie die folgenden Pins vom Debug-Port mit dem GPIO-Port:
+Verbinden Sie die folgenden Befragung des lila Ports an den GPI-Anschluss:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. Pin 1 ( _GND_ ) -> Pin 39 ( _GND_ )
-
-
- 2. Pin 7 ( _reset_ ) -> Pin 35 ( _wPi 24, BCM19_ )
-
-
- 3. Pin 3 ( _DC_ ) -> Pin 36 ( _wPi 27, BCM16_ )
-
-
- 4. Pin 4 ( _DD_ ) -> Pin 38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 Das Pin-Layout _raspberry_ finden Sie hier: <https://pinout.xyz/>
 
-und stecken Sie den USB-Stick in einen Anschluss.
+
+Geben Sie dann den USB-Schlüssel in den Port ein.  
 
 Download-Kabel _CC_ und 4 Leitungen _Dupont_ von Buchse zu Buchse eignen sich perfekt für diesen Zweck:
 ![Foto des Schlüssels und des _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
@@ -94,7 +82,7 @@ So speichern Sie den Inhalt des Flash-Speichers in der Datei save.hex:
 ```bash
 ./cc_read save.hex
 ```
-(dauert ca. 1 Minute).
+(dauert ungefähr 2 Minuten).  
 
 So löschen Sie den Flash-Speicher:
 ```bash
@@ -184,6 +172,40 @@ Sie können auch die Standardwerte auf _CCDebugger.h_ ändern und die Programme 
 
 6. Stellen Sie Ihre eigene Frage zu [Github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
+
+
+7. Überprüfen Sie Ihre Stromversorgung
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Wenn Sie viele Zeilen bekommen, müssen Sie die Macht ändern.  
+
+## Ich möchte mehr als 15 Peripherie anschließen
+Wir lesen über verschiedene Standorte, dass der Schlüssel _CC2531_ nur 15 Maximalgeräte behandeln kann.  
+
+## Mein Schlüssel hat seinen roten Leitfaden, der beleuchtet.
+Es passiert, dass der Schlüssel verkleinert, entweder aufgrund der von Parasiten geladenen Umwelt oder aufgrund einer schlechten Ernährung.  
+
+1. Überprüfen Sie Ihre Stromversorgung
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Wenn Sie viele Zeilen bekommen, müssen Sie die Macht ändern.  
+
+2. Steigern Sie den Schlüssel für störende Materialien: Lautsprecher, Wi-Fi-Router, ...
+
+
+
+3. Umprogrammieren Sie den Schlüssel
+
+
+ 
 
 
 ## Lizenz

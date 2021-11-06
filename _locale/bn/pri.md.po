@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 22:22+0100\n"
+"POT-Creation-Date: 2021-11-06 22:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,19 +48,22 @@ msgstr "লেখক সম্পর্কে"
 
 #. type: Plain text
 #: pri.md:10
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
 "Mi partoprenas \tmalfermitkodon ekde la fino de la 20a jarcento.\n"
-msgstr "10 বছর বয়স থেকে ইলেকট্রনিক্স সম্পর্কে উত্সাহ এবং 18 বছর বয়স থেকে কম্পিউটারে আসক্ত।\nআমি বিংশ শতাব্দীর শেষের পর থেকে \tউন্মুক্ত উত্সে অংশ নিচ্ছি।\n"
+msgstr ""
+"10 বছর বয়স থেকে ইলেকট্রনিক্স সম্পর্কে উত্সাহ এবং 18 বছর বয়স থেকে কম্পিউটারে আসক্ত।\n"
+"আমি বিংশ শতাব্দীর শেষের পর থেকে \tউন্মুক্ত উত্সে অংশ নিচ্ছি।\n"
 
 #, fuzzy
 #~ msgid ""
-#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-"
+#~ "jara.\n"
 #~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
 #~ msgstr ""
-#~ "10 বছর বয়স থেকে ইলেকট্রনিক্স সম্পর্কে উত্সাহ এবং 18 বছর বয়স থেকে কম্পিউটারে আসক্ত।\n"
+#~ "10 বছর বয়স থেকে ইলেকট্রনিক্স সম্পর্কে উত্সাহ এবং 18 বছর বয়স থেকে কম্পিউটারে "
+#~ "আসক্ত।\n"
 #~ "আমি বিংশ শতাব্দীর শেষ থেকে ওপেন সোর্সে জড়িত।\n"
 
 #, fuzzy

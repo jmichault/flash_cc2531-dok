@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-06 17:06+0100\n"
+"POT-Creation-Date: 2021-11-06 22:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,28 +38,28 @@ msgstr "আপনার ভাষা নির্বাচন করুন"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "komentis:"
-msgstr "মন্তব্য করেছেন:"
+msgid "komentis "
+msgstr "মন্তব্য"
 
 #. type: Hash Value - Key: komentoButono
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Aldoni vian komenton (pri github)"
-msgstr "গিথুব)এ একটি মন্তব্য (যুক্ত করুন"
+msgid "Aldoni komenton (pri github)"
+msgstr "Github সম্পর্কে একটি মন্তব্য (যোগ করুন)"
 
 #. type: Hash Value - Key: komentoj
 #: >lang
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Komentoj:"
 msgstr "মন্তব্যসমূহ:"
 
 #. type: Hash Value - Key: malsamaLingvo
 #: >lang
-#, fuzzy, no-wrap
-msgid "Legu ĉi tiun paĝon en malsama lingvo"
-msgstr "এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন"
+#, no-wrap
+#, fuzzy
+msgid "Legu ĉi tiun paĝon en alia lingvo"
+msgstr "অন্য ভাষায় এই পৃষ্ঠাটি পড়ুন"
 
 #. type: Hash Value - Key: priskribo
 #: >lang
@@ -89,8 +89,8 @@ msgstr "সম্পর্কিত পোস্ট"
 #: >lang
 #, no-wrap
 #, fuzzy
-msgid "Serĉu per Google"
-msgstr "গুগল অনুসন্ধান করুন"
+msgid "Serĉu per Google."
+msgstr "গুগল দ্বারা অনুসন্ধান করুন।"
 
 #. type: Hash Value - Key: titolo
 #: >lang
@@ -103,3 +103,19 @@ msgstr "ফ্ল্যাশ_cc2531"
 #, fuzzy, no-wrap
 msgid "Bonvolu noti: ĉi tiu paĝo estis tradukita aŭtomate. Se vi povas, vi devas legi ĝin en unu el ĉi tiuj lingvoj:"
 msgstr "দয়া করে নোট করুন: এই পৃষ্ঠাটি স্বয়ংক্রিয়ভাবে অনুবাদ করা হয়েছে। যদি আপনি পারেন তবে আপনার এটির একটির ভাষায় এটি পড়তে হবে:"
+
+#, fuzzy
+#~ msgid "komentis:"
+#~ msgstr "মন্তব্য করেছেন:"
+
+#, fuzzy
+#~ msgid "Aldoni vian komenton (pri github)"
+#~ msgstr "গিথুব)এ একটি মন্তব্য (যুক্ত করুন"
+
+#, fuzzy, no-wrap
+#~ msgid "Legu ĉi tiun paĝon en malsama lingvo"
+#~ msgstr "এই পৃষ্ঠাটি একটি ভিন্ন ভাষায় পড়ুন"
+
+#, fuzzy
+#~ msgid "Serĉu per Google"
+#~ msgstr "গুগল অনুসন্ধান করুন"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-20 12:13+0100\n"
+"POT-Creation-Date: 2021-11-06 22:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,25 +65,27 @@ msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr ""
 
 #. type: Plain text
-#: index.md:13
+#: index.md:14
 #, no-wrap
-msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) vous permet de programmer votre clé USB CC2531 à partir de votre _Raspberry_, sans avoir besoin d'un _Arduino_ ou d'un _CC Debugger_.\n"
+msgid ""
+" [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) vous permet de programmer votre clé USB CC2531 à partir de votre _Raspberry_, sans avoir besoin d'un _Arduino_ ou d'un _CC Debugger_.\n"
+" Il peut également programmer une clé CC2530.\n"
 msgstr ""
 
 #. type: Title ##
-#: index.md:14
+#: index.md:15
 #, no-wrap
 msgid "Prérequis"
 msgstr ""
 
 #. type: Plain text
-#: index.md:15
+#: index.md:16
 #, no-wrap
 msgid "Vous avez besoin d'un _Raspberry_ ou d'un _Odroid-c2_.  \n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:17
+#: index.md:18
 #, no-wrap
 msgid ""
 "Vous avez besoin de quoi connecter le port de débogage de la clé aux ports _GPIO_ du _Raspberry_, par exemple un câble _CC_ et quatre lignes _Dupont_ (voir plus loin).   \n"
@@ -91,25 +93,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: index.md:19
+#: index.md:20
 #, no-wrap
 msgid "Enfin il vous faut le logiciel :\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:22
+#: index.md:23
 #, no-wrap
 msgid "en général un coordinateur zigbee : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#: index.md:22
+#: index.md:23
 #, no-wrap
 msgid "ou alors un routeur zigbee : [routeur zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:24
+#: index.md:25
 #, no-wrap
 msgid "J'ai conçu _flash\\_cc2531_ sur un _Raspberry Pi 3_ avec _raspbian_, mais des programmations réussies ont été signalées sur d'autres modèles:\n"
 msgstr ""
@@ -124,12 +126,6 @@ msgstr ""
 #: index.md:28
 #, no-wrap
 msgid "sur pi 1 et pi 2, vous devrez [utiliser d'autres broches](#uzi_aliajn_pinglojn).\n"
-msgstr ""
-
-#. type: Bullet: ' * '
-#: index.md:28
-#, no-wrap
-msgid "dans tous les cas, vous devrez probablement ajuster l'option de base de temps ( _\"-m\"_ ).\n"
 msgstr ""
 
 #. type: Title ##
@@ -151,49 +147,45 @@ msgid "git clone https://github.com/jmichault/flash_cc2531.git\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:37
+#: index.md:38
 #, no-wrap
-msgid "Connectez les broches suivantes du port de débogage au port GPIO:\n"
-msgstr ""
-
-#. type: Bullet: ' 1. '
-#: index.md:42
-#, no-wrap
-msgid "broche 1 ( _GND_ ) -> broche 39 ( _GND_ )\n"
-msgstr ""
-
-#. type: Bullet: ' 2. '
-#: index.md:42
-#, no-wrap
-msgid "broche 7 ( _reset_ ) -> broche 35 ( _wPi 24, BCM19_ )\n"
-msgstr ""
-
-#. type: Bullet: ' 3. '
-#: index.md:42
-#, no-wrap
-msgid "broche 3 ( _DC_ ) -> broche 36 ( _wPi 27, BCM16_ )\n"
-msgstr ""
-
-#. type: Bullet: ' 4. '
-#: index.md:42
-#, no-wrap
-msgid "broche 4 ( _DD_ ) -> broche 38 ( _wPi 28, BCM20_ )\n"
+msgid ""
+"Connectez les broches suivantes du port de débogage au port GPIO:\n"
+"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:44
+#: index.md:45
+#, no-wrap
+msgid ""
+"| broche _GPIO_          | broche _CC_  |\n"
+"| ---------------------- | ------------ | \n"
+"| 39 ( _GND_ )           | 1 ( _GND_ )  |\t\n"
+"| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
+"| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
+"| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:47
 #, no-wrap
 msgid "La disposition des broches du _raspberry_ est disponible ici : <https://pinout.xyz/>\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:46
+#: index.md:49
 #, no-wrap
-msgid "et insérez la clé USB dans un port.\n"
+msgid "Puis insérez la clé USB dans un port.  \n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:50
+#: index.md:51
+#, no-wrap
+msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du raspberry (broche 1 ou 17).\n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:55
 #, no-wrap
 msgid ""
 "Un câble de téléchargement _CC_ et 4 lignes _Dupont_ Femelle à Femelle sont parfaits à cet effet :\n"
@@ -202,13 +194,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: index.md:53
+#: index.md:58
 #, no-wrap
 msgid "testez en exécutant ceci :\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:53
+#: index.md:58
 #, no-wrap
 msgid ""
 "cd flash_cc2531\n"
@@ -216,199 +208,199 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: index.md:58
+#: index.md:63
 #, no-wrap
 msgid "Ça doit retourner:\n"
 msgstr ""
 
 #. type: Fenced code block
-#: index.md:58
+#: index.md:63
 #, no-wrap
 msgid "  ID = b524.\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:61
+#: index.md:66
 #, no-wrap
 msgid "(la valeur peut être différente si la version matèrielle de votre clé n'est pas la même que la mienne).  \n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:63
+#: index.md:68
 #, no-wrap
 msgid "Si vous voyez 0000 ou ffff quelque chose ne va pas:\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, no-wrap
 msgid "vérifiez d'abord votre câblage.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, no-wrap
 msgid "puis essayez un temps de base plus élevé, par exemple avec `./cc_chipid -m 100`, ou `./cc_chipid -m 160` ou `./cc_chipid -m 300`.\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:67
+#: index.md:72
 #, no-wrap
 msgid "si rien de tout cela ne fonctionne, essayez de recompiler avec `make`.\n"
 msgstr ""
 
 #. type: Title ##
-#: index.md:68
+#: index.md:73
 #, no-wrap
 msgid "utilisation"
 msgstr ""
 
 #. type: Plain text
-#: index.md:70
+#: index.md:75
 #, no-wrap
 msgid "Pour enregistrer le contenu de la mémoire flash dans le fichier save.hex:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:70
+#: index.md:75
 #, no-wrap
 msgid "./cc_read save.hex\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:74
+#: index.md:79
 #, no-wrap
-msgid "(dure environ 1 minute).\n"
+msgid "(dure environ 2 minutes).\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:76
+#: index.md:81
 #, no-wrap
 msgid "Pour effacer la mémoire flash:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:76
+#: index.md:81
 #, no-wrap
 msgid "./cc_erase\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:80
+#: index.md:85
 #, no-wrap
 msgid "**Remarque:** Vous **devez** effacer avant d'écrire (sauf si vous savez vraiment ce que vous allez faire).\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:82
+#: index.md:87
 #, no-wrap
 msgid "Pour programmer le fichier _CC2531ZNP-Prod.hex_ sur la clé _CC2531_:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:82
+#: index.md:87
 #, no-wrap
 msgid "./cc_write CC2531ZNP-Prod.hex\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:86
+#: index.md:91
 #, no-wrap
 msgid "(dure environ 3 minutes).\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:88
+#: index.md:93
 #, no-wrap
 msgid "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
 msgstr ""
 
 #. type: Title ##
-#: index.md:88
+#: index.md:93
 #, no-wrap
 msgid "Utiliser d'autres broches"
 msgstr ""
 
 #. type: Plain text
-#: index.md:91
+#: index.md:96
 #, no-wrap
 msgid "toutes les commandes acceptent les arguments suivants:\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, no-wrap
 msgid "_-c_ broche : change la broche _DC_ (par défaut 27)\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, no-wrap
 msgid "_-d_ broche : change la broche _DD_ (par défaut 28)\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, no-wrap
 msgid "_-r_ broche : change la broche _reset_ (par défaut 24)\n"
 msgstr ""
 
 #. type: Bullet: ' * '
-#: index.md:96
+#: index.md:101
 #, no-wrap
 msgid "_-m_ : change le multiplicateur du délai, et donc le temps de base (par défaut : ajustement automatique)\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:98
+#: index.md:103
 #, no-wrap
 msgid "la numérotation des broches utilisée est celle de _wiringPi_. Utilisez `gpio readall` pour avoir la disposition dans votre _Raspberry_ (colonne _wPi_ ).\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:99
+#: index.md:104
 #, no-wrap
 msgid "Par exemple, si vous souhaitez utiliser les broches 3, 11 et 13:  \n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:101
+#: index.md:106
 #, no-wrap
 msgid "Connectez les broches suivantes d'un port de débogage à une porte _GPIO_:\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
-#: index.md:106
+#: index.md:111
 #, no-wrap
 msgid "broche 1 ( _GND_ ) -> broche 14 ( _GND_ )\n"
 msgstr ""
 
 #. type: Bullet: ' 2. '
-#: index.md:106
+#: index.md:111
 #, no-wrap
 msgid "broche 7 ( _reset_ ) -> broche 3 ( _wPi 8, BCM2_ )\n"
 msgstr ""
 
 #. type: Bullet: ' 3. '
-#: index.md:106
+#: index.md:111
 #, no-wrap
 msgid "broche 3 ( _DC_ ) -> broche 11 ( _wPi 0, BCM17_ )\n"
 msgstr ""
 
 #. type: Bullet: ' 4. '
-#: index.md:106
+#: index.md:111
 #, no-wrap
 msgid "broche 4 ( _DD_ ) -> broche 13 ( _wPi 2, BCM27_ )\n"
 msgstr ""
 
 #. type: Plain text
-#: index.md:108
+#: index.md:113
 #, no-wrap
 msgid "et maintenant vous pouvez lire l'ID, sauvegarder , effacer et écrire la mémoire flash avec les commandes suivantes:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:108
+#: index.md:113
 #, no-wrap
 msgid ""
 "./cc_chipid -r 8 -c 0 -d 2\n"
@@ -418,73 +410,145 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: index.md:116
+#: index.md:121
 #, no-wrap
 msgid "Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.\n"
 msgstr ""
 
 #. type: Title ##
-#: index.md:117
+#: index.md:122
 #, no-wrap
 msgid "et si ça ne marche pas?"
 msgstr ""
 
 #. type: Bullet: '1. '
-#: index.md:121
+#: index.md:126
 #, no-wrap
 msgid "arrêtez tous les autres programmes.\n"
 msgstr ""
 
 #. type: Bullet: '2. '
-#: index.md:121
+#: index.md:126
 #, no-wrap
 msgid "fixez la vitesse du processeur avant la programmation. Exemple:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:122
+#: index.md:127
 #, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr ""
 
 #. type: Bullet: '3. '
-#: index.md:126
+#: index.md:131
 #, no-wrap
 msgid "utilisez l'option -m pour augmenter les délais utilisés. Exemple:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
-#: index.md:127
+#: index.md:132
 #, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr ""
 
 #. type: Bullet: '4. '
-#: index.md:131
+#: index.md:136
 #, no-wrap
 msgid "recompilez le logiciel avec `make`.\n"
 msgstr ""
 
 #. type: Bullet: '5. '
-#: index.md:133
+#: index.md:138
 #, no-wrap
 msgid "cherchez une solution [dans les questions déjà posées sur github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr ""
 
 #. type: Bullet: '6. '
-#: index.md:135
+#: index.md:140
 #, no-wrap
 msgid "Posez votre propre question sur [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr ""
 
+#. type: Bullet: '1. '
+#: index.md:142 index.md:158
+#, no-wrap
+msgid "Vérifiez votre alimentation\n"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: index.md:143 index.md:159
+#, no-wrap
+msgid "   grep Under /var/log/kern.log\n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:147 index.md:163
+#, no-wrap
+msgid "Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.\n"
+msgstr ""
+
 #. type: Title ##
-#: index.md:136
+#: index.md:148
+#, no-wrap
+msgid "Je veux connecter plus de 15 périphériques"
+msgstr ""
+
+#. type: Plain text
+#: index.md:149
+#, no-wrap
+msgid "On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:150
+#, no-wrap
+msgid "En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur zigbee (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:151
+#, no-wrap
+msgid "En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:153
+#, no-wrap
+msgid "Notons par ailleurs que le protocole zigbee limite le nombre de connexions directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se connecter à plus de 32 périphériques directement.\n"
+msgstr ""
+
+#. type: Title ##
+#: index.md:154
+#, no-wrap
+msgid "Ma clé a sa DEL rouge qui s'allume."
+msgstr ""
+
+#. type: Plain text
+#: index.md:156
+#, no-wrap
+msgid "Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.\n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: index.md:165
+#, no-wrap
+msgid "Éloignez la clé des matériels suceptibles de la perturber : haut-parleurs, routeurs wi-fi, ...\n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: index.md:167
+#, no-wrap
+msgid "Reprogrammez la clé\n"
+msgstr ""
+
+#. type: Title ##
+#: index.md:170
 #, no-wrap
 msgid "Licence"
 msgstr ""
 
 #. type: Plain text
-#: index.md:138
+#: index.md:172
 #, no-wrap
 msgid "Ce projet est sous licence GPL v3 ( voir _COPYING_ ).\n"
 msgstr ""

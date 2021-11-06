@@ -9,7 +9,7 @@ title: 'Perkara utama'
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) membolehkan anda memprogramkan kekunci USB CC2531 dari _Raspberry_anda, tanpa memerlukan _Arduino_ atau _CC Debugger_.
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) Membolehkan anda untuk memprogramkan batang USB CC2531 anda _Raspberry_, tanpa memerlukan _Arduino_ atau A _CC Debugger_.  
 
 ## Prasyarat
 Anda memerlukan _Raspberry_ atau _Odroid-c2_.  
@@ -32,9 +32,6 @@ Saya mengunjurkan _flash\_cc2531_ pada _Raspberry Pi 3_ dengan _raspbian_, tetap
  * pada pi 1 dan pi 2 anda memerlukan [untuk menggunakan pin lain](#uzi_aliajn_pinglojn).
 
 
- * namun, anda mungkin perlu menetapkan pilihan asas masa ( _"-m"_ ).
-
-
 
 ## Bersedia
 
@@ -43,24 +40,15 @@ Muat turun _flash\_cc2531_ ke _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Sambungkan pin berikut dari port debug ke port GPIO:
+Sambungkan yang berikut Pantai Ungu ke Port GPI:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. pin 1 ( _GND_ ) -> pin 39 ( _GND_ )
-
-
- 2. pin 7 ( _reset_ ) -> pin 35 ( _wPi 24, BCM19_ )
-
-
- 3. pin 3 ( _DC_ ) -> pin 36 ( _wPi 27, BCM16_ )
-
-
- 4. pin 4 ( _DD_ ) -> pin 38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 Susun atur pin _raspberry_ boleh didapati di sini: <https://pinout.xyz/>
 
-dan masukkan kekunci USB ke dalam port.
+
+Kemudian masukkan kekunci USB ke pelabuhan.  
 
 Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke Perempuan sangat sesuai untuk tujuan ini:
 ![foto kunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
@@ -94,7 +82,7 @@ Untuk menyimpan kandungan memori flash ke fail save.hex:
 ```bash
 ./cc_read save.hex
 ```
-(berlangsung sekitar 1 minit).
+(mengambil masa kira-kira 2 minit).  
 
 Untuk mengosongkan memori kilat:
 ```bash
@@ -184,6 +172,40 @@ Anda juga boleh menukar nilai lalai ke _CCDebugger.h_ dan menyusun program denga
 
 6. Kemukakan soalan anda sendiri mengenai [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
+
+
+7. Semak bekalan kuasa anda (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Sekiranya anda mendapat banyak baris maka anda perlu menukar kuasa.  
+
+## Saya mahu menyambung lebih daripada 15 pinggir
+Kami membaca tentang lokasi yang berbeza yang kunci _CC2531_ hanya boleh mengendalikan 15 peralatan maksimum.  
+
+## Kekunci saya mempunyai panduan merah yang menerangi.
+Ia berlaku bahawa kemerosotan utama, sama ada disebabkan oleh persekitaran yang dimuatkan oleh parasit atau disebabkan oleh diet yang tidak baik.  
+
+1. Semak bekalan kuasa anda (° 1 ° 1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+Sekiranya anda mendapat banyak baris maka anda perlu menukar kuasa.  
+
+2. Turunkan kunci untuk mengganggu bahan: Pembesar suara, router Wi-Fi, ... (° 1 ° 1
+
+
+
+3. Reprogram kekunci
+
+
+ 
 
 
 ## Lesen

@@ -9,7 +9,7 @@ title: 重要なこと
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) を使用すると、 _Arduino_ または _CC Debugger_を必要とせずに、 _Raspberry_からCC2531USBキーをプログラムできます。
+ [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ](https://github.com/jmichault/flash_cc2531)  _Raspberry_のCC2531 USBスティックを _Arduino_ または _CC Debugger_を必要とせずにプログラムすることができます。  
 
 ## 前提条件
  _Raspberry_ または _Odroid-c2_のいずれかが必要です。  
@@ -32,9 +32,6 @@ title: 重要なこと
  * pi1とpi2では、他のピン](#uzi_aliajn_pinglojn)を使用するために [が必要になります。
 
 
- * ただし、タイムベースオプション ( _"-m"_ )を設定する必要があります。
-
-
 
 ## 準備
 
@@ -43,24 +40,15 @@ title: 重要なこと
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-次のピンをデバッグポートからGPIOポートに接続します：
+紫色のポートの次のブリーブをGPIポートに接続します。
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. ピン1 ( _GND_ ) -> ピン39 ( _GND_ )
-
-
- 2. ピン7 ( _reset_ ) -> ピン35 ( _wPi 24, BCM19_ )
-
-
- 3. ピン3 ( _DC_ ) -> ピン36 ( _wPi 27, BCM16_ )
-
-
- 4. ピン4 ( _DD_ ) -> ピン38 ( _wPi 28, BCM20_ )
-
-
+| ..  
 
  _raspberry_ ピンレイアウトはこちらから入手できます： <https://pinout.xyz/>
 
-USBキーをポートに挿入します。
+
+その後、USBキーをポートに入力します。  
 
 ダウンロードケーブル _CC_ と4本の線 _Dupont_ メスからメスはこの目的に最適です：
 ![キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）
@@ -94,7 +82,7 @@ cd flash_cc2531
 ```bash
 ./cc_read save.hex
 ```
-(は約1分)続きます。
+(は約2分)かかります。  
 
 フラッシュメモリをクリアするには：
 ```bash
@@ -184,6 +172,40 @@ cd flash_cc2531
 
 6.  [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)について独自の質問をしてください。
 
+
+
+7. 電源を確認してください（°1°1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+あなたがたくさんの行を手に入れるならば、あなたは電力を変更する必要があります。  
+
+## 私は15以上の周辺機器を接続したいです
+鍵 _CC2531_ が15の最大機器のみを処理できるというさまざまな場所について読みます。  
+
+## 私の鍵には、照らされた赤いガイドがあります。
+それは、寄生虫によって装填された環境のために、または悪い食事のために鍵が枯渇することが起こります。  
+
+1. 電源を確認してください（°1°1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+あなたがたくさんの行を手に入れるならば、あなたは電力を変更する必要があります。  
+
+2. 邪魔剤の鍵から降りてください：スピーカー、Wi-Fiルーター、...（°1°1
+
+
+
+3. キーを再プログラム
+
+
+ 
 
 
 ## ライセンス

@@ -145,6 +145,12 @@ Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis 
    ```
 Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.
 
+## Je veux connecter plus de 15 périphériques
+On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  
+En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur zigbee (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  
+En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  
+Notons par ailleurs que le protocole zigbee limite le nombre de connexions directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se connecter à plus de 32 périphériques directement.
+
 ## Ma clé a sa DEL rouge qui s'allume.
 Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.
 

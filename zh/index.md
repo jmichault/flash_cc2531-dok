@@ -9,7 +9,7 @@ title: 最主要的
 ---
 
 # [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531)
- [ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) 允许您从 _Raspberry_对CC2531 USB钥匙进行编程，而无需 _Arduino_ 或 _CC Debugger_。
+ [ _flash\_cc2531_ _flash\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ，您可以将您的CC2531 USB棒 _Raspberry_编程，无需 _Arduino_ 或 _CC Debugger_。  
 
 ## 先决条件
 您需要 _Raspberry_ 或 _Odroid-c2_。  
@@ -32,9 +32,6 @@ title: 最主要的
  * 在pi 1和pi 2上，您需要 [使用其他引脚](#uzi_aliajn_pinglojn)。
 
 
- * 但是，您可能需要设置时基选项 ( _"-m"_ )。
-
-
 
 ## 准备好的
 
@@ -43,24 +40,15 @@ title: 最主要的
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-将以下引脚从调试端口连接到GPIO端口：
+将以下紫色端口的售前连接到GPI端口：
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
- 1. 针1 ( _GND_ ) -> 针39 ( _GND_ )
-
-
- 2. 引脚7 ( _reset_ ) -> 引脚35 ( _wPi 24, BCM19_ )
-
-
- 3. 引脚3 ( _DC_ ) -> 引脚36 ( _wPi 27, BCM16_ )
-
-
- 4. 针脚4 ( _DD_ ) -> 针脚38 ( _wPi 28, BCM20_ )
-
-
+|  
 
 此处提供 _raspberry_ 引脚布局： <https://pinout.xyz/>
 
-并将USB密钥插入端口。
+
+然后将USB键进入端口。  
 
 下载电缆 _CC_ 和4条线 _Dupont_ 母对母非常适合此目的：
 ![按键照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）
@@ -94,7 +82,7 @@ cd flash_cc2531
 ```bash
 ./cc_read save.hex
 ```
-(持续约1分钟)。
+(大约需要2分钟)。  
 
 清除闪存：
 ```bash
@@ -184,6 +172,40 @@ cd flash_cc2531
 
 6. 询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)的问题。
 
+
+
+7. 检查电源（°1°1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+如果你得到了很多线，那么你必须改变电力。  
+
+## 我想连接超过15个外围
+我们读到了钥匙 _CC2531_ 只能处理15个最大电器的不同位置。  
+
+## 我的钥匙有它的红色指南，亮起。
+它恰好是由于寄生虫装载的环境或由于饮食不良而导致的关键耗尽。  
+
+1. 检查电源（°1°1
+
+
+    
+   ```bash
+   grep Under /var/log/kern.log
+   ```
+如果你得到了很多线，那么你必须改变电力。  
+
+2. 关闭令人不安的材料钥匙：扬声器，Wi-Fi路由器，...（°1°1
+
+
+
+3. 重新编程键
+
+
+ 
 
 
 ## 执照

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-02-19 22:22+0100\n"
+"POT-Creation-Date: 2021-11-06 22:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,16 +48,18 @@ msgstr "关于作者"
 
 #. type: Plain text
 #: pri.md:10
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
 "Mi partoprenas \tmalfermitkodon ekde la fino de la 20a jarcento.\n"
-msgstr "从10岁起就对电子充满热情，从18岁起就沉迷于计算机。\n自20世纪末以来，我一直在参与 \t开源。\n"
+msgstr ""
+"从10岁起就对电子充满热情，从18岁起就沉迷于计算机。\n"
+"自20世纪末以来，我一直在参与 \t开源。\n"
 
 #, fuzzy
 #~ msgid ""
-#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-jara.\n"
+#~ "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde 18-"
+#~ "jara.\n"
 #~ "Mi partoprenas malfermfontecon ekde la fino de la 20a jarcento.\n"
 #~ msgstr ""
 #~ "从10岁起就对电子充满热情，从18岁起就沉迷于计算机。\n"
