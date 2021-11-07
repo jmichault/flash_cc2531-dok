@@ -18,9 +18,9 @@ Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _G
 [ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \).  
 Fine vi bezonas la programon:
 
-* ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
-* aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 Mi projektis _flash\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:
@@ -159,32 +159,32 @@ Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la
 6. Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).
 
 
-7. Kontrolu vian elektroprovizon
+7. Kontrolu vian nutroblokon
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. 
+Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. 
 
 ## Mi volas konekti pli ol 15 periferiojn
-Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   
-Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   
-Fakte la limo por la _CC2531_ estas multe pli alta.   
-Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. 
+Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   
+Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  
+Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  
+Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. 
 
-## Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas.
-Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. 
+## Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas.
+Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. 
 
-1. Kontrolu vian elektroprovizon
+1. Kontrolu vian nutroblokon
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. 
+Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. 
 
-2. Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...
+2. Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...
 
 
 3. Reprogramu la ŝlosilon

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 11:14+0100\n"
+"POT-Creation-Date: 2021-11-07 12:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,15 +100,17 @@ msgstr "أخيرًا تحتاج البرنامج:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
-msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "بشكل عام منسق زيجبي: [ الإصدار 1.2 (موصى به)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) أو [الإصدار 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "المنسق العام _zigbee_ : [ الإصدار 1.2 ()](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) أو (° 9 درجة) الإصدار 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, fuzzy, no-wrap
-msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "أو جهاز التوجيه zigbee: [zigbee router 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "أو جهاز التوجيه _zigbee_ : [راوتر _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:27
@@ -278,8 +280,7 @@ msgstr "(يستغرق حوالي 2 دقيقة).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "لحذف ذاكرة البرق: (° 1 ° 1\n"
 
@@ -297,8 +298,7 @@ msgstr "**ملاحظة:** يجب عليك **حذف** قبل الكتابة (ما
 
 #. type: Plain text
 #: index.md:94
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr "لبرمجة الملف _CC2531ZNP-Prod.hex_ على المفتاح _CC2531_:\n"
 
@@ -482,9 +482,10 @@ msgstr "اطرح سؤالك الخاص حول [github](https://github.com/jmicha
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
-msgid "Kontrolu vian elektroprovizon\n"
-msgstr "تحقق من امدادات الطاقة الخاصة بك (° 1 ° 1\n"
+#, no-wrap
+#, fuzzy
+msgid "Kontrolu vian nutroblokon\n"
+msgstr "تحقق من كتلة التغذية الخاصة بك (° 1 ° 1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182
@@ -494,9 +495,10 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, fuzzy, no-wrap
-msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
-msgstr "إذا حصلت على الكثير من الخطوط، فعليك تغيير الطاقة.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
+msgstr "إذا حصلت على الكثير من الخطوط، فعليك تغيير كتلة التغذية.  \n"
 
 #. type: Title ##
 #: index.md:170
@@ -505,32 +507,48 @@ msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "أريد توصيل أكثر من 15 محيط"
 
 #. type: Plain text
-#: index.md:175
-#, fuzzy, no-wrap
+#: index.md:172
+#, no-wrap
+#, fuzzy
 msgid ""
-"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
-"Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
-"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
-msgstr "نقرأ عن مواقع مختلفة يمكن أن تعالج المفتاح (° 1 درجة) فقط 15 جهازا قصوى.  \n"
+"Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
+msgstr "نقرأ في أماكن مختلفة يمكن أن تعالج المفتاح (° 1 درجة) فقط 15 جهازا قصوى.   \n"
+
+#. type: Plain text
+#: index.md:173
+#, no-wrap
+#, fuzzy
+msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
+msgstr "في الواقع، الحد الأقصى ل _CC2531_ أعلى بكثير.   \n"
+
+#. type: Plain text
+#: index.md:175
+#, no-wrap
+#, fuzzy
+msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgstr "لاحظ أيضا أن البروتوكول (° 1 درجة) يحد من عدد الروابط المباشرة إلى 32.  \n"
 
 #. type: Title ##
 #: index.md:176
-#, fuzzy, no-wrap
-msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
-msgstr "مفتاحي له دليل أحمر يضيء."
+#, no-wrap
+#, fuzzy
+msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
+msgstr "المفتاح الخاص بي له بقيادة حمراء التي تضيء."
 
 #. type: Plain text
 #: index.md:178
-#, fuzzy, no-wrap
-msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
-msgstr "يحدث أن استنزاف المفتاح، إما بسبب البيئة المحملة من الطفيليات أو بسبب نظام غذائي سيء.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
+msgstr "يحدث ذلك أن الفتحات الرئيسية، إما بسبب البيئة المحملة من الطفيليات أو بسبب سوء التغذية.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, fuzzy, no-wrap
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
-msgstr "النزول من مفتاح المواد المزعجة: مكبرات الصوت، أجهزة توجيه Wi-Fi، ... (° 1 ° 1\n"
+#, no-wrap
+#, fuzzy
+msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "النزول من مفتاح المواد المزعجة: مكبرات الصوت، جهاز التوجيه Wi-Fi، ... (° 1 ° 1\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -549,6 +567,42 @@ msgstr "رخصة"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "هذا المشروع مُرخص بموجب GPL v3 ( انظر _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#~ msgstr "بشكل عام منسق زيجبي: [ الإصدار 1.2 (موصى به)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) أو [الإصدار 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#~ msgstr "أو جهاز التوجيه zigbee: [zigbee router 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kontrolu vian elektroprovizon\n"
+#~ msgstr "تحقق من امدادات الطاقة الخاصة بك (° 1 ° 1\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+#~ msgstr "إذا حصلت على الكثير من الخطوط، فعليك تغيير الطاقة.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+#~ "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+#~ "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+#~ "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+#~ msgstr "نقرأ عن مواقع مختلفة يمكن أن تعالج المفتاح (° 1 درجة) فقط 15 جهازا قصوى.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+#~ msgstr "مفتاحي له دليل أحمر يضيء."
+
+#, fuzzy, no-wrap
+#~ msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+#~ msgstr "يحدث أن استنزاف المفتاح، إما بسبب البيئة المحملة من الطفيليات أو بسبب نظام غذائي سيء.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+#~ msgstr "النزول من مفتاح المواد المزعجة: مكبرات الصوت، أجهزة توجيه Wi-Fi، ... (° 1 ° 1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "Por viŝi fulmmemoron:\n"

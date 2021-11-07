@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-07 10:51+0100\n"
+"POT-Creation-Date: 2021-11-07 12:18+0100\n"
 "PO-Revision-Date: 2021-11-06 22:47+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: \n"
@@ -104,15 +104,25 @@ msgstr "Fine vi bezonas la programon:\n"
 
 #. type: Bullet: '* '
 #: index.md:23
-#, no-wrap
-msgid "en général un coordinateur zigbee : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgid ""
+"en général un coordinateur _zigbee_ : [ version 1.2 (recommandée)](https://"
+"github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/"
+"bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/"
+"tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr ""
+"Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github."
+"com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/"
+"default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/"
+"master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:23
-#, no-wrap
-msgid "ou alors un routeur zigbee : [routeur zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgid ""
+"ou alors un routeur _zigbee_ : [routeur _zigbee_ 1.2](https://github.com/"
+"Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr ""
+"Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-"
+"firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:25
@@ -192,13 +202,9 @@ msgstr "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 
 #. type: Plain text
 #: index.md:51
-msgid ""
-"Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à "
-"la place connecter la broche _CC_ 9 à une broche _3,3v_ du _raspberry_ "
-"(broche 1 ou 17).\n"
-msgstr ""
-"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe "
-"konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
+#, no-wrap
+msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du _raspberry_ (broche 1 ou 17).\n"
+msgstr "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
 
 #. type: Plain text
 #: index.md:55
@@ -356,73 +362,73 @@ msgstr "_-c_ pinglo: ŝanĝu la pinglon _DC_ (defaŭlte 27)\n"
 
 #. type: Bullet: ' * '
 #: index.md:101
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "_-d_ broche : change la broche _DD_ (par défaut 28)\n"
 msgstr "_-d_ pinglo: ŝanĝu la pinglon _DD_ (defaŭlte 28)\n"
 
 #. type: Bullet: ' * '
 #: index.md:101
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "_-r_ broche : change la broche _reset_ (par défaut 24)\n"
 msgstr "_-r_ pinglo: ŝanĝu la pinglon _reset_ (defaŭlte 24)\n"
 
 #. type: Bullet: ' * '
 #: index.md:101
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "_-m_ : change le multiplicateur du délai, et donc le temps de base (par défaut : ajustement automatique)\n"
 msgstr "_-m_ : ŝanĝu la prokrastan multiplikaton, kaj do la bazan tempon (defaŭlte: aŭtomata ĝustigo)\n"
 
 #. type: Plain text
 #: index.md:103
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "la numérotation des broches utilisée est celle de _wiringPi_. Utilisez `gpio readall` pour avoir la disposition dans votre _Raspberry_ (colonne _wPi_ ).\n"
 msgstr "la pinglonumerado uzata estas tiu de _wiringPi_. Uzu `gpio readall` por havi la aranĝon en via _Raspberry_ (kolumno _wPi_ ).\n"
 
 #. type: Plain text
 #: index.md:104
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Par exemple, si vous souhaitez utiliser les broches 3, 11 et 13:  \n"
 msgstr "Ekzemple, se vi volas uzi pinglojn 3, 11 kaj 13:  \n"
 
 #. type: Plain text
 #: index.md:106
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Connectez les broches suivantes d'un port de débogage à une porte _GPIO_:\n"
 msgstr "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:111
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "broche 1 ( _GND_ ) -> broche 14 ( _GND_ )\n"
 msgstr "pinglo 1 ( _GND_ ) -> pinglo 14 ( _GND_ )\n"
 
 #. type: Bullet: ' 2. '
 #: index.md:111
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "broche 7 ( _reset_ ) -> broche 3 ( _wPi 8, BCM2_ )\n"
 msgstr "pinglo 7 ( _reset_ ) -> pinglo 3 ( _wPi 8, BCM2_ )\n"
 
 #. type: Bullet: ' 3. '
 #: index.md:111
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "broche 3 ( _DC_ ) -> broche 11 ( _wPi 0, BCM17_ )\n"
 msgstr "pinglo 3 ( _DC_ ) -> pinglo 11 ( _wPi 0, BCM17_ )\n"
 
 #. type: Bullet: ' 4. '
 #: index.md:111
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "broche 4 ( _DD_ ) -> broche 13 ( _wPi 2, BCM27_ )\n"
 msgstr "pinglo 4 ( _DD_ ) -> pinglo 13 ( _wPi 2, BCM27_ )\n"
 
 #. type: Plain text
 #: index.md:113
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "et maintenant vous pouvez lire l'ID, sauvegarder , effacer et écrire la mémoire flash avec les commandes suivantes:\n"
 msgstr "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:113
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "./cc_chipid -r 8 -c 0 -d 2\n"
 "./cc_read -r 8 -c 0 -d 2 save.hex\n"
@@ -436,69 +442,69 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:121
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.\n"
 msgstr "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
 
 #. type: Title ##
 #: index.md:122
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "et si ça ne marche pas?"
 msgstr "kio se ĝi ne funkcias?"
 
 #. type: Bullet: '1. '
 #: index.md:126
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "arrêtez tous les autres programmes.\n"
 msgstr "ĉesu ĉiujn aliajn programojn.\n"
 
 #. type: Bullet: '2. '
 #: index.md:126
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "fixez la vitesse du processeur avant la programmation. Exemple:\n"
 msgstr "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:127
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 
 #. type: Bullet: '3. '
 #: index.md:131
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "utilisez l'option -m pour augmenter les délais utilisés. Exemple:\n"
 msgstr "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:132
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 
 #. type: Bullet: '4. '
 #: index.md:136
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "recompilez le logiciel avec `make`.\n"
 msgstr "rekompili la programon per `make`.\n"
 
 #. type: Bullet: '5. '
 #: index.md:138
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "cherchez une solution [dans les questions déjà posées sur github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 
 #. type: Bullet: '6. '
 #: index.md:140
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Posez votre propre question sur [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 
 #. type: Bullet: '1. '
 #: index.md:142 index.md:158
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Vérifiez votre alimentation\n"
-msgstr "Kontrolu vian elektroprovizon\n"
+msgstr "Kontrolu vian nutroblokon\n"
 
 #. type: Fenced code block (bash)
 #: index.md:143 index.md:159
@@ -508,72 +514,86 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:147 index.md:163
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.\n"
-msgstr "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+msgstr "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 
 #. type: Title ##
 #: index.md:148
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Je veux connecter plus de 15 périphériques"
 msgstr "Mi volas konekti pli ol 15 periferiojn"
 
 #. type: Plain text
 #: index.md:149
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  \n"
-msgstr "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+msgstr "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 
 #. type: Plain text
 #: index.md:150
-#, fuzzy, no-wrap
-msgid "En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur zigbee (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  \n"
-msgstr "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+msgid ""
+"En fait le micrologiciel standard de cette clé a bien une limite de 15 "
+"connexions directes. Mais si l'une de ces connexions est un routeur _zigbee_ "
+"(et la plupart des périphériques font office de routeur, c'est par exemple "
+"le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le "
+"_CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière "
+"les routeurs connectés à ce routeur...  \n"
+msgstr ""
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj "
+"ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
 
 #. type: Plain text
 #: index.md:151
-#, fuzzy, no-wrap
-msgid "En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
-msgstr "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+msgid ""
+"En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour "
+"vous dépassez les 50 périphériques sur votre réseau _zigbee_, investir dans "
+"un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
+msgstr "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 
 #. type: Plain text
 #: index.md:153
-#, fuzzy, no-wrap
-msgid "Notons par ailleurs que le protocole zigbee limite le nombre de connexions directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se connecter à plus de 32 périphériques directement.\n"
-msgstr "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgid ""
+"Notons par ailleurs que le protocole _zigbee_ limite le nombre de connexions "
+"directes à 32. Quel que soit votre coordinateur _zigbee_, il ne pourra pas "
+"se connecter à plus de 32 périphériques directement.\n"
+msgstr ""
+"Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al "
+"32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli "
+"ol 32 ekstercentraj. \n"
 
 #. type: Title ##
 #: index.md:154
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Ma clé a sa DEL rouge qui s'allume."
-msgstr "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+msgstr "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 
 #. type: Plain text
 #: index.md:156
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.\n"
-msgstr "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+msgstr "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 
 #. type: Bullet: '2. '
 #: index.md:165
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Éloignez la clé des matériels suceptibles de la perturber : haut-parleurs, routeurs wi-fi, ...\n"
-msgstr "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+msgstr "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:167
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Reprogrammez la clé\n"
 msgstr "Reprogramu la ŝlosilon\n"
 
 #. type: Title ##
 #: index.md:170
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Licence"
 msgstr "Permesilo"
 
 #. type: Plain text
 #: index.md:172
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Ce projet est sous licence GPL v3 ( voir _COPYING_ ).\n"
 msgstr "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"

@@ -17,10 +17,10 @@ Necesita qué conectar el puerto de depuración de la llave a los puertos _GPIO_
 [ _WiringPi_ ](http://wiringpi.com/) debe instalarse \(si no está preinstalado, normalmente puede instalarlo con `sudo apt install wiringpi`); de lo contrario, consulte [el lugar de _Gordon_ ](http://wiringpi.com/) o [este lugar alternativo](https://github.com/WiringPi/WiringPi) \).  
 Finalmente necesitas el programa:
 
-* generalmente coordinador zigbee: [ versión 1.2 (recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [versión 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Coordinador general _zigbee_ : [ Versión 1.2 (Recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [Versión 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
 
-* o enrutador zigbee: [enrutador zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* O enrutador _zigbee_ : [Enrutador _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ También puede cambiar los valores predeterminados a _CCDebugger.h_ y compilar l
 
 
 
-7. Compruebe su fuente de alimentación (° 1 ° 1
+7. Compruebe su bloque de nutrición (° 1 ° 1 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Si obtienes muchas líneas, entonces tienes que cambiar de poder.  
+Si obtiene muchas líneas, entonces tiene que cambiar el bloque de nutrición.  
 
 ## Quiero conectar más de 15 periferias.
-Leemos sobre diferentes ubicaciones que la clave _CC2531_ solo puede manejar 15 dispositivos máximos.  
+Leemos en varios lugares que la llave _CC2531_ solo puede manejar 15 dispositivos máximos.   
+De hecho, el límite para _CC2531_ es mucho mayor.   
+También tenga en cuenta que el protocolo _zigbee_ limita el número de enlaces directos al 32º.  
 
-## Mi llave tiene su guía roja que se ilumina.
-Sucede que el agotamiento de la llave, ya sea debido al entorno cargado por parásitos o debido a una mala dieta.  
+## Mi llave tiene su LED rojo que se ilumina.
+Sucede que los depósitos clave, ya sea debido al entorno cargado por parásitos o debido a una mala nutrición.  
 
-1. Compruebe su fuente de alimentación (° 1 ° 1
+1. Compruebe su bloque de nutrición (° 1 ° 1 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Si obtienes muchas líneas, entonces tienes que cambiar de poder.  
+Si obtiene muchas líneas, entonces tiene que cambiar el bloque de nutrición.  
 
-2. Baje la llave para los materiales perturbadores: hablantes, enrutadores Wi-Fi, ... (° 1 ° 1
+2. Baje de la llave para molestar materiales: altavoces, enrutador Wi-Fi, ... (° 1 ° 1
 
 
 

@@ -17,10 +17,10 @@ Sie benötigen, um den Debug-Port des Schlüssels mit den Ports _GPIO_ von _Rasp
 [ _WiringPi_ ](http://wiringpi.com/) muss installiert werden \(Wenn es nicht vorinstalliert ist, können Sie es normalerweise mit `sudo apt install wiringpi`)installieren, ansonsten siehe [die Stelle von _Gordon_ ](http://wiringpi.com/) oder [dieser alternativen Stelle](https://github.com/WiringPi/WiringPi) \).  
 Schließlich benötigen Sie das Programm:
 
-* im Allgemeinen ZigBee-Koordinator: [ Version 1.2 (empfohlen)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) oder [Version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Allgemeiner Koordinator _zigbee_ : [ Version 1.2 (empfohlen)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) oder [Version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)
 
 
-* oder ZigBee-Router: [ZigBee-Router 1,2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Oder Router _zigbee_ : [Router _zigbee_ 1,2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ Sie können auch die Standardwerte auf _CCDebugger.h_ ändern und die Programme 
 
 
 
-7. Überprüfen Sie Ihre Stromversorgung
+7. Überprüfen Sie Ihren Ernährungsblock
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Wenn Sie viele Zeilen bekommen, müssen Sie die Macht ändern.  
+Wenn Sie viele Linien bekommen, müssen Sie den Ernährungsblock wechseln.  
 
 ## Ich möchte mehr als 15 Peripherie anschließen
-Wir lesen über verschiedene Standorte, dass der Schlüssel _CC2531_ nur 15 Maximalgeräte behandeln kann.  
+Wir lesen an verschiedenen Orten, an denen der Schlüssel _CC2531_ nur 15 Maximalgeräte behandeln kann.   
+Tatsächlich ist die Grenze für _CC2531_ viel höher.   
+Beachten Sie auch, dass das Protokoll _zigbee_ die Anzahl der direkten Verbindungen auf die 32. Grenzung begrenzt.  
 
-## Mein Schlüssel hat seinen roten Leitfaden, der beleuchtet.
-Es passiert, dass der Schlüssel verkleinert, entweder aufgrund der von Parasiten geladenen Umwelt oder aufgrund einer schlechten Ernährung.  
+## Mein Schlüssel hat seine rote LED, die beleuchtet.
+Es passiert, dass die wichtigsten Devergogramme, entweder aufgrund der von Parasiten geladenen Umwelt oder aufgrund schlechter Ernährung aufgrund der echten Nahrung.  
 
-1. Überprüfen Sie Ihre Stromversorgung
+1. Überprüfen Sie Ihren Ernährungsblock
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Wenn Sie viele Zeilen bekommen, müssen Sie die Macht ändern.  
+Wenn Sie viele Linien bekommen, müssen Sie den Ernährungsblock wechseln.  
 
-2. Steigern Sie den Schlüssel für störende Materialien: Lautsprecher, Wi-Fi-Router, ...
+2. Strecken Sie den Schlüssel zu störenden Materialien: Lautsprecher, Wi-Fi-Router, ...
 
 
 

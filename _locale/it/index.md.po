@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 11:15+0100\n"
+"POT-Creation-Date: 2021-11-07 12:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,17 @@ msgstr "Infine serve il programma:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
-msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "generalmente coordinatore zigbee: [ versione 1.2 (consigliata)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [versione 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "Coordinatore generale _zigbee_ : [ Versione 1.2 (Consigliato)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [Versione 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, fuzzy, no-wrap
-msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "o router zigbee: [router zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "O Router _zigbee_ : [Router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:27
@@ -280,8 +282,7 @@ msgstr "(richiede circa 2 minuti).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "Per eliminare la memoria Lightning: (° 1 ° 1\n"
 
@@ -299,8 +300,7 @@ msgstr "**Nota:** Devi **cancellare** prima di scrivere (a meno che tu non sappi
 
 #. type: Plain text
 #: index.md:94
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr "Per programmare il file _CC2531ZNP-Prod.hex_ sulla chiave _CC2531_:\n"
 
@@ -484,9 +484,10 @@ msgstr "Poni la tua domanda su [github](https://github.com/jmichault/flash_cc253
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
-msgid "Kontrolu vian elektroprovizon\n"
-msgstr "Controlla il tuo alimentatore (° 1 ° 1\n"
+#, no-wrap
+#, fuzzy
+msgid "Kontrolu vian nutroblokon\n"
+msgstr "Controlla il tuo blocco nutrizionale (° 1 ° 1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182
@@ -496,9 +497,10 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, fuzzy, no-wrap
-msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
-msgstr "Se hai un sacco di linee, devi cambiare energia.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
+msgstr "Se ottieni un sacco di linee, devi cambiare il blocco nutrizionale.  \n"
 
 #. type: Title ##
 #: index.md:170
@@ -507,31 +509,47 @@ msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "Voglio connettere più di 15 periferia"
 
 #. type: Plain text
-#: index.md:175
-#, fuzzy, no-wrap
+#: index.md:172
+#, no-wrap
+#, fuzzy
 msgid ""
-"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
-"Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
-"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
-msgstr "Leggeremo di diverse posizioni che la chiave _CC2531_ può gestire solo 15 apparecchi massimi.  \n"
+"Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
+msgstr "Leggiamo in vari luoghi che la chiave _CC2531_ può gestire solo 15 dispositivi massimi.   \n"
+
+#. type: Plain text
+#: index.md:173
+#, no-wrap
+#, fuzzy
+msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
+msgstr "In effetti, il limite per _CC2531_ è molto più alto.   \n"
+
+#. type: Plain text
+#: index.md:175
+#, no-wrap
+#, fuzzy
+msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgstr "Si noti inoltre che il protocollo _zigbee_ limita il numero di collegamenti diretti al 32 °.  \n"
 
 #. type: Title ##
 #: index.md:176
-#, fuzzy, no-wrap
-msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
-msgstr "La mia chiave ha la sua guida rossa che si illumina."
+#, no-wrap
+#, fuzzy
+msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
+msgstr "La mia chiave ha il suo LED rosso che si illumina."
 
 #. type: Plain text
 #: index.md:178
-#, fuzzy, no-wrap
-msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
-msgstr "Succede che la chiave impoverazione, sia dovuta all'ambiente caricato da parassiti o a causa di una cattiva dieta.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
+msgstr "Succede che i principali deprogrammi, sia dovuti all'ambiente caricato da parassiti o a causa della scarsa alimentazione.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, fuzzy, no-wrap
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+#, no-wrap
+#, fuzzy
+msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 msgstr "Scendi dalla chiave per i materiali inquietanti: altoparlanti, router Wi-Fi, ... (° 1 ° 1\n"
 
 #. type: Bullet: '3. '
@@ -551,6 +569,42 @@ msgstr "Licenza"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Questo progetto è sotto licenza GPL v3 ( vedi _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#~ msgstr "generalmente coordinatore zigbee: [ versione 1.2 (consigliata)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [versione 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#~ msgstr "o router zigbee: [router zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kontrolu vian elektroprovizon\n"
+#~ msgstr "Controlla il tuo alimentatore (° 1 ° 1\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+#~ msgstr "Se hai un sacco di linee, devi cambiare energia.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+#~ "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+#~ "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+#~ "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+#~ msgstr "Leggeremo di diverse posizioni che la chiave _CC2531_ può gestire solo 15 apparecchi massimi.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+#~ msgstr "La mia chiave ha la sua guida rossa che si illumina."
+
+#, fuzzy, no-wrap
+#~ msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+#~ msgstr "Succede che la chiave impoverazione, sia dovuta all'ambiente caricato da parassiti o a causa di una cattiva dieta.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+#~ msgstr "Scendi dalla chiave per i materiali inquietanti: altoparlanti, router Wi-Fi, ... (° 1 ° 1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "Por viŝi fulmmemoron:\n"

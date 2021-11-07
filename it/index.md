@@ -17,10 +17,10 @@ Hai bisogno di _Raspberry_ o _Odroid-c2_.
 [ _WiringPi_ ](http://wiringpi.com/) deve essere installato \(se non è preinstallato, normalmente si può installare con `sudo apt install wiringpi`), altrimenti vedere [il sito di _Gordon_ ](http://wiringpi.com/) o [questo sito alternativo](https://github.com/WiringPi/WiringPi) \).  
 Infine serve il programma:
 
-* generalmente coordinatore zigbee: [ versione 1.2 (consigliata)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [versione 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Coordinatore generale _zigbee_ : [ Versione 1.2 (Consigliato)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) o [Versione 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
 
-* o router zigbee: [router zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* O Router _zigbee_ : [Router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,29 +174,31 @@ e ora puoi leggere ID, salvare, cancellare e scrivere la memoria flash con i seg
 
 
 
-7. Controlla il tuo alimentatore (° 1 ° 1
+7. Controlla il tuo blocco nutrizionale (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se hai un sacco di linee, devi cambiare energia.  
+Se ottieni un sacco di linee, devi cambiare il blocco nutrizionale.  
 
 ## Voglio connettere più di 15 periferia
-Leggeremo di diverse posizioni che la chiave _CC2531_ può gestire solo 15 apparecchi massimi.  
+Leggiamo in vari luoghi che la chiave _CC2531_ può gestire solo 15 dispositivi massimi.   
+In effetti, il limite per _CC2531_ è molto più alto.   
+Si noti inoltre che il protocollo _zigbee_ limita il numero di collegamenti diretti al 32 °.  
 
-## La mia chiave ha la sua guida rossa che si illumina.
-Succede che la chiave impoverazione, sia dovuta all'ambiente caricato da parassiti o a causa di una cattiva dieta.  
+## La mia chiave ha il suo LED rosso che si illumina.
+Succede che i principali deprogrammi, sia dovuti all'ambiente caricato da parassiti o a causa della scarsa alimentazione.  
 
-1. Controlla il tuo alimentatore (° 1 ° 1
+1. Controlla il tuo blocco nutrizionale (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se hai un sacco di linee, devi cambiare energia.  
+Se ottieni un sacco di linee, devi cambiare il blocco nutrizionale.  
 
 2. Scendi dalla chiave per i materiali inquietanti: altoparlanti, router Wi-Fi, ... (° 1 ° 1
 

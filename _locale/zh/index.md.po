@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 11:15+0100\n"
+"POT-Creation-Date: 2021-11-07 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,17 @@ msgstr "最后，您需要程序：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
-msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "通常是Zigbee协调器： [ 1.2版 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [3.0版](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "一般协调器 _zigbee_ : [ 版本1.2 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)（°13 °\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, fuzzy, no-wrap
-msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "或Zigbee路由器： [Zigbee路由器1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "或路由器 _zigbee_ : [路由器 _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:27
@@ -280,8 +282,7 @@ msgstr "(大约需要2分钟)。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "删除闪电记忆：（°1°1\n"
 
@@ -299,8 +300,7 @@ msgstr "**注：** 除非 (，否则 **必须** 删除，除非您真的知道�
 
 #. type: Plain text
 #: index.md:94
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr "在键 _CC2531_上编程文件 _CC2531ZNP-Prod.hex_ ：\n"
 
@@ -484,9 +484,10 @@ msgstr "询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/n
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
-msgid "Kontrolu vian elektroprovizon\n"
-msgstr "检查电源（°1°1\n"
+#, no-wrap
+#, fuzzy
+msgid "Kontrolu vian nutroblokon\n"
+msgstr "检查营养块（°1°1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182
@@ -496,9 +497,10 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, fuzzy, no-wrap
-msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
-msgstr "如果你得到了很多线，那么你必须改变电力。  \n"
+#, no-wrap
+#, fuzzy
+msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
+msgstr "如果你得到很多线，那么你必须改变营养块。  \n"
 
 #. type: Title ##
 #: index.md:170
@@ -507,32 +509,48 @@ msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "我想连接超过15个外围"
 
 #. type: Plain text
-#: index.md:175
-#, fuzzy, no-wrap
+#: index.md:172
+#, no-wrap
+#, fuzzy
 msgid ""
-"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
-"Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
-"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
-msgstr "我们读到了钥匙 _CC2531_ 只能处理15个最大电器的不同位置。  \n"
+"Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
+msgstr "我们在各个地方阅读，键 _CC2531_ 只能处理15个最大设备。   \n"
+
+#. type: Plain text
+#: index.md:173
+#, no-wrap
+#, fuzzy
+msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
+msgstr "实际上， _CC2531_ 的极限要高得多。  \n"
+
+#. type: Plain text
+#: index.md:175
+#, no-wrap
+#, fuzzy
+msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgstr "另请注意，协议 _zigbee_ 限制直接链接到第32个。 \n"
 
 #. type: Title ##
 #: index.md:176
-#, fuzzy, no-wrap
-msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
-msgstr "我的钥匙有它的红色指南，亮起。"
+#, no-wrap
+#, fuzzy
+msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
+msgstr "我的钥匙是它的红色LED，亮起。"
 
 #. type: Plain text
 #: index.md:178
-#, fuzzy, no-wrap
-msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
-msgstr "它恰好是由于寄生虫装载的环境或由于饮食不良而导致的关键耗尽。  \n"
+#, no-wrap
+#, fuzzy
+msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
+msgstr "它恰好是由于寄生虫装载的环境或由于营养不良而导致的关键常量。  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, fuzzy, no-wrap
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
-msgstr "关闭令人不安的材料钥匙：扬声器，Wi-Fi路由器，...（°1°1\n"
+#, no-wrap
+#, fuzzy
+msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "关闭令人不安的材料的关键：扬声器，Wi-Fi路由器，...（°1°1\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -551,6 +569,42 @@ msgstr "执照"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "此项目已获得GPL v3许可 ( ，请参见 _COPYING_ )。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#~ msgstr "通常是Zigbee协调器： [ 1.2版 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [3.0版](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#~ msgstr "或Zigbee路由器： [Zigbee路由器1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kontrolu vian elektroprovizon\n"
+#~ msgstr "检查电源（°1°1\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+#~ msgstr "如果你得到了很多线，那么你必须改变电力。  \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+#~ "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+#~ "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+#~ "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+#~ msgstr "我们读到了钥匙 _CC2531_ 只能处理15个最大电器的不同位置。  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+#~ msgstr "我的钥匙有它的红色指南，亮起。"
+
+#, fuzzy, no-wrap
+#~ msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+#~ msgstr "它恰好是由于寄生虫装载的环境或由于饮食不良而导致的关键耗尽。  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+#~ msgstr "关闭令人不安的材料钥匙：扬声器，Wi-Fi路由器，...（°1°1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "Por viŝi fulmmemoron:\n"

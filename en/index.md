@@ -17,10 +17,10 @@ You need what to connect the debug port of the key to the ports _GPIO_ of _Raspb
 [ _WiringPi_ ](http://wiringpi.com/) must be installed \(if it is not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \).  
 Finally you need the program:
 
-* generally zigbee coordinator: [ version 1.2 (recommended)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) or [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* General coordinator _zigbee_ : [ Version 1.2 (Recommended)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) or [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
 
-* or zigbee router: [zigbee router 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Or router _zigbee_ : [router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ You can also change the default values ​​in _CCDebugger.h_ and compile the p
 
 
 
-7. Check your power supply (° 1 ° 1
+7. Check your nutrition block (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-If you get a lot of lines then you have to change power.  
+If you get a lot of lines then you have to change nutrition block.  
 
 ## I want to connect more than 15 periphery
-We read about different locations that the key _CC2531_ can only handle 15 maximum appliances.  
+We read in various places that the key _CC2531_ can only handle 15 maximum devices.   
+In fact, the limit for _CC2531_ is much higher.   
+Also note that the protocol _zigbee_ limits the number of direct links to 32th.  
 
-## My key has its red guide that illuminates.
-It happens that the key depleting, either due to the environment loaded by parasites or due to a bad diet.  
+## My key has its red LED that illuminates.
+It happens that the key deprograms, either due to the environment loaded by parasites or due to poor nutrition.  
 
-1. Check your power supply (° 1 ° 1
+1. Check your nutrition block (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-If you get a lot of lines then you have to change power.  
+If you get a lot of lines then you have to change nutrition block.  
 
-2. Get off the key for disturbing materials: speakers, Wi-Fi routers, ... (° 1 ° 1
+2. Get off the key to disturbing materials: speakers, Wi-Fi router, ... (° 1 ° 1
 
 
 

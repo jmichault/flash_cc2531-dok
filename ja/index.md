@@ -17,10 +17,10 @@ title: 重要なこと
 [ _WiringPi_ ](http://wiringpi.com/) が事前にインストールされていない場合はインストールする必要があります \(、通常は `sudo apt install wiringpi`)でインストールできます。それ以外の場合は [ _Gordon_ ](http://wiringpi.com/) または [この代替サイト](https://github.com/WiringPi/WiringPi) \)のサイト。  
 最後に、プログラムが必要です：
 
-* 一般的にジグビーコーディネーター： [ バージョン1.2 (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* 一般コーディネーター _zigbee_ ： [ バージョン1.2 (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°）
 
 
-* またはzigbeeルーター： [zigbeeルーター1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* またはルーター _zigbee_ ： [ルーター _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ cd flash_cc2531
 
 
 
-7. 電源を確認してください（°1°1
+7. 栄養ブロックを確認してください（°1°1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-あなたがたくさんの行を手に入れるならば、あなたは電力を変更する必要があります。  
+あなたがたくさんの行を手に入れるなら、あなたは栄養ブロックを変更する必要があります。  
 
 ## 私は15以上の周辺機器を接続したいです
-鍵 _CC2531_ が15の最大機器のみを処理できるというさまざまな場所について読みます。  
+鍵 _CC2531_ が15の最大機器のみを扱うことができるようなさまざまな場所で読みました。   
+実際、 _CC2531_ の限界ははるかに高いです。  
+また、プロトコル _zigbee_ は32thへの直接リンク数を制限することに注意してください。 
 
-## 私の鍵には、照らされた赤いガイドがあります。
-それは、寄生虫によって装填された環境のために、または悪い食事のために鍵が枯渇することが起こります。  
+## 私の鍵は照らされた赤いLEDを持っています。
+それは、寄生虫によってロードされた環境のため、または栄養不良のために、重要なデパログラムが発生することが起こります。  
 
-1. 電源を確認してください（°1°1
+1. 栄養ブロックを確認してください（°1°1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-あなたがたくさんの行を手に入れるならば、あなたは電力を変更する必要があります。  
+あなたがたくさんの行を手に入れるなら、あなたは栄養ブロックを変更する必要があります。  
 
-2. 邪魔剤の鍵から降りてください：スピーカー、Wi-Fiルーター、...（°1°1
+2. 邪魔されている材料への鍵から降りる：スピーカー、Wi-Fiルーター、...（°1°1
 
 
 

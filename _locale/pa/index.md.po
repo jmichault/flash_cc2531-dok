@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 11:15+0100\n"
+"POT-Creation-Date: 2021-11-07 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,17 @@ msgstr "ਅੰਤ ਵਿੱਚ ਤੁਹਾਨੂੰ ਪ੍ਰੋਗਰਾਮ �
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
-msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "ਆਮ ਤੌਰ 'ਤੇ ਜਿਗਬੀ ਕੋਆਰਡੀਨੇਟਰ: [ ਵਰਜ਼ਨ 1.2 (ਸਿਫਾਰਿਸ਼ ਕੀਤੇ)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ਜਾਂ [ਵਰਜ਼ਨ 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "ਜਨਰਲ ਕੋਆਰਡੀਨੇਟਰ _zigbee_ : [ ਦਾ ਵਰਜਨ 1.2 (ਜਾਂ [ਵਰਜਨ 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, fuzzy, no-wrap
-msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "ਜਾਂ ਜਿਗਬੀ ਰਾ rouਟਰ: [ਜ਼ਿੱਗਬੀ ਰਾ rouਟਰ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#, no-wrap
+#, fuzzy
+msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "ਜਾਂ ਰਾ ter ਟਰ _zigbee_ : [ਰਾ ter ਟਰ _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:27
@@ -278,8 +280,7 @@ msgstr "(ਲਗਭਗ 2 ਮਿੰਟ)ਲੈਂਦਾ ਹੈ.  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "ਬਿਜਲੀ ਦੀ ਯਾਦ ਨੂੰ ਹਟਾਉਣ ਲਈ:\n"
 
@@ -297,8 +298,7 @@ msgstr "**ਨੋਟ:** ਤੁਹਾਨੂੰ** ਲਾਜ਼ਮੀ ਤੌਰ 'ਤ
 
 #. type: Plain text
 #: index.md:94
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr "ਕੁੰਜੀ ਉੱਤੇ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰਨ ਲਈ _CC2531_:\n"
 
@@ -482,9 +482,10 @@ msgstr " [ਗਿੱਥਬ](https://github.com/jmichault/flash_cc2531/issues/new/
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
-msgid "Kontrolu vian elektroprovizon\n"
-msgstr "ਆਪਣੀ ਬਿਜਲੀ ਸਪਲਾਈਦੀ ਜਾਂਚ ਕਰੋ\n"
+#, no-wrap
+#, fuzzy
+msgid "Kontrolu vian nutroblokon\n"
+msgstr "ਆਪਣੇ ਪੋਸ਼ਣ ਬਲਾਕਦੀ ਜਾਂਚ ਕਰੋ\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182
@@ -494,9 +495,10 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, fuzzy, no-wrap
-msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
-msgstr "ਜੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਾਰੀਆਂ ਸਤਰਾਂ ਮਿਲਦੀਆਂ ਹਨ ਤਾਂ ਤੁਹਾਨੂੰ ਪਾਵਰ ਬਦਲਣਾ ਪਏਗਾ.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
+msgstr "ਜੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਾਰੀਆਂ ਸਤਰਾਂ ਮਿਲਦੀਆਂ ਹਨ ਤਾਂ ਤੁਹਾਨੂੰ ਪੋਸ਼ਣ ਬਲਾਕ ਬਦਲਣਾ ਪਏਗਾ.  \n"
 
 #. type: Title ##
 #: index.md:170
@@ -505,32 +507,48 @@ msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "ਮੈਂ 15 ਤੋਂ ਵੱਧ ਪੇਪਰਸ ਨਾਲ ਜੁੜਨਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 
 #. type: Plain text
-#: index.md:175
-#, fuzzy, no-wrap
+#: index.md:172
+#, no-wrap
+#, fuzzy
 msgid ""
-"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
-"Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
-"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
-msgstr "ਅਸੀਂ ਵੱਖੋ ਵੱਖਰੀਆਂ ਥਾਵਾਂ ਬਾਰੇ ਪੜ੍ਹਦੇ ਹਾਂ ਜੋ ਕੁੰਜੀ _CC2531_ ਸਿਰਫ 15 ਵੱਧ ਉਪਕਰਣਾਂ ਨੂੰ ਸੰਭਾਲ ਸਕਦੇ ਹਨ.  \n"
+"Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
+msgstr "ਅਸੀਂ ਵੱਖ ਵੱਖ ਥਾਵਾਂ ਤੇ ਪੜ੍ਹਦੇ ਹਾਂ ਜੋ ਕੁੰਜੀ _CC2531_ ਸਿਰਫ 15 ਵੱਧ ਤੋਂ ਵੱਧ ਉਪਕਰਣਾਂ ਨੂੰ ਸੰਭਾਲ ਸਕਦੇ ਹਾਂ.   \n"
+
+#. type: Plain text
+#: index.md:173
+#, no-wrap
+#, fuzzy
+msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
+msgstr "ਦਰਅਸਲ, _CC2531_ ਦੀ ਸੀਮਾ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ.   \n"
+
+#. type: Plain text
+#: index.md:175
+#, no-wrap
+#, fuzzy
+msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+msgstr "ਇਹ ਵੀ ਯਾਦ ਰੱਖੋ ਕਿ ਪ੍ਰੋਟੋਕੋਲ _zigbee_ ਸਿੱਧੇ ਲਿੰਕ ਦੇ ਸਿੱਧੇ ਲਿੰਕ ਦੀ ਸੰਖਿਆ ਨੂੰ 32 ਵੀਂ ਦੀ ਸੰਖਿਆ ਨੂੰ ਸੀਮਿਤ ਕਰਦਾ ਹੈ.  \n"
 
 #. type: Title ##
 #: index.md:176
-#, fuzzy, no-wrap
-msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
-msgstr "ਮੇਰੀ ਕੁੰਜੀ ਦਾ ਲਾਲ ਗਾਈਡ ਹੈ ਜੋ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੈ."
+#, no-wrap
+#, fuzzy
+msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
+msgstr "ਮੇਰੀ ਚਾਬੀ ਇਸ ਦੀ ਲਾਲ ਹੈ, ਜੋ ਕਿ ਪ੍ਰਕਾਸ਼ਮਾਨ ਕਰਦੀ ਹੈ."
 
 #. type: Plain text
 #: index.md:178
-#, fuzzy, no-wrap
-msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
-msgstr "ਅਜਿਹਾ ਹੁੰਦਾ ਹੈ ਕਿ ਕੁੰਜੀ ਖ਼ਤਮ ਹੋ ਰਹੀ ਹੈ, ਜਾਂ ਤਾਂ ਜਿਆਦਾਤਰਾਂ ਦੁਆਰਾ ਭਰੀ ਵਾਤਾਵਰਣ ਦੇ ਕਾਰਨ ਜਾਂ ਮਾੜੀ ਖੁਰਾਕ ਦੇ ਕਾਰਨ.  \n"
+#, no-wrap
+#, fuzzy
+msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
+msgstr "ਇਹ ਵਾਪਰਦਾ ਹੈ ਕਿ ਮੁੱਖ ਨਾਪਣ ਜਾਂ ਤਾਂ ਪਰਜੀਵੀ ਦੁਆਰਾ ਭਰੇ ਵਾਤਾਵਰਣ ਦੁਆਰਾ ਜਾਂ ਮਾੜੀ ਪੋਸ਼ਣ ਦੇ ਕਾਰਨ ਵਾਤਾਵਰਣ ਕਾਰਨ.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, fuzzy, no-wrap
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
-msgstr "ਪ੍ਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਲਈ ਕੁੰਜੀ ਤੋਂ ਉਤਰੋ: ਬੋਲਣ ਵਾਲੇ, ਵਾਈ-ਫਾਈ ਰਾ ters ਟਰ, ...\n"
+#, no-wrap
+#, fuzzy
+msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "ਪ੍ਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਦੀ ਕੁੰਜੀ ਤੋਂ ਉਤਰੋ: ਬੋਲਣ ਵਾਲੇ, ਵਾਈ-ਫਾਈ ਰਾ ter ਟਰ, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -549,6 +567,42 @@ msgstr "ਲਾਇਸੈਂਸ"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "ਇਹ ਪ੍ਰੋਜੈਕਟ ਜੀਪੀਐਲ ਵੀ 3 ( ਦੇਖੋ _COPYING_ )ਦੇ ਅਧੀਨ ਲਾਇਸੰਸਸ਼ੁਦਾ ਹੈ.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+#~ msgstr "ਆਮ ਤੌਰ 'ਤੇ ਜਿਗਬੀ ਕੋਆਰਡੀਨੇਟਰ: [ ਵਰਜ਼ਨ 1.2 (ਸਿਫਾਰਿਸ਼ ਕੀਤੇ)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ਜਾਂ [ਵਰਜ਼ਨ 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+#~ msgstr "ਜਾਂ ਜਿਗਬੀ ਰਾ rouਟਰ: [ਜ਼ਿੱਗਬੀ ਰਾ rouਟਰ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Kontrolu vian elektroprovizon\n"
+#~ msgstr "ਆਪਣੀ ਬਿਜਲੀ ਸਪਲਾਈਦੀ ਜਾਂਚ ਕਰੋ\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
+#~ msgstr "ਜੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਾਰੀਆਂ ਸਤਰਾਂ ਮਿਲਦੀਆਂ ਹਨ ਤਾਂ ਤੁਹਾਨੂੰ ਪਾਵਰ ਬਦਲਣਾ ਪਏਗਾ.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
+#~ "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
+#~ "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
+#~ "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
+#~ msgstr "ਅਸੀਂ ਵੱਖੋ ਵੱਖਰੀਆਂ ਥਾਵਾਂ ਬਾਰੇ ਪੜ੍ਹਦੇ ਹਾਂ ਜੋ ਕੁੰਜੀ _CC2531_ ਸਿਰਫ 15 ਵੱਧ ਉਪਕਰਣਾਂ ਨੂੰ ਸੰਭਾਲ ਸਕਦੇ ਹਨ.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
+#~ msgstr "ਮੇਰੀ ਕੁੰਜੀ ਦਾ ਲਾਲ ਗਾਈਡ ਹੈ ਜੋ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੈ."
+
+#, fuzzy, no-wrap
+#~ msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
+#~ msgstr "ਅਜਿਹਾ ਹੁੰਦਾ ਹੈ ਕਿ ਕੁੰਜੀ ਖ਼ਤਮ ਹੋ ਰਹੀ ਹੈ, ਜਾਂ ਤਾਂ ਜਿਆਦਾਤਰਾਂ ਦੁਆਰਾ ਭਰੀ ਵਾਤਾਵਰਣ ਦੇ ਕਾਰਨ ਜਾਂ ਮਾੜੀ ਖੁਰਾਕ ਦੇ ਕਾਰਨ.  \n"
+
+#, fuzzy, no-wrap
+#~ msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
+#~ msgstr "ਪ੍ਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਲਈ ਕੁੰਜੀ ਤੋਂ ਉਤਰੋ: ਬੋਲਣ ਵਾਲੇ, ਵਾਈ-ਫਾਈ ਰਾ ters ਟਰ, ...\n"
 
 #, fuzzy, no-wrap
 #~ msgid "Por viŝi fulmmemoron:\n"

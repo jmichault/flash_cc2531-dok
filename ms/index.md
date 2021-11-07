@@ -17,10 +17,10 @@ Anda memerlukan apa yang menghubungkan port debug kunci ke port _GPIO_  _Raspber
 [ _WiringPi_ ](http://wiringpi.com/) mesti dipasang \(jika tidak dipasang sebelumnya, anda biasanya boleh memasangnya dengan `sudo apt install wiringpi`), jika tidak, lihat [tapak _Gordon_ ](http://wiringpi.com/) atau [tapak alternatif ini](https://github.com/WiringPi/WiringPi) \).  
 Akhirnya anda memerlukan program:
 
-* umumnya koordinator zigbee: [ versi 1.2 (disyorkan)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) atau [versi 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Umum Penyelaras _zigbee_ : [ Version 1.2 (Disyorkan)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) atau](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
 
-* atau penghala zigbee: [penghala zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Atau router _zigbee_ : [Router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ Anda juga boleh menukar nilai lalai ke _CCDebugger.h_ dan menyusun program denga
 
 
 
-7. Semak bekalan kuasa anda (° 1 ° 1
+7. Semak blok pemakanan anda (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Sekiranya anda mendapat banyak baris maka anda perlu menukar kuasa.  
+Sekiranya anda mendapat banyak baris maka anda perlu menukar blok pemakanan.  
 
 ## Saya mahu menyambung lebih daripada 15 pinggir
-Kami membaca tentang lokasi yang berbeza yang kunci _CC2531_ hanya boleh mengendalikan 15 peralatan maksimum.  
+Kami membaca di pelbagai tempat yang kunci _CC2531_ hanya boleh mengendalikan 15 peranti maksimum.   
+Malah, had untuk _CC2531_ jauh lebih tinggi.   
+Juga ambil perhatian bahawa protokol _zigbee_ menghadkan bilangan pautan langsung ke 32.  
 
-## Kekunci saya mempunyai panduan merah yang menerangi.
-Ia berlaku bahawa kemerosotan utama, sama ada disebabkan oleh persekitaran yang dimuatkan oleh parasit atau disebabkan oleh diet yang tidak baik.  
+## Kuncinya mempunyai LED merah yang menerangi.
+Ia berlaku bahawa deprogram utama, sama ada disebabkan oleh persekitaran yang dimuatkan oleh parasit atau disebabkan oleh pemakanan yang kurang baik.  
 
-1. Semak bekalan kuasa anda (° 1 ° 1
+1. Semak blok pemakanan anda (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Sekiranya anda mendapat banyak baris maka anda perlu menukar kuasa.  
+Sekiranya anda mendapat banyak baris maka anda perlu menukar blok pemakanan.  
 
-2. Turunkan kunci untuk mengganggu bahan: Pembesar suara, router Wi-Fi, ... (° 1 ° 1
+2. Turunkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ... (° 1 ° 1
 
 
 

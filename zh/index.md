@@ -17,10 +17,10 @@ title: 最主要的
 [ _WiringPi_ ](http://wiringpi.com/)  \(，通常可以将其安装为 `sudo apt install wiringpi`)，否则请参见 [的位置 _Gordon_ ](http://wiringpi.com/) 或 [这个替代位置](https://github.com/WiringPi/WiringPi) \)。  
 最后，您需要程序：
 
-* 通常是Zigbee协调器： [ 1.2版 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [3.0版](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* 一般协调器 _zigbee_ : [ 版本1.2 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)（°13 °
 
 
-* 或Zigbee路由器： [Zigbee路由器1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* 或路由器 _zigbee_ : [路由器 _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ cd flash_cc2531
 
 
 
-7. 检查电源（°1°1
+7. 检查营养块（°1°1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-如果你得到了很多线，那么你必须改变电力。  
+如果你得到很多线，那么你必须改变营养块。  
 
 ## 我想连接超过15个外围
-我们读到了钥匙 _CC2531_ 只能处理15个最大电器的不同位置。  
+我们在各个地方阅读，键 _CC2531_ 只能处理15个最大设备。   
+实际上， _CC2531_ 的极限要高得多。  
+另请注意，协议 _zigbee_ 限制直接链接到第32个。 
 
-## 我的钥匙有它的红色指南，亮起。
-它恰好是由于寄生虫装载的环境或由于饮食不良而导致的关键耗尽。  
+## 我的钥匙是它的红色LED，亮起。
+它恰好是由于寄生虫装载的环境或由于营养不良而导致的关键常量。  
 
-1. 检查电源（°1°1
+1. 检查营养块（°1°1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-如果你得到了很多线，那么你必须改变电力。  
+如果你得到很多线，那么你必须改变营养块。  
 
-2. 关闭令人不安的材料钥匙：扬声器，Wi-Fi路由器，...（°1°1
+2. 关闭令人不安的材料的关键：扬声器，Wi-Fi路由器，...（°1°1
 
 
 

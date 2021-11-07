@@ -18,8 +18,8 @@ Vous avez besoin de quoi connecter le port de débogage de la clé aux ports _GP
 [ _WiringPi_ ](http://wiringpi.com/) doit être installé \(s'il n'est pas pré-installé, vous pouvez généralement l'installer avec `sudo apt install wiringpi`, sinon voir [le site Web de _Gordon_ ](http://wiringpi.com/) ou [ce site alternatif](https://github.com/WiringPi/WiringPi) \).  
 Enfin il vous faut le logiciel :
 
-* en général un coordinateur zigbee : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
-* ou alors un routeur zigbee : [routeur zigbee 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* en général un coordinateur _zigbee_ : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* ou alors un routeur _zigbee_ : [routeur _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 J'ai conçu _flash\_cc2531_ sur un _Raspberry Pi 3_ avec _raspbian_, mais des programmations réussies ont été signalées sur d'autres modèles:
 
@@ -147,9 +147,9 @@ Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.
 
 ## Je veux connecter plus de 15 périphériques
 On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  
-En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur zigbee (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  
-En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  
-Notons par ailleurs que le protocole zigbee limite le nombre de connexions directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se connecter à plus de 32 périphériques directement.
+En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur _zigbee_ (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  
+En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau _zigbee_, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  
+Notons par ailleurs que le protocole _zigbee_ limite le nombre de connexions directes à 32. Quel que soit votre coordinateur _zigbee_, il ne pourra pas se connecter à plus de 32 périphériques directement.
 
 ## Ma clé a sa DEL rouge qui s'allume.
 Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.

@@ -17,10 +17,10 @@ Você precisa do que conectar a porta de depuração da chave às portas _GPIO_ 
 [ _WiringPi_ ](http://wiringpi.com/) deve ser instalado \(se não estiver pré-instalado, geralmente você pode instalá-lo com `sudo apt install wiringpi`), caso contrário, consulte [o local de _Gordon_ ](http://wiringpi.com/) ou [este local alternativo](https://github.com/WiringPi/WiringPi) \).  
 Finalmente você precisa do programa:
 
-* geralmente coordenador zigbee: [ versão 1.2 (recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [versão 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
+* Coordenador Geral _zigbee_ : [ Versão 1.2 (Recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [Versão 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)
 
 
-* ou roteador zigbee: [roteador zigbee 1,2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Ou roteador _zigbee_ : [Roteador _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
@@ -174,31 +174,33 @@ Você também pode alterar os valores padrão para _CCDebugger.h_ e compilar os 
 
 
 
-7. Verifique sua fonte de alimentação (° 1 ° 1
+7. Verifique seu bloco nutricional (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se você receber muitas linhas, então você tem que mudar de poder.  
+Se você tiver muitas linhas, então você tem que mudar o bloco de nutrição.  
 
 ## Eu quero conectar mais de 15 periferia
-Nós lemos sobre diferentes locais que a chave _CC2531_ só pode lidar com 15 aparelhos máximos.  
+Nós lemos em vários lugares que a chave _CC2531_ só pode lidar com 15 dispositivos máximos.   
+De fato, o limite para _CC2531_ é muito maior.   
+Observe também que o Protocolo _zigbee_ limita o número de links diretos para 32º.  
 
-## Minha chave tem seu guia vermelho que ilumina.
-Acontece que a chave depletagem, devido ao meio ambiente carregado por parasitas ou devido a uma dieta ruim.  
+## Minha chave tem seu LED vermelho que ilumina.
+Acontece que os principais desprogramas, devido ao meio ambiente carregado por parasitas ou devido à má nutrição.  
 
-1. Verifique sua fonte de alimentação (° 1 ° 1
+1. Verifique seu bloco nutricional (° 1 ° 1
 
 
     
    ```bash
    grep Under /var/log/kern.log
    ```
-Se você receber muitas linhas, então você tem que mudar de poder.  
+Se você tiver muitas linhas, então você tem que mudar o bloco de nutrição.  
 
-2. Saia da chave para materiais perturbadores: alto-falantes, roteadores Wi-Fi, ... (° 1 ° 1
+2. Saia da chave para materiais perturbadores: alto-falantes, wi-fi roteador, ... (° 1 ° 1
 
 
 
