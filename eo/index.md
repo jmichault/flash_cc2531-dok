@@ -51,7 +51,7 @@ La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>
 
 
 Tiam enmetu la USB-ŝlosilon en havenon.   
-Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). 
+Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). 
 
 Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:
 ![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)

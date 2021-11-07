@@ -13,8 +13,7 @@ title: 'الشيء الرئيسي'
 
 ## المتطلبات المسبقة
 تحتاج إما _Raspberry_ أو _Odroid-c2_.  
-أنت بحاجة إلى ما لتوصيل منفذ التصحيح الخاص بالمفتاح بالمنافذ _GPIO_ من _Raspberry_، على سبيل المثال كابل واحد _CC_ وأربعة خطوط _Dupont_ (انظر أيضًا).   
-[ _WiringPi_ ](http://wiringpi.com/) يجب تثبيتها \(إذا لم تكن مثبتة مسبقًا ، يمكنك عادةً تثبيتها بـ `sudo apt install wiringpi`)، وإلا انظر [موقع _Gordon_ ](http://wiringpi.com/) أو [هذا الموقع البديل](https://github.com/WiringPi/WiringPi) \). (° 29 درجة)  
+تحتاج إلى ربط الميناء الأرجواني للمفتاح للمنافذ _Raspberry_من _Raspberry_، على سبيل المثال كابل واحد (° 5 درجة) وأربعة خطوط _Dupont_ (انظر أبعد).   
 أخيرًا تحتاج البرنامج:
 
 * بشكل عام منسق زيجبي: [ الإصدار 1.2 (موصى به)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) أو [الإصدار 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)

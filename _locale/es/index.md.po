@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-06 22:50+0100\n"
+"POT-Creation-Date: 2021-11-07 10:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,8 +66,7 @@ msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: index.md:14
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
 "Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
@@ -151,17 +150,17 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
-msgstr "Conecte los siguientes amplificadores del puerto púrpura al puerto GPI:\n![![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgstr ""
+"Conecte los siguientes amplificadores del puerto púrpura al puerto GPI:\n"
+"![![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
 #: index.md:49
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| pinglo de _GPIO_          | pinglo de _CC_  |\n"
 "| ---------------------- | ------------ | \n"
@@ -183,7 +182,7 @@ msgstr "El diseño de los pines _raspberry_ está disponible aquí: <https://pin
 #, fuzzy
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
-"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). \n"
+"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
 msgstr "Luego ingrese la clave USB en el puerto.  \n"
 
 #. type: Plain text
@@ -276,8 +275,7 @@ msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: index.md:86
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "(prenas ĉirkaŭ 2 minutojn). \n"
 msgstr "(toma aproximadamente 2 minutos).  \n"
 
@@ -485,8 +483,7 @@ msgstr "Haga su propia pregunta sobre [github](https://github.com/jmichault/flas
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian elektroprovizon\n"
 msgstr "Compruebe su fuente de alimentación (° 1 ° 1\n"
 
@@ -498,22 +495,19 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
 msgstr "Si obtienes muchas líneas, entonces tienes que cambiar de poder.  \n"
 
 #. type: Title ##
 #: index.md:170
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "Quiero conectar más de 15 periferias."
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
@@ -523,29 +517,25 @@ msgstr "Leemos sobre diferentes ubicaciones que la clave _CC2531_ solo puede man
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
 msgstr "Mi llave tiene su guía roja que se ilumina."
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
 msgstr "Sucede que el agotamiento de la llave, ya sea debido al entorno cargado por parásitos o debido a una mala dieta.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
 msgstr "Baje la llave para los materiales perturbadores: hablantes, enrutadores Wi-Fi, ... (° 1 ° 1\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Reprogramu la ŝlosilon\n"
 msgstr "Reprogramar la llave\n"
 
@@ -560,6 +550,14 @@ msgstr "Licencia"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Este proyecto tiene la licencia GPL v3 ( ver _COPYING_ ).\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
+#~ "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas "
+#~ "anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ "
+#~ "17). \n"
+#~ msgstr "Luego ingrese la clave USB en el puerto.  \n"
 
 #, fuzzy, no-wrap
 #~ msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-06 22:36+0100\n"
+"POT-Creation-Date: 2021-11-07 10:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,7 +181,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:51
 #, no-wrap
-msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du raspberry (broche 1 ou 17).\n"
+msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du _raspberry_ (broche 1 ou 17).\n"
 msgstr ""
 
 #. type: Plain text

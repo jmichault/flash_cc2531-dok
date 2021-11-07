@@ -47,7 +47,7 @@ La disposition des broches du _raspberry_ est disponible ici : <https://pinout.x
 
 
 Puis insérez la clé USB dans un port.  
-Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du raspberry (broche 1 ou 17).
+Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du _raspberry_ (broche 1 ou 17).
 
 Un câble de téléchargement _CC_ et 4 lignes _Dupont_ Femelle à Femelle sont parfaits à cet effet :
 ![photo de la clé et du _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)

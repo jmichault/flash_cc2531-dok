@@ -5,16 +5,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-06 22:36+0100\n"
+"POT-Creation-Date: 2021-11-07 10:51+0100\n"
 "PO-Revision-Date: 2021-11-06 22:47+0100\n"
 "Last-Translator: jean <>\n"
+"Language-Team: \n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.2\n"
-"Language-Team: \n"
 
 #. type: YAML Front Matter: komentoj_id
 #: index.md:1
@@ -116,37 +116,37 @@ msgstr "aŭ zigbee-enkursigilo: [zigbee-enkursigilo 1.2](https://github.com/Koen
 
 #. type: Plain text
 #: index.md:25
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "J'ai conçu _flash\\_cc2531_ sur un _Raspberry Pi 3_ avec _raspbian_, mais des programmations réussies ont été signalées sur d'autres modèles:\n"
 msgstr "Mi projektis _flash\\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:\n"
 
 #. type: Bullet: ' * '
 #: index.md:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "sur pi 4, vous aurez besoin de la version 2.52 de _wiringpi_ :  [installer _wiringPi_ 2.52 depuis le site Web de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)\n"
 msgstr "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.52 de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)retejo\n"
 
 #. type: Bullet: ' * '
 #: index.md:28
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "sur pi 1 et pi 2, vous devrez [utiliser d'autres broches](#uzi_aliajn_pinglojn).\n"
 msgstr "sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).\n"
 
 #. type: Title ##
 #: index.md:29
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Préparation"
 msgstr "Preparado"
 
 #. type: Plain text
 #: index.md:32
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Téléchargez _flash\\_cc2531_ sur votre _raspberry_ :\n"
 msgstr "Elŝutu _flash\\_cc2531_ al via _raspberry_ :\n"
 
 #. type: Fenced code block (bash)
 #: index.md:32
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "git clone https://github.com/jmichault/flash_cc2531.git\n"
 msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
@@ -180,21 +180,25 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:47
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "La disposition des broches du _raspberry_ est disponible ici : <https://pinout.xyz/>\n"
 msgstr "La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>\n"
 
 #. type: Plain text
 #: index.md:49
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Puis insérez la clé USB dans un port.  \n"
 msgstr "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 
 #. type: Plain text
 #: index.md:51
-#, fuzzy, no-wrap
-msgid "Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à la place connecter la broche _CC_ 9 à une broche _3,3v_ du raspberry (broche 1 ou 17).\n"
-msgstr "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). \n"
+msgid ""
+"Note : si vous ne voulez pas insérer la clé dans un port USB, vous pouvez à "
+"la place connecter la broche _CC_ 9 à une broche _3,3v_ du _raspberry_ "
+"(broche 1 ou 17).\n"
+msgstr ""
+"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe "
+"konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
 
 #. type: Plain text
 #: index.md:55
@@ -510,54 +514,33 @@ msgstr "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
 
 #. type: Title ##
 #: index.md:148
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Je veux connecter plus de 15 périphériques"
 msgstr "Mi volas konekti pli ol 15 periferiojn"
 
 #. type: Plain text
 #: index.md:149
-#, fuzzy
-msgid ""
-"On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 "
-"périphériques maximum.  \n"
-msgstr ""
-"Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti "
-"15 maksimumajn aparatojn.   \n"
+#, fuzzy, no-wrap
+msgid "On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  \n"
+msgstr "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 
 #. type: Plain text
 #: index.md:150
-#, fuzzy
-msgid ""
-"En fait le micrologiciel standard de cette clé a bien une limite de 15 "
-"connexions directes. Mais si l'une de ces connexions est un routeur zigbee "
-"(et la plupart des périphériques font office de routeur, c'est par exemple "
-"le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le "
-"_CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière "
-"les routeurs connectés à ce routeur...  \n"
-msgstr ""
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj "
-"ligoj.   \n"
+#, fuzzy, no-wrap
+msgid "En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur zigbee (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  \n"
+msgstr "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
 
 #. type: Plain text
 #: index.md:151
-#, fuzzy
-msgid ""
-"En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour "
-"vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un "
-"coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
+#, fuzzy, no-wrap
+msgid "En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau zigbee, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
 msgstr "Fakte la limo por la _CC2531_ estas multe pli alta.   \n"
 
 #. type: Plain text
 #: index.md:153
-#, fuzzy
-msgid ""
-"Notons par ailleurs que le protocole zigbee limite le nombre de connexions "
-"directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se "
-"connecter à plus de 32 périphériques directement.\n"
-msgstr ""
-"Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-"
-"a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 "
-"ekstercentraj. \n"
+#, fuzzy, no-wrap
+msgid "Notons par ailleurs que le protocole zigbee limite le nombre de connexions directes à 32. Quel que soit votre coordinateur zigbee, il ne pourra pas se connecter à plus de 32 périphériques directement.\n"
+msgstr "Notu ankaŭ, ke la ZigBee-protokolo limigas la nombron de rektaj ligoj al 32-a. Sendepende de via ZigBee-kunordiganto, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 
 #. type: Title ##
 #: index.md:154

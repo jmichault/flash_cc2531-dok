@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-06 22:48+0100\n"
+"POT-Creation-Date: 2021-11-07 10:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,13 +87,12 @@ msgstr "تحتاج إما _Raspberry_ أو _Odroid-c2_.  \n"
 
 #. type: Plain text
 #: index.md:18
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
-msgstr ""
-"أنت بحاجة إلى ما لتوصيل منفذ التصحيح الخاص بالمفتاح بالمنافذ _GPIO_ من _Raspberry_، على سبيل المثال كابل واحد _CC_ وأربعة خطوط _Dupont_ (انظر أيضًا).   \n"
-"[ _WiringPi_ ](http://wiringpi.com/) يجب تثبيتها \\(إذا لم تكن مثبتة مسبقًا ، يمكنك عادةً تثبيتها بـ `sudo apt install wiringpi`)، وإلا انظر [موقع _Gordon_ ](http://wiringpi.com/) أو [هذا الموقع البديل](https://github.com/WiringPi/WiringPi) \\). (° 29 درجة)  \n"
+msgstr "تحتاج إلى ربط الميناء الأرجواني للمفتاح للمنافذ _Raspberry_من _Raspberry_، على سبيل المثال كابل واحد (° 5 درجة) وأربعة خطوط _Dupont_ (انظر أبعد).   \n"
 
 #. type: Plain text
 #: index.md:20
@@ -151,17 +150,17 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
 #. type: Plain text
 #: index.md:42
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
-msgstr "قم بتوصيل عمليات الإقرامات التالية بالمنفذ الأرجواني إلى منفذ GPI:\n![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+msgstr ""
+"قم بتوصيل عمليات الإقرامات التالية بالمنفذ الأرجواني إلى منفذ GPI:\n"
+"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
 #: index.md:49
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "| pinglo de _GPIO_          | pinglo de _CC_  |\n"
 "| ---------------------- | ------------ | \n"
@@ -183,7 +182,7 @@ msgstr "تخطيط الدبوس _raspberry_ متاح هنا: <https://pinout.xyz
 #, fuzzy
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
-"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ 17). \n"
+"Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
 msgstr "ثم أدخل مفتاح USB في المنفذ.  \n"
 
 #. type: Plain text
@@ -276,8 +275,7 @@ msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: index.md:86
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "(prenas ĉirkaŭ 2 minutojn). \n"
 msgstr "(يستغرق حوالي 2 دقيقة).  \n"
 
@@ -498,15 +496,13 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi potencon. \n"
 msgstr "إذا حصلت على الكثير من الخطوط، فعليك تغيير الطاقة.  \n"
 
 #. type: Title ##
 #: index.md:170
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "أريد توصيل أكثر من 15 محيط"
 
@@ -523,15 +519,13 @@ msgstr "نقرأ عن مواقع مختلفة يمكن أن تعالج المف�
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan gvidilon, kiu lumigas."
 msgstr "مفتاحي له دليل أحمر يضيء."
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona dieto. \n"
 msgstr "يحدث أن استنزاف المفتاح، إما بسبب البيئة المحملة من الطفيليات أو بسبب نظام غذائي سيء.  \n"
 
@@ -544,8 +538,7 @@ msgstr "النزول من مفتاح المواد المزعجة: مكبرات �
 
 #. type: Bullet: '3. '
 #: index.md:191
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Reprogramu la ŝlosilon\n"
 msgstr "إعادة برمجة المفتاح\n"
 
@@ -561,55 +554,10 @@ msgstr "رخصة"
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "هذا المشروع مُرخص بموجب GPL v3 ( انظر _COPYING_ ).\n"
 
-#, fuzzy, no-wrap
-#~ msgid " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) permesas programi vian CC2531 USB-ŝlosilon de via _Raspberry_, sen bezono de _Arduino_ aŭ _CC Debugger_.\n"
-#~ msgstr "يسمح لك [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ببرمجة مفتاح CC2531 USB الخاص بك من _Raspberry_، دون الحاجة إلى _Arduino_ أو _CC Debugger_.\n"
-
-#, fuzzy, no-wrap
-#~ msgid "ĉiuokaze vi probable bezonos agordi la tempan bazan opcion ( _\"-m\"_ ).\n"
-#~ msgstr "ومع ذلك ، ربما تحتاج إلى ضبط خيار القاعدة الزمنية ( _\"-m\"_ ).\n"
-
-#, fuzzy, no-wrap
-#~ msgid "Konektu la jenajn pinglojn de la debug-haveno al la GPIO-haveno:\n"
-#~ msgstr "قم بتوصيل المسامير التالية من منفذ التصحيح بمنفذ GPIO:\n"
-
-#, fuzzy, no-wrap
-#~ msgid "pinglo 1 ( _GND_ ) -> pinglo 39 ( _GND_ )\n"
-#~ msgstr "دبوس 1 ( _GND_ ) -> دبوس 39 ( _GND_ )\n"
-
-#, fuzzy, no-wrap
-#~ msgid "pinglo 7 ( _reset_ ) -> pinglo 35 ( _wPi 24, BCM19_ )\n"
-#~ msgstr "دبوس 7 ( _reset_ ) -> دبوس 35 ( _wPi 24, BCM19_ )\n"
-
-#, fuzzy, no-wrap
-#~ msgid "pinglo 3 ( _DC_ ) -> pinglo 36 ( _wPi 27, BCM16_ )\n"
-#~ msgstr "دبوس 3 ( _DC_ ) -> دبوس 36 ( _wPi 27, BCM16_ )\n"
-
-#, fuzzy, no-wrap
-#~ msgid "pinglo 4 ( _DD_ ) -> pinglo 38 ( _wPi 28, BCM20_ )\n"
-#~ msgstr "دبوس 4 ( _DD_ ) -> دبوس 38 ( _wPi 28, BCM20_ )\n"
-
-#, fuzzy, no-wrap
-#~ msgid "kaj enmetu la USB-ŝlosilon en havenon.\n"
-#~ msgstr "وأدخل مفتاح USB في المنفذ.\n"
-
-#, fuzzy, no-wrap
-#~ msgid "(daŭras ĉirkaŭ 1 minuton).\n"
-#~ msgstr "(تدوم حوالي دقيقة واحدة).\n"
-
 #, fuzzy
-#~ msgid "La esenca!"
-#~ msgstr "الأساسي!"
-
-#~ msgid "fonto"
-#~ msgstr "auto"
-
-#~ msgid "indekso"
-#~ msgstr "indekso"
-
-#~ msgid "index"
-#~ msgstr "index"
-
-#, fuzzy
-#~ msgid "Plej novaj afiŝoj"
-#~ msgstr "آخر المشاركات"
+#~ msgid ""
+#~ "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
+#~ "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas "
+#~ "anstataŭe konekti la PIN _CC_ 9 al PIN _3,3v_ de la frambo (spindelo 1 aŭ "
+#~ "17). \n"
+#~ msgstr "ثم أدخل مفتاح USB في المنفذ.  \n"
