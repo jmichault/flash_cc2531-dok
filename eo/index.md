@@ -84,13 +84,13 @@ Por konservi la enhavon de la fulmmemoro en la dosiero save.hex:
 ```
 (prenas ĉirkaŭ 2 minutojn). 
 
-Por viŝi fulmmemoron:
+Por forviŝi fulmmemoron:
 ```bash
 ./cc_erase
 ```
 **Noto:** Vi **devas** forviŝi antaŭ skribado (krom se vi vere scias, kion vi faros).
 
-Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:
+Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```

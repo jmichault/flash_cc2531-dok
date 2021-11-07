@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,8 +178,7 @@ msgstr "Das Pin-Layout _raspberry_ finden Sie hier: <https://pinout.xyz/>\n"
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -281,9 +280,10 @@ msgstr "(dauert ungefähr 2 Minuten).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "So löschen Sie den Flash-Speicher:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "So löschen Sie den Blitzer Speicher:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -299,9 +299,10 @@ msgstr "**Hinweis:** Sie **müssen** vor dem Schreiben löschen (, es sei denn, 
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
-msgstr "So programmieren Sie die Datei _CC2531ZNP-Prod.hex_ auf der Taste _CC2531_:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
+msgstr "Programmieren der Datei _CC2531ZNP-Prod.hex_ am Schlüssel _CC2531_:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:94
@@ -550,6 +551,14 @@ msgstr "Lizenz"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Dieses Projekt ist unter der GPL v3 ( lizenziert, siehe _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "So löschen Sie den Flash-Speicher:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "So programmieren Sie die Datei _CC2531ZNP-Prod.hex_ auf der Taste _CC2531_:\n"
 
 #, fuzzy
 #~ msgid ""

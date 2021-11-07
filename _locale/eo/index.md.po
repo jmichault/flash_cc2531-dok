@@ -202,7 +202,7 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:55
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Un câble de téléchargement _CC_ et 4 lignes _Dupont_ Femelle à Femelle sont parfaits à cet effet :\n"
 "![photo de la clé et du _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
@@ -214,13 +214,13 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:58
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "testez en exécutant ceci :\n"
 msgstr "provu per ĉi tio:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:58
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "cd flash_cc2531\n"
 "./cc_chipid\n"
@@ -230,127 +230,127 @@ msgstr ""
 
 #. type: Plain text
 #: index.md:63
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Ça doit retourner:\n"
 msgstr "Ĝi devas reveni:\n"
 
 #. type: Fenced code block
 #: index.md:63
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "  ID = b524.\n"
 msgstr "  ID = b524.\n"
 
 #. type: Plain text
 #: index.md:66
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "(la valeur peut être différente si la version matèrielle de votre clé n'est pas la même que la mienne).  \n"
 msgstr "(la valoro povas esti malsama se la aparatara versio de via ŝlosilo ne samas kun la mia).  \n"
 
 #. type: Plain text
 #: index.md:68
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Si vous voyez 0000 ou ffff quelque chose ne va pas:\n"
 msgstr "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
 
 #. type: Bullet: ' * '
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "vérifiez d'abord votre câblage.\n"
 msgstr "unue kontrolu vian kabligon.\n"
 
 #. type: Bullet: ' * '
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "puis essayez un temps de base plus élevé, par exemple avec `./cc_chipid -m 100`, ou `./cc_chipid -m 160` ou `./cc_chipid -m 300`.\n"
 msgstr "tiam provu pli altan bazan tempon, ekzemple kun `./cc_chipid -m 100`, aŭ `./cc_chipid -m 160` aŭ `./cc_chipid -m 300`.\n"
 
 #. type: Bullet: ' * '
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "si rien de tout cela ne fonctionne, essayez de recompiler avec `make`.\n"
 msgstr "se neniu el tio funkcias, provu rekompili kun `make`.\n"
 
 #. type: Title ##
 #: index.md:73
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "utilisation"
 msgstr "uzado"
 
 #. type: Plain text
 #: index.md:75
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Pour enregistrer le contenu de la mémoire flash dans le fichier save.hex:\n"
 msgstr "Por konservi la enhavon de la fulmmemoro en la dosiero save.hex:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:75
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "./cc_read save.hex\n"
 msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: index.md:79
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "(dure environ 2 minutes).\n"
 msgstr "(prenas ĉirkaŭ 2 minutojn). \n"
 
 #. type: Plain text
 #: index.md:81
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Pour effacer la mémoire flash:\n"
-msgstr "Por viŝi fulmmemoron:\n"
+msgstr "Por forviŝi fulmmemoron:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:81
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "./cc_erase\n"
 msgstr "./cc_erase\n"
 
 #. type: Plain text
 #: index.md:85
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "**Remarque:** Vous **devez** effacer avant d'écrire (sauf si vous savez vraiment ce que vous allez faire).\n"
 msgstr "**Noto:** Vi **devas** forviŝi antaŭ skribado (krom se vi vere scias, kion vi faros).\n"
 
 #. type: Plain text
 #: index.md:87
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Pour programmer le fichier _CC2531ZNP-Prod.hex_ sur la clé _CC2531_:\n"
-msgstr "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+msgstr "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:87
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "./cc_write CC2531ZNP-Prod.hex\n"
 msgstr "./cc_write CC2531ZNP-Prod.hex\n"
 
 #. type: Plain text
 #: index.md:91
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "(dure environ 3 minutes).\n"
 msgstr "(daŭras ĉirkaŭ 3 minutojn).\n"
 
 #. type: Plain text
 #: index.md:93
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
 msgstr "<a id=\"uzi_aliajn_pinglojn\"></a>\n"
 
 #. type: Title ##
 #: index.md:93
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Utiliser d'autres broches"
 msgstr "Uzi aliajn pinglojn"
 
 #. type: Plain text
 #: index.md:96
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "toutes les commandes acceptent les arguments suivants:\n"
 msgstr "ĉiuj ordonoj akceptas la jenajn argumentojn:\n"
 
 #. type: Bullet: ' * '
 #: index.md:101
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "_-c_ broche : change la broche _DC_ (par défaut 27)\n"
 msgstr "_-c_ pinglo: ŝanĝu la pinglon _DC_ (defaŭlte 27)\n"
 

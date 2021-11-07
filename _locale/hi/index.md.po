@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,8 +176,7 @@ msgstr "यहां _raspberry_ पिन लेआउट उपलब्ध �
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -279,9 +278,10 @@ msgstr "(° 0001 डिग्री) लगभग 2 मिनट (° ° 0002 ड
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "फ्लैश मेमोरी को साफ़ करने के लिए:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "लाइट स्मारक को हटाने के लिए:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -297,9 +297,10 @@ msgstr "**नोट:** आपको (° ३ °) लिखना होगा (°
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
-msgstr "कुंजी _CC2531_पर फ़ाइल _CC2531ZNP-Prod.hex_ को प्रोग्राम करने के लिए:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
+msgstr "कुंजी (° 0001 डिग्री °) पर फ़ाइल _CC2531ZNP-Prod.hex_ प्रोग्राम करने के लिए:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:94
@@ -548,6 +549,14 @@ msgstr "लाइसेंस"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "यह परियोजना GPL v3 ( देखें _COPYING_ )के तहत लाइसेंस प्राप्त है।\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "फ्लैश मेमोरी को साफ़ करने के लिए:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "कुंजी _CC2531_पर फ़ाइल _CC2531ZNP-Prod.hex_ को प्रोग्राम करने के लिए:\n"
 
 #, fuzzy
 #~ msgid ""

@@ -84,7 +84,7 @@ Per salvare il contenuto della memoria flash nel file save.hex:
 ```
 (richiede circa 2 minuti).  
 
-Per cancellare la memoria flash:
+Per eliminare la memoria Lightning: (° 1 ° 1
 ```bash
 ./cc_erase
 ```

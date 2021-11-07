@@ -84,13 +84,13 @@ cd flash_cc2531
 ```
 (大约需要2分钟)。  
 
-清除闪存：
+删除闪电记忆：（°1°1
 ```bash
 ./cc_erase
 ```
 **注：** 除非 (，否则 **必须** 删除，除非您真的知道要做什么)。
 
-要在键 _CC2531_上对文件 _CC2531ZNP-Prod.hex_ 进行编程：
+在键 _CC2531_上编程文件 _CC2531ZNP-Prod.hex_ ：
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```

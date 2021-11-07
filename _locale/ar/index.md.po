@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,8 +66,7 @@ msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: index.md:14
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
 "Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
@@ -87,8 +86,7 @@ msgstr "تحتاج إما _Raspberry_ أو _Odroid-c2_.  \n"
 
 #. type: Plain text
 #: index.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
@@ -178,8 +176,7 @@ msgstr "تخطيط الدبوس _raspberry_ متاح هنا: <https://pinout.xyz
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -281,9 +278,10 @@ msgstr "(يستغرق حوالي 2 دقيقة).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "لمسح ذاكرة فلاش:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "لحذف ذاكرة البرق: (° 1 ° 1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -299,8 +297,9 @@ msgstr "**ملاحظة:** يجب عليك **حذف** قبل الكتابة (ما
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr "لبرمجة الملف _CC2531ZNP-Prod.hex_ على المفتاح _CC2531_:\n"
 
 #. type: Fenced code block (bash)
@@ -483,8 +482,7 @@ msgstr "اطرح سؤالك الخاص حول [github](https://github.com/jmicha
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian elektroprovizon\n"
 msgstr "تحقق من امدادات الطاقة الخاصة بك (° 1 ° 1\n"
 
@@ -508,8 +506,7 @@ msgstr "أريد توصيل أكثر من 15 محيط"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas pri diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj.   \n"
@@ -531,8 +528,7 @@ msgstr "يحدث أن استنزاف المفتاح، إما بسبب البيئ
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Foriru de la ŝlosilo por perturbaj materialoj: parolantoj, Wi-Fi routers, ...\n"
 msgstr "النزول من مفتاح المواد المزعجة: مكبرات الصوت، أجهزة توجيه Wi-Fi، ... (° 1 ° 1\n"
 
@@ -553,6 +549,14 @@ msgstr "رخصة"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "هذا المشروع مُرخص بموجب GPL v3 ( انظر _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "لمسح ذاكرة فلاش:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "لبرمجة الملف _CC2531ZNP-Prod.hex_ على المفتاح _CC2531_:\n"
 
 #, fuzzy
 #~ msgid ""

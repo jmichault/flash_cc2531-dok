@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -272,7 +272,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:88
 #, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
+msgid "Por forviŝi fulmmemoron:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -290,7 +290,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:94
 #, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)

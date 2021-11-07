@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,8 +178,7 @@ msgstr "此处提供 _raspberry_ 引脚布局： <https://pinout.xyz/>\n"
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -281,9 +280,10 @@ msgstr "(大约需要2分钟)。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "清除闪存：\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "删除闪电记忆：（°1°1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -299,9 +299,10 @@ msgstr "**注：** 除非 (，否则 **必须** 删除，除非您真的知道�
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
-msgstr "要在键 _CC2531_上对文件 _CC2531ZNP-Prod.hex_ 进行编程：\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
+msgstr "在键 _CC2531_上编程文件 _CC2531ZNP-Prod.hex_ ：\n"
 
 #. type: Fenced code block (bash)
 #: index.md:94
@@ -550,6 +551,14 @@ msgstr "执照"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "此项目已获得GPL v3许可 ( ，请参见 _COPYING_ )。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "清除闪存：\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "要在键 _CC2531_上对文件 _CC2531ZNP-Prod.hex_ 进行编程：\n"
 
 #, fuzzy
 #~ msgid ""

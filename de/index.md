@@ -84,13 +84,13 @@ So speichern Sie den Inhalt des Flash-Speichers in der Datei save.hex:
 ```
 (dauert ungefähr 2 Minuten).  
 
-So löschen Sie den Flash-Speicher:
+So löschen Sie den Blitzer Speicher:
 ```bash
 ./cc_erase
 ```
 **Hinweis:** Sie **müssen** vor dem Schreiben löschen (, es sei denn, Sie wissen wirklich, was Sie tun werden).
 
-So programmieren Sie die Datei _CC2531ZNP-Prod.hex_ auf der Taste _CC2531_:
+Programmieren der Datei _CC2531ZNP-Prod.hex_ am Schlüssel _CC2531_:
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```

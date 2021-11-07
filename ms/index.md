@@ -84,13 +84,13 @@ Untuk menyimpan kandungan memori flash ke fail save.hex:
 ```
 (mengambil masa kira-kira 2 minit).  
 
-Untuk mengosongkan memori kilat:
+Untuk memadam memori kilat: (° 1 ° 1
 ```bash
 ./cc_erase
 ```
 **Catatan:** Anda **mesti** hapus sebelum menulis (kecuali anda benar-benar tahu apa yang akan anda lakukan).
 
-Untuk memprogram fail _CC2531ZNP-Prod.hex_ pada kekunci _CC2531_:
+Untuk program fail _CC2531ZNP-Prod.hex_ pada kekunci _CC2531_:
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```

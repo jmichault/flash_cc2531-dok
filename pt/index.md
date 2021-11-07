@@ -84,13 +84,13 @@ Para salvar o conteúdo da memória flash no arquivo save.hex:
 ```
 (leva cerca de 2 minutos).  
 
-Para limpar uma memória flash:
+Para excluir memória relâmpago: (° 1 ° 1
 ```bash
 ./cc_erase
 ```
 **Nota:** Você **deve** deletar antes de escrever (a menos que você realmente saiba o que vai fazer).
 
-Para programar o arquivo _CC2531ZNP-Prod.hex_ na chave _CC2531_:
+Para programar o arquivo _CC2531ZNP-Prod.hex_ na tecla _CC2531_:
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```

@@ -84,7 +84,7 @@ To save the contents of the flash memory to the save.hex file:
 ```
 (takes about 2 minutes).  
 
-To clear flash memory:
+To delete lightning memory: (° 1 ° 1
 ```bash
 ./cc_erase
 ```

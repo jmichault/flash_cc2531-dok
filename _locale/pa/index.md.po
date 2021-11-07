@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,8 +176,7 @@ msgstr " _raspberry_ ਪਿੰਨ ਲੇਆਉਟ ਇੱਥੇ ਉਪਲਬਧ �
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -279,9 +278,10 @@ msgstr "(ਲਗਭਗ 2 ਮਿੰਟ)ਲੈਂਦਾ ਹੈ.  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "ਫਲੈਸ਼ ਮੈਮੋਰੀ ਨੂੰ ਸਾਫ ਕਰਨ ਲਈ:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "ਬਿਜਲੀ ਦੀ ਯਾਦ ਨੂੰ ਹਟਾਉਣ ਲਈ:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -297,9 +297,10 @@ msgstr "**ਨੋਟ:** ਤੁਹਾਨੂੰ** ਲਾਜ਼ਮੀ ਤੌਰ 'ਤ
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
-msgstr "ਕੁੰਜੀ _CC2531_'ਤੇ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰਨ ਲਈ:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
+msgstr "ਕੁੰਜੀ ਉੱਤੇ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰਨ ਲਈ _CC2531_:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:94
@@ -548,6 +549,14 @@ msgstr "ਲਾਇਸੈਂਸ"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "ਇਹ ਪ੍ਰੋਜੈਕਟ ਜੀਪੀਐਲ ਵੀ 3 ( ਦੇਖੋ _COPYING_ )ਦੇ ਅਧੀਨ ਲਾਇਸੰਸਸ਼ੁਦਾ ਹੈ.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "ਫਲੈਸ਼ ਮੈਮੋਰੀ ਨੂੰ ਸਾਫ ਕਰਨ ਲਈ:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "ਕੁੰਜੀ _CC2531_'ਤੇ ਫਾਈਲ _CC2531ZNP-Prod.hex_ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਕਰਨ ਲਈ:\n"
 
 #, fuzzy
 #~ msgid ""

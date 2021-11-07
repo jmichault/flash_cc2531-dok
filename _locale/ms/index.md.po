@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 10:56+0100\n"
+"POT-Creation-Date: 2021-11-07 11:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,8 +178,7 @@ msgstr "Susun atur pin _raspberry_ boleh didapati di sini: <https://pinout.xyz/>
 
 #. type: Plain text
 #: index.md:55
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
@@ -281,9 +280,10 @@ msgstr "(mengambil masa kira-kira 2 minit).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
-msgid "Por viŝi fulmmemoron:\n"
-msgstr "Untuk mengosongkan memori kilat:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por forviŝi fulmmemoron:\n"
+msgstr "Untuk memadam memori kilat: (° 1 ° 1\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -299,9 +299,10 @@ msgstr "**Catatan:** Anda **mesti** hapus sebelum menulis (kecuali anda benar-be
 
 #. type: Plain text
 #: index.md:94
-#, fuzzy, no-wrap
-msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
-msgstr "Untuk memprogram fail _CC2531ZNP-Prod.hex_ pada kekunci _CC2531_:\n"
+#, no-wrap
+#, fuzzy
+msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
+msgstr "Untuk program fail _CC2531ZNP-Prod.hex_ pada kekunci _CC2531_:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:94
@@ -550,6 +551,14 @@ msgstr "Lesen"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Projek ini dilesenkan di bawah GPL v3 ( lihat _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por viŝi fulmmemoron:\n"
+#~ msgstr "Untuk mengosongkan memori kilat:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la klavo _CC2531_:\n"
+#~ msgstr "Untuk memprogram fail _CC2531ZNP-Prod.hex_ pada kekunci _CC2531_:\n"
 
 #, fuzzy
 #~ msgid ""

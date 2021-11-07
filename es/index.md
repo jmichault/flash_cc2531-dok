@@ -84,13 +84,13 @@ Para guardar el contenido de la memoria flash en el archivo save.hex:
 ```
 (toma aproximadamente 2 minutos).  
 
-Para borrar la memoria flash:
+Para eliminar la memoria de rayos: (° 1 ° 1
 ```bash
 ./cc_erase
 ```
 **Nota:** Usted **debe** borrar antes de escribir (a menos que realmente sepa lo que va a hacer).
 
-Para programar el archivo _CC2531ZNP-Prod.hex_ en la tecla _CC2531_:
+Para programar el archivo _CC2531ZNP-Prod.hex_ en la llave _CC2531_:
 ```bash
 ./cc_write CC2531ZNP-Prod.hex
 ```
