@@ -40,8 +40,8 @@ Descarga _flash\_cc2531_ a tu _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Conecte los siguientes amplificadores del puerto púrpura al puerto GPI:
-![![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
+Conecte los siguientes pins del puerto púrpura al puerto GPO:
+![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |  
 
@@ -50,9 +50,9 @@ El diseño de los pines _raspberry_ está disponible aquí: <https://pinout.xyz/
 
 Luego ingrese la clave USB en el puerto.  
 
-Cable de descarga _CC_ y 4 líneas _Dupont_ Hembra a Hembra son perfectos para este propósito:
-![foto de la llave y la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-Esta es mi opción favorita, pero si no tiene un cable _CC_ también puede soldar directamente los cables _Dupont_ en la llave: consulte, por ejemplo, el sitio web [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Cable de descarga _CC_ y 4 líneas _Dupont_ Femenina a mujer es perfecta para este propósito:
+Foto de la llave y el _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+° 11 °) Esta es mi opción favorita, pero si no tiene un cable _CC_ , también puede liberar directamente los cables _Dupont_ en la tecla: consulte, por ejemplo, el sitio [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 prueba esto:
@@ -65,7 +65,7 @@ Debe volver:
   ID = b524.
 ```
 (el valor puede ser diferente si la versión de hardware de su llave no es la misma que la mía).  
-Si ve 0000 o ffff algo falla:
+Si ve 0000 o FFFF, algo es incorrecto: (° 1 ° 1
 
  * Primero revise su cableado.
 
@@ -118,7 +118,7 @@ todos los comandos aceptan los siguientes argumentos:
 la numeración de pines utilizada es la de _wiringPi_. Utilice `gpio readall` para tener el diseño en su columna _Raspberry_ ( _wPi_ ).
 
 Por ejemplo, si desea utilizar los pines 3, 11 y 13:  
-Conecte los siguientes pines desde un puerto de depuración a una puerta _GPIO_:
+Conecte los siguientes pines del puerto púrpura al puerto _GPIO_: (° 3 ° 3
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -133,7 +133,7 @@ Conecte los siguientes pines desde un puerto de depuración a una puerta _GPIO_:
 
 
 
-y ahora puede leer ID, guardar, borrar y escribir memoria flash con los siguientes comandos:
+Y ahora puede leer un identificador, guardar, eliminar y escribir una memoria de rayos con los siguientes comandos:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ Sucede que los depósitos clave, ya sea debido al entorno cargado por parásitos
    ```
 Si obtiene muchas líneas, entonces tiene que cambiar el bloque de nutrición.  
 
-2. Baje de la llave para molestar materiales: altavoces, enrutador Wi-Fi, ... (° 1 ° 1
+2. Salga de la llave para molestar materiales: altavoces, enrutador Wi-Fi, ...
 
 
 

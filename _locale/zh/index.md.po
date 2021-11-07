@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:45+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "最后，您需要程序：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "一般协调器 _zigbee_ : [ 版本1.2 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)（°13 °\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "或路由器 _zigbee_ : [路由器 _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
@@ -154,10 +152,10 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"将以下紫色端口的售前连接到GPI端口：\n"
+"将紫色端口的以下引脚连接到GPO端口：\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
@@ -190,13 +188,13 @@ msgstr "然后将USB键进入端口。  \n"
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"下载电缆 _CC_ 和4条线 _Dupont_ 母对母非常适合此目的：\n"
-"![按键照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）\n"
-"这是我最喜欢的选项，但是如果没有电缆 _CC_ ，也可以直接在键上焊接电缆 _Dupont_ ：例如，参见网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+"下载电缆 _CC_ 和4条线 _Dupont_ 女性为雌性为此目的是完美的：\n"
+"键的照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+"这是我最喜欢的选择，但如果您没有电缆 _CC_ ，您也可以直接在键上释放电缆 _Dupont_ ：参见例如网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ _notenoughtech.com_ _notenoughtech.com_ \n"
 
 #. type: Plain text
 #: index.md:62
@@ -235,8 +233,8 @@ msgstr "如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不�
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "如果看到0000或ffff，则表示发生故障：\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "如果您看到0000或FFFF的东西不正确：（°1°1\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -375,8 +373,8 @@ msgstr "例如，如果要使用引脚3、11和13：  \n"
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "将以下引脚从调试端口连接到门 _GPIO_：\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "将以下紫色端口引脚连接到端口 _GPIO_:(°3°3\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -405,8 +403,8 @@ msgstr "针脚4 ( _DD_ ) -> 针脚13 ( _wPi 2, BCM27_ )\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "现在您可以使用以下命令读取ID，保存，删除和写入闪存：\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "现在，您可以使用以下命令读取标识符，保存，删除和写入闪电存储器：\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -484,8 +482,7 @@ msgstr "询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/n
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "检查营养块（°1°1\n"
 
@@ -497,8 +494,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "如果你得到很多线，那么你必须改变营养块。  \n"
 
@@ -510,8 +506,7 @@ msgstr "我想连接超过15个外围"
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -519,38 +514,33 @@ msgstr "我们在各个地方阅读，键 _CC2531_ 只能处理15个最大设备
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "实际上， _CC2531_ 的极限要高得多。  \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "另请注意，协议 _zigbee_ 限制直接链接到第32个。 \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "我的钥匙是它的红色LED，亮起。"
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "它恰好是由于寄生虫装载的环境或由于营养不良而导致的关键常量。  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "关闭令人不安的材料的关键：扬声器，Wi-Fi路由器，...（°1°1\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "逃离令人不安的材料的关键：扬声器，Wi-Fi路由器，...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -569,6 +559,42 @@ msgstr "执照"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "此项目已获得GPL v3许可 ( ，请参见 _COPYING_ )。\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "将以下紫色端口的售前连接到GPI端口：\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "下载电缆 _CC_ 和4条线 _Dupont_ 母对母非常适合此目的：\n"
+#~ "![按键照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）\n"
+#~ "这是我最喜欢的选项，但是如果没有电缆 _CC_ ，也可以直接在键上焊接电缆 _Dupont_ ：例如，参见网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "如果看到0000或ffff，则表示发生故障：\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "将以下引脚从调试端口连接到门 _GPIO_：\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "现在您可以使用以下命令读取ID，保存，删除和写入闪存：\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr "关闭令人不安的材料的关键：扬声器，Wi-Fi路由器，...（°1°1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

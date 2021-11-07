@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:44+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "最後に、プログラムが必要です：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "一般コーディネーター _zigbee_ ： [ バージョン1.2 (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°）\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "またはルーター _zigbee_ ： [ルーター _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
@@ -154,11 +152,11 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"紫色のポートの次のブリーブをGPIポートに接続します。\n"
-"![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+"紫色のポートの次のピンをGPOポートに接続します。\n"
+"![![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
 #: index.md:49
@@ -190,13 +188,13 @@ msgstr "その後、USBキーをポートに入力します。  \n"
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"ダウンロードケーブル _CC_ と4本の線 _Dupont_ メスからメスはこの目的に最適です：\n"
-"![キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）\n"
-"これは私のお気に入りのオプションですが、ケーブル _CC_ がない場合は、キーにケーブル _Dupont_ を直接はんだ付けすることもできます。たとえば、Webサイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+"ケーブル _CC_ と4行 _Dupont_ 4行 _Dupont_ の女性をこの目的に最適です。\n"
+"キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+"°11°）これは私のお気に入りのオプションですが、ケーブルを持っていない _CC_ キーを押すと、キーのケーブル _Dupont_ をリリースすることもできます。たとえば、サイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 
 #. type: Plain text
 #: index.md:62
@@ -235,8 +233,8 @@ msgstr "(キーのハードウェアバージョンが私のものと同じで�
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "0000またはffffが表示された場合、何かが失敗します：\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "0000またはFFFFが表示されている場合は、\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -375,8 +373,8 @@ msgstr "たとえば、ピン3、11、13を使用する場合：  \n"
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "次のピンをデバッグポートからドアに接続します _GPIO_:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "紫色のポートの以下のピンをポート _GPIO_に接続します。（°3°3\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -405,8 +403,8 @@ msgstr "ピン4 ( _DD_ ) -> ピン13 ( _wPi 2, BCM27_ )\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "これで、次のコマンドを使用して、IDの読み取り、保存、削除、およびフラッシュメモリの書き込みを行うことができます。\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "そして、次のコマンドで識別子を読み取り、保存、削除、書き込み、書き込みできます。\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -484,8 +482,7 @@ msgstr " [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)�
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "栄養ブロックを確認してください（°1°1\n"
 
@@ -497,8 +494,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "あなたがたくさんの行を手に入れるなら、あなたは栄養ブロックを変更する必要があります。  \n"
 
@@ -510,8 +506,7 @@ msgstr "私は15以上の周辺機器を接続したいです"
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -519,38 +514,33 @@ msgstr "鍵 _CC2531_ が15の最大機器のみを扱うことができるよう
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "実際、 _CC2531_ の限界ははるかに高いです。  \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "また、プロトコル _zigbee_ は32thへの直接リンク数を制限することに注意してください。 \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "私の鍵は照らされた赤いLEDを持っています。"
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "それは、寄生虫によってロードされた環境のため、または栄養不良のために、重要なデパログラムが発生することが起こります。  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "邪魔されている材料への鍵から降りる：スピーカー、Wi-Fiルーター、...（°1°1\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "邪魔されている材料に鍵を捨てる：スピーカー、Wi-Fiルーター、...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -569,6 +559,43 @@ msgstr "ライセンス"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "このプロジェクトは、GPL v3 ( でライセンスされています _COPYING_ )を参照してください。\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "紫色のポートの次のブリーブをGPIポートに接続します。\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "ダウンロードケーブル _CC_ と4本の線 _Dupont_ メスからメスはこの目的に最適です：\n"
+#~ "![キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）\n"
+#~ "これは私のお気に入りのオプションですが、ケーブル _CC_ がない場合は、キーにケーブル _Dupont_ を直接はんだ付けすることもできます。たとえば、Webサイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "0000またはffffが表示された場合、何かが失敗します：\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "次のピンをデバッグポートからドアに接続します _GPIO_:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "これで、次のコマンドを使用して、IDの読み取り、保存、削除、およびフラッシュメモリの書き込みを行うことができます。\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr ""
+#~ "邪魔されている材料への鍵から降りる：スピーカー、Wi-Fiルーター、...（°1°1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

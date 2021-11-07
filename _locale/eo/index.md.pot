@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:42+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,7 +150,7 @@ msgstr ""
 #: index.md:42
 #, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
 
@@ -184,7 +184,7 @@ msgstr ""
 #: index.md:59
 #, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:72
 #, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 msgstr ""
 
 #. type: Bullet: ' * '
@@ -362,7 +362,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:117
 #, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr ""
 
 #. type: Bullet: ' 1. '
@@ -392,7 +392,7 @@ msgstr ""
 #. type: Plain text
 #: index.md:128
 #, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
 msgstr ""
 
 #. type: Fenced code block (bash)
@@ -524,7 +524,7 @@ msgstr ""
 #. type: Bullet: '2. '
 #: index.md:188
 #, no-wrap
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 msgstr ""
 
 #. type: Bullet: '3. '

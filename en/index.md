@@ -15,7 +15,7 @@ title: 'The main thing'
 You need either _Raspberry_ or _Odroid-c2_.  
 You need what to connect the debug port of the key to the ports _GPIO_ of _Raspberry_, for example one cable _CC_ and four lines _Dupont_ (see further).   
 [ _WiringPi_ ](http://wiringpi.com/) must be installed \(if it is not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \).  
-Finally you need the program:
+Finally you need the software:
 
 * General coordinator _zigbee_ : [ Version 1.2 (Recommended)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) or [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
@@ -40,7 +40,7 @@ Download _flash\_cc2531_ to your _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Connect the following breases of the purple port to the GPI port:
+Connect the following pins of the debug port to the GPO port:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |  
@@ -48,11 +48,11 @@ Connect the following breases of the purple port to the GPI port:
 The pin layout of _raspberry_ is available here: <https://pinout.xyz/>
 
 
-Then enter the USB key into port.  
+Then insert the key into an USB port.  
 
-Download cable _CC_ and 4 lines _Dupont_ Female to Female are perfect for this purpose:
-![photo of the key and the _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-This is my favorite option, but if you don't have a cable _CC_ you can also directly solder the cables _Dupont_ on the key: see for example the website [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) or [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Download-cable _CC_ and 4 _Dupont_ lines female to female are perfect for this purpose:
+![stick and _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+This is my favorite option, but if you don’t have a cable CC you can also directly solder the cables Dupont on the key: see for example the website [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) or [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 try this:
@@ -65,7 +65,7 @@ It must return:
   ID = b524.
 ```
 (the value may be different if the hardware version of your key is not the same as mine).  
-If you see 0000 or ffff something fails:
+If you see 0000 or ffff something is incorrect:
 
  * first check your wiring.
 
@@ -84,7 +84,7 @@ To save the contents of the flash memory to the save.hex file:
 ```
 (takes about 2 minutes).  
 
-To delete lightning memory: (° 1 ° 1
+To erase flash memory:
 ```bash
 ./cc_erase
 ```
@@ -118,7 +118,7 @@ all commands accept the following arguments:
 the pin numbering used is that of _wiringPi_. Use `gpio readall` to have the layout in your _Raspberry_ (column _wPi_ ).
 
 For example, if you want to use pins 3, 11 and 13:  
-Connect the following pins from a debug port to a door _GPIO_:
+Connect the following pins of debug port to port _GPIO_: (° 3 ° 3
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -133,7 +133,7 @@ Connect the following pins from a debug port to a door _GPIO_:
 
 
 
-and now you can read ID, save, delete and write flash memory with the following commands:
+And now you can read an identifier, save, delete and write a lightning memory with the following commands:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ It happens that the key deprograms, either due to the environment loaded by para
    ```
 If you get a lot of lines then you have to change nutrition block.  
 
-2. Get off the key to disturbing materials: speakers, Wi-Fi router, ... (° 1 ° 1
+2. Get away the key to disturbing materials: speakers, Wi-Fi router, ...
 
 
 

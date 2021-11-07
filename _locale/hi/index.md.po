@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:44+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "अंत में आपको कार्यक्रम की आ�
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "सामान्य समन्वयक (° ° ° 0001 डिग्री) संस्करण 1.2 (डिग्री ° 0004 डिग्री) अनुशंसित (° ° 0005 डिग्री) या (डिग्री 000 9 डिग्री) संस्करण 3.0 (डिग्री 00010 डिग्री) (डिग्री 00013 डिग्री)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "या राउटर (डिग्री 0001 डिग्री): (डिग्री 0003 डिग्री) धावक (डिग्री डिग्री 0004 डिग्री) 1.2 (डिग्री 0006 डिग्री) (डिग्री 0008 डिग्री)\n"
 
@@ -154,9 +152,9 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
-msgstr "बैंगनी बंदरगाहों की निम्नलिखित शाखाओं को जीपीआई पोर्ट से कनेक्ट करें: (° 0001 डिग्री) (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) (डिग्री 00011 डिग्री)\n"
+msgstr "बैंगनी बंदरगाह के निम्नलिखित पिन को जीपीओ पोर्ट से कनेक्ट करें: (डिग्री 0001 डिग्री) (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) (डिग्री 00011 डिग्री)\n"
 
 #. type: Plain text
 #: index.md:49
@@ -188,13 +186,12 @@ msgstr "फिर पोर्ट में यूएसबी कुंजी �
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"डाउनलोड केबल _CC_ और 4 लाइनें _Dupont_ महिला से महिला इस उद्देश्य के लिए एकदम सही हैं:\n"
-"![कुंजी की फोटो और _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
-"यह मेरा पसंदीदा विकल्प है, लेकिन यदि आपके पास केबल _CC_ नहीं है, तो आप सीधे केबल को भी मिला सकते हैं _Dupont_ कुंजी पर: उदाहरण के लिए वेबसाइट देखें [ °) (° १) °) (° १ ९ °) या (° २१ °) (° २२ °) (° २४ °) (° २६ °) (° २६ °)\n"
+"डाउनलोड केबल (° ° ° ° ° ° ° ° ° ° ° ° ° ° 2 पंक्तियों _Dupont_ महिला इस उद्देश्य के लिए उपयुक्त है:\n"
+"(डिग्री 0006 डिग्री) कुंजी और _raspberry_ का फोटो](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)(° 00011 डिग्री) यह मेरा पसंदीदा विकल्प है, लेकिन यदि आपके पास केबल (° ° 00012 डिग्री) नहीं है तो आप कुंजी पर सीधे केबल्स (° ° ° ° ° 00014 डिग्री) भी छोड़ सकते हैं: उदाहरण के लिए साइट (डिग्री 00016 डिग्री) (डिग्री 00017 डिग्री) (डिग्री 00019 डिग्री) या (डिग्री 00021 डिग्री) (डिग्री 00022 डिग्री) (° 00024 डिग्री)\n"
 
 #. type: Plain text
 #: index.md:62
@@ -233,8 +230,8 @@ msgstr "(मान भिन्न हो सकता है यदि आप�
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "यदि आप 0000 देखते हैं या ffff कुछ विफल रहता है:\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "यदि आप 0000 या FFFF देखते हैं तो गलत है:\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -373,8 +370,8 @@ msgstr "उदाहरण के लिए, यदि आप पिन 3, 11 �
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "डिबग पोर्ट से एक दरवाजे _GPIO_के लिए निम्नलिखित पिनों को कनेक्ट करें:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "पोर्ट (° ° 0001 डिग्री)को शुद्ध करने के निम्नलिखित पिन कनेक्ट करें:\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -403,8 +400,8 @@ msgstr "पिन 4 ( _DD_ ) -> pin 13 ( _wPi 2, BCM27_ ))\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "और अब आप निम्नलिखित आदेशों के साथ फ्लैश मेमोरी को आईडी पढ़ सकते हैं, बचा सकते हैं, हटा सकते हैं और लिख सकते हैं:\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "और अब आप निम्न आदेशों के साथ एक लाइटनिंग मेमोरी को एक पहचान, सहेज सकते हैं, हटाएं और लिख सकते हैं:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -482,8 +479,7 @@ msgstr " [गितुब](https://github.com/jmichault/flash_cc2531/issues/new/
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "अपने पोषण ब्लॉककी जाँच करें\n"
 
@@ -495,8 +491,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "यदि आपको बहुत सारी लाइनें मिलती हैं तो आपको पोषण ब्लॉक बदलना होगा।  \n"
 
@@ -508,8 +503,7 @@ msgstr "मैं 15 से अधिक परिधि को जोड़न�
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -517,38 +511,33 @@ msgstr "हम विभिन्न स्थानों में पढ़�
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "वास्तव में, (° ° ° 0001 डिग्री) की सीमा बहुत अधिक है।   \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "यह भी ध्यान रखें कि प्रोटोकॉल _zigbee_ 32 वें स्थान पर सीधे लिंक की संख्या को सीमित करता है।  \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "मेरी कुंजी के लाल एलईडी है जो रोशनी करता है।"
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "ऐसा होता है कि मुख्य डिपोग्राम, या तो परजीवी द्वारा लोड किए गए पर्यावरण के कारण या खराब पोषण के कारण।  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "परेशान करने वाली सामग्री के लिए कुंजी प्राप्त करें: वक्ताओं, वाई-फाई राउटर, ... (° 0001 डिग्री)\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "परेशान करने वाली सामग्री को दूर करें: वक्ताओं, वाई-फाई राउटर, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -567,6 +556,42 @@ msgstr "लाइसेंस"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "यह परियोजना GPL v3 ( देखें _COPYING_ )के तहत लाइसेंस प्राप्त है।\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr "बैंगनी बंदरगाहों की निम्नलिखित शाखाओं को जीपीआई पोर्ट से कनेक्ट करें: (° 0001 डिग्री) (डिग्री 0002 डिग्री) (डिग्री 0003 डिग्री) (डिग्री 00011 डिग्री)\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "डाउनलोड केबल _CC_ और 4 लाइनें _Dupont_ महिला से महिला इस उद्देश्य के लिए एकदम सही हैं:\n"
+#~ "![कुंजी की फोटो और _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
+#~ "यह मेरा पसंदीदा विकल्प है, लेकिन यदि आपके पास केबल _CC_ नहीं है, तो आप सीधे केबल को भी मिला सकते हैं _Dupont_ कुंजी पर: उदाहरण के लिए वेबसाइट देखें [ °) (° १) °) (° १ ९ °) या (° २१ °) (° २२ °) (° २४ °) (° २६ °) (° २६ °)\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "यदि आप 0000 देखते हैं या ffff कुछ विफल रहता है:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "डिबग पोर्ट से एक दरवाजे _GPIO_के लिए निम्नलिखित पिनों को कनेक्ट करें:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "और अब आप निम्नलिखित आदेशों के साथ फ्लैश मेमोरी को आईडी पढ़ सकते हैं, बचा सकते हैं, हटा सकते हैं और लिख सकते हैं:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr ""
+#~ "परेशान करने वाली सामग्री के लिए कुंजी प्राप्त करें: वक्ताओं, वाई-फाई राउटर, ... (° "
+#~ "0001 डिग्री)\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

@@ -40,7 +40,8 @@ title: 'ਮੁੱਖ ਗੱਲ'
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-ਹੇਠਾਂ ਦਿੱਤੇ ਬਰੈਕਸ ਪੋਰਟ ਦੀਆਂ ਜੀਪੀਆਈ ਪੋਰਟ ਨੂੰ ਜੀਪੀਆਈ ਪੋਰਟ ਨਾਲ ਜੁੜੋ: (1 1)![
+ਜਾਮਨੀ ਬੰਦਰਗਾਹ ਦੇ ਹੇਠਲੀਆਂ ਪਿੰਨ ਨੂੰ ਜੀਪੀਓ ਪੋਰਟ ਨਾਲ ਜੋੜੋ:
+![
 
 |  
 
@@ -49,9 +50,9 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 ਫਿਰ ਪੋਰਟ ਵਿੱਚ USB ਕੁੰਜੀ ਦਰਜ ਕਰੋ.  
 
-ਡਾਉਨਲੋਡ ਕੇਬਲ _CC_ ਅਤੇ 4 ਲਾਈਨਾਂ _Dupont_ toਰਤ ਤੋਂ Femaleਰਤ ਇਸ ਮਕਸਦ ਲਈ ਸਹੀ ਹਨ:
-![ਕੁੰਜੀ ਦੀ ਫੋਟੋ ਅਤੇ _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-ਇਹ ਮੇਰਾ ਮਨਪਸੰਦ ਵਿਕਲਪ ਹੈ, ਪਰ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੇਬਲ _CC_ ਨਹੀਂ ਹੈ ਤਾਂ ਤੁਸੀਂ ਕੁੰਜੀ ਤੇ ਕੇਬਲ _Dupont_ ਨੂੰ ਸਿੱਧੇ ਵੀ ਸੌਂਡਰ ਕਰ ਸਕਦੇ ਹੋ: ਉਦਾਹਰਣ ਲਈ ਵੈਬਸਾਈਟ [ ਦੇਖੋ °)_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ਜਾਂ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+ਇਸ ਮਕਸਦ ਲਈ female ਰਤ ਅਤੇ 4 ਲਾਈਨਾਂ
+ਡਾ .ਨਲੋਡ ਕਰਨ ਲਈ ਕੇਬਲ ਡਾ .ਨਲੋਡ ਕਰੋ:
+ਕੁੰਜੀ ਅਤੇ ° 9 °)](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)ਦੀ ਫੋਟੋ ° 11 °) ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਵਿਕਲਪ ਹੈ, ਪਰ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੇਬਲ _CC_ ਨੂੰ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ _Dupont_ ਨਾ ਲਗਾਓ: ਉਦਾਹਰਣ ਲਈ ਸਾਈਟ ਵੇਖੋ [ _lemariva.com_ _lemariva.com_ ਜਾਂ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ) ਜਾਂ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 ਇਸਨੂੰ ਅਜ਼ਮਾਓ:
@@ -64,7 +65,7 @@ cd flash_cc2531
   ID = b524.
 ```
 (ਮੁੱਲ ਵੱਖਰਾ ਹੋ ਸਕਦਾ ਹੈ ਜੇ ਤੁਹਾਡੀ ਕੁੰਜੀ ਦਾ ਹਾਰਡਵੇਅਰ ਵਰਜ਼ਨ ਮੇਰਾ)ਵਰਗਾ ਨਹੀਂ ਹੈ.  
-ਜੇ ਤੁਸੀਂ ਵੇਖਦੇ ਹੋ 0000 ਜਾਂ ffff ਕੁਝ ਅਸਫਲ::
+ਜੇ ਤੁਸੀਂ 0000 ਜਾਂ FFFF ਵੇਖਦੇ ਹੋ ਕੁਝ ਗਲਤ ਹੈ:
 
  * ਪਹਿਲਾਂ ਆਪਣੀ ਤਾਰਾਂ ਦੀ ਜਾਂਚ ਕਰੋ.
 
@@ -117,7 +118,7 @@ cd flash_cc2531
 ਵਰਤੀ ਜਾਂਦੀ ਪਿੰਨ ਨੰਬਰਿੰਗ _wiringPi_ਦੀ ਹੈ. ਆਪਣੇ _Raspberry_ (ਕਾਲਮ _wPi_ )ਵਿਚ ਖਾਕਾ ਲੈਣ ਲਈ `gpio readall` ਵਰਤੋ.
 
 ਉਦਾਹਰਣ ਦੇ ਲਈ, ਜੇ ਤੁਸੀਂ ਪਿੰਨ 3, 11 ਅਤੇ 13 ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ:  
-ਇੱਕ ਡੀਬੱਗ ਪੋਰਟ ਤੋਂ ਹੇਠਾਂ ਦਿੱਤੇ ਪਿੰਨਾਂ ਨੂੰ ਇੱਕ ਦਰਵਾਜ਼ੇ ਨਾਲ ਜੋੜੋ (° 1:):
+ਜਾਮਨੀ ਪੋਰਟ ਦੇ ਹੇਠ ਲਿਖੀਆਂ ਪਿੰਨ ਨੂੰ ਪੋਰਟ _GPIO_ਨਾਲ ਕਨੈਕਟ ਕਰੋ:
 
  1. ਪਿੰਨ 1 ( _GND_ ) -> ਪਿੰਨ 14 ( _GND_ )
 
@@ -132,7 +133,7 @@ cd flash_cc2531
 
 
 
-ਅਤੇ ਹੁਣ ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਕਮਾਂਡਾਂ ਨਾਲ ID ਪੜ੍ਹ ਸਕਦੇ ਹੋ, ਸੇਵ ਕਰ ਸਕਦੇ ਹੋ, ਡਿਲੀਟ ਕਰ ਸਕਦੇ ਹੋ ਅਤੇ ਫਲੈਸ਼ ਮੈਮੋਰੀ ਲਿਖ ਸਕਦੇ ਹੋ:
+ਅਤੇ ਹੁਣ ਤੁਸੀਂ ਇੱਕ ਪਛਾਣਕਰਤਾ, ਲਾਈਟ ਕਮਾਂਡਾਂ ਨਾਲ ਇੱਕ ਲਾਈਕਿੰਗ, ਸੇਵ ਅਤੇ ਮਿਟਾ ਸਕਦੇ ਹੋ:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -199,7 +200,7 @@ cd flash_cc2531
    ```
 ਜੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਾਰੀਆਂ ਸਤਰਾਂ ਮਿਲਦੀਆਂ ਹਨ ਤਾਂ ਤੁਹਾਨੂੰ ਪੋਸ਼ਣ ਬਲਾਕ ਬਦਲਣਾ ਪਏਗਾ.  
 
-2. ਪ੍ਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਦੀ ਕੁੰਜੀ ਤੋਂ ਉਤਰੋ: ਬੋਲਣ ਵਾਲੇ, ਵਾਈ-ਫਾਈ ਰਾ ter ਟਰ, ...
+2. ਪ੍ਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਚੀਜ਼ਾਂ ਦੀ ਕੁੰਜੀ ਨੂੰ ਦੂਰ ਕਰੋ: ਬੋਲਣ ਵਾਲੇ, ਵਾਈ-ਫਾਈ ਰਾ ter ਟਰ, ...
 
 
 

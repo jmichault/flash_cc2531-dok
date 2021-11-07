@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:44+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "Akhirnya anda memerlukan program:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "Umum Penyelaras _zigbee_ : [ Version 1.2 (Disyorkan)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) atau](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "Atau router _zigbee_ : [Router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
@@ -154,10 +152,10 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"Sambungkan yang berikut Pantai Ungu ke Port GPI:\n"
+"Sambungkan pin berikut Port Ungu ke Port GPO:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
@@ -190,13 +188,13 @@ msgstr "Kemudian masukkan kekunci USB ke pelabuhan.  \n"
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke Perempuan sangat sesuai untuk tujuan ini:\n"
-"![foto kunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
-"Ini adalah pilihan kegemaran saya, tetapi jika anda tidak mempunyai kabel _CC_ , anda juga boleh menyolder kabel secara langsung _Dupont_ pada kunci: lihat misalnya laman web [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) atau [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+"Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke perempuan adalah sempurna untuk tujuan ini:\n"
+"Foto kekunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+"Ini adalah pilihan kegemaran saya, tetapi jika anda tidak mempunyai kabel _CC_ Anda juga boleh secara langsung melepaskan kabel _Dupont_ pada kunci: lihat contohnya tapak [ _lemariva.com_  [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 
 #. type: Plain text
 #: index.md:62
@@ -235,8 +233,8 @@ msgstr "(nilainya mungkin berbeza jika versi perkakasan kunci anda tidak sama de
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "Sekiranya anda melihat 0000 atau ffff sesuatu gagal:\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "Jika anda melihat 0000 atau FFFF sesuatu yang salah: (° 1 ° 1\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -375,8 +373,8 @@ msgstr "Contohnya, jika anda ingin menggunakan pin 3, 11 dan 13:  \n"
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "Sambungkan pin berikut dari port debug ke pintu _GPIO_:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "Sambungkan pin berikut port ungu ke port _GPIO_: (° 3 ° 3\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -405,8 +403,8 @@ msgstr "pin 4 ( _DD_ ) -> pin 13 ( _wPi 2, BCM27_ )\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "dan sekarang anda boleh membaca ID, menyimpan, menghapus dan menulis memori flash dengan arahan berikut:\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "Dan sekarang anda boleh membaca pengenal, menyimpan, memadam dan menulis memori kilat dengan arahan berikut:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -484,8 +482,7 @@ msgstr "Kemukakan soalan anda sendiri mengenai [github](https://github.com/jmich
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "Semak blok pemakanan anda (° 1 ° 1\n"
 
@@ -497,8 +494,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "Sekiranya anda mendapat banyak baris maka anda perlu menukar blok pemakanan.  \n"
 
@@ -510,8 +506,7 @@ msgstr "Saya mahu menyambung lebih daripada 15 pinggir"
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -519,38 +514,33 @@ msgstr "Kami membaca di pelbagai tempat yang kunci _CC2531_ hanya boleh mengenda
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "Malah, had untuk _CC2531_ jauh lebih tinggi.   \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "Juga ambil perhatian bahawa protokol _zigbee_ menghadkan bilangan pautan langsung ke 32.  \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "Kuncinya mempunyai LED merah yang menerangi."
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "Ia berlaku bahawa deprogram utama, sama ada disebabkan oleh persekitaran yang dimuatkan oleh parasit atau disebabkan oleh pemakanan yang kurang baik.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "Turunkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ... (° 1 ° 1\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "Dapatkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -569,6 +559,44 @@ msgstr "Lesen"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Projek ini dilesenkan di bawah GPL v3 ( lihat _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "Sambungkan yang berikut Pantai Ungu ke Port GPI:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke Perempuan sangat sesuai untuk tujuan ini:\n"
+#~ "![foto kunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
+#~ "Ini adalah pilihan kegemaran saya, tetapi jika anda tidak mempunyai kabel _CC_ , anda juga boleh menyolder kabel secara langsung _Dupont_ pada kunci: lihat misalnya laman web [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) atau [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "Sekiranya anda melihat 0000 atau ffff sesuatu gagal:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "Sambungkan pin berikut dari port debug ke pintu _GPIO_:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "dan sekarang anda boleh membaca ID, menyimpan, menghapus dan menulis memori flash dengan arahan berikut:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr ""
+#~ "Turunkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ... "
+#~ "(° 1 ° 1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

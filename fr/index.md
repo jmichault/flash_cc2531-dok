@@ -102,7 +102,7 @@ toutes les commandes acceptent les arguments suivants:
 la numérotation des broches utilisée est celle de _wiringPi_. Utilisez `gpio readall` pour avoir la disposition dans votre _Raspberry_ (colonne _wPi_ ).
 
 Par exemple, si vous souhaitez utiliser les broches 3, 11 et 13:  
-Connectez les broches suivantes d'un port de débogage à une porte _GPIO_:
+Connectez les broches suivantes d'un port de débogage à un port _GPIO_:
 
  1. broche 1 ( _GND_ ) -> broche 14 ( _GND_ )
  2. broche 7 ( _reset_ ) -> broche 3 ( _wPi 8, BCM2_ )

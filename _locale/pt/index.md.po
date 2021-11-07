@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:45+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "Finalmente você precisa do programa:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "Coordenador Geral _zigbee_ : [ Versão 1.2 (Recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [Versão 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "Ou roteador _zigbee_ : [Roteador _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
@@ -154,10 +152,10 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"Conecte os seguintes contravores da porta roxa à porta GPI:\n"
+"Conecte os seguintes pinos da porta roxa à porta GPO:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
@@ -190,13 +188,12 @@ msgstr "Em seguida, insira a chave USB na porta.  \n"
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"Cabo de download _CC_ e 4 linhas _Dupont_ Fêmea para Fêmea são perfeitos para esta finalidade:\n"
-"![foto da chave e a _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
-"Esta é a minha opção preferida, mas se você não tem um cabo _CC_ você também pode soldar os cabos diretamente _Dupont_ na chave: veja por exemplo o site [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+"Download Cabo _CC_ e 4 linhas _Dupont_ Fêmea para mulher são perfeitas para este efeito:\n"
+"Foto da chave e do _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)° 11 °) Esta é a minha opção favorita, mas se você não tiver um cabo _CC_ , você também pode liberar diretamente os cabos _Dupont_ na chave: veja, por exemplo, o site (° 16 ° 16 °_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 
 #. type: Plain text
 #: index.md:62
@@ -235,8 +232,8 @@ msgstr "(o valor pode ser diferente se a versão do hardware da sua chave não f
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "Se você vir 0000 ou ffff, algo falha:\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "Se você vir 0000 ou FFFF algo estiver incorreto: (° 1 ° 1\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -375,8 +372,8 @@ msgstr "Por exemplo, se você quiser usar os pinos 3, 11 e 13:  \n"
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "Conecte os seguintes pinos de uma porta de depuração a uma porta _GPIO_:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "Conecte os seguintes pinos de porta roxa à porta _GPIO_: (° 3 ° 3\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -405,8 +402,8 @@ msgstr "pino 4 ( _DD_ ) -> pino 13 ( _wPi 2, BCM27_ )\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "e agora você pode ler ID, salvar, excluir e gravar a memória flash com os seguintes comandos:\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "E agora você pode ler um identificador, salvar, excluir e escrever uma memória relâmpago com os seguintes comandos:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -484,8 +481,7 @@ msgstr "Faça sua pergunta sobre [github](https://github.com/jmichault/flash_cc2
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "Verifique seu bloco nutricional (° 1 ° 1\n"
 
@@ -497,8 +493,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "Se você tiver muitas linhas, então você tem que mudar o bloco de nutrição.  \n"
 
@@ -510,8 +505,7 @@ msgstr "Eu quero conectar mais de 15 periferia"
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -519,38 +513,33 @@ msgstr "Nós lemos em vários lugares que a chave _CC2531_ só pode lidar com 15
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "De fato, o limite para _CC2531_ é muito maior.   \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "Observe também que o Protocolo _zigbee_ limita o número de links diretos para 32º.  \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "Minha chave tem seu LED vermelho que ilumina."
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "Acontece que os principais desprogramas, devido ao meio ambiente carregado por parasitas ou devido à má nutrição.  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "Saia da chave para materiais perturbadores: alto-falantes, wi-fi roteador, ... (° 1 ° 1\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "Afaste a chave para materiais perturbadores: alto-falantes, wi-fi roteador, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -569,6 +558,44 @@ msgstr "Licença"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "Este projeto está licenciado sob a GPL v3 ( ver _COPYING_ ).\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "Conecte os seguintes contravores da porta roxa à porta GPI:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "Cabo de download _CC_ e 4 linhas _Dupont_ Fêmea para Fêmea são perfeitos para esta finalidade:\n"
+#~ "![foto da chave e a _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
+#~ "Esta é a minha opção preferida, mas se você não tem um cabo _CC_ você também pode soldar os cabos diretamente _Dupont_ na chave: veja por exemplo o site [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "Se você vir 0000 ou ffff, algo falha:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "Conecte os seguintes pinos de uma porta de depuração a uma porta _GPIO_:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "e agora você pode ler ID, salvar, excluir e gravar a memória flash com os seguintes comandos:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr ""
+#~ "Saia da chave para materiais perturbadores: alto-falantes, wi-fi "
+#~ "roteador, ... (° 1 ° 1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

@@ -40,7 +40,7 @@ Muat turun _flash\_cc2531_ ke _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Sambungkan yang berikut Pantai Ungu ke Port GPI:
+Sambungkan pin berikut Port Ungu ke Port GPO:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |  
@@ -50,9 +50,9 @@ Susun atur pin _raspberry_ boleh didapati di sini: <https://pinout.xyz/>
 
 Kemudian masukkan kekunci USB ke pelabuhan.  
 
-Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke Perempuan sangat sesuai untuk tujuan ini:
-![foto kunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-Ini adalah pilihan kegemaran saya, tetapi jika anda tidak mempunyai kabel _CC_ , anda juga boleh menyolder kabel secara langsung _Dupont_ pada kunci: lihat misalnya laman web [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) atau [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Muat turun kabel _CC_ dan 4 baris _Dupont_ Perempuan ke perempuan adalah sempurna untuk tujuan ini:
+Foto kekunci dan _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+Ini adalah pilihan kegemaran saya, tetapi jika anda tidak mempunyai kabel _CC_ Anda juga boleh secara langsung melepaskan kabel _Dupont_ pada kunci: lihat contohnya tapak [ _lemariva.com_  [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 cuba ini:
@@ -65,7 +65,7 @@ Ia mesti kembali:
   ID = b524.
 ```
 (nilainya mungkin berbeza jika versi perkakasan kunci anda tidak sama dengan kunci milik saya).  
-Sekiranya anda melihat 0000 atau ffff sesuatu gagal:
+Jika anda melihat 0000 atau FFFF sesuatu yang salah: (° 1 ° 1
 
  * periksa dahulu pendawaian anda.
 
@@ -118,7 +118,7 @@ semua arahan menerima hujah berikut:
 penomboran pin yang digunakan ialah _wiringPi_. Gunakan `gpio readall` untuk mempunyai susun atur di ruangan _Raspberry_ ( _wPi_ ).
 
 Contohnya, jika anda ingin menggunakan pin 3, 11 dan 13:  
-Sambungkan pin berikut dari port debug ke pintu _GPIO_:
+Sambungkan pin berikut port ungu ke port _GPIO_: (° 3 ° 3
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -133,7 +133,7 @@ Sambungkan pin berikut dari port debug ke pintu _GPIO_:
 
 
 
-dan sekarang anda boleh membaca ID, menyimpan, menghapus dan menulis memori flash dengan arahan berikut:
+Dan sekarang anda boleh membaca pengenal, menyimpan, memadam dan menulis memori kilat dengan arahan berikut:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ Ia berlaku bahawa deprogram utama, sama ada disebabkan oleh persekitaran yang di
    ```
 Sekiranya anda mendapat banyak baris maka anda perlu menukar blok pemakanan.  
 
-2. Turunkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ... (° 1 ° 1
+2. Dapatkan kunci untuk mengganggu bahan: Pembesar suara, Wi-Fi Router, ...
 
 
 

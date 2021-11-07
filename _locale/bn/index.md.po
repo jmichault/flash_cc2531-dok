@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 12:43+0100\n"
+"POT-Creation-Date: 2021-11-07 14:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,15 +102,13 @@ msgstr "শেষ পর্যন্ত আপনার প্রয়োজন
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "জেনারেল কোঅর্ডিনেটর (° 3 ° 3 ° 3 ° 3 ° 3 ° 3 ডিগ্রি) সংস্করণ 1.2 (বা)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) Version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)(° 13 °\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 msgstr "বা রাউটার _zigbee_ রাউটার _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
@@ -154,10 +152,10 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 #: index.md:42
 #, fuzzy, no-wrap
 msgid ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"জিপিআই পোর্টে বেগুনি পোর্টের নিম্নলিখিত প্রান্তগুলি সংযুক্ত করুন:\n"
+"জিপিও পোর্টে বেগুনি পোর্টের নিচের পিনটি সংযুক্ত করুন:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
@@ -190,13 +188,14 @@ msgstr "তারপর পোর্টে ইউএসবি কী লিখ�
 #: index.md:59
 #, fuzzy, no-wrap
 msgid ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"ডাউনলোড কেবল _CC_ এবং 4 টি লাইন _Dupont_ মহিলা থেকে মহিলা এই উদ্দেশ্যে নিখুঁত:\n"
-"![কী এবং _raspberry_ এর ফটো](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
-"এটি আমার প্রিয় বিকল্প, তবে আপনার যদি কেবল _CC_ না থাকে তবে আপনি কীগুলিতে সরাসরি তারের _Dupont_ সোল্ডার করতে পারেন: উদাহরণস্বরূপ ওয়েবসাইটটি দেখুন [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) বা [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+"ডাউনলোড কেবল _CC_ এবং 4 লাইন _Dupont_ এই উদ্দেশ্যে জন্য নিখুঁত হয়:\n"
+"এর ছবি এবং _raspberry_ \n"
+"\n"
+"এটি আমার প্রিয় বিকল্প, তবে যদি আপনার কোনও তারের _CC_ না থাকে তবে আপনি সরাসরি কীটি (° 14 ° 16 ডিগ্রি) ছেড়ে দিতে পারেন: উদাহরণস্বরূপ সাইটটি দেখুন [ _lemariva.com_ বা [ _notenoughtech.com_ (° ২6 °)\n"
 
 #. type: Plain text
 #: index.md:62
@@ -235,8 +234,8 @@ msgstr "(মানটি ভিন্ন হতে পারে যদি আপ
 #. type: Plain text
 #: index.md:72
 #, fuzzy, no-wrap
-msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
-msgstr "যদি আপনি দেখতে পান 0000 বা ffff কিছু ব্যর্থ হয়:\n"
+msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
+msgstr "যদি আপনি 0000 বা FFFF কিছু দেখেন তবে ভুল: (° 1 ° 1\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -375,8 +374,8 @@ msgstr "উদাহরণস্বরূপ, আপনি যদি পিন 3
 #. type: Plain text
 #: index.md:117
 #, fuzzy, no-wrap
-msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
-msgstr "একটি ডিবাগ বন্দর থেকে নিম্নলিখিত পিনগুলি একটি দরজার সাথে সংযুক্ত করুন _GPIO_:\n"
+msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
+msgstr "পোর্টে বেগুনি পোর্টের নিচের পিনের সাথে সংযোগ করুন _GPIO_: (° 3 ° 3\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -405,8 +404,8 @@ msgstr "পিন 4 ( _DD_ ) -> পিন 13 ( _wPi 2, BCM27_ )\n"
 #. type: Plain text
 #: index.md:128
 #, fuzzy, no-wrap
-msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
-msgstr "এবং এখন আপনি নিম্নলিখিত কমান্ডগুলি সহ আইডি পড়তে, সংরক্ষণ করতে, মুছতে এবং লিখতে পারেন:\n"
+msgid "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "এবং এখন আপনি নিম্নলিখিত কমান্ডগুলির সাথে একটি আইডেন্টিফায়ার, সংরক্ষণ, মুছে ফেলুন এবং একটি বাজ মেমরি পড়তে পারেন:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:128
@@ -484,8 +483,7 @@ msgstr " [গিথুব](https://github.com/jmichault/flash_cc2531/issues/new/
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "আপনার পুষ্টি ব্লক চেক করুন (° 1 ° 1\n"
 
@@ -497,8 +495,7 @@ msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
 #: index.md:169 index.md:186
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "যদি আপনি অনেক লাইন পান তবে আপনাকে পুষ্টি ব্লক পরিবর্তন করতে হবে।  \n"
 
@@ -510,8 +507,7 @@ msgstr "আমি 15 টির বেশি পরিধি সংযোগ ক�
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
@@ -519,38 +515,33 @@ msgstr "আমরা বিভিন্ন জায়গায় পড়ি
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "আসলে, সীমা _CC2531_ অনেক বেশি।   \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "এছাড়াও উল্লেখ্য যে প্রোটোকল _zigbee_ 32 তম সরাসরি লিঙ্কগুলির সংখ্যা সীমাবদ্ধ করে।  \n"
 
 #. type: Title ##
 #: index.md:176
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "আমার কী তার লাল LED যে আলোকিত হয়েছে।"
 
 #. type: Plain text
 #: index.md:178
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "এটি প্যারাসাইটের দ্বারা লোড হওয়া পরিবেশের কারণে বা দরিদ্র পুষ্টির কারণে কীটি হ্রাস পায়।  \n"
 
 #. type: Bullet: '2. '
 #: index.md:188
-#, no-wrap
-#, fuzzy
-msgid "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
-msgstr "বিরক্তিকর উপকরণের কীটি বন্ধ করুন: স্পিকার, ওয়াই-ফাই রাউটার, ... (° 1 ° 1\n"
+#, fuzzy, no-wrap
+msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "বিরক্তিকর উপকরণের কী দূরে পান: স্পিকার, ওয়াই-ফাই রাউটার, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:191
@@ -569,6 +560,43 @@ msgstr "লাইসেন্স"
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "এই প্রকল্পটি জিপিএল ভি 3 ( দেখুন _COPYING_ )এর অধীনে লাইসেন্সযুক্ত।\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+#~ msgstr ""
+#~ "জিপিআই পোর্টে বেগুনি পোর্টের নিম্নলিখিত প্রান্তগুলি সংযুক্ত করুন:\n"
+#~ "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+#~ "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
+#~ "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+#~ msgstr ""
+#~ "ডাউনলোড কেবল _CC_ এবং 4 টি লাইন _Dupont_ মহিলা থেকে মহিলা এই উদ্দেশ্যে নিখুঁত:\n"
+#~ "![কী এবং _raspberry_ এর ফটো](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))\n"
+#~ "এটি আমার প্রিয় বিকল্প, তবে আপনার যদি কেবল _CC_ না থাকে তবে আপনি কীগুলিতে সরাসরি তারের _Dupont_ সোল্ডার করতে পারেন: উদাহরণস্বরূপ ওয়েবসাইটটি দেখুন [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) বা [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+#~ msgstr "যদি আপনি দেখতে পান 0000 বা ffff কিছু ব্যর্থ হয়:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+#~ msgstr "একটি ডিবাগ বন্দর থেকে নিম্নলিখিত পিনগুলি একটি দরজার সাথে সংযুক্ত করুন _GPIO_:\n"
+
+#, fuzzy, no-wrap
+#~ msgid "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+#~ msgstr "এবং এখন আপনি নিম্নলিখিত কমান্ডগুলি সহ আইডি পড়তে, সংরক্ষণ করতে, মুছতে এবং লিখতে পারেন:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi "
+#~ "enkursigiloj, ...\n"
+#~ msgstr ""
+#~ "বিরক্তিকর উপকরণের কীটি বন্ধ করুন: স্পিকার, ওয়াই-ফাই রাউটার, ... (° 1 ° 1\n"
 
 #, fuzzy, no-wrap
 #~ msgid "ĝenerale zigbee-kunordiganto: [ versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"

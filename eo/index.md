@@ -37,7 +37,7 @@ Elŝutu _flash\_cc2531_ al via _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:
+Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 | pinglo de _GPIO_          | pinglo de _CC_  |
@@ -53,7 +53,7 @@ La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>
 Tiam enmetu la USB-ŝlosilon en havenon.   
 Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). 
 
-Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:
+Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:
 ![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
 Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
@@ -68,7 +68,7 @@ cd flash_cc2531
   ID = b524.
 ```
 (la valoro povas esti malsama se la aparatara versio de via ŝlosilo ne samas kun la mia).  
-Se vi vidas 0000 aŭ ffff io fiaskas:
+Se vi vidas 0000 aŭ ffff io estas malĝusta:
 
  * unue kontrolu vian kabligon.
 
@@ -113,7 +113,7 @@ Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:
 la pinglonumerado uzata estas tiu de _wiringPi_. Uzu `gpio readall` por havi la aranĝon en via _Raspberry_ (kolumno _wPi_ ).
 
 Ekzemple, se vi volas uzi pinglojn 3, 11 kaj 13:  
-Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:
+Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:
 
  1. pinglo 1 ( _GND_ ) -> pinglo 14 ( _GND_ )
 
@@ -124,7 +124,7 @@ Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:
  4. pinglo 4 ( _DD_ ) -> pinglo 13 ( _wPi 2, BCM27_ )
 
 
-kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:
+kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -184,7 +184,7 @@ Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro
    ```
 Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. 
 
-2. Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...
+2. Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...
 
 
 3. Reprogramu la ŝlosilon

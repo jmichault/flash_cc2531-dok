@@ -40,7 +40,7 @@ title: Главное
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Подсоедините следующие выбросы фиолетового порта к порту GPI:
+Подключите следующие контакты фиолетового порта к порту ГПО:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |.  
@@ -50,9 +50,9 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 Затем введите USB-ключ в порт.  
 
-Кабель для скачивания _CC_ и 4 линии _Dupont_ между гнездом и гнездом идеально подходят для этой цели:
-![фотография ключа и _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-Это мой любимый вариант, но если у вас нет кабеля _CC_ , вы также можете напрямую припаять кабели _Dupont_ к ключу: см., Например, веб-сайт [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) или [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Скачать кабель _CC_ и 4 строки _Dupont_ Женщина для женщин идеально подходит для этой цели:
+Фотография ключа и _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+Это мой любимый вариант, но если у вас нет кабеля _CC_ , вы также можете напрямую отпустить кабели _Dupont_ на клавише: см. Например, сайт [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) или [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 попробуйте это:
@@ -65,7 +65,7 @@ cd flash_cc2531
   ID = b524.
 ```
 (значение может быть другим, если аппаратная версия вашего ключа не такая же, как у меня).  
-Если вы видите 0000 или ffff, что-то не работает:
+Если вы видите 0000 или FFFF, что-то неверно: (° 1 ° 1
 
  * сначала проверьте свою проводку.
 
@@ -118,7 +118,7 @@ cd flash_cc2531
 используется нумерация штифтов _wiringPi_. Используйте `gpio readall` , чтобы разместить макет в столбце _Raspberry_ ( _wPi_ ).
 
 Например, если вы хотите использовать контакты 3, 11 и 13:  
-Подключите следующие контакты от порта отладки к двери _GPIO_:
+Подключите следующие контакты фиолетового порта к порту _GPIO_: (° 3 ° 3
 
  1. штифт 1 ( _GND_ ) -> штифт 14 ( _GND_ )
 
@@ -133,7 +133,7 @@ cd flash_cc2531
 
 
 
-и теперь вы можете читать ID, сохранять, удалять и записывать флеш-память с помощью следующих команд:
+И теперь вы можете прочитать идентификатор, сохранить, удалить и записать память молнии со следующими командами:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ cd flash_cc2531
    ```
 Если вы получите много строк, вы должны изменить блок питания.  
 
-2. Сойти с ключа к нарушению материалов: динамики, маршрутизатор Wi-Fi, ... (° 1 ° 1
+2. Утешите ключ к нарушению материалов: динамики, Wi-Fi маршрутизатор, ...
 
 
 

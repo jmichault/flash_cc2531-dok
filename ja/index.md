@@ -40,8 +40,8 @@ title: 重要なこと
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-紫色のポートの次のブリーブをGPIポートに接続します。
-![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
+紫色のポートの次のピンをGPOポートに接続します。
+![![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 | ..  
 
@@ -50,9 +50,9 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 その後、USBキーをポートに入力します。  
 
-ダウンロードケーブル _CC_ と4本の線 _Dupont_ メスからメスはこの目的に最適です：
-![キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）
-これは私のお気に入りのオプションですが、ケーブル _CC_ がない場合は、キーにケーブル _Dupont_ を直接はんだ付けすることもできます。たとえば、Webサイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+ケーブル _CC_ と4行 _Dupont_ 4行 _Dupont_ の女性をこの目的に最適です。
+キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+°11°）これは私のお気に入りのオプションですが、ケーブルを持っていない _CC_ キーを押すと、キーのケーブル _Dupont_ をリリースすることもできます。たとえば、サイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 これを試してください：
@@ -65,7 +65,7 @@ cd flash_cc2531
   ID = b524.
 ```
 (キーのハードウェアバージョンが私のものと同じでない場合)、値が異なる場合があります。  
-0000またはffffが表示された場合、何かが失敗します：
+0000またはFFFFが表示されている場合は、
 
  * まず配線を確認してください。
 
@@ -118,7 +118,7 @@ cd flash_cc2531
 使用されるピン番号は _wiringPi_の番号です。 `gpio readall` を使用して、 _Raspberry_ (列 _wPi_ )にレイアウトを配置します。
 
 たとえば、ピン3、11、13を使用する場合：  
-次のピンをデバッグポートからドアに接続します _GPIO_:
+紫色のポートの以下のピンをポート _GPIO_に接続します。（°3°3
 
  1. ピン1 ( _GND_ ) -> ピン14 ( _GND_ )
 
@@ -133,7 +133,7 @@ cd flash_cc2531
 
 
 
-これで、次のコマンドを使用して、IDの読み取り、保存、削除、およびフラッシュメモリの書き込みを行うことができます。
+そして、次のコマンドで識別子を読み取り、保存、削除、書き込み、書き込みできます。
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ cd flash_cc2531
    ```
 あなたがたくさんの行を手に入れるなら、あなたは栄養ブロックを変更する必要があります。  
 
-2. 邪魔されている材料への鍵から降りる：スピーカー、Wi-Fiルーター、...（°1°1
+2. 邪魔されている材料に鍵を捨てる：スピーカー、Wi-Fiルーター、...
 
 
 

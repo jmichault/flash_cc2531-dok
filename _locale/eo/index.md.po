@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-07 12:18+0100\n"
+"POT-Creation-Date: 2021-11-07 14:02+0100\n"
 "PO-Revision-Date: 2021-11-06 22:47+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: \n"
@@ -104,25 +104,15 @@ msgstr "Fine vi bezonas la programon:\n"
 
 #. type: Bullet: '* '
 #: index.md:23
-msgid ""
-"en général un coordinateur _zigbee_ : [ version 1.2 (recommandée)](https://"
-"github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/"
-"bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/"
-"tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr ""
-"Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github."
-"com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/"
-"default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/"
-"master/coordinator/Z-Stack_3.0.x/bin)\n"
+#, no-wrap
+msgid "en général un coordinateur _zigbee_ : [ version 1.2 (recommandée)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:23
-msgid ""
-"ou alors un routeur _zigbee_ : [routeur _zigbee_ 1.2](https://github.com/"
-"Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr ""
-"Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-"
-"firmware/tree/master/router/CC2531/bin)\n"
+#, no-wrap
+msgid "ou alors un routeur _zigbee_ : [routeur _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:25
@@ -167,7 +157,7 @@ msgid ""
 "Connectez les broches suivantes du port de débogage au port GPIO:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"Konektu la sekvajn brozojn de la elpuriga haveno al la GPI-haveno:\n"
+"Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
@@ -214,7 +204,7 @@ msgid ""
 "![photo de la clé et du _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "C'est mon option préférée, mais si vous n'avez pas de câble _CC_ vous pouvez aussi souder directement les câbles _Dupont_ sur la clé : voir par exemple le site [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 msgstr ""
-"Elŝuta kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
+"Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
 
@@ -256,7 +246,7 @@ msgstr "(la valoro povas esti malsama se la aparatara versio de via ŝlosilo ne 
 #: index.md:68
 #, no-wrap
 msgid "Si vous voyez 0000 ou ffff quelque chose ne va pas:\n"
-msgstr "Se vi vidas 0000 aŭ ffff io fiaskas:\n"
+msgstr "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 
 #. type: Bullet: ' * '
 #: index.md:72
@@ -393,8 +383,8 @@ msgstr "Ekzemple, se vi volas uzi pinglojn 3, 11 kaj 13:  \n"
 #. type: Plain text
 #: index.md:106
 #, no-wrap
-msgid "Connectez les broches suivantes d'un port de débogage à une porte _GPIO_:\n"
-msgstr "Konekti la jenajn pinglojn de elpuriga haveno al pordo _GPIO_:\n"
+msgid "Connectez les broches suivantes d'un port de débogage à un port _GPIO_:\n"
+msgstr "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:111
@@ -424,7 +414,7 @@ msgstr "pinglo 4 ( _DD_ ) -> pinglo 13 ( _wPi 2, BCM27_ )\n"
 #: index.md:113
 #, no-wrap
 msgid "et maintenant vous pouvez lire l'ID, sauvegarder , effacer et écrire la mémoire flash avec les commandes suivantes:\n"
-msgstr "kaj nun vi povas legi identigilon, konservi, forigi kaj skribi fulmmemoron per la jenaj komandoj:\n"
+msgstr "kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per la jenaj komandoj:\n"
 
 #. type: Fenced code block (bash)
 #: index.md:113
@@ -532,35 +522,21 @@ msgstr "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrak
 
 #. type: Plain text
 #: index.md:150
-msgid ""
-"En fait le micrologiciel standard de cette clé a bien une limite de 15 "
-"connexions directes. Mais si l'une de ces connexions est un routeur _zigbee_ "
-"(et la plupart des périphériques font office de routeur, c'est par exemple "
-"le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le "
-"_CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière "
-"les routeurs connectés à ce routeur...  \n"
-msgstr ""
-"Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj "
-"ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
+#, no-wrap
+msgid "En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur _zigbee_ (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  \n"
+msgstr "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
 
 #. type: Plain text
 #: index.md:151
-msgid ""
-"En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour "
-"vous dépassez les 50 périphériques sur votre réseau _zigbee_, investir dans "
-"un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
+#, no-wrap
+msgid "En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau _zigbee_, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
 msgstr "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 
 #. type: Plain text
 #: index.md:153
-msgid ""
-"Notons par ailleurs que le protocole _zigbee_ limite le nombre de connexions "
-"directes à 32. Quel que soit votre coordinateur _zigbee_, il ne pourra pas "
-"se connecter à plus de 32 périphériques directement.\n"
-msgstr ""
-"Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al "
-"32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli "
-"ol 32 ekstercentraj. \n"
+#, no-wrap
+msgid "Notons par ailleurs que le protocole _zigbee_ limite le nombre de connexions directes à 32. Quel que soit votre coordinateur _zigbee_, il ne pourra pas se connecter à plus de 32 périphériques directement.\n"
+msgstr "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 
 #. type: Title ##
 #: index.md:154
@@ -578,7 +554,7 @@ msgstr "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj
 #: index.md:165
 #, no-wrap
 msgid "Éloignez la clé des matériels suceptibles de la perturber : haut-parleurs, routeurs wi-fi, ...\n"
-msgstr "Foriru de la ŝlosilo por perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
+msgstr "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 
 #. type: Bullet: '3. '
 #: index.md:167

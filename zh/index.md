@@ -40,7 +40,7 @@ title: 最主要的
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-将以下紫色端口的售前连接到GPI端口：
+将紫色端口的以下引脚连接到GPO端口：
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |  
@@ -50,9 +50,9 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 然后将USB键进入端口。  
 
-下载电缆 _CC_ 和4条线 _Dupont_ 母对母非常适合此目的：
-![按键照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)）
-这是我最喜欢的选项，但是如果没有电缆 _CC_ ，也可以直接在键上焊接电缆 _Dupont_ ：例如，参见网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+下载电缆 _CC_ 和4条线 _Dupont_ 女性为雌性为此目的是完美的：
+键的照片和 _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+这是我最喜欢的选择，但如果您没有电缆 _CC_ ，您也可以直接在键上释放电缆 _Dupont_ ：参见例如网站 [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) 或 [ _notenoughtech.com_ _notenoughtech.com_ _notenoughtech.com_ 
 
 
 试试这个：
@@ -65,7 +65,7 @@ cd flash_cc2531
   ID = b524.
 ```
 如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不同。  
-如果看到0000或ffff，则表示发生故障：
+如果您看到0000或FFFF的东西不正确：（°1°1
 
  * 首先检查您的接线。
 
@@ -118,7 +118,7 @@ cd flash_cc2531
 使用的针脚编号是 _wiringPi_。使用 `gpio readall` 将布局放在 _Raspberry_ (列 _wPi_ )中。
 
 例如，如果要使用引脚3、11和13：  
-将以下引脚从调试端口连接到门 _GPIO_：
+将以下紫色端口引脚连接到端口 _GPIO_:(°3°3
 
  1. 针1 ( _GND_ ) -> 针14 ( _GND_ )
 
@@ -133,7 +133,7 @@ cd flash_cc2531
 
 
 
-现在您可以使用以下命令读取ID，保存，删除和写入闪存：
+现在，您可以使用以下命令读取标识符，保存，删除和写入闪电存储器：
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ cd flash_cc2531
    ```
 如果你得到很多线，那么你必须改变营养块。  
 
-2. 关闭令人不安的材料的关键：扬声器，Wi-Fi路由器，...（°1°1
+2. 逃离令人不安的材料的关键：扬声器，Wi-Fi路由器，...
 
 
 

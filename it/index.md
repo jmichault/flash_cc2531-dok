@@ -40,7 +40,7 @@ Scarica _flash\_cc2531_ nel tuo _raspberry_ :
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Collegare le seguenti brezzamenti della porta viola alla porta GPI:
+Collegare i seguenti pin della porta viola alla porta GPO:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |  
@@ -50,9 +50,9 @@ La disposizione dei pin _raspberry_ è disponibile qui: <https://pinout.xyz/>
 
 Quindi inserire la chiave USB in porta.  
 
-Il cavo di download _CC_ e 4 linee _Dupont_ Femmina a Femmina sono perfetti per questo scopo:
-![foto della chiave e _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg))
-Questa è la mia opzione preferita, ma se non hai un cavo _CC_ puoi anche saldare direttamente i cavi _Dupont_ sulla chiave: vedi ad esempio il sito web [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Il cavo di download _CC_ e 4 linee _Dupont_ femminili a femmina sono perfetti per questo scopo:
+Foto della chiave e _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
+Questa è la mia opzione preferita, ma se non si dispone di un cavo _CC_ è anche possibile rilasciare direttamente i cavi _Dupont_ sulla chiave: vedere ad esempio il sito [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
 
 
 prova questo:
@@ -65,7 +65,7 @@ Deve tornare:
   ID = b524.
 ```
 (il valore può essere diverso se la versione hardware della tua chiave non è uguale alla mia).  
-Se vedi 0000 o ffff qualcosa non funziona:
+Se vedi 0000 o ffff qualcosa non è corretto: (° 1 ° 1
 
  * prima controlla il tuo cablaggio.
 
@@ -118,7 +118,7 @@ tutti i comandi accettano i seguenti argomenti:
 la numerazione dei pin utilizzata è quella di _wiringPi_. Usa `gpio readall` per avere il layout nella tua colonna _Raspberry_ ( _wPi_ ).
 
 Ad esempio, se si desidera utilizzare i pin 3, 11 e 13:  
-Collegare i seguenti pin da una porta di debug a una porta _GPIO_:
+Collegare i seguenti perni della porta viola a porta _GPIO_: (° 3 ° 3
 
  1. perno 1 ( _GND_ ) -> perno 14 ( _GND_ )
 
@@ -133,7 +133,7 @@ Collegare i seguenti pin da una porta di debug a una porta _GPIO_:
 
 
 
-e ora puoi leggere ID, salvare, cancellare e scrivere la memoria flash con i seguenti comandi:
+E ora puoi leggere un identificatore, salvare, eliminare e scrivere una memoria fulmine con i seguenti comandi:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -200,7 +200,7 @@ Succede che i principali deprogrammi, sia dovuti all'ambiente caricato da parass
    ```
 Se ottieni un sacco di linee, devi cambiare il blocco nutrizionale.  
 
-2. Scendi dalla chiave per i materiali inquietanti: altoparlanti, router Wi-Fi, ... (° 1 ° 1
+2. Ottieni la chiave dei materiali inquietanti: altoparlanti, router Wi-Fi, ...
 
 
 
