@@ -17,7 +17,7 @@ Sie benötigen, um den Debug-Port des Schlüssels mit den Ports _GPIO_ von _Rasp
 [ _WiringPi_ ](http://wiringpi.com/) muss installiert werden \(Wenn es nicht vorinstalliert ist, können Sie es normalerweise mit `sudo apt install wiringpi`)installieren, ansonsten siehe [die Stelle von _Gordon_ ](http://wiringpi.com/) oder [dieser alternativen Stelle](https://github.com/WiringPi/WiringPi) \).  
 Schließlich benötigen Sie das Programm:
 
-* Allgemeiner Koordinator _zigbee_ : [ Version 1.2 (empfohlen)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) oder [Version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)
+* Im Allgemeinen Koordinator  _zigbee_ :  [  Version 1.2  ( Empfohlene )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  oder  [ Version 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) 
 
 
 * Oder Router _zigbee_ : [Router _zigbee_ 1,2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)

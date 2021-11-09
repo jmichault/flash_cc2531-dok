@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,9 +232,10 @@ msgstr "(nilainya mungkin berbeza jika versi perkakasan kunci anda tidak sama de
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
-msgstr "Jika anda melihat 0000 atau FFFF sesuatu yang salah: (° 1 ° 1\n"
+msgstr "Jika anda melihat 0000 atau FFFF sesuatu yang salah: \n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -280,9 +281,10 @@ msgstr "(mengambil masa kira-kira 2 minit).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "Untuk memadam memori kilat: (° 1 ° 1\n"
+msgstr "Untuk memadam memori kilat: \n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -372,9 +374,10 @@ msgstr "Contohnya, jika anda ingin menggunakan pin 3, 11 dan 13:  \n"
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "Sambungkan pin berikut port ungu ke port _GPIO_: (° 3 ° 3\n"
+msgstr "Sambungkan pin pin yang berikut untuk port  _GPIO_: \n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -482,9 +485,10 @@ msgstr "Kemukakan soalan anda sendiri mengenai [github](https://github.com/jmich
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "Semak blok pemakanan anda (° 1 ° 1\n"
+msgstr "Semak blok pemakanan anda \n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182

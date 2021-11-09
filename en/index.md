@@ -43,12 +43,18 @@ git clone https://github.com/jmichault/flash_cc2531.git
 Connect the following pins of the debug port to the GPO port:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
-|  
+| Pin of  _GPIO_           Pin of  _CC_   
+ | ---------------------- | ------------ |  
+ | 39  (  _GND_  )            | 1  (  _GND_  )   | 	 
+ | 36  (  _wPi 27, BCM16_  )  | 3  (  _DC_  )    |  
+ | 38  (  _wPi 28, BCM20_  )  | 4  (  _DD_  )    |  
+ | 35  (  _wPi 24, BCM19_  )  | 7  (  _reset_  ) |  
 
 The pin layout of _raspberry_ is available here: <https://pinout.xyz/>
 
 
-Then insert the key into an USB port.  
+Then enter the USB key into port.    
+ Note: If you do not want to insert the key in a USB port, you can instead connect the pin  _CC_  9 to one pin  _3,3v_  of  _raspberry_  ( Pin 1 or 17 ).  
 
 Download-cable _CC_ and 4 _Dupont_ lines female to female are perfect for this purpose:
 ![stick and _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
@@ -118,7 +124,7 @@ all commands accept the following arguments:
 the pin numbering used is that of _wiringPi_. Use `gpio readall` to have the layout in your _Raspberry_ (column _wPi_ ).
 
 For example, if you want to use pins 3, 11 and 13:  
-Connect the following pins of debug port to port _GPIO_: (° 3 ° 3
+Connect the following pins of purifying port to port  _GPIO_: 
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -141,7 +147,7 @@ And now you can read an identifier, save, delete and write a lightning memory wi
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-You can also change the default values ​​in _CCDebugger.h_ and compile the programs with `make`.
+You can also change the default values ​​in  _CCDebugger.h_  and compile the programs by  `make`. 
 
 ## what if it doesn't work?
 
@@ -174,7 +180,7 @@ You can also change the default values ​​in _CCDebugger.h_ and compile the p
 
 
 
-7. Check your nutrition block (° 1 ° 1
+7. Check your nutrition block 
 
 
     
@@ -184,14 +190,15 @@ You can also change the default values ​​in _CCDebugger.h_ and compile the p
 If you get a lot of lines then you have to change nutrition block.  
 
 ## I want to connect more than 15 periphery
-We read in various places that the key _CC2531_ can only handle 15 maximum devices.   
-In fact, the limit for _CC2531_ is much higher.   
-Also note that the protocol _zigbee_ limits the number of direct links to 32th.  
+We read in different locations that the key  _CC2531_  can only handle 15 maximum appliances.    
+ In fact, the standard firmware of this key has a limit of 15 direct links. But if one of these connections is  _zigbee_  router  ( and most devices work as a router, that is, for example, the case of  _Philips Hue_  bulbs and  _Ikea TRÅDFRI_  bulb ), then the  _CC2531_  can manage the Devices behind this router, and those behind the router connected to this router ...   
+In fact, the limit for the  _CC2531_  is much higher. And if one day you exceed more than 50 devices on your  _zigbee_  Network, investing in a more expensive coordinator will be just a small part of your budget.   
+Also note that the protocol  _zigbee_  limits the number of direct links to 32th. Regardless of your coordinator  _zigbee_, it will not be possible to connect to more than 32 peripherals.  
 
 ## My key has its red LED that illuminates.
 It happens that the key deprograms, either due to the environment loaded by parasites or due to poor nutrition.  
 
-1. Check your nutrition block (° 1 ° 1
+1. Check your nutrition block 
 
 
     

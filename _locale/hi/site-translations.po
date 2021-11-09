@@ -72,7 +72,7 @@ msgstr "संबंधित पोस्ट"
 #: >fr
 #, fuzzy, no-wrap
 msgid "Recherche Google."
-msgstr "Google à¤ªà¤° à¤à¥à¤à¥à¤à¥¤"
+msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >fr
@@ -89,3 +89,4 @@ msgid ""
 msgstr ""
 "कृपया ध्यान दें: इस पृष्ठ का स्वचालित रूप से अनुवाद किया गया है। यदि आप कर "
 "सकते हैं, तो आपको इसे इन भाषाओं में से एक में पढ़ना चाहिए:"
+

@@ -17,7 +17,7 @@ title: 最主要的
 [ _WiringPi_ ](http://wiringpi.com/)  \(，通常可以将其安装为 `sudo apt install wiringpi`)，否则请参见 [的位置 _Gordon_ ](http://wiringpi.com/) 或 [这个替代位置](https://github.com/WiringPi/WiringPi) \)。  
 最后，您需要程序：
 
-* 一般协调器 _zigbee_ : [ 版本1.2 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)（°13 °
+* 通常协调器 _zigbee_ ： [ 版本1.2  (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) 
 
 
 * 或路由器 _zigbee_ : [路由器 _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
@@ -65,7 +65,7 @@ cd flash_cc2531
   ID = b524.
 ```
 如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不同。  
-如果您看到0000或FFFF的东西不正确：（°1°1
+如果看到0000或ffff，某些东西不正确：
 
  * 首先检查您的接线。
 
@@ -84,7 +84,7 @@ cd flash_cc2531
 ```
 (大约需要2分钟)。  
 
-删除闪电记忆：（°1°1
+删除闪电记忆：
 ```bash
 ./cc_erase
 ```
@@ -118,7 +118,7 @@ cd flash_cc2531
 使用的针脚编号是 _wiringPi_。使用 `gpio readall` 将布局放在 _Raspberry_ (列 _wPi_ )中。
 
 例如，如果要使用引脚3、11和13：  
-将以下紫色端口引脚连接到端口 _GPIO_:(°3°3
+将净化端口的以下引脚连接到端口 _GPIO_：
 
  1. 针1 ( _GND_ ) -> 针14 ( _GND_ )
 
@@ -174,7 +174,7 @@ cd flash_cc2531
 
 
 
-7. 检查营养块（°1°1
+7. 检查营养块
 
 
     
@@ -191,7 +191,7 @@ cd flash_cc2531
 ## 我的钥匙是它的红色LED，亮起。
 它恰好是由于寄生虫装载的环境或由于营养不良而导致的关键常量。  
 
-1. 检查营养块（°1°1
+1. 检查营养块
 
 
     

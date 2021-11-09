@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,11 +66,12 @@ msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: index.md:14
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
 "Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
-msgstr " [ (° 2 درجة)](https://github.com/jmichault/flash_cc2531) يتيح لك برمجة عصا USB CC2531 الخاصة بك _Raspberry_، دون الحاجة (° 10 درجة) أو (° 12 درجة).  \n"
+msgstr "يمكنك  [  _flash\\_cc2531_  ](https://github.com/jmichault/flash_cc2531)  من برمجة عصا USB CC2531 الخاصة بك  _Raspberry_، دون الحاجة إلى  _Arduino_  أو  _CC Debugger_.  \n يمكن أيضا برنامج مفتاح CC2530.  \n"
 
 #. type: Title ##
 #: index.md:15
@@ -86,11 +87,12 @@ msgstr "تحتاج إما _Raspberry_ أو _Odroid-c2_.  \n"
 
 #. type: Plain text
 #: index.md:18
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
-msgstr "تحتاج إلى ربط الميناء الأرجواني للمفتاح للمنافذ _Raspberry_من _Raspberry_، على سبيل المثال كابل واحد (° 5 درجة) وأربعة خطوط _Dupont_ (انظر أبعد).   \n"
+msgstr "تحتاج إلى ما توصل ميناء الأرجواني للمفتاح إلى المنافذ  _GPIO_  de  _Raspberry_، على سبيل المثال كابل واحد  _CC_  وأربعة خطوط  _Dupont_  ( شاهد المزيد ).    \n [  _WiringPi_  ](http://wiringpi.com/)  يجب تثبيته  \\( إذا لم يكن مثبتا مسبقا، يمكنك عادة تثبيته مع  `sudo apt install wiringpi`)، وإلا ترى  [  _Gordon_  ](http://wiringpi.com/)  الموقع أو  [ هذا الموقع البديل ](https://github.com/WiringPi/WiringPi)  \\).   \n"
 
 #. type: Plain text
 #: index.md:20
@@ -100,9 +102,10 @@ msgstr "أخيرًا تحتاج البرنامج:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "المنسق العام _zigbee_ : [ الإصدار 1.2 ()](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) أو (° 9 درجة) الإصدار 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
+msgstr "عموما منسق  _zigbee_ :  [  الإصدار 1.2  ( الموصى بها )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  أو  [ الإصدار 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
 #. type: Bullet: '* '
 #: index.md:24
@@ -184,15 +187,13 @@ msgstr "ثم أدخل مفتاح USB في المنفذ.  \n"
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr ""
-"قم بتنزيل الكابلات _CC_ و 4 خطوط _Dupont_ الإناث مثالية لهذا الغرض:\n"
-"صورة للمفتاح و _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
-"هذا خياري المفضل، ولكن إذا لم يكن لديك كابل _CC_ يمكنك أيضا تحرير الكابلات مباشرة (° 14 درجة) على المفتاح: انظر على سبيل المثال الموقع [ (° 17 درجة) (° 19 درجة) أو [ (° 22 درجة) (° 24 درجة)\n"
+msgstr "تنزيل كابل  _CC_  و 4 خطوط  _Dupont_  أنثى إلى أنثى مثالية لهذا الغرض: \n ![ صورة للمفتاح وال  _raspberry_  \n \n هذا هو الخيار المفضل لدي، ولكن إذا كنت ليس لديك كابل  _CC_  يمكنك أيضا تشغيل الكابل  _Dupont_  على المفتاح: انظر على سبيل المثال  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n  [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )         \n"
 
 #. type: Plain text
 #: index.md:62
@@ -230,9 +231,10 @@ msgstr "(قد تكون القيمة مختلفة إذا لم يكن إصدار �
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
-msgstr "إذا رأيت 0000 أو FFFF شيء غير صحيح: (° 1 ° 1\n"
+msgstr "إذا رأيت 0000 أو FFFF شيء غير صحيح: \n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -278,9 +280,10 @@ msgstr "(يستغرق حوالي 2 دقيقة).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "لحذف ذاكرة البرق: (° 1 ° 1\n"
+msgstr "لحذف ذاكرة البرق: \n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -370,9 +373,10 @@ msgstr "على سبيل المثال ، إذا كنت تريد استخدام ا
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "قم بتوصيل دبابيس المنفذ الأرجواني التالي بالمنفذ _GPIO_: (° 3 ° 3\n"
+msgstr "قم بتوصيل المسامير التالية بمنفذ تنقية إلى المنفذ  _GPIO_: \n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -480,9 +484,10 @@ msgstr "اطرح سؤالك الخاص حول [github](https://github.com/jmicha
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "تحقق من كتلة التغذية الخاصة بك (° 1 ° 1\n"
+msgstr "تحقق كتلة التغذية الخاصة بك \n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182
@@ -504,11 +509,12 @@ msgstr "أريد توصيل أكثر من 15 محيط"
 
 #. type: Plain text
 #: index.md:172
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
-msgstr "نقرأ في أماكن مختلفة يمكن أن تعالج المفتاح (° 1 درجة) فقط 15 جهازا قصوى.   \n"
+msgstr "نقرأ في مواقع مختلفة أن المفتاح  _CC2531_  يمكنه فقط التعامل مع 15 الأجهزة القصوى.    \n في الواقع، فإن البرامج الثابتة القياسية لهذا المفتاح لها حد 15 روابط مباشرة. ولكن إذا كانت إحدى هذه الاتصالات  _zigbee_  جهاز التوجيه  ( ومعظم الأجهزة تعمل كموجه، فهذا، على سبيل المثال، حالة  _Philips Hue_  لمبة )، ثم  _CC2531_  يمكن إدارة الأجهزة الموجودة وراء هذا التوجيه، والذين خلف جهاز التوجيه المتصلون بهذا الموجه ...   \n"
 
 #. type: Plain text
 #: index.md:173
@@ -518,9 +524,10 @@ msgstr "في الواقع، الحد الأقصى ل _CC2531_ أعلى بكثي�
 
 #. type: Plain text
 #: index.md:175
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
-msgstr "لاحظ أيضا أن البروتوكول (° 1 درجة) يحد من عدد الروابط المباشرة إلى 32.  \n"
+msgstr "لاحظ أيضا أن البروتوكول  _zigbee_  يحد من عدد الروابط المباشرة إلى 32. بغض النظر عن المنسق الخاص بك  _zigbee_، لن يكون من الممكن الاتصال بأكثر من 32 ملحقا.  \n"
 
 #. type: Title ##
 #: index.md:176

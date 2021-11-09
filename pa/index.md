@@ -13,11 +13,10 @@ title: 'ਮੁੱਖ ਗੱਲ'
 
 ## ਜਰੂਰੀ
 ਤੁਹਾਨੂੰ ਜਾਂ ਤਾਂ _Raspberry_ ਜਾਂ _Odroid-c2_ਦੀ ਜ਼ਰੂਰਤ ਹੈ.  
-ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ ਕਿ ਕੀ ਦੇ ਡੀਬੱਗ ਪੋਰਟ ਨੂੰ _Raspberry_ਦੇ ਪੋਰਟਾਂ _GPIO_ ਨਾਲ ਜੋੜਨਾ ਹੈ, ਉਦਾਹਰਣ ਲਈ ਇੱਕ ਕੇਬਲ _CC_ ਅਤੇ ਚਾਰ ਲਾਈਨਾਂ _Dupont_ (ਹੋਰ ਵੇਖੋ).   
-[ _WiringPi_ ](http://wiringpi.com/) ਲਾਜ਼ਮੀ ਤੌਰ 'ਤੇ ਸਥਾਪਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ \(ਜੇ ਇਹ ਪਹਿਲਾਂ ਤੋਂ ਸਥਾਪਤ ਨਹੀਂ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਮ ਤੌਰ' ਤੇ ਇਸ ਨੂੰ `sudo apt install wiringpi`)ਨਾਲ ਸਥਾਪਤ ਕਰ ਸਕਦੇ ਹੋ, ਨਹੀਂ ਤਾਂ ਵੇਖੋ. [ਦੀ ਸਾਈਟ _Gordon_ (° 23 or) ਜਾਂ [ਇਸ ਵਿਕਲਪਕ ਸਾਈਟ](https://github.com/WiringPi/WiringPi) \).  
+ਤੁਹਾਨੂੰ ਕੀ ਕੁੰਜੀ ਦੇ ਬੰਦਰਗਾਹਾਂ ਨੂੰ ਪੋਰਟਾਂ _Raspberry_ਦੇ ਬੰਦਰਗਾਹਾਂ _GPIO_ ਨੂੰ ਜੋੜਨਾ ਹੈ, ਉਦਾਹਰਣ ਲਈ ਇੱਕ ਕੇਬਲ _CC_  _Dupont_ ਹੋਰ ਦੇਖੋ).   
 ਅੰਤ ਵਿੱਚ ਤੁਹਾਨੂੰ ਪ੍ਰੋਗਰਾਮ ਦੀ ਜ਼ਰੂਰਤ ਹੈ:
 
-* ਜਨਰਲ ਕੋਆਰਡੀਨੇਟਰ _zigbee_ : [ ਦਾ ਵਰਜਨ 1.2 (ਜਾਂ [ਵਰਜਨ 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)
+* ਆਮ ਤੌਰ 'ਤੇ ਕੋਆਰਡੀਨੇਟਰ  _zigbee_ :  [  ਸੰਸਕਰਣ 1.2 )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  ਜਾਂ  [ ਸੰਸਕਰਣ ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) )
 
 
 * ਜਾਂ ਰਾ ter ਟਰ _zigbee_ : [ਰਾ ter ਟਰ _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
@@ -26,7 +25,7 @@ title: 'ਮੁੱਖ ਗੱਲ'
 
 ਮੈਂ _flash\_cc2531_  _Raspberry Pi 3_ ਤੇ _raspbian_ਦਾ ਅਨੁਮਾਨ ਲਗਾਇਆ, ਪਰ ਸਫਲ ਪ੍ਰੋਗ੍ਰਾਮਿੰਗ ਦੀ ਰਿਪੋਰਟ ਦੂਜੇ ਮਾਡਲਾਂ 'ਤੇ ਦਿੱਤੀ ਗਈ:
 
- * ਪੀਆਈ 4 ਤੇ ਤੁਹਾਨੂੰ _wiringpi_ ਵਰਜ਼ਨ 2.52 ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ:  [ _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)ਵੈਬਸਾਈਟਦੇ 2.52 (install 4 °) ਸਥਾਪਤ ਕਰੋ.
+ * PI 4 ਤੇ ਤੁਹਾਨੂੰ ਨੂੰ _wiringpi_ ਦੇ ਵਰਜਨ 2.52 ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ:  [ਸਥਾਪਤ ਕਰੋ _wiringPi_  _Gordon_ ਦਾ
 
 
  * ਪਾਈ 1 ਅਤੇ ਪਾਈ 2 ਤੇ ਤੁਹਾਨੂੰ ਹੋਰ ਪਿੰਨ](#uzi_aliajn_pinglojn)ਵਰਤਣ ਲਈ [ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ.
@@ -50,9 +49,10 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 ਫਿਰ ਪੋਰਟ ਵਿੱਚ USB ਕੁੰਜੀ ਦਰਜ ਕਰੋ.  
 
-ਇਸ ਮਕਸਦ ਲਈ female ਰਤ ਅਤੇ 4 ਲਾਈਨਾਂ
-ਡਾ .ਨਲੋਡ ਕਰਨ ਲਈ ਕੇਬਲ ਡਾ .ਨਲੋਡ ਕਰੋ:
-ਕੁੰਜੀ ਅਤੇ ° 9 °)](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)ਦੀ ਫੋਟੋ ° 11 °) ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਵਿਕਲਪ ਹੈ, ਪਰ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੇਬਲ _CC_ ਨੂੰ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ _Dupont_ ਨਾ ਲਗਾਓ: ਉਦਾਹਰਣ ਲਈ ਸਾਈਟ ਵੇਖੋ [ _lemariva.com_ _lemariva.com_ ਜਾਂ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ) ਜਾਂ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+ਕੇਬਲ  _CC_  ਅਤੇ 4 ਲਾਈਨਾਂ  _Dupont_  female ਰਤ ਇਸ ਮਕਸਦ ਲਈ ਸੰਪੂਰਨ ਹਨ: 
+  _CC_  
+ ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਚੋਣ ਹੈ, ਪਰ ਜੇ ਤੁਸੀਂ ਕੇਬਲ  _CC_  ਨਾ ਕਿ ਕੇਬਲ ਤੇ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ  [  
+  [   [   [   [   [ ) ਵੇਖੋ  [   [        
 
 
 ਇਸਨੂੰ ਅਜ਼ਮਾਓ:
@@ -141,7 +141,7 @@ cd flash_cc2531
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-ਤੁਸੀਂ ਮੂਲ ਮੁੱਲਾਂ ਨੂੰ _CCDebugger.h_ ਵਿੱਚ ਵੀ ਬਦਲ ਸਕਦੇ ਹੋ ਅਤੇ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ (° 3 programs) ਨਾਲ ਕੰਪਾਈਲ ਕਰ ਸਕਦੇ ਹੋ.
+ਤੁਸੀਂ ਡਿਫਾਲਟ ਮੁੱਲਾਂ ਨੂੰ _CCDebugger.h_ ਵਿੱਚ ਤਬਦੀਲ ਕਰ ਸਕਦੇ ਹੋ ਅਤੇ ਇਹਨਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਕੰਪਾਇਲ ਕਰ ਸਕਦੇ ਹੋ `make`ਦੁਆਰਾ. 
 
 ## ਕੀ ਜੇ ਇਹ ਕੰਮ ਨਹੀਂ ਕਰਦਾ?
 
@@ -162,7 +162,7 @@ cd flash_cc2531
    ```bash
    ./cc_write -m 300 CC2531ZNP-Prod.hex
    ```
-4. (rec 1 °) ਨਾਲ ਪ੍ਰੋਗਰਾਮ ਦੁਬਾਰਾ ਕੰਪਾਈਲ ਕਰੋ.
+4.  `make`ਦੁਆਰਾ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਮੁੜ ਕੰਪਾਇਲ ਕਰੋ. 
 
 
 

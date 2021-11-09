@@ -17,7 +17,7 @@ Você precisa do que conectar a porta de depuração da chave às portas _GPIO_ 
 [ _WiringPi_ ](http://wiringpi.com/) deve ser instalado \(se não estiver pré-instalado, geralmente você pode instalá-lo com `sudo apt install wiringpi`), caso contrário, consulte [o local de _Gordon_ ](http://wiringpi.com/) ou [este local alternativo](https://github.com/WiringPi/WiringPi) \).  
 Finalmente você precisa do programa:
 
-* Coordenador Geral _zigbee_ : [ Versão 1.2 (Recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [Versão 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)
+* Geralmente Coordenador  _zigbee_ :  [  Versão 1.2  ( Recomendado )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  ou  [ versão 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) 
 
 
 * Ou roteador _zigbee_ : [Roteador _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
@@ -50,8 +50,10 @@ O layout do pino _raspberry_ está disponível aqui: <https://pinout.xyz/>
 
 Em seguida, insira a chave USB na porta.  
 
-Download Cabo _CC_ e 4 linhas _Dupont_ Fêmea para mulher são perfeitas para este efeito:
-Foto da chave e do _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)° 11 °) Esta é a minha opção favorita, mas se você não tiver um cabo _CC_ , você também pode liberar diretamente os cabos _Dupont_ na chave: veja, por exemplo, o site (° 16 ° 16 °_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Download Cable  _CC_  e 4 linhas  _Dupont_  Feminino para o sexo feminino são perfeitos para este propósito: 
+ ![ Foto da chave e o  _raspberry_  
+ 
+ Esta é a minha opção favorita, mas se você Não tenha um cabo  _CC_  Você também pode reproduzir diretamente o cabo  _Dupont_  na chave: veja, por exemplo, o  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)   [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       
 
 
 tente isto:
@@ -64,7 +66,7 @@ Deve retornar:
   ID = b524.
 ```
 (o valor pode ser diferente se a versão do hardware da sua chave não for igual à minha).  
-Se você vir 0000 ou FFFF algo estiver incorreto: (° 1 ° 1
+Se você vir 0000 ou FFFF algo estiver incorreto: 
 
  * primeiro verifique sua fiação.
 
@@ -83,7 +85,7 @@ Para salvar o conteúdo da memória flash no arquivo save.hex:
 ```
 (leva cerca de 2 minutos).  
 
-Para excluir memória relâmpago: (° 1 ° 1
+Para excluir a memória do relâmpago: 
 ```bash
 ./cc_erase
 ```
@@ -117,7 +119,7 @@ todos os comandos aceitam os seguintes argumentos:
 a numeração do pino usada é a de _wiringPi_. Use `gpio readall` para ter o layout em sua coluna _Raspberry_ ( _wPi_ ).
 
 Por exemplo, se você quiser usar os pinos 3, 11 e 13:  
-Conecte os seguintes pinos de porta roxa à porta _GPIO_: (° 3 ° 3
+Conecte os seguintes pinos de porta purificadora à porta  _GPIO_: 
 
  1. pino 1 ( _GND_ ) -> pino 14 ( _GND_ )
 
@@ -173,7 +175,7 @@ Você também pode alterar os valores padrão para _CCDebugger.h_ e compilar os 
 
 
 
-7. Verifique seu bloco nutricional (° 1 ° 1
+7. Verifique seu bloco de nutrição 
 
 
     
@@ -190,7 +192,7 @@ Observe também que o Protocolo _zigbee_ limita o número de links diretos para 
 ## Minha chave tem seu LED vermelho que ilumina.
 Acontece que os principais desprogramas, devido ao meio ambiente carregado por parasitas ou devido à má nutrição.  
 
-1. Verifique seu bloco nutricional (° 1 ° 1
+1. Verifique seu bloco de nutrição 
 
 
     

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,9 +90,7 @@ msgstr "ਤੁਹਾਨੂੰ ਜਾਂ ਤਾਂ _Raspberry_ ਜਾਂ _Odroid-
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
-msgstr ""
-"ਤੁਹਾਨੂੰ ਕੀ ਚਾਹੀਦਾ ਹੈ ਕਿ ਕੀ ਦੇ ਡੀਬੱਗ ਪੋਰਟ ਨੂੰ _Raspberry_ਦੇ ਪੋਰਟਾਂ _GPIO_ ਨਾਲ ਜੋੜਨਾ ਹੈ, ਉਦਾਹਰਣ ਲਈ ਇੱਕ ਕੇਬਲ _CC_ ਅਤੇ ਚਾਰ ਲਾਈਨਾਂ _Dupont_ (ਹੋਰ ਵੇਖੋ).   \n"
-"[ _WiringPi_ ](http://wiringpi.com/) ਲਾਜ਼ਮੀ ਤੌਰ 'ਤੇ ਸਥਾਪਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ \\(ਜੇ ਇਹ ਪਹਿਲਾਂ ਤੋਂ ਸਥਾਪਤ ਨਹੀਂ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਮ ਤੌਰ' ਤੇ ਇਸ ਨੂੰ `sudo apt install wiringpi`)ਨਾਲ ਸਥਾਪਤ ਕਰ ਸਕਦੇ ਹੋ, ਨਹੀਂ ਤਾਂ ਵੇਖੋ. [ਦੀ ਸਾਈਟ _Gordon_ (° 23 or) ਜਾਂ [ਇਸ ਵਿਕਲਪਕ ਸਾਈਟ](https://github.com/WiringPi/WiringPi) \\).  \n"
+msgstr "ਤੁਹਾਨੂੰ ਕੀ ਕੁੰਜੀ ਦੇ ਬੰਦਰਗਾਹਾਂ ਨੂੰ ਪੋਰਟਾਂ _Raspberry_ਦੇ ਬੰਦਰਗਾਹਾਂ _GPIO_ ਨੂੰ ਜੋੜਨਾ ਹੈ, ਉਦਾਹਰਣ ਲਈ ਇੱਕ ਕੇਬਲ _CC_  _Dupont_ ਹੋਰ ਦੇਖੋ).   \n"
 
 #. type: Plain text
 #: index.md:20
@@ -102,9 +100,10 @@ msgstr "ਅੰਤ ਵਿੱਚ ਤੁਹਾਨੂੰ ਪ੍ਰੋਗਰਾਮ �
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "ਜਨਰਲ ਕੋਆਰਡੀਨੇਟਰ _zigbee_ : [ ਦਾ ਵਰਜਨ 1.2 (ਜਾਂ [ਵਰਜਨ 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)\n"
+msgstr "ਆਮ ਤੌਰ 'ਤੇ ਕੋਆਰਡੀਨੇਟਰ  _zigbee_ :  [  ਸੰਸਕਰਣ 1.2 )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  ਜਾਂ  [ ਸੰਸਕਰਣ ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) )\n"
 
 #. type: Bullet: '* '
 #: index.md:24
@@ -122,7 +121,7 @@ msgstr "ਮੈਂ _flash\\_cc2531_  _Raspberry Pi 3_ ਤੇ _raspbian_ਦਾ ਅ
 #: index.md:29
 #, fuzzy, no-wrap
 msgid "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.52 de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)retejo\n"
-msgstr "ਪੀਆਈ 4 ਤੇ ਤੁਹਾਨੂੰ _wiringpi_ ਵਰਜ਼ਨ 2.52 ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ:  [ _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)ਵੈਬਸਾਈਟਦੇ 2.52 (install 4 °) ਸਥਾਪਤ ਕਰੋ.\n"
+msgstr "PI 4 ਤੇ ਤੁਹਾਨੂੰ ਨੂੰ _wiringpi_ ਦੇ ਵਰਜਨ 2.52 ਦੀ ਜ਼ਰੂਰਤ ਹੋਏਗੀ:  [ਸਥਾਪਤ ਕਰੋ _wiringPi_  _Gordon_ ਦਾ\n"
 
 #. type: Bullet: ' * '
 #: index.md:31
@@ -186,15 +185,13 @@ msgstr "ਫਿਰ ਪੋਰਟ ਵਿੱਚ USB ਕੁੰਜੀ ਦਰਜ ਕਰ
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr ""
-"ਇਸ ਮਕਸਦ ਲਈ female ਰਤ ਅਤੇ 4 ਲਾਈਨਾਂ\n"
-"ਡਾ .ਨਲੋਡ ਕਰਨ ਲਈ ਕੇਬਲ ਡਾ .ਨਲੋਡ ਕਰੋ:\n"
-"ਕੁੰਜੀ ਅਤੇ ° 9 °)](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)ਦੀ ਫੋਟੋ ° 11 °) ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਵਿਕਲਪ ਹੈ, ਪਰ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੇਬਲ _CC_ ਨੂੰ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ _Dupont_ ਨਾ ਲਗਾਓ: ਉਦਾਹਰਣ ਲਈ ਸਾਈਟ ਵੇਖੋ [ _lemariva.com_ _lemariva.com_ ਜਾਂ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ) ਜਾਂ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+msgstr "ਕੇਬਲ  _CC_  ਅਤੇ 4 ਲਾਈਨਾਂ  _Dupont_  female ਰਤ ਇਸ ਮਕਸਦ ਲਈ ਸੰਪੂਰਨ ਹਨ: \n  _CC_  \n ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਚੋਣ ਹੈ, ਪਰ ਜੇ ਤੁਸੀਂ ਕੇਬਲ  _CC_  ਨਾ ਕਿ ਕੇਬਲ ਤੇ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ  [  \n  [   [   [   [   [ ) ਵੇਖੋ  [   [        \n"
 
 #. type: Plain text
 #: index.md:62
@@ -424,7 +421,7 @@ msgstr ""
 #: index.md:136
 #, fuzzy, no-wrap
 msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
-msgstr "ਤੁਸੀਂ ਮੂਲ ਮੁੱਲਾਂ ਨੂੰ _CCDebugger.h_ ਵਿੱਚ ਵੀ ਬਦਲ ਸਕਦੇ ਹੋ ਅਤੇ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ (° 3 programs) ਨਾਲ ਕੰਪਾਈਲ ਕਰ ਸਕਦੇ ਹੋ.\n"
+msgstr "ਤੁਸੀਂ ਡਿਫਾਲਟ ਮੁੱਲਾਂ ਨੂੰ _CCDebugger.h_ ਵਿੱਚ ਤਬਦੀਲ ਕਰ ਸਕਦੇ ਹੋ ਅਤੇ ਇਹਨਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਕੰਪਾਇਲ ਕਰ ਸਕਦੇ ਹੋ `make`ਦੁਆਰਾ. \n"
 
 #. type: Title ##
 #: index.md:137
@@ -466,7 +463,7 @@ msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 #: index.md:154
 #, fuzzy, no-wrap
 msgid "rekompili la programon per `make`.\n"
-msgstr "(rec 1 °) ਨਾਲ ਪ੍ਰੋਗਰਾਮ ਦੁਬਾਰਾ ਕੰਪਾਈਲ ਕਰੋ.\n"
+msgstr " `make`ਦੁਆਰਾ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਮੁੜ ਕੰਪਾਇਲ ਕਰੋ. \n"
 
 #. type: Bullet: '5. '
 #: index.md:157

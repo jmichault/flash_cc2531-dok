@@ -50,9 +50,12 @@ El diseño de los pines _raspberry_ está disponible aquí: <https://pinout.xyz/
 
 Luego ingrese la clave USB en el puerto.  
 
-Cable de descarga _CC_ y 4 líneas _Dupont_ Femenina a mujer es perfecta para este propósito:
-Foto de la llave y el _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
-° 11 °) Esta es mi opción favorita, pero si no tiene un cable _CC_ , también puede liberar directamente los cables _Dupont_ en la tecla: consulte, por ejemplo, el sitio [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+Descargar Cable  _CC_  y 4 líneas  _Dupont_  Femeninas a mujeres son perfectas para este propósito: 
+ ![ Foto de la llave y  _raspberry_  
+ 
+ Esta es mi opción favorita, pero si usted No tiene un cable  _CC_  También puede reproducir directamente el cable  _Dupont_  en la tecla: consulte, por ejemplo, el  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  
+ 
+  [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       
 
 
 prueba esto:
@@ -65,7 +68,7 @@ Debe volver:
   ID = b524.
 ```
 (el valor puede ser diferente si la versión de hardware de su llave no es la misma que la mía).  
-Si ve 0000 o FFFF, algo es incorrecto: (° 1 ° 1
+Si ve 0000 o FFFF, algo es incorrecto: 
 
  * Primero revise su cableado.
 
@@ -84,7 +87,7 @@ Para guardar el contenido de la memoria flash en el archivo save.hex:
 ```
 (toma aproximadamente 2 minutos).  
 
-Para eliminar la memoria de rayos: (° 1 ° 1
+Para eliminar la memoria de rayos: 
 ```bash
 ./cc_erase
 ```
@@ -118,7 +121,7 @@ todos los comandos aceptan los siguientes argumentos:
 la numeración de pines utilizada es la de _wiringPi_. Utilice `gpio readall` para tener el diseño en su columna _Raspberry_ ( _wPi_ ).
 
 Por ejemplo, si desea utilizar los pines 3, 11 y 13:  
-Conecte los siguientes pines del puerto púrpura al puerto _GPIO_: (° 3 ° 3
+Conecte los siguientes pins del puerto de purificación a PORT  _GPIO_: 
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -174,7 +177,7 @@ También puede cambiar los valores predeterminados a _CCDebugger.h_ y compilar l
 
 
 
-7. Compruebe su bloque de nutrición (° 1 ° 1 1
+7. Compruebe su bloque de nutrición 
 
 
     
@@ -191,7 +194,7 @@ También tenga en cuenta que el protocolo _zigbee_ limita el número de enlaces 
 ## Mi llave tiene su LED rojo que se ilumina.
 Sucede que los depósitos clave, ya sea debido al entorno cargado por parásitos o debido a una mala nutrición.  
 
-1. Compruebe su bloque de nutrición (° 1 ° 1 1
+1. Compruebe su bloque de nutrición 
 
 
     

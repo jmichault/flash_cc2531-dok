@@ -70,7 +70,7 @@ msgstr "Похожие сообщения"
 #: >fr
 #, fuzzy, no-wrap
 msgid "Recherche Google."
-msgstr "ÐÑÐºÐ°ÑÑ Ð² Google."
+msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >fr
@@ -87,3 +87,4 @@ msgid ""
 msgstr ""
 "Обратите внимание: эта страница была переведена автоматически. Если можете, "
 "прочтите его на одном из этих языков:"
+

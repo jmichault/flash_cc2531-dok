@@ -65,7 +65,7 @@ Ia mesti kembali:
   ID = b524.
 ```
 (nilainya mungkin berbeza jika versi perkakasan kunci anda tidak sama dengan kunci milik saya).  
-Jika anda melihat 0000 atau FFFF sesuatu yang salah: (° 1 ° 1
+Jika anda melihat 0000 atau FFFF sesuatu yang salah: 
 
  * periksa dahulu pendawaian anda.
 
@@ -84,7 +84,7 @@ Untuk menyimpan kandungan memori flash ke fail save.hex:
 ```
 (mengambil masa kira-kira 2 minit).  
 
-Untuk memadam memori kilat: (° 1 ° 1
+Untuk memadam memori kilat: 
 ```bash
 ./cc_erase
 ```
@@ -118,7 +118,7 @@ semua arahan menerima hujah berikut:
 penomboran pin yang digunakan ialah _wiringPi_. Gunakan `gpio readall` untuk mempunyai susun atur di ruangan _Raspberry_ ( _wPi_ ).
 
 Contohnya, jika anda ingin menggunakan pin 3, 11 dan 13:  
-Sambungkan pin berikut port ungu ke port _GPIO_: (° 3 ° 3
+Sambungkan pin pin yang berikut untuk port  _GPIO_: 
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -174,7 +174,7 @@ Anda juga boleh menukar nilai lalai ke _CCDebugger.h_ dan menyusun program denga
 
 
 
-7. Semak blok pemakanan anda (° 1 ° 1
+7. Semak blok pemakanan anda 
 
 
     
@@ -191,7 +191,7 @@ Juga ambil perhatian bahawa protokol _zigbee_ menghadkan bilangan pautan langsun
 ## Kuncinya mempunyai LED merah yang menerangi.
 Ia berlaku bahawa deprogram utama, sama ada disebabkan oleh persekitaran yang dimuatkan oleh parasit atau disebabkan oleh pemakanan yang kurang baik.  
 
-1. Semak blok pemakanan anda (° 1 ° 1
+1. Semak blok pemakanan anda 
 
 
     

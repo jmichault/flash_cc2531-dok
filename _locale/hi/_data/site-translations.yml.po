@@ -46,7 +46,7 @@ msgstr "टिप्पणी की"
 #, no-wrap
 #, fuzzy
 msgid "Aldoni komenton (pri github)"
-msgstr "GitHub (° ° 0002 डिग्री) के बारे में एक टिप्पणी (0001 डिग्री) जोड़ें"
+msgstr "एक टिप्पणी जोड़ें  ( github ) के बारे में"
 
 #. type: Hash Value - Key: komentoj
 #: >lang

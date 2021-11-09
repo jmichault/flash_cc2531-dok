@@ -1,6 +1,8 @@
 #!/bin/bash
 #########################################
 #
+#  traduke [lingvo] [dosiero]*
+#
 # unu argomento :
 #    tradukas el esperanto al la lingvo de la argumento.
 # 
@@ -30,8 +32,13 @@ else
 fi
 
 cd eo
-find . -type f -name "*.md" -o -name "*.yml"|egrep -v "/_drafts/|.backup$|.swp$" \
- | while read FIC
+
+if [ $# -gt 1 ] ; then 
+  shift
+  echo "$@"
+else
+  find . -type f -name "*.md" -o -name "*.yml"|egrep -v "/_drafts/|.backup$|.swp$"
+fi | while read FIC
 do
   EXT="${FIC##*.}"
   case "$EXT" in
@@ -53,6 +60,7 @@ do
   fi
   for lang in $LINGVOJ
   do
+    # ne traduki se fina dosiero ekzistas, sed ne la "po" dosiero 
     if [ ! -f "../_locale/${lang}/${FIC}.po" -a -f "../${lang}/${FIC}" ]
     then
       continue;

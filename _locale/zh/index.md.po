@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,9 +102,10 @@ msgstr "最后，您需要程序：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "一般协调器 _zigbee_ : [ 版本1.2 (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)（°13 °\n"
+msgstr "通常协调器 _zigbee_ ： [ 版本1.2  (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
 #. type: Bullet: '* '
 #: index.md:24
@@ -232,9 +233,10 @@ msgstr "如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不�
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
-msgstr "如果您看到0000或FFFF的东西不正确：（°1°1\n"
+msgstr "如果看到0000或ffff，某些东西不正确：\n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -280,9 +282,10 @@ msgstr "(大约需要2分钟)。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "删除闪电记忆：（°1°1\n"
+msgstr "删除闪电记忆：\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -372,9 +375,10 @@ msgstr "例如，如果要使用引脚3、11和13：  \n"
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "将以下紫色端口引脚连接到端口 _GPIO_:(°3°3\n"
+msgstr "将净化端口的以下引脚连接到端口 _GPIO_：\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -482,9 +486,10 @@ msgstr "询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/n
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "检查营养块（°1°1\n"
+msgstr "检查营养块\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182

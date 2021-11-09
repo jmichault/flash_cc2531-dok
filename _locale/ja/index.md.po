@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,9 +90,7 @@ msgstr " _Raspberry_ または _Odroid-c2_のいずれかが必要です。  \n"
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
-msgstr ""
-"キーのデバッグポートを _Raspberry_のポート _GPIO_ に接続するものが必要です。たとえば、1本のケーブル _CC_ と4本の線 _Dupont_ (を参照してください(°10°）。   \n"
-"[ _WiringPi_ ](http://wiringpi.com/) が事前にインストールされていない場合はインストールする必要があります \\(、通常は `sudo apt install wiringpi`)でインストールできます。それ以外の場合は [ _Gordon_ ](http://wiringpi.com/) または [この代替サイト](https://github.com/WiringPi/WiringPi) \\)のサイト。  \n"
+msgstr "キーの紫色のポートを _Raspberry_のポート _GPIO_ 、例えば1つのケーブル _CC_ と4行 _Dupont_ (のポート _GPIO_ に接続するものが必要です。さらに)を参照してください。   \n"
 
 #. type: Plain text
 #: index.md:20
@@ -102,9 +100,10 @@ msgstr "最後に、プログラムが必要です：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "一般コーディネーター _zigbee_ ： [ バージョン1.2 (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°）\n"
+msgstr "一般的にコーディネーター _zigbee_ ： [   (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
 #. type: Bullet: '* '
 #: index.md:24
@@ -186,15 +185,13 @@ msgstr "その後、USBキーをポートに入力します。  \n"
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr ""
-"ケーブル _CC_ と4行 _Dupont_ 4行 _Dupont_ の女性をこの目的に最適です。\n"
-"キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
-"°11°）これは私のお気に入りのオプションですが、ケーブルを持っていない _CC_ キーを押すと、キーのケーブル _Dupont_ をリリースすることもできます。たとえば、サイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+msgstr "ケーブル _CC_ と4行をダウンロードする _Dupont_ メスがこの目的に最適です：\n ![キーの写真と _raspberry_  \n \nこれは私のお気に入りのオプションですが、ケーブル _CC_ を使用しないでください。キーの上のケーブル _Dupont_ を直接再生することもできます。例えば [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n \n  [   [   [   [         \n"
 
 #. type: Plain text
 #: index.md:62
@@ -280,9 +277,10 @@ msgstr "(は約2分)かかります。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "雷メモリを削除するには：（°1°1\n"
+msgstr "稲妻メモリを削除するには：\n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -372,9 +370,10 @@ msgstr "たとえば、ピン3、11、13を使用する場合：  \n"
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "紫色のポートの以下のピンをポート _GPIO_に接続します。（°3°3\n"
+msgstr "浄化ポートのピンをポート _GPIO_に接続します。\n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -482,9 +481,10 @@ msgstr " [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)�
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "栄養ブロックを確認してください（°1°1\n"
+msgstr "あなたの栄養ブロックをチェックしてください\n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182

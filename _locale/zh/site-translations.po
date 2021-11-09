@@ -70,7 +70,7 @@ msgstr "相关文章"
 #: >fr
 #, fuzzy, no-wrap
 msgid "Recherche Google."
-msgstr "æç´¢è°·æ­ã"
+msgstr ""
 
 #. type: Hash Value - Key: titolo
 #: >fr

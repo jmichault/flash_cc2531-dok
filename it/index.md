@@ -65,7 +65,7 @@ Deve tornare:
   ID = b524.
 ```
 (il valore può essere diverso se la versione hardware della tua chiave non è uguale alla mia).  
-Se vedi 0000 o ffff qualcosa non è corretto: (° 1 ° 1
+Se vedi 0000 o ffff qualcosa non è corretto: 
 
  * prima controlla il tuo cablaggio.
 
@@ -84,7 +84,7 @@ Per salvare il contenuto della memoria flash nel file save.hex:
 ```
 (richiede circa 2 minuti).  
 
-Per eliminare la memoria Lightning: (° 1 ° 1
+Per eliminare la memoria Lightning: 
 ```bash
 ./cc_erase
 ```
@@ -118,7 +118,7 @@ tutti i comandi accettano i seguenti argomenti:
 la numerazione dei pin utilizzata è quella di _wiringPi_. Usa `gpio readall` per avere il layout nella tua colonna _Raspberry_ ( _wPi_ ).
 
 Ad esempio, se si desidera utilizzare i pin 3, 11 e 13:  
-Collegare i seguenti perni della porta viola a porta _GPIO_: (° 3 ° 3
+Collegare i seguenti perni di Purifying Port to Port  _GPIO_: 
 
  1. perno 1 ( _GND_ ) -> perno 14 ( _GND_ )
 
@@ -174,7 +174,7 @@ E ora puoi leggere un identificatore, salvare, eliminare e scrivere una memoria 
 
 
 
-7. Controlla il tuo blocco nutrizionale (° 1 ° 1
+7. Controlla il tuo blocco nutrizione 
 
 
     
@@ -186,12 +186,12 @@ Se ottieni un sacco di linee, devi cambiare il blocco nutrizionale.
 ## Voglio connettere più di 15 periferia
 Leggiamo in vari luoghi che la chiave _CC2531_ può gestire solo 15 dispositivi massimi.   
 In effetti, il limite per _CC2531_ è molto più alto.   
-Si noti inoltre che il protocollo _zigbee_ limita il numero di collegamenti diretti al 32 °.  
+Si noti inoltre che il protocollo  _zigbee_  limita il numero di collegamenti diretti al 32 °. Indipendentemente dal tuo coordinatore  _zigbee_, non sarà possibile connettersi a più di 32 periferiche. . 
 
 ## La mia chiave ha il suo LED rosso che si illumina.
 Succede che i principali deprogrammi, sia dovuti all'ambiente caricato da parassiti o a causa della scarsa alimentazione.  
 
-1. Controlla il tuo blocco nutrizionale (° 1 ° 1
+1. Controlla il tuo blocco nutrizione 
 
 
     

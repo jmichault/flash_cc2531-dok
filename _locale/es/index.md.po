@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,15 +186,13 @@ msgstr "Luego ingrese la clave USB en el puerto.  \n"
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr ""
-"Cable de descarga _CC_ y 4 líneas _Dupont_ Femenina a mujer es perfecta para este propósito:\n"
-"Foto de la llave y el _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
-"° 11 °) Esta es mi opción favorita, pero si no tiene un cable _CC_ , también puede liberar directamente los cables _Dupont_ en la tecla: consulte, por ejemplo, el sitio [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) o [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+msgstr "Descargar Cable  _CC_  y 4 líneas  _Dupont_  Femeninas a mujeres son perfectas para este propósito: \n ![ Foto de la llave y  _raspberry_  \n \n Esta es mi opción favorita, pero si usted No tiene un cable  _CC_  También puede reproducir directamente el cable  _Dupont_  en la tecla: consulte, por ejemplo, el  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n \n  [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
 
 #. type: Plain text
 #: index.md:62
@@ -232,9 +230,10 @@ msgstr "(el valor puede ser diferente si la versión de hardware de su llave no 
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
-msgstr "Si ve 0000 o FFFF, algo es incorrecto: (° 1 ° 1\n"
+msgstr "Si ve 0000 o FFFF, algo es incorrecto: \n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -280,9 +279,10 @@ msgstr "(toma aproximadamente 2 minutos).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "Para eliminar la memoria de rayos: (° 1 ° 1\n"
+msgstr "Para eliminar la memoria de rayos: \n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -372,9 +372,10 @@ msgstr "Por ejemplo, si desea utilizar los pines 3, 11 y 13:  \n"
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "Conecte los siguientes pines del puerto púrpura al puerto _GPIO_: (° 3 ° 3\n"
+msgstr "Conecte los siguientes pins del puerto de purificación a PORT  _GPIO_: \n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -482,9 +483,10 @@ msgstr "Haga su propia pregunta sobre [github](https://github.com/jmichault/flas
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "Compruebe su bloque de nutrición (° 1 ° 1 1\n"
+msgstr "Compruebe su bloque de nutrición \n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182

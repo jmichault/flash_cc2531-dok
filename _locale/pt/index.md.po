@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-07 14:40+0100\n"
+"POT-Creation-Date: 2021-11-09 17:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,9 +102,10 @@ msgstr "Finalmente você precisa do programa:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
-msgstr "Coordenador Geral _zigbee_ : [ Versão 1.2 (Recomendado)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) ou [Versão 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°)\n"
+msgstr "Geralmente Coordenador  _zigbee_ :  [  Versão 1.2  ( Recomendado )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  ou  [ versão 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
 #. type: Bullet: '* '
 #: index.md:24
@@ -186,14 +187,13 @@ msgstr "Em seguida, insira a chave USB na porta.  \n"
 
 #. type: Plain text
 #: index.md:59
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr ""
-"Download Cabo _CC_ e 4 linhas _Dupont_ Fêmea para mulher são perfeitas para este efeito:\n"
-"Foto da chave e do _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)° 11 °) Esta é a minha opção favorita, mas se você não tiver um cabo _CC_ , você também pode liberar diretamente os cabos _Dupont_ na chave: veja, por exemplo, o site (° 16 ° 16 °_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) ou [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
+msgstr "Download Cable  _CC_  e 4 linhas  _Dupont_  Feminino para o sexo feminino são perfeitos para este propósito: \n ![ Foto da chave e o  _raspberry_  \n \n Esta é a minha opção favorita, mas se você Não tenha um cabo  _CC_  Você também pode reproduzir diretamente o cabo  _Dupont_  na chave: veja, por exemplo, o  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)   [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
 
 #. type: Plain text
 #: index.md:62
@@ -231,9 +231,10 @@ msgstr "(o valor pode ser diferente se a versão do hardware da sua chave não f
 
 #. type: Plain text
 #: index.md:72
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
-msgstr "Se você vir 0000 ou FFFF algo estiver incorreto: (° 1 ° 1\n"
+msgstr "Se você vir 0000 ou FFFF algo estiver incorreto: \n"
 
 #. type: Bullet: ' * '
 #: index.md:74
@@ -279,9 +280,10 @@ msgstr "(leva cerca de 2 minutos).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Por forviŝi fulmmemoron:\n"
-msgstr "Para excluir memória relâmpago: (° 1 ° 1\n"
+msgstr "Para excluir a memória do relâmpago: \n"
 
 #. type: Fenced code block (bash)
 #: index.md:88
@@ -371,9 +373,10 @@ msgstr "Por exemplo, se você quiser usar os pinos 3, 11 e 13:  \n"
 
 #. type: Plain text
 #: index.md:117
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
-msgstr "Conecte os seguintes pinos de porta roxa à porta _GPIO_: (° 3 ° 3\n"
+msgstr "Conecte os seguintes pinos de porta purificadora à porta  _GPIO_: \n"
 
 #. type: Bullet: ' 1. '
 #: index.md:119
@@ -481,9 +484,10 @@ msgstr "Faça sua pergunta sobre [github](https://github.com/jmichault/flash_cc2
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, fuzzy, no-wrap
+#, no-wrap
+#, fuzzy
 msgid "Kontrolu vian nutroblokon\n"
-msgstr "Verifique seu bloco nutricional (° 1 ° 1\n"
+msgstr "Verifique seu bloco de nutrição \n"
 
 #. type: Fenced code block (bash)
 #: index.md:165 index.md:182

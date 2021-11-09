@@ -57,3 +57,4 @@ msgstr ""
 "Pasia pri elektroniko ekde 10-jara kaj toksomaniulo al komputiloj ekde "
 "18-jara.\n"
 "Mi partoprenas \tmalfermitkodon ekde la fino de la 20a jarcento.\n"
+

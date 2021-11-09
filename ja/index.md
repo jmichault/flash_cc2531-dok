@@ -13,11 +13,10 @@ title: 重要なこと
 
 ## 前提条件
  _Raspberry_ または _Odroid-c2_のいずれかが必要です。  
-キーのデバッグポートを _Raspberry_のポート _GPIO_ に接続するものが必要です。たとえば、1本のケーブル _CC_ と4本の線 _Dupont_ (を参照してください(°10°）。   
-[ _WiringPi_ ](http://wiringpi.com/) が事前にインストールされていない場合はインストールする必要があります \(、通常は `sudo apt install wiringpi`)でインストールできます。それ以外の場合は [ _Gordon_ ](http://wiringpi.com/) または [この代替サイト](https://github.com/WiringPi/WiringPi) \)のサイト。  
+キーの紫色のポートを _Raspberry_のポート _GPIO_ 、例えば1つのケーブル _CC_ と4行 _Dupont_ (のポート _GPIO_ に接続するものが必要です。さらに)を参照してください。   
 最後に、プログラムが必要です：
 
-* 一般コーディネーター _zigbee_ ： [ バージョン1.2 (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)°）
+* 一般的にコーディネーター _zigbee_ ： [   (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) 
 
 
 * またはルーター _zigbee_ ： [ルーター _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
@@ -50,9 +49,12 @@ git clone https://github.com/jmichault/flash_cc2531.git
 
 その後、USBキーをポートに入力します。  
 
-ケーブル _CC_ と4行 _Dupont_ 4行 _Dupont_ の女性をこの目的に最適です。
-キーの写真と _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)
-°11°）これは私のお気に入りのオプションですが、ケーブルを持っていない _CC_ キーを押すと、キーのケーブル _Dupont_ をリリースすることもできます。たとえば、サイト [ を参照してください。 °）_lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) または [ _notenoughtech.com_ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )
+ケーブル _CC_ と4行をダウンロードする _Dupont_ メスがこの目的に最適です：
+ ![キーの写真と _raspberry_  
+ 
+これは私のお気に入りのオプションですが、ケーブル _CC_ を使用しないでください。キーの上のケーブル _Dupont_ を直接再生することもできます。例えば [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  
+ 
+  [   [   [   [         
 
 
 これを試してください：
@@ -84,7 +86,7 @@ cd flash_cc2531
 ```
 (は約2分)かかります。  
 
-雷メモリを削除するには：（°1°1
+稲妻メモリを削除するには：
 ```bash
 ./cc_erase
 ```
@@ -118,7 +120,7 @@ cd flash_cc2531
 使用されるピン番号は _wiringPi_の番号です。 `gpio readall` を使用して、 _Raspberry_ (列 _wPi_ )にレイアウトを配置します。
 
 たとえば、ピン3、11、13を使用する場合：  
-紫色のポートの以下のピンをポート _GPIO_に接続します。（°3°3
+浄化ポートのピンをポート _GPIO_に接続します。
 
  1. ピン1 ( _GND_ ) -> ピン14 ( _GND_ )
 
@@ -174,7 +176,7 @@ cd flash_cc2531
 
 
 
-7. 栄養ブロックを確認してください（°1°1
+7. あなたの栄養ブロックをチェックしてください
 
 
     
@@ -191,7 +193,7 @@ cd flash_cc2531
 ## 私の鍵は照らされた赤いLEDを持っています。
 それは、寄生虫によってロードされた環境のため、または栄養不良のために、重要なデパログラムが発生することが起こります。  
 
-1. 栄養ブロックを確認してください（°1°1
+1. あなたの栄養ブロックをチェックしてください
 
 
     
