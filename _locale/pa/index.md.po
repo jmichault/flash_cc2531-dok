@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:22+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,8 +100,7 @@ msgstr "ਅੰਤ ਵਿੱਚ ਤੁਹਾਨੂੰ ਪ੍ਰੋਗਰਾਮ �
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "ਆਮ ਤੌਰ 'ਤੇ ਕੋਆਰਡੀਨੇਟਰ  _zigbee_ :  [  ਸੰਸਕਰਣ 1.2 )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  ਜਾਂ  [ ਸੰਸਕਰਣ ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) )\n"
 
@@ -185,13 +184,16 @@ msgstr "ਫਿਰ ਪੋਰਟ ਵਿੱਚ USB ਕੁੰਜੀ ਦਰਜ ਕਰ
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr "ਕੇਬਲ  _CC_  ਅਤੇ 4 ਲਾਈਨਾਂ  _Dupont_  female ਰਤ ਇਸ ਮਕਸਦ ਲਈ ਸੰਪੂਰਨ ਹਨ: \n  _CC_  \n ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਚੋਣ ਹੈ, ਪਰ ਜੇ ਤੁਸੀਂ ਕੇਬਲ  _CC_  ਨਾ ਕਿ ਕੇਬਲ ਤੇ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ  [  \n  [   [   [   [   [ ) ਵੇਖੋ  [   [        \n"
+msgstr ""
+"ਕੇਬਲ  _CC_  ਅਤੇ 4 ਲਾਈਨਾਂ  _Dupont_  female ਰਤ ਇਸ ਮਕਸਦ ਲਈ ਸੰਪੂਰਨ ਹਨ: \n"
+"  _CC_  \n"
+" ਇਹ ਮੇਰੀ ਮਨਪਸੰਦ ਚੋਣ ਹੈ, ਪਰ ਜੇ ਤੁਸੀਂ ਕੇਬਲ  _CC_  ਨਾ ਕਿ ਕੇਬਲ ਤੇ ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਕੇਬਲ  [  \n"
+"  [   [   [   [   [ ) ਵੇਖੋ  [   [        \n"
 
 #. type: Plain text
 #: index.md:62

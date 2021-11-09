@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:22+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,8 +232,7 @@ msgstr "(il valore può essere diverso se la versione hardware della tua chiave 
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 msgstr "Se vedi 0000 o ffff qualcosa non è corretto: \n"
 
@@ -281,8 +280,7 @@ msgstr "(richiede circa 2 minuti).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "Per eliminare la memoria Lightning: \n"
 
@@ -374,8 +372,7 @@ msgstr "Ad esempio, se si desidera utilizzare i pin 3, 11 e 13:  \n"
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "Collegare i seguenti perni di Purifying Port to Port  _GPIO_: \n"
 
@@ -485,8 +482,7 @@ msgstr "Poni la tua domanda su [github](https://github.com/jmichault/flash_cc253
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "Controlla il tuo blocco nutrizione \n"
 
@@ -524,8 +520,7 @@ msgstr "In effetti, il limite per _CC2531_ è molto più alto.   \n"
 
 #. type: Plain text
 #: index.md:175
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "Si noti inoltre che il protocollo  _zigbee_  limita il numero di collegamenti diretti al 32 °. Indipendentemente dal tuo coordinatore  _zigbee_, non sarà possibile connettersi a più di 32 periferiche. . \n"
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:21+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,8 +102,7 @@ msgstr "শেষ পর্যন্ত আপনার প্রয়োজন
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "সাধারণত সমন্বয়কারী  _zigbee_ :  [  সংস্করণ 1.2  ( প্রস্তাবিত )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  বা  [ সংস্করণ 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
@@ -187,13 +186,17 @@ msgstr "তারপর পোর্টে ইউএসবি কী লিখ�
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr "কেবল  _CC_  এবং 4 টি লাইন  _Dupont_  মহিলা মহিলা মহিলাটি এই উদ্দেশ্যে নিখুঁত: \n ![ কী এবং  _raspberry_  \n \n এটি আমার প্রিয় বিকল্প, কিন্তু যদি আপনি একটি তারের  _CC_  আপনি সরাসরি  _Dupont_  এর উপর সরাসরি খেলতে পারেন: উদাহরণস্বরূপ  [  _lemariva.com_   [  _lemariva.com_  \n  [   [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
+msgstr ""
+"কেবল  _CC_  এবং 4 টি লাইন  _Dupont_  মহিলা মহিলা মহিলাটি এই উদ্দেশ্যে নিখুঁত: \n"
+" ![ কী এবং  _raspberry_  \n"
+" \n"
+" এটি আমার প্রিয় বিকল্প, কিন্তু যদি আপনি একটি তারের  _CC_  আপনি সরাসরি  _Dupont_  এর উপর সরাসরি খেলতে পারেন: উদাহরণস্বরূপ  [  _lemariva.com_   [  _lemariva.com_  \n"
+"  [   [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
 
 #. type: Plain text
 #: index.md:62
@@ -231,8 +234,7 @@ msgstr "(মানটি ভিন্ন হতে পারে যদি আপ
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 msgstr "যদি আপনি 0000 বা FFFF কিছু দেখেন তবে ভুল: \n"
 
@@ -280,8 +282,7 @@ msgstr "(প্রায় 2 মিনিট)লাগে।  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "বাজ মেমরি মুছে ফেলতে: \n"
 
@@ -373,8 +374,7 @@ msgstr "উদাহরণস্বরূপ, আপনি যদি পিন 3
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "পোর্টে পোর্টের পোর্টের নিচের পিনটি  _GPIO_:  সংযোগ করুন\n"
 
@@ -484,8 +484,7 @@ msgstr " [গিথুব](https://github.com/jmichault/flash_cc2531/issues/new/
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "আপনার পুষ্টি পরীক্ষা করুন \n"
 

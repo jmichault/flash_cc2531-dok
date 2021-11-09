@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:22+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,8 +100,7 @@ msgstr "最後に、プログラムが必要です：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "一般的にコーディネーター _zigbee_ ： [   (推奨)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) または [バージョン3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
@@ -185,13 +184,18 @@ msgstr "その後、USBキーをポートに入力します。  \n"
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr "ケーブル _CC_ と4行をダウンロードする _Dupont_ メスがこの目的に最適です：\n ![キーの写真と _raspberry_  \n \nこれは私のお気に入りのオプションですが、ケーブル _CC_ を使用しないでください。キーの上のケーブル _Dupont_ を直接再生することもできます。例えば [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n \n  [   [   [   [         \n"
+msgstr ""
+"ケーブル _CC_ と4行をダウンロードする _Dupont_ メスがこの目的に最適です：\n"
+" ![キーの写真と _raspberry_  \n"
+" \n"
+"これは私のお気に入りのオプションですが、ケーブル _CC_ を使用しないでください。キーの上のケーブル _Dupont_ を直接再生することもできます。例えば [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n"
+" \n"
+"  [   [   [   [         \n"
 
 #. type: Plain text
 #: index.md:62
@@ -277,8 +281,7 @@ msgstr "(は約2分)かかります。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "稲妻メモリを削除するには：\n"
 
@@ -370,8 +373,7 @@ msgstr "たとえば、ピン3、11、13を使用する場合：  \n"
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "浄化ポートのピンをポート _GPIO_に接続します。\n"
 
@@ -481,8 +483,7 @@ msgstr " [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)�
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "あなたの栄養ブロックをチェックしてください\n"
 

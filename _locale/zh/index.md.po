@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:23+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,8 +102,7 @@ msgstr "最后，您需要程序：\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "通常协调器 _zigbee_ ： [ 版本1.2  (推荐)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) 或 [版本3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
@@ -233,8 +232,7 @@ msgstr "如果钥匙的硬件版本与我的钥匙)不同，则(值可能会不�
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 msgstr "如果看到0000或ffff，某些东西不正确：\n"
 
@@ -282,8 +280,7 @@ msgstr "(大约需要2分钟)。  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "删除闪电记忆：\n"
 
@@ -375,8 +372,7 @@ msgstr "例如，如果要使用引脚3、11和13：  \n"
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "将净化端口的以下引脚连接到端口 _GPIO_：\n"
 
@@ -486,8 +482,7 @@ msgstr "询问关于 [github](https://github.com/jmichault/flash_cc2531/issues/n
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "检查营养块\n"
 

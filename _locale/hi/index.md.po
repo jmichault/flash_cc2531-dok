@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:22+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,19 +60,19 @@ msgstr "सबसे ज़रूरी चीज़"
 
 #. type: Title #
 #: index.md:11
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr "[  _flash\\_cc2531_  ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: index.md:14
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
 "Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
-msgstr " [  _flash\\_cc2531_  ](https://github.com/jmichault/flash_cc2531)  आपको  _Raspberry_ या  _CC Debugger_ की आवश्यकता के बिना अपने  _Raspberry_ के अपने CC2531 यूएसबी स्टिक को प्रोग्राम करने में सक्षम बनाता है।  \n यह सीसी 2530 कुंजी भी प्रोग्राम कर सकता है।  \n"
+msgstr ""
+" [  _flash\\_cc2531_  ](https://github.com/jmichault/flash_cc2531)  आपको  _Raspberry_ या  _CC Debugger_ की आवश्यकता के बिना अपने  _Raspberry_ के अपने CC2531 यूएसबी स्टिक को प्रोग्राम करने में सक्षम बनाता है।  \n"
+" यह सीसी 2530 कुंजी भी प्रोग्राम कर सकता है।  \n"
 
 #. type: Title ##
 #: index.md:15
@@ -88,12 +88,13 @@ msgstr "आपको या तो _Raspberry_ या _Odroid-c2_की आव�
 
 #. type: Plain text
 #: index.md:18
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
-msgstr "आपको कुंजी के बैंगनी बंदरगाह को  _GPIO_  de  _Raspberry_ बंदरगाहों को कनेक्ट करने की आवश्यकता है, उदाहरण के लिए एक केबल  _CC_  और चार पंक्तियां  _Dupont_  ( अधिक देखें )।    \n [  _WiringPi_  ](http://wiringpi.com/)  इसे स्थापित किया जाना चाहिए  \\( यदि यह पूर्व-स्थापित नहीं है, तो आप आमतौर पर इसे  `sudo apt install wiringpi`) के साथ स्थापित कर सकते हैं, अन्यथा  [  _Gordon_  ](http://wiringpi.com/)  वेबसाइट देखें या  [ यह वैकल्पिक वेबसाइट ](https://github.com/WiringPi/WiringPi)  \\)।   \n"
+msgstr ""
+"आपको कुंजी के बैंगनी बंदरगाह को  _GPIO_  de  _Raspberry_ बंदरगाहों को कनेक्ट करने की आवश्यकता है, उदाहरण के लिए एक केबल  _CC_  और चार पंक्तियां  _Dupont_  ( अधिक देखें )।    \n"
+" [  _WiringPi_  ](http://wiringpi.com/)  इसे स्थापित किया जाना चाहिए  \\( यदि यह पूर्व-स्थापित नहीं है, तो आप आमतौर पर इसे  `sudo apt install wiringpi`) के साथ स्थापित कर सकते हैं, अन्यथा  [  _Gordon_  ](http://wiringpi.com/)  वेबसाइट देखें या  [ यह वैकल्पिक वेबसाइट ](https://github.com/WiringPi/WiringPi)  \\)।   \n"
 
 #. type: Plain text
 #: index.md:20
@@ -103,8 +104,7 @@ msgstr "अंत में आपको कार्यक्रम की आ�
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "आम तौर पर समन्वयक  _zigbee_ :  [  संस्करण 1.2  ( अनुशंसित )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  या  [ संस्करण 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
@@ -172,8 +172,7 @@ msgstr "|  \n"
 
 #. type: Plain text
 #: index.md:51
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "La pinglo-aranĝo de _raspberry_ haveblas ĉi tie: <https://pinout.xyz/>\n"
 msgstr " _raspberry_  का पिन-लेआउट यहां उपलब्ध है:  <https://pinout.xyz/> \n"
 
@@ -187,13 +186,18 @@ msgstr "फिर पोर्ट में यूएसबी कुंजी �
 
 #. type: Plain text
 #: index.md:59
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Elŝuti-kablo _CC_ kaj 4 linioj _Dupont_ Ino al Ino estas perfektaj por ĉi tiu celo:\n"
 "![foto de la ŝlosilo kaj la _raspberry_ ](https://github.com/jmichault/files/raw/master/Raspberry-CC2531.jpg)\n"
 "Ĉi tiu estas mia plej ŝatata opcio, sed se vi ne havas kablon _CC_ vi ankaŭ povas rekte luti la kablojn _Dupont_ sur la ŝlosilo: vidu ekzemple la retejon [ _lemariva.com_ ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger) aŭ [ _notenoughtech.com_ ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )\n"
-msgstr "केबल डाउनलोड करें  _CC_  और 4 पंक्तियां  _Dupont_  महिला से महिला इस उद्देश्य के लिए बिल्कुल सही है: \n ![ कुंजी की फोटो और  _raspberry_  \n \n यह मेरा पसंदीदा विकल्प है, लेकिन यदि आप केबल  _CC_  कुंजी पर सीधे केबल  _Dupont_  भी चला सकते हैं: उदाहरण के लिए  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n \n  [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
+msgstr ""
+"केबल डाउनलोड करें  _CC_  और 4 पंक्तियां  _Dupont_  महिला से महिला इस उद्देश्य के लिए बिल्कुल सही है: \n"
+" ![ कुंजी की फोटो और  _raspberry_  \n"
+" \n"
+" यह मेरा पसंदीदा विकल्प है, लेकिन यदि आप केबल  _CC_  कुंजी पर सीधे केबल  _Dupont_  भी चला सकते हैं: उदाहरण के लिए  [  _lemariva.com_  ](https://lemariva.com/blog/2019/08/zigbee-flashing-cc2531-using-raspberry-pi-without-cc-debugger)  \n"
+" \n"
+"  [   [   [   [   [  ](https://notenoughtech.com/home-automation/flashing-cc2531-without-cc-debugger )       \n"
 
 #. type: Plain text
 #: index.md:62
@@ -273,8 +277,7 @@ msgstr "./cc_read save.hex\n"
 
 #. type: Plain text
 #: index.md:86
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "(prenas ĉirkaŭ 2 minutojn). \n"
 msgstr "( लगभग 2 मिनट ) लेता है।  \n"
 
@@ -292,15 +295,13 @@ msgstr "./cc_erase\n"
 
 #. type: Plain text
 #: index.md:92
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "**Noto:** Vi **devas** forviŝi antaŭ skribado (krom se vi vere scias, kion vi faros).\n"
 msgstr "** नोट: **  आपको **  लिखने से पहले **  हटाएं  ( जब तक कि आप वास्तव में नहीं जानते कि आप क्या करेंगे )। \n"
 
 #. type: Plain text
 #: index.md:94
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por programi la dosieron _CC2531ZNP-Prod.hex_ sur la ŝlosilo _CC2531_:\n"
 msgstr " _CC2531_ फ़ाइल  _CC2531_:  पर प्रोग्राम करने के लिए\n"
 
@@ -338,29 +339,25 @@ msgstr "सभी आदेश निम्नलिखित तर्क स�
 
 #. type: Bullet: ' * '
 #: index.md:105
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_-c_ pinglo: ŝanĝu la pinglon _DC_ (defaŭlte 27)\n"
 msgstr "_-c_  पिन: डिफ़ॉल्ट 27 )  द्वारा पिन  _DC_  ( बदलें\n"
 
 #. type: Bullet: ' * '
 #: index.md:107
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_-d_ pinglo: ŝanĝu la pinglon _DD_ (defaŭlte 28)\n"
 msgstr "_-d_  पिन: डिफ़ॉल्ट 28 )  द्वारा पिन  _DD_  ( बदलें\n"
 
 #. type: Bullet: ' * '
 #: index.md:109
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_-r_ pinglo: ŝanĝu la pinglon _reset_ (defaŭlte 24)\n"
 msgstr "_-r_  पिन: डिफ़ॉल्ट रूप से पिन  _reset_  ( बदलें 24 ) \n"
 
 #. type: Bullet: ' * '
 #: index.md:111
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "_-m_ : ŝanĝu la prokrastan multiplikaton, kaj do la bazan tempon (defaŭlte: aŭtomata ĝustigo)\n"
 msgstr "_-m_ : देरी गुणा सेट करें, और उसके बाद मूल समय  ( डिफ़ॉल्ट रूप से: स्वचालित समायोजन ) \n"
 
@@ -378,8 +375,7 @@ msgstr "उदाहरण के लिए, यदि आप पिन 3, 11 �
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "पोर्ट  _GPIO_:  पर पोर्ट को शुद्ध करने के निम्न पिन कनेक्ट करें\n"
 
@@ -513,17 +509,17 @@ msgstr "मैं 15 से अधिक परिधि को जोड़न�
 
 #. type: Plain text
 #: index.md:172
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
-msgstr "हम विभिन्न स्थानों में पढ़ते हैं कि कुंजी  _CC2531_  केवल 15 अधिकतम उपकरणों को संभाल सकता है।    \n वास्तव में, इस कुंजी के मानक फर्मवेयर में 15 प्रत्यक्ष लिंक की सीमा है। लेकिन यदि इनमें से कोई भी कनेक्शन  _zigbee_  राउटर  ( है और अधिकांश डिवाइस राउटर के रूप में काम करते हैं, उदाहरण के लिए,  _Philips Hue_  बल्ब और  _Ikea TRÅDFRI_  बल्ब ) का मामला है, तो  _CC2531_  इस राउटर के पीछे उपकरणों को प्रबंधित करें, और राउटर के पीछे उन राउटर से जुड़े ...   \n"
+msgstr ""
+"हम विभिन्न स्थानों में पढ़ते हैं कि कुंजी  _CC2531_  केवल 15 अधिकतम उपकरणों को संभाल सकता है।    \n"
+" वास्तव में, इस कुंजी के मानक फर्मवेयर में 15 प्रत्यक्ष लिंक की सीमा है। लेकिन यदि इनमें से कोई भी कनेक्शन  _zigbee_  राउटर  ( है और अधिकांश डिवाइस राउटर के रूप में काम करते हैं, उदाहरण के लिए,  _Philips Hue_  बल्ब और  _Ikea TRÅDFRI_  बल्ब ) का मामला है, तो  _CC2531_  इस राउटर के पीछे उपकरणों को प्रबंधित करें, और राउटर के पीछे उन राउटर से जुड़े ...   \n"
 
 #. type: Plain text
 #: index.md:173
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "वास्तव में,  _CC2531_  की सीमा बहुत अधिक है। और यदि एक दिन आप अपने  _zigbee_  नेटवर्क पर 50 से अधिक डिवाइस से अधिक हो जाते हैं, तो अधिक महंगा समन्वयक में निवेश करना आपके बजट का एक छोटा सा हिस्सा होगा।   \n"
 
@@ -553,8 +549,7 @@ msgstr "परेशान करने वाली सामग्री क�
 
 #. type: Bullet: '3. '
 #: index.md:191
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Reprogramu la ŝlosilon\n"
 msgstr "कुंजी  को पुन: प्रोग्राम करें\n"
 

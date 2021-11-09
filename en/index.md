@@ -43,7 +43,7 @@ git clone https://github.com/jmichault/flash_cc2531.git
 Connect the following pins of the debug port to the GPO port:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
-| Pin of  _GPIO_           Pin of  _CC_   
+|   _GPIO_ pin         | _CC_ pin   
  | ---------------------- | ------------ |  
  | 39  (  _GND_  )            | 1  (  _GND_  )   | 	 
  | 36  (  _wPi 27, BCM16_  )  | 3  (  _DC_  )    |  
@@ -147,7 +147,7 @@ And now you can read an identifier, save, delete and write a lightning memory wi
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-You can also change the default values ​​in  _CCDebugger.h_  and compile the programs by  `make`. 
+You can also change the default values in  _CCDebugger.h_  and compile the programs by  `make`. 
 
 ## what if it doesn't work?
 

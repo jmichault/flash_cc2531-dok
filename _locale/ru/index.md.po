@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:23+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,8 +102,7 @@ msgstr "Наконец, вам нужна программа:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "Как правило, координатор  _zigbee_ :  [  Версия 1.2  ( Рекомендуется )](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/)  или  [ Версия 3.0 ](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin) \n"
 
@@ -233,8 +232,7 @@ msgstr "(значение может быть другим, если аппар�
 
 #. type: Plain text
 #: index.md:72
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Se vi vidas 0000 aŭ ffff io estas malĝusta:\n"
 msgstr "Если вы видите 0000 или FFFF, что-то неверно: \n"
 
@@ -282,8 +280,7 @@ msgstr "(занимает около 2 минут).  \n"
 
 #. type: Plain text
 #: index.md:88
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Por forviŝi fulmmemoron:\n"
 msgstr "Чтобы удалить молнию памяти: \n"
 
@@ -375,8 +372,7 @@ msgstr "Например, если вы хотите использовать к
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "Подключите следующие контакты очистки порта для порта  _GPIO_: \n"
 
@@ -486,8 +482,7 @@ msgstr "Задайте свой вопрос о [github](https://github.com/jmic
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "Проверьте свой блок питания \n"
 

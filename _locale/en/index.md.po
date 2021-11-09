@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 17:21+0100\n"
+"POT-Creation-Date: 2021-11-09 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,7 +161,6 @@ msgstr ""
 #. type: Plain text
 #: index.md:49
 #, fuzzy, no-wrap
-#, fuzzy
 msgid ""
 "| pinglo de _GPIO_          | pinglo de _CC_  |\n"
 "| ---------------------- | ------------ | \n"
@@ -169,7 +168,13 @@ msgid ""
 "| 36 ( _wPi 27, BCM16_ ) | 3 ( _DC_ )   | \n"
 "| 38 ( _wPi 28, BCM20_ ) | 4 ( _DD_ )   | \n"
 "| 35 ( _wPi 24, BCM19_ ) | 7 ( _reset_ )| \n"
-msgstr "| Pin of  _GPIO_           Pin of  _CC_   \n | ---------------------- | ------------ |  \n | 39  (  _GND_  )            | 1  (  _GND_  )   | \t \n | 36  (  _wPi 27, BCM16_  )  | 3  (  _DC_  )    |  \n | 38  (  _wPi 28, BCM20_  )  | 4  (  _DD_  )    |  \n | 35  (  _wPi 24, BCM19_  )  | 7  (  _reset_  ) |  \n"
+msgstr ""
+"|   _GPIO_ pin         | _CC_ pin   \n"
+" | ---------------------- | ------------ |  \n"
+" | 39  (  _GND_  )            | 1  (  _GND_  )   | \t \n"
+" | 36  (  _wPi 27, BCM16_  )  | 3  (  _DC_  )    |  \n"
+" | 38  (  _wPi 28, BCM20_  )  | 4  (  _DD_  )    |  \n"
+" | 35  (  _wPi 24, BCM19_  )  | 7  (  _reset_  ) |  \n"
 
 #. type: Plain text
 #: index.md:51
@@ -180,11 +185,12 @@ msgstr "The pin layout of _raspberry_ is available here: <https://pinout.xyz/>\n
 #. type: Plain text
 #: index.md:55
 #, fuzzy, no-wrap
-#, fuzzy
 msgid ""
 "Tiam enmetu la USB-ŝlosilon en havenon.   \n"
 "Noto: Se vi ne volas enmeti la ŝlosilon en USB-havenon, vi povas anstataŭe konekti la pinglo _CC_ 9 al una pinglo _3,3v_ de _raspberry_ (pinglo 1 aŭ 17). \n"
-msgstr "Then enter the USB key into port.    \n Note: If you do not want to insert the key in a USB port, you can instead connect the pin  _CC_  9 to one pin  _3,3v_  of  _raspberry_  ( Pin 1 or 17 ).  \n"
+msgstr ""
+"Then enter the USB key into port.    \n"
+" Note: If you do not want to insert the key in a USB port, you can instead connect the pin  _CC_  9 to one pin  _3,3v_  of  _raspberry_  ( Pin 1 or 17 ).  \n"
 
 #. type: Plain text
 #: index.md:59
@@ -374,8 +380,7 @@ msgstr "For example, if you want to use pins 3, 11 and 13:  \n"
 
 #. type: Plain text
 #: index.md:117
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Konekti la jenajn pinglojn de elpuriga haveno al haveno _GPIO_:\n"
 msgstr "Connect the following pins of purifying port to port  _GPIO_: \n"
 
@@ -426,9 +431,8 @@ msgstr ""
 #. type: Plain text
 #: index.md:136
 #, fuzzy, no-wrap
-#, fuzzy
 msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
-msgstr "You can also change the default values ​​in  _CCDebugger.h_  and compile the programs by  `make`. \n"
+msgstr "You can also change the default values in  _CCDebugger.h_  and compile the programs by  `make`. \n"
 
 #. type: Title ##
 #: index.md:137
@@ -486,8 +490,7 @@ msgstr "Ask your own question about [github](https://github.com/jmichault/flash_
 
 #. type: Bullet: '1. '
 #: index.md:163 index.md:180
-#, no-wrap
-#, fuzzy
+#, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "Check your nutrition block \n"
 
@@ -512,23 +515,22 @@ msgstr "I want to connect more than 15 periphery"
 #. type: Plain text
 #: index.md:172
 #, fuzzy, no-wrap
-#, fuzzy
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
-msgstr "We read in different locations that the key  _CC2531_  can only handle 15 maximum appliances.    \n In fact, the standard firmware of this key has a limit of 15 direct links. But if one of these connections is  _zigbee_  router  ( and most devices work as a router, that is, for example, the case of  _Philips Hue_  bulbs and  _Ikea TRÅDFRI_  bulb ), then the  _CC2531_  can manage the Devices behind this router, and those behind the router connected to this router ...   \n"
+msgstr ""
+"We read in different locations that the key  _CC2531_  can only handle 15 maximum appliances.    \n"
+" In fact, the standard firmware of this key has a limit of 15 direct links. But if one of these connections is  _zigbee_  router  ( and most devices work as a router, that is, for example, the case of  _Philips Hue_  bulbs and  _Ikea TRÅDFRI_  bulb ), then the  _CC2531_  can manage the Devices behind this router, and those behind the router connected to this router ...   \n"
 
 #. type: Plain text
 #: index.md:173
 #, fuzzy, no-wrap
-#, fuzzy
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "In fact, the limit for the  _CC2531_  is much higher. And if one day you exceed more than 50 devices on your  _zigbee_  Network, investing in a more expensive coordinator will be just a small part of your budget.   \n"
 
 #. type: Plain text
 #: index.md:175
 #, fuzzy, no-wrap
-#, fuzzy
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "Also note that the protocol  _zigbee_  limits the number of direct links to 32th. Regardless of your coordinator  _zigbee_, it will not be possible to connect to more than 32 peripherals.  \n"
 
