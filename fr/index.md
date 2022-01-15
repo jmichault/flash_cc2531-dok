@@ -117,8 +117,6 @@ et maintenant vous pouvez lire l'ID, sauvegarder , effacer et écrire la mémoir
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.
-
 ## et si ça ne marche pas?
 
 1. arrêtez tous les autres programmes.

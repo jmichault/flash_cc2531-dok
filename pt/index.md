@@ -142,8 +142,6 @@ E agora você pode ler um identificador, salvar, excluir e escrever uma memória
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-Você também pode alterar os valores padrão para _CCDebugger.h_ e compilar os programas com `make`.
-
 ## e se não funcionar?
 
 1. pare todos os outros programas.

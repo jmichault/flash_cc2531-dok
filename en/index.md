@@ -147,8 +147,6 @@ And now you can read an identifier, save, delete and write a lightning memory wi
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-You can also change the default values in  _CCDebugger.h_  and compile the programs by  `make`. 
-
 ## what if it doesn't work?
 
 1. stop all other programs.

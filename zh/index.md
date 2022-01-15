@@ -141,8 +141,6 @@ cd flash_cc2531
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-您还可以将默认值更改为 _CCDebugger.h_ ，并使用 `make`编译程序。
-
 ## 如果不起作用怎么办？
 
 1. 停止所有其他程序。

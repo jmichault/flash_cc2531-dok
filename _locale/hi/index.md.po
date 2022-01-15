@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 20:17+0100\n"
+"POT-Creation-Date: 2022-01-15 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -423,92 +423,86 @@ msgstr ""
 "./cc_erase -r 8 -c 0 -d 2\n"
 "./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
 
-#. type: Plain text
-#: index.md:136
-#, fuzzy, no-wrap
-msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
-msgstr "आप _CCDebugger.h_ के लिए डिफ़ॉल्ट मान भी बदल सकते हैं और `make`के साथ प्रोग्राम संकलित कर सकते हैं।\n"
-
 #. type: Title ##
-#: index.md:137
+#: index.md:135
 #, fuzzy, no-wrap
 msgid "kio se ĝi ne funkcias?"
 msgstr "क्या होगा अगर यह काम नहीं करता है?"
 
 #. type: Bullet: '1. '
-#: index.md:140
+#: index.md:138
 #, fuzzy, no-wrap
 msgid "ĉesu ĉiujn aliajn programojn.\n"
 msgstr "अन्य सभी प्रोग्राम बंद करें।\n"
 
 #. type: Bullet: '2. '
-#: index.md:142
+#: index.md:140
 #, fuzzy, no-wrap
 msgid "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
 msgstr "प्रोग्रामिंग से पहले प्रोसेसर की गति निर्धारित करें। उदाहरण:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:144
+#: index.md:142
 #, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 
 #. type: Bullet: '3. '
-#: index.md:148
+#: index.md:146
 #, fuzzy, no-wrap
 msgid "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
 msgstr "उपयोग की गई समय सीमा बढ़ाने के लिए -m विकल्प का उपयोग करें। उदाहरण:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:150
+#: index.md:148
 #, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 
 #. type: Bullet: '4. '
-#: index.md:154
+#: index.md:152
 #, fuzzy, no-wrap
 msgid "rekompili la programon per `make`.\n"
 msgstr " `make`के साथ कार्यक्रम को पुन: व्यवस्थित करें।\n"
 
 #. type: Bullet: '5. '
-#: index.md:157
+#: index.md:155
 #, fuzzy, no-wrap
 msgid "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr "पहले से गिथब](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)पर पूछे गए प्रश्नों में हल [देखें\n"
 
 #. type: Bullet: '6. '
-#: index.md:160
+#: index.md:158
 #, fuzzy, no-wrap
 msgid "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr " [गितुब](https://github.com/jmichault/flash_cc2531/issues/new/choose)के बारे में अपना प्रश्न पूछें।\n"
 
 #. type: Bullet: '1. '
-#: index.md:163 index.md:180
+#: index.md:161 index.md:178
 #, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "अपने पोषण ब्लॉककी जाँच करें\n"
 
 #. type: Fenced code block (bash)
-#: index.md:165 index.md:182
+#: index.md:163 index.md:180
 #, no-wrap
 msgid "   grep Under /var/log/kern.log\n"
 msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
-#: index.md:169 index.md:186
+#: index.md:167 index.md:184
 #, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "यदि आपको बहुत सारी लाइनें मिलती हैं तो आपको पोषण ब्लॉक बदलना होगा।  \n"
 
 #. type: Title ##
-#: index.md:170
+#: index.md:168
 #, fuzzy, no-wrap
 msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "मैं 15 से अधिक परिधि को जोड़ना चाहता हूं"
 
 #. type: Plain text
-#: index.md:172
+#: index.md:170
 #, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
@@ -518,52 +512,56 @@ msgstr ""
 " वास्तव में, इस कुंजी के मानक फर्मवेयर में 15 प्रत्यक्ष लिंक की सीमा है। लेकिन यदि इनमें से कोई भी कनेक्शन  _zigbee_  राउटर  ( है और अधिकांश डिवाइस राउटर के रूप में काम करते हैं, उदाहरण के लिए,  _Philips Hue_  बल्ब और  _Ikea TRÅDFRI_  बल्ब ) का मामला है, तो  _CC2531_  इस राउटर के पीछे उपकरणों को प्रबंधित करें, और राउटर के पीछे उन राउटर से जुड़े ...   \n"
 
 #. type: Plain text
-#: index.md:173
+#: index.md:171
 #, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "वास्तव में,  _CC2531_  की सीमा बहुत अधिक है। और यदि एक दिन आप अपने  _zigbee_  नेटवर्क पर 50 से अधिक डिवाइस से अधिक हो जाते हैं, तो अधिक महंगा समन्वयक में निवेश करना आपके बजट का एक छोटा सा हिस्सा होगा।   \n"
 
 #. type: Plain text
-#: index.md:175
+#: index.md:173
 #, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "यह भी ध्यान रखें कि प्रोटोकॉल _zigbee_ 32 वें स्थान पर सीधे लिंक की संख्या को सीमित करता है।  \n"
 
 #. type: Title ##
-#: index.md:176
+#: index.md:174
 #, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "मेरी कुंजी के लाल एलईडी है जो रोशनी करता है।"
 
 #. type: Plain text
-#: index.md:178
+#: index.md:176
 #, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "ऐसा होता है कि मुख्य डिपोग्राम, या तो परजीवी द्वारा लोड किए गए पर्यावरण के कारण या खराब पोषण के कारण।  \n"
 
 #. type: Bullet: '2. '
-#: index.md:188
+#: index.md:186
 #, fuzzy, no-wrap
 msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 msgstr "परेशान करने वाली सामग्री को दूर करें: वक्ताओं, वाई-फाई राउटर, ...\n"
 
 #. type: Bullet: '3. '
-#: index.md:191
+#: index.md:189
 #, fuzzy, no-wrap
 msgid "Reprogramu la ŝlosilon\n"
 msgstr "कुंजी  को पुन: प्रोग्राम करें\n"
 
 #. type: Title ##
-#: index.md:195
+#: index.md:193
 #, fuzzy, no-wrap
 msgid "Permesilo"
 msgstr "लाइसेंस"
 
 #. type: Plain text
-#: index.md:197
+#: index.md:195
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "यह परियोजना GPL v3 ( देखें _COPYING_ )के तहत लाइसेंस प्राप्त है।\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
+#~ msgstr "आप _CCDebugger.h_ के लिए डिफ़ॉल्ट मान भी बदल सकते हैं और `make`के साथ प्रोग्राम संकलित कर सकते हैं।\n"
 
 #, fuzzy, no-wrap
 #~ msgid ""

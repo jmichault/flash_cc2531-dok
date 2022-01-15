@@ -141,8 +141,6 @@ Dan sekarang anda boleh membaca pengenal, menyimpan, memadam dan menulis memori 
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-Anda juga boleh menukar nilai lalai ke _CCDebugger.h_ dan menyusun program dengan `make`.
-
 ## bagaimana jika ia tidak berfungsi?
 
 1. hentikan semua program lain.

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-09 17:07+0100\n"
+"POT-Creation-Date: 2022-01-15 22:16+0100\n"
 "PO-Revision-Date: 2021-11-06 22:47+0100\n"
 "Last-Translator: jean <>\n"
 "Language-Team: \n"
@@ -430,146 +430,144 @@ msgstr ""
 "./cc_erase -r 8 -c 0 -d 2\n"
 "./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
 
-#. type: Plain text
-#: index.md:121
-#, no-wrap
-msgid "Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.\n"
-msgstr "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
-
 #. type: Title ##
-#: index.md:122
+#: index.md:120
 #, no-wrap
 msgid "et si ça ne marche pas?"
 msgstr "kio se ĝi ne funkcias?"
 
 #. type: Bullet: '1. '
-#: index.md:126
+#: index.md:124
 #, no-wrap
 msgid "arrêtez tous les autres programmes.\n"
 msgstr "ĉesu ĉiujn aliajn programojn.\n"
 
 #. type: Bullet: '2. '
-#: index.md:126
+#: index.md:124
 #, no-wrap
 msgid "fixez la vitesse du processeur avant la programmation. Exemple:\n"
 msgstr "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:127
+#: index.md:125
 #, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 
 #. type: Bullet: '3. '
-#: index.md:131
+#: index.md:129
 #, no-wrap
 msgid "utilisez l'option -m pour augmenter les délais utilisés. Exemple:\n"
 msgstr "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
 
 #. type: Fenced code block (bash)
-#: index.md:132
+#: index.md:130
 #, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 
 #. type: Bullet: '4. '
-#: index.md:136
+#: index.md:134
 #, no-wrap
 msgid "recompilez le logiciel avec `make`.\n"
 msgstr "rekompili la programon per `make`.\n"
 
 #. type: Bullet: '5. '
-#: index.md:138
+#: index.md:136
 #, no-wrap
 msgid "cherchez une solution [dans les questions déjà posées sur github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 
 #. type: Bullet: '6. '
-#: index.md:140
+#: index.md:138
 #, no-wrap
 msgid "Posez votre propre question sur [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 
 #. type: Bullet: '1. '
-#: index.md:142 index.md:158
+#: index.md:140 index.md:156
 #, no-wrap
 msgid "Vérifiez votre alimentation\n"
 msgstr "Kontrolu vian nutroblokon\n"
 
 #. type: Fenced code block (bash)
-#: index.md:143 index.md:159
+#: index.md:141 index.md:157
 #, no-wrap
 msgid "   grep Under /var/log/kern.log\n"
 msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
-#: index.md:147 index.md:163
+#: index.md:145 index.md:161
 #, no-wrap
 msgid "Si vous obtenez de nombreuses lignes, alors vous devriez changer d'alimentation.\n"
 msgstr "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 
 #. type: Title ##
-#: index.md:148
+#: index.md:146
 #, no-wrap
 msgid "Je veux connecter plus de 15 périphériques"
 msgstr "Mi volas konekti pli ol 15 periferiojn"
 
 #. type: Plain text
-#: index.md:149
+#: index.md:147
 #, no-wrap
 msgid "On lit sur différents sites que la clé _CC2531_ ne peut gérer que 15 périphériques maximum.  \n"
 msgstr "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
 
 #. type: Plain text
-#: index.md:150
+#: index.md:148
 #, no-wrap
 msgid "En fait le micrologiciel standard de cette clé a bien une limite de 15 connexions directes. Mais si l'une de ces connexions est un routeur _zigbee_ (et la plupart des périphériques font office de routeur, c'est par exemple le cas des ampoules _Philips Hue_ et des Ampoules _Ikea TRÅDFRI_), alors le _CC2531_ peut gérer les périphériques derrière ce routeur, et ceux derrière les routeurs connectés à ce routeur...  \n"
 msgstr "Fakte la normo firmware de ĉi tiu ŝlosilo havas limon de 15 rektaj ligoj. Sed se unu el ĉi tiuj konektoj estas _zigbee_ enkursigilo (kaj plej multaj aparatoj funkcias kiel enkursigilo, tio estas ekzemple la kazo de _Philips Hue_ ampoloj kaj _Ikea TRÅDFRI_ ampoloj), tiam la _CC2531_ povas administri la aparatojn malantaŭ ĉi tiu enkursigilo, kaj tiujn malantaŭ la enkursigiloj konektitaj al ĉi tiu enkursigilo ...  \n"
 
 #. type: Plain text
-#: index.md:151
+#: index.md:149
 #, no-wrap
 msgid "En réalité la limite pour le _CC2531_ est bien plus élevée. Et si un jour vous dépassez les 50 périphériques sur votre réseau _zigbee_, investir dans un coordinateur plus cher ne sera qu'une goutte dans votre budget.  \n"
 msgstr "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 
 #. type: Plain text
-#: index.md:153
+#: index.md:151
 #, no-wrap
 msgid "Notons par ailleurs que le protocole _zigbee_ limite le nombre de connexions directes à 32. Quel que soit votre coordinateur _zigbee_, il ne pourra pas se connecter à plus de 32 périphériques directement.\n"
 msgstr "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 
 #. type: Title ##
-#: index.md:154
+#: index.md:152
 #, no-wrap
 msgid "Ma clé a sa DEL rouge qui s'allume."
 msgstr "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 
 #. type: Plain text
-#: index.md:156
+#: index.md:154
 #, no-wrap
 msgid "Il arrive que la clé se déprogramme, soit à cause d'un environnement chargé en parasites, soit à cause d'une mauvaise alimentation.\n"
 msgstr "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 
 #. type: Bullet: '2. '
-#: index.md:165
+#: index.md:163
 #, no-wrap
 msgid "Éloignez la clé des matériels suceptibles de la perturber : haut-parleurs, routeurs wi-fi, ...\n"
 msgstr "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 
 #. type: Bullet: '3. '
-#: index.md:167
+#: index.md:165
 #, no-wrap
 msgid "Reprogrammez la clé\n"
 msgstr "Reprogramu la ŝlosilon\n"
 
 #. type: Title ##
-#: index.md:170
+#: index.md:168
 #, no-wrap
 msgid "Licence"
 msgstr "Permesilo"
 
 #. type: Plain text
-#: index.md:172
+#: index.md:170
 #, no-wrap
 msgid "Ce projet est sous licence GPL v3 ( voir _COPYING_ ).\n"
 msgstr "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
+
+#, no-wrap
+#~ msgid "Vous pouvez également changer les valeurs par défaut dans _CCDebugger.h_ puis compiler les programmes avec `make`.\n"
+#~ msgstr "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"

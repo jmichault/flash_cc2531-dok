@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-09 20:17+0100\n"
+"POT-Creation-Date: 2022-01-15 22:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -421,92 +421,86 @@ msgstr ""
 "./cc_erase -r 8 -c 0 -d 2\n"
 "./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex\n"
 
-#. type: Plain text
-#: index.md:136
-#, fuzzy, no-wrap
-msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
-msgstr "デフォルト値を _CCDebugger.h_ に変更し、 `make`でプログラムをコンパイルすることもできます。\n"
-
 #. type: Title ##
-#: index.md:137
+#: index.md:135
 #, fuzzy, no-wrap
 msgid "kio se ĝi ne funkcias?"
 msgstr "それが機能しない場合はどうなりますか？"
 
 #. type: Bullet: '1. '
-#: index.md:140
+#: index.md:138
 #, fuzzy, no-wrap
 msgid "ĉesu ĉiujn aliajn programojn.\n"
 msgstr "他のすべてのプログラムを停止します。\n"
 
 #. type: Bullet: '2. '
-#: index.md:142
+#: index.md:140
 #, fuzzy, no-wrap
 msgid "agordu la rapidon de la procesoro antaŭ programado. Ekzemplo:\n"
 msgstr "プログラミングの前にプロセッサ速度を設定します。例：\n"
 
 #. type: Fenced code block (bash)
-#: index.md:144
+#: index.md:142
 #, no-wrap
 msgid "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 msgstr "   sudo echo performance >/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor\n"
 
 #. type: Bullet: '3. '
-#: index.md:148
+#: index.md:146
 #, fuzzy, no-wrap
 msgid "uzu la opcion -m por pliigi la uzatajn tempolimojn. Ekzemplo:\n"
 msgstr "-mオプションを使用して、使用する制限時間を増やします。例：\n"
 
 #. type: Fenced code block (bash)
-#: index.md:150
+#: index.md:148
 #, no-wrap
 msgid "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 msgstr "   ./cc_write -m 300 CC2531ZNP-Prod.hex\n"
 
 #. type: Bullet: '4. '
-#: index.md:154
+#: index.md:152
 #, fuzzy, no-wrap
 msgid "rekompili la programon per `make`.\n"
 msgstr " `make`でプログラムを再コンパイルします。\n"
 
 #. type: Bullet: '5. '
-#: index.md:157
+#: index.md:155
 #, fuzzy, no-wrap
 msgid "serĉu solvon [en la demandoj jam faritaj ĉe github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)\n"
 msgstr "github](https://github.com/jmichault/flash_cc2531/issues?q=is%3Aissue)ですでに尋ねられた質問で解決策 [を探してください\n"
 
 #. type: Bullet: '6. '
-#: index.md:160
+#: index.md:158
 #, fuzzy, no-wrap
 msgid "Demandu vian propran demandon pri [github](https://github.com/jmichault/flash_cc2531/issues/new/choose).\n"
 msgstr " [github](https://github.com/jmichault/flash_cc2531/issues/new/choose)について独自の質問をしてください。\n"
 
 #. type: Bullet: '1. '
-#: index.md:163 index.md:180
+#: index.md:161 index.md:178
 #, fuzzy, no-wrap
 msgid "Kontrolu vian nutroblokon\n"
 msgstr "あなたの栄養ブロックをチェックしてください\n"
 
 #. type: Fenced code block (bash)
-#: index.md:165 index.md:182
+#: index.md:163 index.md:180
 #, no-wrap
 msgid "   grep Under /var/log/kern.log\n"
 msgstr "   grep Under /var/log/kern.log\n"
 
 #. type: Plain text
-#: index.md:169 index.md:186
+#: index.md:167 index.md:184
 #, fuzzy, no-wrap
 msgid "Se vi ricevas multajn liniojn, tiam vi devas ŝanĝi nutroblokon. \n"
 msgstr "あなたがたくさんの行を手に入れるなら、あなたは栄養ブロックを変更する必要があります。  \n"
 
 #. type: Title ##
-#: index.md:170
+#: index.md:168
 #, fuzzy, no-wrap
 msgid "Mi volas konekti pli ol 15 periferiojn"
 msgstr "私は15以上の周辺機器を接続したいです"
 
 #. type: Plain text
-#: index.md:172
+#: index.md:170
 #, fuzzy, no-wrap
 msgid ""
 "Ni legas en diversaj lokoj, kiujn la ŝlosilo _CC2531_ nur povas pritrakti 15 maksimumajn aparatojn.   \n"
@@ -514,52 +508,56 @@ msgid ""
 msgstr "鍵 _CC2531_ が15の最大機器のみを扱うことができるようなさまざまな場所で読みました。   \n"
 
 #. type: Plain text
-#: index.md:173
+#: index.md:171
 #, fuzzy, no-wrap
 msgid "Fakte la limo por la _CC2531_ estas multe pli alta. Kaj se iutage vi superas pli ol 50 aparatojn en via _zigbee_ reto, investi en pli multekosta kunordiganto estos nur malgranda parto de via buĝeto.  \n"
 msgstr "実際、 _CC2531_ の限界ははるかに高いです。  \n"
 
 #. type: Plain text
-#: index.md:175
+#: index.md:173
 #, fuzzy, no-wrap
 msgid "Ankaŭ notu, ke la protokolo _zigbee_ limigas la nombron de rektaj ligoj al 32-a. Sendepende de via kunordiganto _zigbee_, ĝi ne povos konektiĝi al pli ol 32 ekstercentraj. \n"
 msgstr "また、プロトコル _zigbee_ は32thへの直接リンク数を制限することに注意してください。 \n"
 
 #. type: Title ##
-#: index.md:176
+#: index.md:174
 #, fuzzy, no-wrap
 msgid "Mia ŝlosilo havas ĝian ruĝan LED, kiu lumigas."
 msgstr "私の鍵は照らされた赤いLEDを持っています。"
 
 #. type: Plain text
-#: index.md:178
+#: index.md:176
 #, fuzzy, no-wrap
 msgid "Okazas, ke la ŝlosilo deprogramos, ĉu pro medio ŝarĝita de parazitoj aŭ pro malbona nutrobloko. \n"
 msgstr "それは、寄生虫によってロードされた環境のため、または栄養不良のために、重要なデパログラムが発生することが起こります。  \n"
 
 #. type: Bullet: '2. '
-#: index.md:188
+#: index.md:186
 #, fuzzy, no-wrap
 msgid "Malproksimigu la ŝlosilo de perturbaj materialoj: laŭtparoliloj, Wi-Fi enkursigiloj, ...\n"
 msgstr "邪魔されている材料に鍵を捨てる：スピーカー、Wi-Fiルーター、...\n"
 
 #. type: Bullet: '3. '
-#: index.md:191
+#: index.md:189
 #, fuzzy, no-wrap
 msgid "Reprogramu la ŝlosilon\n"
 msgstr "キーを再プログラム\n"
 
 #. type: Title ##
-#: index.md:195
+#: index.md:193
 #, fuzzy, no-wrap
 msgid "Permesilo"
 msgstr "ライセンス"
 
 #. type: Plain text
-#: index.md:197
+#: index.md:195
 #, fuzzy, no-wrap
 msgid "Ĉi tiu projekto estas rajtigita laŭ GPL v3 ( vidu _COPYING_ ).\n"
 msgstr "このプロジェクトは、GPL v3 ( でライセンスされています _COPYING_ )を参照してください。\n"
+
+#, fuzzy, no-wrap
+#~ msgid "Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.\n"
+#~ msgstr "デフォルト値を _CCDebugger.h_ に変更し、 `make`でプログラムをコンパイルすることもできます。\n"
 
 #, fuzzy, no-wrap
 #~ msgid ""

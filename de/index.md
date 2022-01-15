@@ -141,8 +141,6 @@ Und jetzt können Sie einen Identifizierer lesen, speichern, löschen und einen 
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-Sie können auch die Standardwerte auf _CCDebugger.h_ ändern und die Programme mit `make`kompilieren.
-
 ## Was ist, wenn es nicht funktioniert?
 
 1. Stoppen Sie alle anderen Programme.

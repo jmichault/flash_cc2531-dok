@@ -132,8 +132,6 @@ kaj nun vi povas legi identigilon, konservi, forviŝi kaj skribi fulmmemoron per
 ./cc_write -r 8 -c 0 -d 2 CC2531ZNP-Prod.hex
 ```
 
-Vi ankaŭ povas ŝanĝi la defaŭltajn valorojn en _CCDebugger.h_ kaj kompili la programojn per `make`.
-
 ## kio se ĝi ne funkcias?
 
 1. ĉesu ĉiujn aliajn programojn.
