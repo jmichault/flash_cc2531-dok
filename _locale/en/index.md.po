@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-01-15 22:17+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-01-30 19:16+0100\n"
+"PO-Revision-Date: 2022-01-30 19:14+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. type: YAML Front Matter: komentoj_id
 #: index.md:1
@@ -48,25 +48,25 @@ msgstr "page"
 
 #. type: YAML Front Matter: slug
 #: index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "La ĉefa afero!"
 msgstr "The main thing!"
 
 #. type: YAML Front Matter: title
 #: index.md:1
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "La ĉefa afero"
 msgstr "The main thing"
 
 #. type: Title #
 #: index.md:11
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 msgstr "[ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531)"
 
 #. type: Plain text
 #: index.md:14
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) ebligas al vi programi vian CC2531 USB-bastonon de via _Raspberry_, sen la bezono de _Arduino_ aŭ a _CC Debugger_. \n"
 "Ĝi ankaŭ povas programi CC2530-ŝlosilon. \n"
@@ -74,25 +74,25 @@ msgstr " [ _flash\\_cc2531_ ](https://github.com/jmichault/flash_cc2531) enables
 
 #. type: Title ##
 #: index.md:15
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Antaŭkondiĉo"
 msgstr "Prerequisite"
 
 #. type: Plain text
 #: index.md:16
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Vi bezonas aŭ _Raspberry_ aŭ _Odroid-c2_.  \n"
 msgstr "You need either _Raspberry_ or _Odroid-c2_.  \n"
 
 #. type: Plain text
 #: index.md:18
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Vi bezonas kion por konekti la elpurigan havenon de la ŝlosilo al la havenoj _GPIO_ de _Raspberry_, ekzemple unu kablo _CC_ kaj kvar linioj _Dupont_ (vidu plu).   \n"
 "[ _WiringPi_ ](http://wiringpi.com/) devas esti instalita \\(se ĝi ne estas antaŭinstalita, vi kutime povas instali ĝin per `sudo apt install wiringpi`), alie vidu [la retejon de _Gordon_ ](http://wiringpi.com/) aŭ [ĉi tiun alternativan retejon](https://github.com/WiringPi/WiringPi) \\).  \n"
 msgstr ""
-"You need what to connect the debug port of the key to the ports _GPIO_ of _Raspberry_, for example one cable _CC_ and four lines _Dupont_ (see further).   \n"
-"[ _WiringPi_ ](http://wiringpi.com/) must be installed \\(if it is not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \\).  \n"
+"You need what to connect the debug port of the key to the _GPIO_ ports of _Raspberry_, for example one cable _CC_ and four lines _Dupont_ (see further).   \n"
+"[ _WiringPi_ ](http://wiringpi.com/) must be installed \\(if it's not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \\).  \n"
 
 #. type: Plain text
 #: index.md:20
@@ -102,43 +102,43 @@ msgstr "Finally you need the software:\n"
 
 #. type: Bullet: '* '
 #: index.md:22
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Enerale kunordiganto _zigbee_ : [ Versio 1.2 (rekomendita)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) aŭ [versio 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 msgstr "General coordinator _zigbee_ : [ Version 1.2 (Recommended)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) or [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)\n"
 
 #. type: Bullet: '* '
 #: index.md:24
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Aŭ enkursigilo _zigbee_ : [enkursigilo _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
-msgstr "Or router _zigbee_ : [router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
+msgstr "Or _zigbee_ router: [router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)\n"
 
 #. type: Plain text
 #: index.md:27
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Mi projektis _flash\\_cc2531_ sur _Raspberry Pi 3_ kun _raspbian_, sed sukcesa programado estis raportita pri aliaj modeloj:\n"
-msgstr "I projected _flash\\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful programming was reported on other models:\n"
+msgstr "I've created _flash\\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful programming was reported on other models:\n"
 
 #. type: Bullet: ' * '
 #: index.md:29
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "sur pi 4 vi bezonos version 2.52 de _wiringpi_ :  [instalu _wiringPi_ 2.52 de _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)retejo\n"
 msgstr "on pi 4 you will need version 2.52 of _wiringpi_ :  [install _wiringPi_ 2.52 of _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)website\n"
 
 #. type: Bullet: ' * '
 #: index.md:31
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "sur pi 1 kaj pi 2 vi bezonos [uzi aliajn pinglojn](#uzi_aliajn_pinglojn).\n"
 msgstr "on pi 1 and pi 2 you will need [to use other pins](#uzi_aliajn_pinglojn).\n"
 
 #. type: Title ##
 #: index.md:33
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Preparado"
-msgstr "Prepared"
+msgstr "Preparation"
 
 #. type: Plain text
 #: index.md:36
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Elŝutu _flash\\_cc2531_ al via _raspberry_ :\n"
 msgstr "Download _flash\\_cc2531_ to your _raspberry_ :\n"
 
@@ -150,17 +150,17 @@ msgstr "git clone https://github.com/jmichault/flash_cc2531.git\n"
 
 #. type: Plain text
 #: index.md:42
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Konektu la sekvajn pinglojn de la elpuriga haveno al la GPIO-haveno:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 msgstr ""
-"Connect the following pins of the debug port to the GPO port:\n"
+"Connect the following pins of the debug port to the GPIO port:\n"
 "![](/public/raspberry-cc.png \"disposition _raspberry_ et _CC_\") \n"
 
 #. type: Plain text
 #: index.md:49
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "| pinglo de _GPIO_          | pinglo de _CC_  |\n"
 "| ---------------------- | ------------ | \n"

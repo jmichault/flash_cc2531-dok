@@ -13,18 +13,18 @@ title: 'The main thing'
 
 ## Prerequisite
 You need either _Raspberry_ or _Odroid-c2_.  
-You need what to connect the debug port of the key to the ports _GPIO_ of _Raspberry_, for example one cable _CC_ and four lines _Dupont_ (see further).   
-[ _WiringPi_ ](http://wiringpi.com/) must be installed \(if it is not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \).  
+You need what to connect the debug port of the key to the _GPIO_ ports of _Raspberry_, for example one cable _CC_ and four lines _Dupont_ (see further).   
+[ _WiringPi_ ](http://wiringpi.com/) must be installed \(if it's not pre-installed, you can usually install it with `sudo apt install wiringpi`), otherwise see [the site of _Gordon_ ](http://wiringpi.com/) or [this alternative site](https://github.com/WiringPi/WiringPi) \).  
 Finally you need the software:
 
 * General coordinator _zigbee_ : [ Version 1.2 (Recommended)](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_Home_1.2/bin/default/) or [version 3.0](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.0.x/bin)
 
 
-* Or router _zigbee_ : [router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
+* Or _zigbee_ router: [router _zigbee_ 1.2](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/CC2531/bin)
 
 
 
-I projected _flash\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful programming was reported on other models:
+I've created _flash\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful programming was reported on other models:
 
  * on pi 4 you will need version 2.52 of _wiringpi_ :  [install _wiringPi_ 2.52 of _Gordon_ ](http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/)website
 
@@ -33,14 +33,14 @@ I projected _flash\_cc2531_ on _Raspberry Pi 3_ with _raspbian_, but successful 
 
 
 
-## Prepared
+## Preparation
 
 Download _flash\_cc2531_ to your _raspberry_ :
 ```bash
 git clone https://github.com/jmichault/flash_cc2531.git
 ```
 
-Connect the following pins of the debug port to the GPO port:
+Connect the following pins of the debug port to the GPIO port:
 ![](/public/raspberry-cc.png "disposition _raspberry_ et _CC_") 
 
 |   _GPIO_ pin         | _CC_ pin   
