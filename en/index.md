@@ -94,7 +94,7 @@ To erase flash memory:
 ```bash
 ./cc_erase
 ```
-**Note:** You **must** delete before writing (unless you really know what you are going to do).
+**Note:** You **must** erase before writing (unless you really know what you are going to do).
 
 To program the file _CC2531ZNP-Prod.hex_ on the key _CC2531_:
 ```bash
@@ -103,18 +103,17 @@ To program the file _CC2531ZNP-Prod.hex_ on the key _CC2531_:
 (lasts about 3 minutes).
 
 <a id="uzi_aliajn_pinglojn"></a>
-
 ## Use other pins
 
 all commands accept the following arguments:
 
- * _-c_ pin: change the pin _DC_ (by default 27)
+ * _-c_ pin: change the _DC_ pin (by default 27)
 
 
- * _-d_ pin: change the pin _DD_ (by default 28)
+ * _-d_ pin: change the _DD_ pin (by default 28)
 
 
- * _-r_ pin: change the pin _reset_ (by default 24)
+ * _-r_ pin: change the _reset_ pin (by default 24)
 
 
  * _-m_ : change the delay multiplier, and therefore the base time (by default: automatic adjustment)
@@ -124,7 +123,7 @@ all commands accept the following arguments:
 the pin numbering used is that of _wiringPi_. Use `gpio readall` to have the layout in your _Raspberry_ (column _wPi_ ).
 
 For example, if you want to use pins 3, 11 and 13:  
-Connect the following pins of purifying port to port  _GPIO_: 
+Connect the following pins of debug port to  _GPIO_ port: 
 
  1. pin 1 ( _GND_ ) -> pin 14 ( _GND_ )
 
@@ -139,7 +138,7 @@ Connect the following pins of purifying port to port  _GPIO_:
 
 
 
-And now you can read an identifier, save, delete and write a lightning memory with the following commands:
+and now you can read  identifier, save, delete and write flash memory with the following commands:
 ```bash
 ./cc_chipid -r 8 -c 0 -d 2
 ./cc_read -r 8 -c 0 -d 2 save.hex
@@ -152,7 +151,7 @@ And now you can read an identifier, save, delete and write a lightning memory wi
 1. stop all other programs.
 
 
-2. set the processor speed before programming. Example:
+2. fix the processor speed before programming. Example:
 
 
 
